@@ -11,13 +11,21 @@ import { join } from 'node:path'
 
 const REGION = process.env.AWS_DEFAULT_REGION ?? 'eu-west-1'
 
-/** Env first, then the named profile in ~/.aws/credentials. */
+/**
+ * Env first, then the named profile in ~/.aws/credentials. REPORT_RUNS_AWS_*
+ * wins over AWS_*: some sandboxes populate AWS_ACCESS_KEY_ID themselves with a
+ * placeholder (`proxy-injected`), which would otherwise shadow real keys, and
+ * that placeholder is ignored wherever it appears.
+ */
 export function credentials(profile = process.env.AWS_PROFILE ?? 'default') {
-  if (process.env.AWS_ACCESS_KEY_ID && process.env.AWS_SECRET_ACCESS_KEY) {
+  const real = (v) => (v && v !== 'proxy-injected' ? v : undefined)
+  const id = real(process.env.REPORT_RUNS_AWS_ACCESS_KEY_ID) ?? real(process.env.AWS_ACCESS_KEY_ID)
+  const secret = real(process.env.REPORT_RUNS_AWS_SECRET_ACCESS_KEY) ?? real(process.env.AWS_SECRET_ACCESS_KEY)
+  if (id && secret) {
     return {
-      accessKeyId: process.env.AWS_ACCESS_KEY_ID,
-      secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
-      sessionToken: process.env.AWS_SESSION_TOKEN,
+      accessKeyId: id,
+      secretAccessKey: secret,
+      sessionToken: real(process.env.REPORT_RUNS_AWS_SESSION_TOKEN) ?? real(process.env.AWS_SESSION_TOKEN),
     }
   }
   const file = join(homedir(), '.aws', 'credentials')

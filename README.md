@@ -39,7 +39,23 @@ AWS_PROFILE=valuatum-pdf node import.mjs <traceId> [--test] [--note "..."]
 ```
 
 `--test` reads the test stack's bucket and labels the run `test`. Langfuse
-credentials are read from `../pdf-report-engine/.env`.
+credentials are read from `../pdf-report-engine/.env` when the environment
+does not carry them.
+
+S3 objects are fetched with a signed request from `s3.mjs`, so no AWS CLI is
+needed. Credentials come from `REPORT_RUNS_AWS_ACCESS_KEY_ID` /
+`REPORT_RUNS_AWS_SECRET_ACCESS_KEY`, then `AWS_ACCESS_KEY_ID` /
+`AWS_SECRET_ACCESS_KEY`, then the `AWS_PROFILE` entry in `~/.aws/credentials`.
+The `REPORT_RUNS_` names exist because some sandboxes fill the plain `AWS_`
+variables with a `proxy-injected` placeholder that would otherwise win.
+
+## Nightly
+
+Two halves. The cloud routine (`report-runs nightly grader`, 03:17 Helsinki)
+imports the last day's worker runs, grades whatever has no `grade.json`, and
+pushes — and the push is the deploy, because Vercel builds this repository.
+This machine runs `nightly.sh` from launchd, which only commits and pushes the
+runs generated locally; the cloud agent cannot see them until they are in git.
 
 ## Prompt versions
 
