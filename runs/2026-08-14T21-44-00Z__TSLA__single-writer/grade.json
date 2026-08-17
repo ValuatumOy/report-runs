@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "PDF text (pdftotext) — the snapshot for this run was overwritten by the next run before the registry existed.",
+  "scores": {
+    "depth": 4,
+    "coverage": 2,
+    "logic": 3,
+    "evidence": 5,
+    "valuation": 2,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "This is the run where the structural quotas took hold: division text jumps to roughly 2400 words, with market-implied margins, capex and division economics carried through paragraph by paragraph rather than summarised.",
+    "coverage": "Only two divisions — \"Mobility and AI Platform\" at 80.4% of EV and Energy at 19.6%. Automotive, FSD, Robotaxi and Optimus are argued as one business, so no option can be valued or broken on its own. This is the failure that the later division contract was written to prevent.",
+    "logic": "The market-implied requirement is stated precisely (5.4% EBIT margin in 2026 to 43.2% terminal, 2026 EBIT of USD 22.6bn against a USD 5.7bn forecast) and the counter-argument is given a fair hearing, but with one mega-division the reasoning cannot connect any specific option to any specific number.",
+    "evidence": "Every material claim carries a source and a date — Counterpoint on 28 May 2026 for BEV share, CnEVPost on 13 August for July China volume, Tesla and the SEC on 22 July for storage deployments. The report also says outright that no auditable daily price series was available instead of inventing an explanation for the share-price path.",
+    "valuation": "The parts are valued on revenue multiples (4.5x for the whole Mobility and AI Platform, 7.0x for Energy), which prices pre-revenue optionality at zero by construction and produces USD 127.8 for the sum of the parts. Blending that with EV/Sales and P/BV gives USD 136.4. The sensitivity grid is populated, unlike in the later run.",
+    "readability": "Clean document, but the render log records three overflowing page bodies, one by 614px."
+  },
+  "summary": "The depth breakthrough of the single-writer series and its structural low point in the same document: 2400 words per division, but only two divisions, so four businesses with different evidence share one valuation. Sourcing quality is the best in the registry.",
+  "issues": [
+    "Two divisions only; FSD, Robotaxi, Optimus and Automotive merged",
+    "Revenue multiples applied to pre-revenue optionality",
+    "Three page-body overflows in the render (614px worst)",
+    "Snapshot not archived — graded from the PDF"
+  ]
+}

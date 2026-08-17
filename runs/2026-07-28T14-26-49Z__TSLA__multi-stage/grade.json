@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, pool openings, bridge, scenarios.",
+  "scores": {
+    "depth": 2,
+    "coverage": 3,
+    "logic": 2,
+    "evidence": 3,
+    "valuation": 2,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "Roughly 1180 words of division analysis across four pools, 230–320 words each — a paragraph per theme, no unit economics carried through to a number.",
+    "coverage": "All four divisions present with the reported-vs-allocated split stated, but FSD and Robotaxi share one pool and no division states what would break it.",
+    "logic": "The Waymo comparison is the sharpest in the series (380k cumulative unsupervised miles against ~500k paid rides a week, \"a figure Waymo surpasses in less than a single day\"), yet the scenario table is incoherent: Bear carries higher EBITDA (30,000) than Base (28,167), and all three cases use identical revenue.",
+    "evidence": "Waymo, BYD and Baidu figures are concrete and usable; none is dated or attributed, and the segment allocations quoted in prose ($654.8bn, $291.0bn, $363.8bn) do not match the pool values the tables carry ($708.0bn, $314.6bn, $393.3bn).",
+    "valuation": "Target is 7.5x 2028e EV/Sales plus 35x EBITDA — a sales multiple as the primary anchor for a company the report says earns $80–100bn of supportable EV. Base scenario at USD 389 sits 26% above spot while the rating is SELL at USD 269.",
+    "readability": "Prose numbers and table numbers disagree on every division allocation, which is the one defect a reader will catch immediately."
+  },
+  "summary": "Earliest run in the registry and the weakest on internal consistency: prose EV figures contradict the tables, and the scenario rows are arithmetically incoherent. Its Waymo scale comparison is nevertheless the seed of the required-scale reasoning that later runs build on.",
+  "issues": [
+    "Bear EBITDA above Base EBITDA in the scenario table",
+    "All three scenarios use identical revenue",
+    "Prose EV allocations differ from table values by USD 20–50bn per division",
+    "EV/Sales as primary target anchor"
+  ]
+}

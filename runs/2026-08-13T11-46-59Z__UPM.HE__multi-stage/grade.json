@@ -1,0 +1,27 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, grouped pools, pool openings, bridge, scenarios.",
+  "scores": {
+    "depth": 4,
+    "coverage": 4,
+    "logic": 4,
+    "evidence": 5,
+    "valuation": 4,
+    "readability": 4
+  },
+  "justifications": {
+    "depth": "The Fibres pool alone runs ~1370 words and reasons in the unit of the business — a EUR 50/t pulp move changes group comparable EBIT by EUR 180–270m across a 5.8Mt system. Energy (~1020 words) and Biofuels (~1020 words) are equally specific.",
+    "coverage": "Seven divisions, including the three in corporate transition, with the Sappi JV and the Plywood demerger valued on their actual announced terms rather than on a multiple.",
+    "logic": "The allocation is tested against sales mix (Fibres 36.6% of sales but 45.5% of EV; Energy 6.4% of sales but 15.5% of EV) and the report states plainly which measure it uses and why comparable EBIT beats the reported figure.",
+    "evidence": "The best-sourced report in the registry: Sappi JV consideration itemised (EUR 475m cash, EUR 88m preferential loan, 50% JV equity at EUR 167m book), demerger timetable with EGM and listing dates, Paso de los Toros licence date and capacity, hardwood prices, Suzano curtailment. Where a figure is not verified, the report says so instead of estimating.",
+    "valuation": "Three fundamental legs (9.0x 2027e EBITDA, 14.0x P/E, ROE/P-BV scatter) with the reverse valuation carried at 0% weight, and scenarios that hold the multiple constant so the cases differ on operations alone.",
+    "readability": "Clean and consistent; three of the smaller divisions render through grouped summaries rather than full deep dives, which is a reasonable choice but leaves those pools thin on the page."
+  },
+  "summary": "Highest-scoring run in the registry, and a useful control: on a company whose value sits in disclosed cash flows and announced transactions, the multi-stage pipeline produces genuinely strong equity research. The Tesla problem is not the pipeline's writing — it is what the bridge does when most of the value is optionality.",
+  "issues": [
+    "Specialty Papers, Communication Papers and Plywood render as grouped summaries with empty deep dives",
+    "Several segment EBIT figures unverified by the fact gate and labelled as such"
+  ]
+}

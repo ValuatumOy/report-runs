@@ -1,0 +1,27 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, pool openings, bridge, scenarios.",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 4,
+    "evidence": 4,
+    "valuation": 4,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "About 2090 words with per-pool required-EBITDA arithmetic (Optimus needs ~1.9m units at $20k and 25% margin; Energy needs ~$5.1bn EBITDA against a $3.0–3.4bn run-rate) and competitor tables in three of four pools.",
+    "coverage": "Automotive, Autonomy, Optimus and Energy each valued separately with EV shares, allocation confidence stated as low-to-medium, and the unexplained USD 10.8bn EV-to-market-cap residual flagged rather than hidden.",
+    "logic": "Required scale is set against verified current scale throughout (4.25bn annual robotaxi rides against Waymo's 26m run-rate) and the conclusion follows the arithmetic instead of the price.",
+    "evidence": "Blended ASP of ~USD 273/kWh derived from disclosed GWh and revenue, Fluence margins, BEV market size — concrete and mostly checkable, still undated.",
+    "valuation": "The healthiest bridge of the multi-stage runs: 40.0x 2028e EBITDA and 7.0x sales, both discounted to 12 months, with the reverse valuation shown at 0% weight as a diagnostic. The Base scenario lands at USD 257, below spot, so the scenario table carries information for once.",
+    "readability": "Consistent structure and populated tables; the automotive pool text runs long relative to its role in the call."
+  },
+  "summary": "The most methodologically honest multi-stage run: the market price appears as a diagnostic, not an input, and no scenario is solved backwards to spot. Depth is mid-range but every number in the bridge is defensible.",
+  "issues": [
+    "Automotive pool longer than its weight in the argument",
+    "Market-size and competitor figures undated"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "PDF text (pdftotext) — no snapshot was archived for this run, so scoring is based on the rendered report.",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 3,
+    "evidence": 3,
+    "valuation": 3,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "Each division gets a fact sheet plus a deep dive that reaches a number: Network Infrastructure must take comparable EBIT from EUR 780m to a EUR 1,436m run-rate — roughly EUR 2.6bn more revenue and 370bp of margin — to justify EUR 21.5bn at 15x rather than the implied 27.6x.",
+    "coverage": "All five pools including the negative Group Common drag of −EUR 8,756m, which is treated as structural and explained rather than netted away.",
+    "logic": "The implied-multiple-versus-fair-multiple frame is clean and applied consistently. It is undercut by the report's own admission that some prose EV references do not reconcile with the valuation tables.",
+    "evidence": "Patent-family counts, historical R&D base, segment revenue and comparable EBIT are all present, but the report states that reported-segment figures could not be fully verified and that corporate events were omitted from the verified layer.",
+    "valuation": "15.0x fair multiple against a 17.2x market multiple on 2026e EBIT, with the mispricing localised to one division — a defensible construction, though the target rests on a single multiple choice.",
+    "readability": "A DATA QUALITY NOTICE sits on the recommendation page telling the reader that segment figures need review and that prose EV references do not reconcile with the tables. That is an internal quality signal printed into a customer-facing document."
+  },
+  "summary": "Good structural analysis of a company whose value splits between an AI-optical premium and a patent annuity, damaged by an internal data-quality warning rendered into the report. Fix the leak of internal gate messages into customer-facing prose and this is a 3.5.",
+  "issues": [
+    "DATA QUALITY NOTICE rendered on the recommendation page",
+    "Report states prose EV references do not reconcile with the valuation tables",
+    "Reported-segment figures unverified",
+    "No snapshot archived in S3 for this job"
+  ]
+}

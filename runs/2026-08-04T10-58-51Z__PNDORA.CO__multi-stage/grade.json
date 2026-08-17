@@ -1,0 +1,28 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, pool openings, bridge, scenarios.",
+  "scores": {
+    "depth": 2,
+    "coverage": 3,
+    "logic": 3,
+    "evidence": 3,
+    "valuation": 3,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "Two pools totalling ~745 words. Core Collections explains the replenishment annuity and the vertical-integration margin, but neither pool derives a required volume, price or margin the way the Tesla and AMD reports do.",
+    "coverage": "The two product segments are covered and the platinum pivot and tariff headwind are both quantified (200–250bp, 50–100bp transition cost), but geography and channel — where a jewellery retailer's risk actually sits — are absent.",
+    "logic": "The mispricing claim is coherent: 10.9x forward EV/EBIT against a 14.1x historical average, with the cyclical trough attributed to silver and tariffs. It rests entirely on multiple reversion, and the report admits the allocation is a mechanical EBIT-proportional fallback that gives no premium to the growth segment.",
+    "evidence": "Guidance ranges, gross margins and the Signet comparison are usable; the segment split is explicitly estimated rather than reported, and the report says so.",
+    "valuation": "Three fundamental legs with no market anchor and a Base scenario below spot — structurally the cleanest part of the report — but the whole SOTP is a proportional split of one group multiple, so the parts add no information the group multiple did not already contain.",
+    "readability": "Short, orderly and internally consistent; a reader gets the call quickly."
+  },
+  "summary": "The thinnest report of the set, and a fair illustration of the floor: on a two-segment consumer company the pipeline produces a competent multiple-reversion note rather than analysis. Nothing is wrong; little is proprietary.",
+  "issues": [
+    "EV allocation is a mechanical EBIT-proportional split of the group multiple",
+    "No required-scale test in either pool",
+    "No geographic or channel analysis"
+  ]
+}

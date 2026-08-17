@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, pool openings, bridge, scenarios.",
+  "scores": {
+    "depth": 3,
+    "coverage": 3,
+    "logic": 1,
+    "evidence": 3,
+    "valuation": 1,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "About 1820 words across four pools, with the autonomy and Optimus pools carrying real market structure (US VMT of ~3 trillion miles, humanoid TAM of $4–5bn in 2026). Automotive and Energy stay at ~230 words.",
+    "coverage": "Four divisions with EV shares and a stated bridge from EV to market cap, but the report itself warns that \"one or more analytical value pools may combine businesses with different valuation drivers\".",
+    "logic": "The report states that autonomy needs 55.06bn annual paid miles — \"about 400 times Waymo's roughly 150m\" — to justify its allocation, and then rates the stock BUY with 22.9% upside. That is the single largest self-contradiction in the registry.",
+    "evidence": "Waymo fleet and ride figures, Baidu cumulative rides and Figure/BMW pilots are concrete; none is dated, and the required-scale numbers rest on the model's own assumptions rather than sourced inputs.",
+    "valuation": "The primary method is literally \"30.0x (Core) + $944B\" — the market's own option allocation added to a core multiple — with a further 20% weight on a reverse-valuation leg of USD 417. The target is therefore built from the price it is supposed to test, which is how a SELL-shaped analysis prints BUY at USD 378.5.",
+    "readability": "The first line of the recommendation prose is a DATA QUALITY NOTICE about unverified events and mixed value pools — an internal warning printed to the reader."
+  },
+  "summary": "The BUY outlier, and the clearest demonstration of why the bridge matters more than the prose: the analysis proves the option allocation needs 400x Waymo's scale, then adopts that allocation as the target. Everything the reader would need to reach the opposite conclusion is already in the document.",
+  "issues": [
+    "Target method adds the market's $944bn option allocation directly",
+    "Reverse-valuation leg at 20% weight (USD 417)",
+    "BUY rating contradicts the report's own required-scale finding",
+    "DATA QUALITY NOTICE rendered in the recommendation prose"
+  ]
+}

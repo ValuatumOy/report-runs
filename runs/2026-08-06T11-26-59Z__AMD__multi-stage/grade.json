@@ -1,0 +1,28 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T11:00:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, pool openings, bridge, scenarios.",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 4,
+    "evidence": 4,
+    "valuation": 3,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "AI Accelerators (~660 words) and Server CPUs (~550) carry the argument with real economics; Client and Embedded drop to ~200 words each and state their required EBITDA without deriving it.",
+    "coverage": "Five divisions, each with an EV share and a required-EBITDA test, and the Embedded allocation is correctly explained as asset- and goodwill-backed rather than earnings-backed.",
+    "logic": "The central requirement is quantified and checkable — roughly 2.5m Instinct units at a USD 12,500 blended ASP with a 40% operating margin — and the FCF bridge (negative USD 10.5bn in 2026 on a USD 9.4bn working-capital build) is treated as the real constraint rather than a footnote.",
+    "evidence": "EPYC at 46.2% revenue and 33.2% unit share, Nvidia at ~85% share with USD 25–40k ASPs, the Xilinx goodwill and intangible balances — specific and consistent with the tables. TAM figures are management guidance, correctly attributed as such.",
+    "valuation": "Two sound legs (25.0x 2028e EBITDA, 35.0x P/E) are blended with an ROE/P-BV scatter leg implying USD 122.8 — a quarter of the other two — at 10% weight. Averaging a method that disagrees by 4x does not make the target more robust. The Base scenario again lands within 2% of spot.",
+    "readability": "Well structured; the Gaming division renders as a grouped summary with an empty deep dive."
+  },
+  "summary": "Solid work on a company where the option is priced in silicon rather than in narrative: the AI-accelerator requirement is stated as units, ASP and margin, and the cash-flow constraint is honest. The bridge is let down by a scatter leg that disagrees with the other methods by 4x and a Base scenario calibrated to spot.",
+  "issues": [
+    "ROE/P-BV leg implies USD 122.8 against USD 500–552 from the other legs",
+    "Base scenario within 2% of spot",
+    "Gaming pool renders with an empty deep dive"
+  ]
+}
