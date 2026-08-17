@@ -1,0 +1,89 @@
+{
+  "runId": "2026-08-14T14-17-09Z__TSLA__multi-stage",
+  "createdAt": "2026-08-14T14:17:09.002Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "gemini-pro-latest",
+    "openai/gpt-5.6-terra",
+    "x-ai/grok-4.6"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v25"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v37"
+    },
+    {
+      "name": "osakeanalyysi.currentEvents",
+      "version": "v14"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsReview",
+      "version": "v14"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v31"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v17"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v20"
+    },
+    {
+      "name": "osakeanalyysi.regulatoryCascade",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.signalSweep",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v15"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v2"
+    }
+  ],
+  "langfuseTraceId": "143aa719-b4f7-434d-bc79-c32ac67277a6",
+  "jobId": "01M009ZNM8Y0HPT0A6ZZQSCEK6",
+  "costUsd": 2.300842,
+  "llmCalls": 17,
+  "durationSec": 1395,
+  "rating": "SELL",
+  "targetPrice": 230.2,
+  "currentPrice": 328.58,
+  "upsidePct": -29.9,
+  "note": "Monivaiheisen putken vertailuajo (test-stack, fi)."
+}

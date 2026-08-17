@@ -1,0 +1,50 @@
+{
+  "runId": "2026-08-14T21-44-00Z__TSLA__single-writer",
+  "createdAt": "2026-08-14T21:44:00Z",
+  "source": "local",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "companyName": "Tesla",
+  "lang": "en",
+  "currency": "USD",
+  "country": "US",
+  "pipeline": "single-writer",
+  "writerModel": "openai/gpt-5.6-sol",
+  "promptStore": "file",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "sha:690e703ad807"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "sha:9bec080875f6"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "sha:0f5256103e43"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "sha:d388757da04d"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "sha:9c7b71e8e829"
+    }
+  ],
+  "git": {
+    "sha": "768d5bd",
+    "branch": "single-writer",
+    "dirty": null
+  },
+  "costUsd": 1.285066,
+  "llmCalls": 19,
+  "durationSec": 1250,
+  "rating": "SELL",
+  "targetPrice": 136.4,
+  "currentPrice": 339.99,
+  "upsidePct": -59.9,
+  "note": "Ajo 2: rakennekiintiöt promptissa → 2400 sanaa/divisioona. Optioarvo puuttui sillasta.",
+  "backfilled": true
+}

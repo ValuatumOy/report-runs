@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T09:45:00Z",
+  "basis": "snapshot narrativeCache.data (full read) + run.log render warnings",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 3,
+    "evidence": 4,
+    "valuation": 2,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "Every division gets the same headings, but most of them resolve into one paragraph or a bullet list — Energy and Optimus read as fact sheets rather than analysis. About 690 words per division against ~2400 in the later runs.",
+    "coverage": "Four divisions covering both profit engines and both options, with autonomy kept separate from automotive, and the reported-segment vs modelled-division distinction stated up front.",
+    "logic": "The argument is internally consistent but structurally disconnected: the analysis is built division by division while `bridgeMechanics` states that no positive target weight is assigned to the analytical SOTP. The reader is asked to follow reasoning that then does not produce the number.",
+    "evidence": "Dated, attributed figures throughout, and conflicting sources are reconciled explicitly (USD 0.20 vs USD 0.18 per mile, Figure AI's 2024 vs 2025 valuation). Some allocations rest on invented multiples (350x the subscription run-rate, 4.0x automotive revenue) that no source supports.",
+    "valuation": "Target comes from consolidated EV/EBITDA and EV/EBIT, so the optionality that the whole report says is the entire investment case is priced at zero — the mechanical cause of the USD 109.5 target. Bull at USD 255 also sits below spot, so no scenario in the report can reach the market price.",
+    "readability": "page-body #31 overflows by 558px (clipped in the PDF), and the interpretive allocation multiples appear without explanation of where they came from."
+  },
+  "summary": "The first single-writer measurement: coverage and sourcing already at production quality, but depth was one third of what the structural quotas later produced, and the target was mechanically detached from the analysis. Useful as the floor of the series, not as a report.",
+  "issues": [
+    "~690 words per division — fact-sheet depth",
+    "Target price method ignores the SOTP the report spends its length building",
+    "Allocation multiples (350x subscription run-rate, 4.0x revenue) unsourced",
+    "page-body #31 overflow 558px"
+  ]
+}

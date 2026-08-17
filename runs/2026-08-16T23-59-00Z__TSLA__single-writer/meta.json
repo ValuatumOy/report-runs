@@ -1,0 +1,50 @@
+{
+  "runId": "2026-08-16T23-59-00Z__TSLA__single-writer",
+  "createdAt": "2026-08-16T23:59:00Z",
+  "source": "local",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "companyName": "Tesla",
+  "lang": "en",
+  "currency": "USD",
+  "country": "US",
+  "pipeline": "single-writer",
+  "writerModel": "openai/gpt-5.6-sol",
+  "promptStore": "file",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "sha:00c2937d8d17"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "sha:9bec080875f6"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "sha:36d4b20cc709"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "sha:d388757da04d"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "sha:9c7b71e8e829"
+    }
+  ],
+  "git": {
+    "sha": "461a2df",
+    "branch": "single-writer",
+    "dirty": null
+  },
+  "costUsd": 2.300392,
+  "llmCalls": 20,
+  "durationSec": 1300,
+  "rating": null,
+  "targetPrice": null,
+  "currentPrice": null,
+  "upsidePct": null,
+  "note": "Ajo 3: council-paketti. Hylätty — optiolegit kaatuivat diskonttaushorisonttiin. PDF ei tallessa.",
+  "backfilled": true
+}

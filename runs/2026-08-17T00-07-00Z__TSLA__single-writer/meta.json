@@ -1,0 +1,50 @@
+{
+  "runId": "2026-08-17T00-07-00Z__TSLA__single-writer",
+  "createdAt": "2026-08-17T00:07:00Z",
+  "source": "local",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "companyName": "Tesla",
+  "lang": "en",
+  "currency": "USD",
+  "country": "US",
+  "pipeline": "single-writer",
+  "writerModel": "openai/gpt-5.6-sol",
+  "promptStore": "file",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "sha:00c2937d8d17"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "sha:9bec080875f6"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "sha:36d4b20cc709"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "sha:d388757da04d"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "sha:9c7b71e8e829"
+    }
+  ],
+  "git": {
+    "sha": "c11643d",
+    "branch": "single-writer",
+    "dirty": null
+  },
+  "costUsd": 1.337983,
+  "llmCalls": 19,
+  "durationSec": 1250,
+  "rating": "SELL",
+  "targetPrice": 122.8,
+  "currentPrice": 339.99,
+  "upsidePct": -63.9,
+  "note": "Ajo 4: optiolegien diskonttaus korjattu. Kaikki portit läpi ensiyrityksellä.",
+  "backfilled": true
+}

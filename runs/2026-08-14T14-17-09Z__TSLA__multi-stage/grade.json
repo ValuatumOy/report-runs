@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T09:55:00Z",
+  "basis": "snapshot narrativeCache.data (full read). Note: this run is lang=fi analysis output in English narrative fields, spot USD 328.58 vs 339.99 in the single-writer runs — comparable in method, not to the decimal.",
+  "scores": {
+    "depth": 2,
+    "coverage": 3,
+    "logic": 2,
+    "evidence": 3,
+    "valuation": 2,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "Each pool is a set of one-to-three-sentence headings; Automotive and Energy get four short blocks with no unit economics beyond a margin number. The Autonomy pool is the only one that reasons — and it stops after the required-scale calculation.",
+    "coverage": "All four pools present with the reported-segment vs option-segment split stated, but the two cash-generating divisions are covered at fact-sheet level while two thirds of the EV sits in the options.",
+    "logic": "The best passage in the series is here: USD 578.5bn of allocated EV needs ~USD 38bn of 2030 EBIT, i.e. USD 95–110bn of revenue, which exceeds the entire conservative 2030 robotaxi market. The report then contradicts itself by pricing the target off a 70.0x multiple, i.e. accepting nearly the same premium it just showed to be unsupported.",
+    "evidence": "Dated citations with domains for the milestone claims (RDW approval 10 Apr 2026, Waymo 500k weekly rides, 2.5m paid robotaxi miles). Several economic figures — Optimus USD 50k–100k manufacturing cost, USD 30k ASP, 30% contribution margin — appear without a source.",
+    "valuation": "The bridge is a group EV/EBITDA and P/E blend with the SOTP used only as a constraint, so none of the division analysis reaches the target price. The Base scenario lands at USD 328.38 against a USD 328.58 spot, which reads as calibration to the market rather than a derived case.",
+    "readability": "Mature production layout, tables populated, no visible contradictions between numbers on the page — the strongest run of the four on presentation."
+  },
+  "summary": "The multi-stage baseline: production-grade presentation and one genuinely excellent required-scale argument, but the divisions are fact sheets rather than analysis and the target price is derived from a group multiple that ignores everything the report argued. This is the comparison point the single-writer runs beat on depth (2 vs 4) and on bridge consistency, and lose to on presentation (3 vs 2).",
+  "issues": [
+    "Pool deep dives at fact-sheet depth (~2350 words total vs ~7800 in single-writer run 4)",
+    "Target multiple 70.0x contradicts the report's own finding that current earnings support ~11% of EV",
+    "Base scenario equals spot to within 0.2 USD — reads as market calibration",
+    "Optimus cost/ASP/margin figures unsourced"
+  ]
+}

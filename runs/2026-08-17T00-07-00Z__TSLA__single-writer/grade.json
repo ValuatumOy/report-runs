@@ -1,0 +1,31 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T09:45:00Z",
+  "basis": "snapshot narrativeCache.data (full read) + run.log render warnings",
+  "scores": {
+    "depth": 4,
+    "coverage": 3,
+    "logic": 4,
+    "evidence": 5,
+    "valuation": 3,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "Eight named sections per division with mechanism-level economics: Cybercab USD 0.18–0.25/mile vs Waymo's estimated USD 1.40, utilization of 17.8–25 trips/vehicle/day as the swing variable, HW3 ineligibility bounding the addressable fleet. Energy is thinner than the other three — one paragraph per heading.",
+    "coverage": "All four value pools plus what is deliberately excluded, but FSD's existing supervised subscription business is folded into the robotaxi option division, whose revenue then reads 0 — the 1.48m × USD 99/month recurring revenue that exists today disappears from the reported economics.",
+    "logic": "Each division carries an explicit gap-to-required-economics section and the market allocation is confronted rather than assumed (USD 750bn vs USD 209.8bn target, translated into ~USD 35bn of missing 2030 EBITDA). Weak point: the 50% zero-value probability for robotaxi is the only number in the bridge with no register citation behind it.",
+    "evidence": "Nearly every figure is dated and attributed, conflicting sources are weighted with a stated reason (480126 over the earlier 396500 estimate), and a denied supplier claim (Sanhua USD 685m) is explicitly excluded. A low-evidence link (Teslarati → Wikipedia) is flagged as such rather than used.",
+    "valuation": "The bridge and the deep dives now share one grammar — option legs with probability, multiple and discounting. But the scenario rows still use the old group-EBITDA grammar, so Bull lands at USD 219.7 below the USD 339.99 spot with no option value at all, the sensitivity table renders with zero rows, and Optimus appears as USD 6.8/share in the bridge next to USD 100bn in the pools with no sentence reconciling the two.",
+    "readability": "page-body #40 overflows by 924px (clipped in the PDF), 8 of 10 bridge rows display 0% weight because component rows are audit lines, and the sensitivity table prints headers over an empty body."
+  },
+  "summary": "Strongest run so far on analysis: the option legs carry real probability arithmetic and every division states what would break it. The remaining damage is presentational and in the scenario rows — a reader meets three numbers for the same division (market allocation, bridge value, bull case) with no bridge between them.",
+  "issues": [
+    "Agenda merged FSD (profit engine) with robotaxi (optionality) into one division → division revenue 0",
+    "Scenario rows computed with pre-council group-EBITDA grammar; bull < spot",
+    "Sensitivity table renders columns with rows: []",
+    "Bridge table shows 0% weight on 8 of 10 rows; component rows need indentation, not a weight column",
+    "Optimus USD 6.8/share vs USD 100bn allocation unexplained in prose",
+    "page-body #40 overflow 924px"
+  ]
+}
