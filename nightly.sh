@@ -1,18 +1,22 @@
 #!/bin/zsh
-# Local half of the nightly routine: push whatever this machine generated.
+# Local half of the nightly routine: import the worker runs and push
+# everything this machine has.
 #
-# Runs from this laptop register themselves here when `npm run preview` renders
-# a report (see the engine's scripts/runsRegister.ts), and the cloud routine
-# only ever sees what is in git. This job commits and pushes those runs; the
-# cloud routine (report-runs nightly grader) then imports the worker runs,
-# grades everything ungraded, and pushes back. Pushing is also the deploy —
-# Vercel builds the site from the repository.
+# The S3 fetch happens here rather than in the cloud because the only AWS key
+# on hand belongs to a user who can read the whole account and delete buckets;
+# that key does not belong in a sandbox. This machine already has it as a
+# profile, so it does the import, and the cloud routine (report-runs nightly
+# grader) grades whatever arrives without a grade.json. Runs generated locally
+# by `npm run preview` are already registered here by the engine.
+# Pushing is also the deploy — Vercel builds the site from the repository.
 #
 # Installed as launchd job com.valuatum.report-runs-nightly (03:17), or run by
 # hand: ~/Valuatum/report-runs/nightly.sh
 
 set -u
 export PATH="$HOME/.nvm/versions/node/v24.14.1/bin:/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin"
+export AWS_PROFILE=valuatum-pdf
+export AWS_DEFAULT_REGION=eu-west-1
 
 ROOT="$HOME/Valuatum/report-runs"
 LOG_DIR="$ROOT/logs"
@@ -27,16 +31,20 @@ git fetch --quiet origin main && git rebase --quiet origin/main || {
   exit 1
 }
 
+# A 48-hour window covers a night the laptop spent asleep.
+node nightly.mjs --hours 48 --max 8
+
 if [ -z "$(git status --porcelain runs)" ]; then
-  echo "=== no local runs to push, done"
+  echo "=== nothing new to push, done"
   exit 0
 fi
 
 git add runs
 COUNT=$(git diff --cached --name-only | awk -F/ '{print $2}' | sort -u | wc -l | tr -d ' ')
-git commit -q -m "Add $COUNT local run(s) generated on this machine
+git commit -q -m "Add $COUNT run(s) from this machine
 
-Registered by the engine's preview script; the cloud routine grades whatever
-arrives here without a grade.json."
+Local runs registered by the engine's preview script, plus any worker runs
+imported from Langfuse and S3. The cloud routine grades whatever arrives here
+without a grade.json."
 git push -q origin main && echo "=== pushed $COUNT run(s)"
 echo "=== $(date '+%H:%M:%S') done"

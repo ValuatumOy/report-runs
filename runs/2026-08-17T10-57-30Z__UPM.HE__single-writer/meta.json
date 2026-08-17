@@ -1,0 +1,51 @@
+{
+  "runId": "2026-08-17T10-57-30Z__UPM.HE__single-writer",
+  "createdAt": "2026-08-17T10:57:30.801Z",
+  "source": "local",
+  "reportId": "osakeanalyysi",
+  "company": "UPM.HE",
+  "companyName": "UPM",
+  "lang": "en",
+  "currency": "EUR",
+  "country": "FI",
+  "pipeline": "single-writer",
+  "promptStore": "file",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "sha:99ee1a9d68d0"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "sha:9bec080875f6"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "sha:805795abbd26"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "sha:d388757da04d"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "sha:9c7b71e8e829"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "sha:80e3093b1124"
+    }
+  ],
+  "git": {
+    "sha": "a759db3",
+    "branch": "single-writer",
+    "dirty": false
+  },
+  "costUsd": 2.8903815,
+  "llmCalls": 25,
+  "durationSec": 1102,
+  "rating": "HOLD",
+  "targetPrice": 24.1,
+  "currentPrice": 23,
+  "upsidePct": 4.8
+}
