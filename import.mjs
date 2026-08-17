@@ -1,4 +1,4 @@
-import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs'
+import { mkdirSync, readFileSync, rmSync, writeFileSync, existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { getObject } from './s3.mjs'
@@ -102,7 +102,14 @@ for (const [name, bucket] of BUCKETS) {
     break
   }
 }
-if (source === 'unknown') console.warn(`! no artifacts for job ${meta.jobId} in ${BUCKETS.map(([, b]) => b).join(' or ')}`)
+if (source === 'unknown') {
+  // Leaving a metadata-only folder behind would put this trace in the registry's
+  // "already imported" set, so a later pass with working credentials would skip
+  // it forever. Better to record nothing and let the next run try again.
+  rmSync(dir, { recursive: true, force: true })
+  console.warn(`! no artifacts for job ${meta.jobId} in ${BUCKETS.map(([, b]) => b).join(' or ')} — nothing recorded, will retry`)
+  process.exit(3)
+}
 
 let rec = {}
 if (gotSnapshot) {

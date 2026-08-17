@@ -48,8 +48,9 @@ const hmac = (key, v) => createHmac('sha256', key).update(v).digest()
 /**
  * GETs `key` from `bucket`. Resolves to a Buffer, or null when the object is
  * absent (404) — callers treat "not in this bucket" as a normal outcome.
- * Throws on anything else, so a credential or signing problem is never
- * mistaken for a missing file.
+ * Everything else throws, including 403: a rejected key looks exactly like a
+ * missing object to the caller otherwise, which once made a cloud run report
+ * "no artifacts" when the real answer was InvalidAccessKeyId.
  */
 export async function getObject(bucket, key, creds = credentials()) {
   if (!creds) throw new Error('no AWS credentials (set AWS_ACCESS_KEY_ID/SECRET or AWS_PROFILE)')
@@ -91,7 +92,11 @@ export async function getObject(bucket, key, creds = credentials()) {
       Authorization: `AWS4-HMAC-SHA256 Credential=${creds.accessKeyId}/${scope}, SignedHeaders=${signedHeaders}, Signature=${signature}`,
     },
   })
-  if (res.status === 404 || res.status === 403) return null
-  if (!res.ok) throw new Error(`s3 ${bucket}/${key}: ${res.status} ${(await res.text()).slice(0, 200)}`)
+  if (res.status === 404) return null
+  if (!res.ok) {
+    const body = await res.text()
+    const code = /<Code>([^<]+)<\/Code>/.exec(body)?.[1] ?? ''
+    throw new Error(`s3 ${bucket}/${key}: ${res.status} ${code} ${body.slice(0, 200).replace(/\s+/g, ' ')}`)
+  }
   return Buffer.from(await res.arrayBuffer())
 }

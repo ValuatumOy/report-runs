@@ -58,7 +58,12 @@ for (const t of traces.slice(0, MAX)) {
     const out = execFileSync('node', [join(ROOT, 'import.mjs'), t.id], { cwd: ROOT, encoding: 'utf8', env })
     process.stdout.write(out)
   } catch (err) {
-    console.warn(`! import ${t.id} failed: ${String(err.message).split('\n')[0]}`)
+    // Exit 3 means the trace had no artifacts in either bucket; import.mjs has
+    // already cleaned up after itself and said so. Anything else is a real
+    // failure worth surfacing with its message.
+    const out = String(err.stdout ?? '') + String(err.stderr ?? '')
+    if (err.status === 3) process.stdout.write(out)
+    else console.warn(`! import ${t.id} failed: ${out.trim().split('\n').pop() || err.message}`)
   }
 }
 if (traces.length > MAX) console.log(`! ${traces.length - MAX} run(s) left for the next pass (--max ${MAX})`)
