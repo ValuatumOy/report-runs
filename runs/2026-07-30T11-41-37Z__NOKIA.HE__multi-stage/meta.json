@@ -1,0 +1,74 @@
+{
+  "runId": "2026-07-30T11-41-37Z__NOKIA.HE__multi-stage",
+  "createdAt": "2026-07-30T11:41:37.172Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "NOKIA.HE",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "gemini-pro-latest"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v17"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v15"
+    },
+    {
+      "name": "osakeanalyysi.currentEvents",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsReview",
+      "version": "v4"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v12"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v11"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v14"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v1"
+    }
+  ],
+  "langfuseTraceId": "d09d5081-795c-458f-a850-6b02cdec6359",
+  "jobId": "01KYSCY39RHA7FVFJYDG1GFDRQ",
+  "costUsd": 1.699378,
+  "llmCalls": 17,
+  "durationSec": 1257
+}

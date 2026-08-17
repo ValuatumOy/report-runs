@@ -1,0 +1,31 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T10:20:00Z",
+  "basis": "snapshot narrativeCache.data (full read) plus the rendered PDF.",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 3,
+    "evidence": 2,
+    "valuation": 2,
+    "readability": 4
+  },
+  "justifications": {
+    "depth": "Five pools, each with the same six-to-nine sections, ~700 words per pool. The 'bridge sanity check' sections are the best analytical device in the whole registry — required EBIT translated into required subscribers, paid miles and fleet size — but the surrounding sections stay descriptive.",
+    "coverage": "Both cash businesses and all three options are valued, each carrying an explicit allocation-confidence label (low / low-medium / medium), and the difference between reported segments and analytical divisions is stated up front.",
+    "logic": "The required-scale arithmetic is rigorous and self-refuting in the right way: FSD needs 20–25m subscribers (>80% attach on a 30m fleet), Robotaxi needs ~1.5m vehicles, 'roughly the scale of Uber's global ride-hailing business today', which the report itself calls inconsistent with near-term reality. The conclusion then ignores all of it. Internal figures also drift: options are 77.7% of EV in one place and 63.5% in another.",
+    "evidence": "Almost nothing in the pool text is attributed or dated. Waymo's ~$355m annualized revenue, Tesla's 1–2m active FSD subscribers, $0.81 per mile, the 7–8m installed fleet — all appear as bare estimates. Compare the single-writer runs, where each of those numbers carries a source and a date.",
+    "valuation": "The target is 45.0x 2028e EBITDA (60%) plus 65.0x 2028e EPS (40%), i.e. it accepts nearly the whole option premium the analysis just showed to be unsupported, and lands at USD 332.5 against a USD 324.96 spot — a 2.3% call. The report's own Bear case (USD 122) is where its analysis points, and its own Base case (USD 420) sits above the target. The sensitivity grid is centred on 55.8x while the bridge uses 45.0x.",
+    "readability": "The strongest document of the set: clean cover, an honest one-page research snapshot, three named reasons with figures, a stated thesis breaker, populated tables."
+  },
+  "summary": "Best-presented report we have, and the source of the best analytical idea in the registry (required scale per division). Its weakness is the one that matters most: the target price is derived from group multiples that re-accept the option premium the analysis dismantles, so the document argues SELL and prints HOLD at spot +2.3%. Graded 3.0 — the same as the first single-writer run and below the fourth (3.5), which reaches the conclusion its own analysis supports.",
+  "issues": [
+    "Target 332.5 ≈ spot 324.96 while every pool assessment calls its allocation speculative",
+    "Bridge multiple 45.0x vs sensitivity grid centred on 55.8x",
+    "Option share of EV stated as 77.7% and 63.5% in the same report",
+    "Pool economics (subscribers, per-mile cost, Waymo revenue) unsourced and undated",
+    "Bear case (USD 122) and Base case (USD 420) straddle the target so widely that the scenarios carry no information"
+  ],
+  "context": "Ran on the test stack with staging prompt labels during the 5.–6.8.2026 staging-drift window. The production run of the next day (6.8, prod labels, 12 of 13 prompts a version or more newer, osakeanalyysi.valuation v3 → v8) produced SELL with a USD 165.8 target on the same company — a USD 167 spread in 28 hours."
+}

@@ -1,0 +1,87 @@
+{
+  "runId": "2026-08-13T11-46-59Z__UPM.HE__multi-stage",
+  "createdAt": "2026-08-13T11:46:59.437Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "UPM.HE",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-terra",
+    "x-ai/grok-4.6"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v23"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v33"
+    },
+    {
+      "name": "osakeanalyysi.currentEvents",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsReview",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v30"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v9"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v16"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v19"
+    },
+    {
+      "name": "osakeanalyysi.regulatoryCascade",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v7"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.signalSweep",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v12"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v1"
+    }
+  ],
+  "langfuseTraceId": "d0fb94ac-87d6-46e1-956e-72df91d47bb2",
+  "jobId": "01KZXEZ805V1K9FBDA651T87KY",
+  "costUsd": 3.98526,
+  "llmCalls": 20,
+  "durationSec": 1860,
+  "rating": "HOLD",
+  "targetPrice": 27.3,
+  "currentPrice": 25.11,
+  "upsidePct": 8.7
+}

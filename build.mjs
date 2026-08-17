@@ -132,9 +132,14 @@ const rows = runs
     <td class="n">${meta.costUsd != null ? '$' + num(meta.costUsd, 2) : '<span class="dim">—</span>'}</td>
     ${scores}
     <td class="n avg">${num(a, 1) ?? '<span class="dim">—</span>'}</td>
+    <td class="cell-pdf">${
+      runs[i].hasPdf
+        ? `<a class="pdf" href="runs/${esc(dir)}/report.pdf" title="Open the PDF for this run">${icon.pdf}PDF</a>`
+        : '<span class="dim">—</span>'
+    }</td>
   </tr>
   <tr class="detail" id="d${i}" hidden>
-    <td colspan="16">
+    <td colspan="17">
       <div class="panel">
         <section>
           <h3>Run</h3>
@@ -303,6 +308,10 @@ tr.detail td{padding:0;background:var(--panel-2);white-space:normal}
 .btn:hover{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
 .btn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 
+.cell-pdf{padding-right:14px}
+.pdf{display:inline-flex;align-items:center;gap:5px;color:var(--ink-2);text-decoration:none;font-size:.78rem;font-weight:540;border:1px solid var(--line-strong);border-radius:7px;padding:3px 9px;transition:border-color .15s ease,color .15s ease,background .15s ease}
+.pdf:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.pdf svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 .empty{padding:56px 20px;text-align:center;color:var(--ink-3)}
 footer{margin-top:20px;color:var(--ink-3);font-size:.8rem}
 /* The detail row lives inside the table's horizontal scroll box, so on narrow
@@ -369,6 +378,7 @@ footer{margin-top:20px;color:var(--ink-3);font-size:.8rem}
       <th class="n">Spot</th><th class="n">Upside</th><th class="n">Cost</th>
       ${CRITERIA.map(([k, label]) => `<th class="score" title="${label}">${label.slice(0, 4)}</th>`).join('')}
       <th class="n"><button data-sort="avg">Avg</button></th>
+      <th></th>
     </tr>
   </thead>
   <tbody id="body">

@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T10:30:00Z",
+  "basis": "snapshot narrativeCache.data (full read). Production run 28 hours after the 5.8 run, with 12 of 13 prompts a version or more newer.",
+  "scores": {
+    "depth": 2,
+    "coverage": 2,
+    "logic": 3,
+    "evidence": 3,
+    "valuation": 2,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "1531 words of division analysis against 2259 the day before. The required-scale arithmetic survives in places (7m vehicles a year to justify the automotive allocation, Energy needing ~$4.6bn EBIT), but the sanity-check sections that made the 5.8 report work are mostly gone.",
+    "coverage": "FSD, Robotaxi and Optimus are collapsed into one 'AI / Robotaxi / Optimus / FSD Optionality' pool holding 50.7% of EV, so three businesses with completely different evidence and timelines are argued as one. The SpaceX/xAI stake gets its own pool with an empty deep dive.",
+    "logic": "The core argument is sound and better anchored than the day before — current earnings support $40–100bn of EV against $1.28tn — and Waymo's commercial lead is used as the concrete counter-evidence. It is undercut by the bridge, which reintroduces the market price as an input.",
+    "evidence": "Concrete and mostly checkable (Waymo ~500k paid weekly rides, BYD 4.6m NEVs in 2025, Megapack 2XL at ~$1.39m per 3.9 MWh, deferred revenue $4.96bn), but again without dates or attributions in the text.",
+    "valuation": "The bridge gives 20% weight to a 'Reverse Valuation' leg of USD 322.0 — the market-implied price. That is the market anchored into our own target: the two fundamental legs imply 113.9 and 165.1, and the market leg alone lifts the target to 165.8. The Base scenario then lands at 325.44, within 1.2% of spot.",
+    "readability": "Clean and readable, but one pool renders with an empty deep dive and the merged optionality pool forces the reader to track three businesses in one argument."
+  },
+  "summary": "Same week, same company, opposite call: SELL at USD 165.8 against the previous day's HOLD at USD 332.5. Neither is wrong on evidence — the difference comes from the bridge, and this one is the more honest of the two even while it still carries a 20% weight on the market's own price. Its regression is depth and division structure.",
+  "issues": [
+    "Reverse-valuation (market price) leg carries 20% weight in the target bridge",
+    "FSD, Robotaxi and Optimus merged into one pool at 50.7% of EV",
+    "SpaceX/xAI pool renders with an empty deep dive",
+    "Division analysis down a third from the previous day's run",
+    "Base scenario within 1.2% of spot"
+  ]
+}

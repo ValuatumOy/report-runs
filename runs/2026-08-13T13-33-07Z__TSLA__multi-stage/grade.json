@@ -1,0 +1,28 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T10:35:00Z",
+  "basis": "snapshot narrativeCache.data (full read). PDF not inspected, so readability is scored on structure and table content only.",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 4,
+    "evidence": 4,
+    "valuation": 3,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "1933 words of division analysis with real mechanics — two alternative robotaxi revenue models (company-owned vs owner-fleet take rate) costed separately, Optimus valued both as unit sales and as robots-as-a-service. Automotive and Energy remain short at under 300 words each.",
+    "coverage": "Robotaxi, Optimus and FSD are separated again after the 6.8 merge, each with its own EV share and confidence statement, and the report says plainly that the weights are residual allocations rather than market-cleared values.",
+    "logic": "The strongest reasoning of the multi-stage runs: current pilot scale (39 unsupervised robotaxis, ~1000 internal Optimus units) is set directly against what the allocation requires (1.15m company cars or 3.1m participating owner cars; 3.2m robots a year), and Morgan Stanley's own 30k-robotaxi path is used to show the gap. Five named indicators close the report.",
+    "evidence": "Concrete and mostly dated: 2.4m cumulative paid robotaxi miles, 380k unsupervised miles, 1.48m FSD users at a 15.2% take rate, 12.4bn cumulative FSD miles as of 18 July 2026, and a regulatory signal map with dates including the 6 October 2026 EU vote. Market-size figures still arrive without a source.",
+    "valuation": "The bridge is clean and fundamental — 40.0x 2028e EBITDA and 35.0x EPS, no market-price leg — but the scenario table still solves the Base case backwards to an 85.2x multiple and lands on USD 328.57, exactly spot, three times the report's own target. A reader sees 117.4 and 328.57 with no explanation of which one the report believes.",
+    "readability": "Consistent section structure per pool and populated tables; the unexplained gap between target and Base scenario is the one thing that would make a reader stop."
+  },
+  "summary": "The best multi-stage analysis in the registry and the cheapest way to see what the pipeline can do when the prompts are current: pilot-scale-vs-required-scale arithmetic on every option pool, dated regulatory gates, honest labelling of its own allocation weights. Its unresolved defect is the scenario table, which still calibrates the Base case to the market price and therefore contradicts the target three-fold.",
+  "issues": [
+    "Base scenario solved to spot (85.2x multiple, USD 328.57) against a USD 117.4 target",
+    "Automotive and Energy pools under 300 words each",
+    "Market-size figures (ride-sharing USD 108bn, humanoid USD 0.9–2.9bn) unsourced"
+  ]
+}

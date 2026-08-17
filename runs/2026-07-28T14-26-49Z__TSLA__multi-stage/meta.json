@@ -1,0 +1,58 @@
+{
+  "runId": "2026-07-28T14-26-49Z__TSLA__multi-stage",
+  "createdAt": "2026-07-28T14:26:49.829Z",
+  "source": "prod",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "gemini-pro-latest"
+  ],
+  "promptStore": "langfuse:production",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v19"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v17"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v4"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v16"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v7"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v1"
+    }
+  ],
+  "langfuseTraceId": "9d6eecce-2ac3-4413-8a24-2af8342140f4",
+  "jobId": "01KYMHN09K6D4B79XD05K10B0E",
+  "costUsd": 1.159295,
+  "llmCalls": 8,
+  "durationSec": 877,
+  "rating": "SELL",
+  "targetPrice": 269.2,
+  "currentPrice": 308.29,
+  "upsidePct": -12.7
+}

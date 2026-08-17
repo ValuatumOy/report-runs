@@ -35,8 +35,14 @@ const flag = (name) => {
   const i = argv.indexOf(`--${name}`)
   return i >= 0 ? argv[i + 1] : undefined
 }
-const isTest = argv.includes('--test')
-const BUCKET = isTest ? 'valuatum-pdf-reports-test' : 'valuatum-pdf-reports'
+// A trace doesn't say which stack ran it, so try production first and fall
+// back to the test bucket; whichever holds the artifacts names the source.
+const BUCKETS = argv.includes('--test')
+  ? [['test', 'valuatum-pdf-reports-test']]
+  : [
+      ['prod', 'valuatum-pdf-reports'],
+      ['test', 'valuatum-pdf-reports-test'],
+    ]
 
 const api = async (path) => {
   const res = await fetch(`${HOST}/api/public/${path}`, { headers: { Authorization: AUTH } })
@@ -46,7 +52,10 @@ const api = async (path) => {
 
 if (argv.includes('--list')) {
   const company = flag('company')
-  const { data } = await api(`traces?limit=${flag('limit') ?? '20'}&name=resolve_render:osakeanalyysi`)
+  const range =
+    (flag('from') ? `&fromTimestamp=${flag('from')}T00:00:00Z` : '') +
+    (flag('to') ? `&toTimestamp=${flag('to')}T23:59:59Z` : '')
+  const { data } = await api(`traces?limit=${flag('limit') ?? '20'}&name=resolve_render:osakeanalyysi${range}`)
   for (const t of data) {
     const m = t.metadata ?? {}
     if (company && m.companyCode !== company) continue
@@ -74,17 +83,26 @@ const runId = `${trace.timestamp.replace(/[:.]/g, '-').slice(0, 19)}Z__${meta.co
 const dir = join(ROOT, 'runs', runId)
 mkdirSync(dir, { recursive: true })
 
-const pull = (key, out) => {
+const pull = (bucket, key, out) => {
   try {
-    execFileSync('aws', ['s3', 'cp', `s3://${BUCKET}/${key}`, out, '--quiet'], { stdio: 'pipe' })
+    execFileSync('aws', ['s3', 'cp', `s3://${bucket}/${key}`, out, '--quiet'], { stdio: 'pipe' })
     return true
-  } catch (err) {
-    console.warn(`! s3://${BUCKET}/${key}: ${String(err.message).split('\n')[0]}`)
+  } catch {
     return false
   }
 }
-pull(`${meta.jobId}.pdf`, join(dir, 'report.pdf'))
-const gotSnapshot = pull(`artifacts/${meta.jobId}.snapshot.json`, join(dir, 'snapshot.json'))
+let source = 'unknown'
+let gotSnapshot = false
+for (const [name, bucket] of BUCKETS) {
+  const pdf = pull(bucket, `${meta.jobId}.pdf`, join(dir, 'report.pdf'))
+  const snap = pull(bucket, `artifacts/${meta.jobId}.snapshot.json`, join(dir, 'snapshot.json'))
+  if (pdf || snap) {
+    source = name
+    gotSnapshot = snap
+    break
+  }
+}
+if (source === 'unknown') console.warn(`! no artifacts for job ${meta.jobId} in ${BUCKETS.map(([, b]) => b).join(' or ')}`)
 
 let rec = {}
 if (gotSnapshot) {
@@ -99,7 +117,7 @@ writeFileSync(
     {
       runId,
       createdAt: trace.timestamp,
-      source: isTest ? 'test' : 'prod',
+      source,
       reportId: 'osakeanalyysi',
       company: meta.companyCode,
       lang: meta.lang,
@@ -107,7 +125,7 @@ writeFileSync(
       country: meta.country,
       pipeline,
       models: [...new Set(obs.map((o) => o.model).filter(Boolean))].sort(),
-      promptStore: `langfuse:${isTest ? 'staging' : 'production'}`,
+      promptStore: `langfuse:${source === 'test' ? 'staging' : 'production'}`,
       prompts,
       langfuseTraceId: traceId,
       jobId: meta.jobId,

@@ -1,0 +1,80 @@
+{
+  "runId": "2026-08-05T09-02-30Z__TSLA__multi-stage",
+  "createdAt": "2026-08-05T09:02:30.716Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "gemini-pro-latest",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v21"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v21"
+    },
+    {
+      "name": "osakeanalyysi.currentEvents",
+      "version": "v11"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsReview",
+      "version": "v11"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v20"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v15"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v14"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v1"
+    }
+  ],
+  "langfuseTraceId": "3487a94f-0fe1-4ded-ba3f-86fcf87a0d0a",
+  "jobId": "01KZ8JB642Z2D0009AX83T0WRY",
+  "costUsd": 1.088078,
+  "llmCalls": 13,
+  "durationSec": 814,
+  "rating": "HOLD",
+  "targetPrice": 332.5,
+  "currentPrice": 324.96,
+  "upsidePct": 2.3,
+  "note": "Tesla-raportti 5.8.2026"
+}

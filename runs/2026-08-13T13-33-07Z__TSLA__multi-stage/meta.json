@@ -1,0 +1,92 @@
+{
+  "runId": "2026-08-13T13-33-07Z__TSLA__multi-stage",
+  "createdAt": "2026-08-13T13:33:07.576Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "gemini-pro-latest",
+    "openai/gpt-5.6-terra",
+    "x-ai/grok-4.6"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v23"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v33"
+    },
+    {
+      "name": "osakeanalyysi.currentEvents",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsDocument",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsReview",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v30"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v9"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v16"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v19"
+    },
+    {
+      "name": "osakeanalyysi.regulatoryCascade",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v7"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.signalSweep",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v1"
+    }
+  ],
+  "langfuseTraceId": "9e29fe0b-5ed8-4dca-a7b3-13fff25f5d1b",
+  "jobId": "01KZXN1KS5SRJCEJR69W1XB4R4",
+  "costUsd": 2.023137,
+  "llmCalls": 17,
+  "durationSec": 1206,
+  "rating": "SELL",
+  "targetPrice": 117.4,
+  "currentPrice": 328.58,
+  "upsidePct": -64.3
+}

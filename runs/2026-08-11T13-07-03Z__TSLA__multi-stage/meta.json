@@ -1,0 +1,79 @@
+{
+  "runId": "2026-08-11T13-07-03Z__TSLA__multi-stage",
+  "createdAt": "2026-08-11T13:07:03.169Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "gemini-pro-latest",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v22"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v28"
+    },
+    {
+      "name": "osakeanalyysi.currentEvents",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsReview",
+      "version": "v13"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v25"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v16"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v18"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v7"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v5"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v1"
+    }
+  ],
+  "langfuseTraceId": "002bf935-2eee-4516-af9b-b062fab23a5f",
+  "jobId": "01KZRES6D939THD2RMDK0KTG1V",
+  "costUsd": 0.911521,
+  "llmCalls": 13,
+  "durationSec": 891,
+  "rating": "SELL",
+  "targetPrice": 234,
+  "currentPrice": 330.93,
+  "upsidePct": -29.3
+}
