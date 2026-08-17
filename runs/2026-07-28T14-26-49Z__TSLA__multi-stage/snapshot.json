@@ -1,0 +1,4550 @@
+{
+  "companyCode": "TSLA",
+  "lang": "fi",
+  "currency": "USD",
+  "kind": "equity",
+  "company": {
+    "companyId": 3545,
+    "companyName": "Tesla",
+    "companyCode": "US88160R1014",
+    "ticker": "TSLA",
+    "industry": "Auto manufacturing",
+    "models": [
+      {
+        "followedModelId": 4078,
+        "analystName": "Anton Karttunen"
+      },
+      {
+        "followedModelId": 4079,
+        "analystName": "Markus Päivärinta"
+      },
+      {
+        "followedModelId": 3776,
+        "analystName": "Joonas Kotiranta"
+      },
+      {
+        "followedModelId": 12823,
+        "analystName": "ValuatumDataSources"
+      }
+    ]
+  },
+  "primaryFid": 4078,
+  "model": {
+    "dataMap": {
+      "2017": {
+        "ns": 0,
+        "pre_tax_profit": 0,
+        "ebit": 0,
+        "extras_in_ebit": 0,
+        "ebitda": 0,
+        "wacc": 0.0643
+      },
+      "2018": {
+        "eps_diluted": -0.41539664,
+        "gross_cap_expenditure": 23334,
+        "cf_change_in_cash": 3685.873,
+        "operating_cash_flow": 4640.7349602,
+        "ns": 0,
+        "ebit": 0,
+        "ebitda": 0,
+        "change_in_wc": -3150,
+        "cf_from_fin_activities": 23031.873,
+        "change_in_wc_nega": 3150,
+        "eva": -410.3920398,
+        "pre_tax_profit": 0,
+        "free_cash_flow_to_firm": -16865.3920398,
+        "taxes_paid": -57.873,
+        "extras_in_ebit": 0,
+        "capex_excl_acq_divest": -23334,
+        "free_operating_cash_flow": -16865.3920398,
+        "gross_cap_expenditure_nega": -23334,
+        "wacc": 0.0643,
+        "cf_from_operations": 3988
+      },
+      "2019": {
+        "eps_diluted": -0.29190207,
+        "goodwill": 198,
+        "gross_cap_expenditure": 24357,
+        "total_non_cur_ass": 22203,
+        "operating_cash_flow": 5572.58646617,
+        "net_fin_items": -596,
+        "net_debt": 8335,
+        "equity_ratio": 0.23638112,
+        "change_in_wc": -3433,
+        "bs_total_assets": 34309,
+        "ebit_without_extras": -69,
+        "inventories": 3552,
+        "lt_debt": 10402,
+        "free_cash_flow_to_firm": -16522.41353383,
+        "capex_excl_acq_divest": -24357,
+        "gross_cap_expenditure_nega": -24357,
+        "net_earnings": -775,
+        "wacc": 0.0643,
+        "cf_change_in_cash": 6205,
+        "adj_net_earnings": -775,
+        "ebit": -69,
+        "eps": -0.29190207,
+        "change_in_wc_nega": 3433,
+        "no_of_shares_total": 2655,
+        "fin_income": 89,
+        "dividend_ps": 0,
+        "other_intangible_rights": 339,
+        "pretax_percent": -0.02705672,
+        "tangible_ass": 20196,
+        "net_earnings_percent": -0.03153226,
+        "cf_from_operations": 4812,
+        "ns": 24578,
+        "current_ratio": 1.13462079,
+        "cf_from_fin_activities": 25750,
+        "eva": -80.41353383,
+        "ebit_percent": -0.00280739,
+        "interest_expenses": -685,
+        "cur_liab_total": 10667,
+        "bv": 6618,
+        "pre_tax_profit": -665,
+        "ebitda_percent": 0.08483196,
+        "fin_ass_ib": 6268,
+        "costs": -22493,
+        "bs_total_liab": 34309,
+        "lt_liab_total": 12664,
+        "ptp_without_extras": -665,
+        "ebitda": 2085,
+        "cap_invested": 13643,
+        "dep_total": -2154,
+        "total_cur_ass": 12103,
+        "equity_total": 8110,
+        "taxes_paid": -44,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -16522.41353383,
+        "st_debt": 1399,
+        "gearing_percent": 1.02774353
+      },
+      "2020": {
+        "eps_diluted": 0.2653124,
+        "goodwill": 207,
+        "gross_cap_expenditure": 5550,
+        "total_non_cur_ass": 25431,
+        "operating_cash_flow": 5620.45233969,
+        "roi_after_tax_beg_cap": 0.10917337,
+        "net_fin_items": -840,
+        "net_debt": -6105,
+        "equity_ratio": 0.45407302,
+        "roe_percent": 0.05977187,
+        "change_in_wc": -1724,
+        "ebit_gp": -29.89855072,
+        "bs_total_assets": 52148,
+        "total_receivables": 3232,
+        "ebit_without_extras": 1994,
+        "inventories": 4101,
+        "lt_debt": 8513,
+        "free_cash_flow_to_firm": 357.45233969,
+        "capex_excl_acq_divest": -5550,
+        "gross_cap_expenditure_nega": -5550,
+        "net_earnings": 862,
+        "wacc": 0.0643,
+        "ebitda_gp": 1.07002398,
+        "cf_change_in_cash": 13028,
+        "adj_net_earnings": 862,
+        "ebit": 1994,
+        "eps": 0.30796713,
+        "change_in_wc_nega": 1724,
+        "no_of_shares_total": 2799,
+        "fin_income": 30,
+        "dividend_ps": 0,
+        "other_intangible_rights": 313,
+        "pretax_percent": 0.0365931,
+        "tangible_ass": 23378,
+        "net_earnings_percent": 0.02733384,
+        "ns_growth": 0.28309871,
+        "cf_from_operations": 4908,
+        "ns": 31536,
+        "current_ratio": 1.87514037,
+        "cf_from_fin_activities": 13670,
+        "eva": 612.20743969,
+        "ebit_percent": 0.06322933,
+        "interest_expenses": -748,
+        "cur_liab_total": 14248,
+        "bv": 22225,
+        "pre_tax_profit": 1154,
+        "ebitda_percent": 0.13685946,
+        "eps_gp": -2.05503578,
+        "fin_ass_ib": 19384,
+        "costs": -27220,
+        "bs_total_liab": 52148,
+        "lt_liab_total": 11062,
+        "ptp_without_extras": 1154,
+        "ebitda": 4316,
+        "cap_invested": 14566,
+        "dep_total": -2322,
+        "total_cur_ass": 26717,
+        "equity_total": 23679,
+        "taxes_paid": -207,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 357.45233969,
+        "st_debt": 1758,
+        "gearing_percent": -0.25782339,
+        "p_per_s": 20.87711758,
+        "p_per_bv": 29.62343217,
+        "pe": 763.78280742,
+        "ev_per_ns": 22.04934838,
+        "enterprise_value": 695348.2503766,
+        "market_cap_ye": 658380.78,
+        "pe_adj_i": 763.78280742,
+        "ev_per_ebitda": 161.10941853,
+        "ev_per_ebit": 348.72028605,
+        "p_per_fcf": 1841.87010938
+      },
+      "2021": {
+        "eps_diluted": 1.66834022,
+        "goodwill": 200,
+        "gross_cap_expenditure": 12507,
+        "total_non_cur_ass": 35027,
+        "operating_cash_flow": 12524.16396027,
+        "roi_after_tax_beg_cap": 0.39847343,
+        "net_fin_items": -180,
+        "net_debt": -8703,
+        "equity_ratio": 0.50832918,
+        "roe_percent": 0.2155531,
+        "change_in_wc": -3936,
+        "ebit_gp": 2.27131394,
+        "bs_total_assets": 62131,
+        "net_debt_per_ebitda": -0.92251431,
+        "total_receivables": 3767,
+        "ebit_without_extras": 6523,
+        "inventories": 5757,
+        "lt_debt": 4254,
+        "free_cash_flow_to_firm": 507.16396027,
+        "capex_excl_acq_divest": -12507,
+        "gross_cap_expenditure_nega": -12507,
+        "net_earnings": 5649,
+        "wacc": 0.0643,
+        "ebitda_gp": 1.1858202,
+        "cf_change_in_cash": -1677,
+        "adj_net_earnings": 5649,
+        "ebit": 6523,
+        "eps": 1.90909091,
+        "change_in_wc_nega": 3936,
+        "no_of_shares_total": 2959,
+        "fin_income": 191,
+        "dividend_ps": 0,
+        "other_intangible_rights": 1517,
+        "pretax_percent": 0.11784925,
+        "tangible_ass": 31176,
+        "net_earnings_percent": 0.10495513,
+        "ns_growth": 0.70671613,
+        "cf_from_operations": 12496,
+        "ns": 53823,
+        "current_ratio": 1.37528546,
+        "cf_from_fin_activities": -1666,
+        "eva": 4872.57016027,
+        "ebit_percent": 0.12119354,
+        "interest_expenses": -371,
+        "cur_liab_total": 19705,
+        "bv": 30189,
+        "pre_tax_profit": 6343,
+        "ebitda_percent": 0.17527823,
+        "eps_gp": 5.19900865,
+        "fin_ass_ib": 17576,
+        "costs": -44389,
+        "bs_total_liab": 62131,
+        "lt_liab_total": 7288,
+        "ptp_without_extras": 6343,
+        "ebitda": 9434,
+        "cap_invested": 19349,
+        "dep_total": -2911,
+        "total_cur_ass": 27100,
+        "equity_total": 31583,
+        "taxes_paid": -826,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 502.16396027,
+        "st_debt": 1088,
+        "gearing_percent": -0.27555964,
+        "p_per_s": 19.36602085,
+        "p_per_bv": 34.52705754,
+        "pe": 184.51714286,
+        "ev_per_ns": 20.09856489,
+        "enterprise_value": 1081765.05820729,
+        "market_cap_ye": 1042337.34,
+        "pe_adj_i": 184.51714286,
+        "ev_per_ebitda": 114.6666375,
+        "ev_per_ebit": 165.83858013,
+        "p_per_fcf": 2055.22754307
+      },
+      "2022": {
+        "eps_diluted": 3.62992806,
+        "goodwill": 194,
+        "gross_cap_expenditure": 9813,
+        "total_non_cur_ass": 41093,
+        "operating_cash_flow": 7942.19833807,
+        "roi_after_tax_beg_cap": 0.64753725,
+        "net_fin_items": 63,
+        "net_debt": -10505,
+        "equity_ratio": 0.55743399,
+        "roe_percent": 0.33685391,
+        "change_in_wc": 8064,
+        "ebit_gp": 1.09351525,
+        "bs_total_assets": 82338,
+        "net_debt_per_ebitda": -0.60363156,
+        "total_receivables": 11825,
+        "ebit_without_extras": 13656,
+        "inventories": 12839,
+        "lt_debt": 1029,
+        "free_cash_flow_to_firm": 39.19833807,
+        "capex_excl_acq_divest": -9813,
+        "gross_cap_expenditure_nega": -9813,
+        "net_earnings": 12614,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.84471062,
+        "cf_change_in_cash": -1057,
+        "adj_net_earnings": 12614,
+        "ebit": 13656,
+        "eps": 4.03003195,
+        "change_in_wc_nega": -8064,
+        "no_of_shares_total": 3130,
+        "fin_income": 297,
+        "dividend_ps": 0,
+        "other_intangible_rights": 399,
+        "pretax_percent": 0.16840981,
+        "tangible_ass": 36635,
+        "net_earnings_percent": 0.1548452,
+        "ns_growth": 0.51351653,
+        "cf_from_operations": 8297,
+        "ns": 81462,
+        "current_ratio": 1.53195552,
+        "cf_from_fin_activities": 459,
+        "eva": 11312.05763807,
+        "ebit_percent": 0.16763644,
+        "interest_expenses": -191,
+        "cur_liab_total": 26709,
+        "bv": 44704,
+        "pre_tax_profit": 13719,
+        "ebitda_percent": 0.21363335,
+        "eps_gp": 1.11096912,
+        "fin_ass_ib": 16253,
+        "costs": -64059,
+        "bs_total_liab": 82338,
+        "lt_liab_total": 5946,
+        "ptp_without_extras": 13719,
+        "ebitda": 17403,
+        "cap_invested": 31690,
+        "dep_total": -3747,
+        "total_cur_ass": 40917,
+        "equity_total": 45898,
+        "taxes_paid": -1402,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 12.19833807,
+        "st_debt": 1016,
+        "gearing_percent": -0.22887708,
+        "p_per_s": 4.73292333,
+        "p_per_bv": 8.62458393,
+        "pe": 30.56551451,
+        "ev_per_ns": 4.73037923,
+        "enterprise_value": 385346.15321224,
+        "market_cap_ye": 385553.4,
+        "pe_adj_i": 30.56551451,
+        "ev_per_ebitda": 22.14251297,
+        "ev_per_ebit": 28.21808386,
+        "p_per_fcf": 9835.96292523
+      },
+      "2023": {
+        "eps_diluted": 4.30005025,
+        "goodwill": 253,
+        "gross_cap_expenditure": 12797,
+        "total_non_cur_ass": 50269,
+        "operating_cash_flow": 4094.32,
+        "roi_after_tax_beg_cap": 0.20761565,
+        "net_fin_items": 1082,
+        "net_debt": -6825,
+        "equity_ratio": 0.59660658,
+        "roe_percent": 0.27904377,
+        "change_in_wc": 7474,
+        "ebit_gp": -0.34893087,
+        "bs_total_assets": 106618,
+        "net_debt_per_ebitda": -0.54547634,
+        "total_receivables": 19592,
+        "ebit_without_extras": 8891,
+        "inventories": 13626,
+        "lt_debt": 2682,
+        "free_cash_flow_to_firm": -6954.68,
+        "capex_excl_acq_divest": -12797,
+        "gross_cap_expenditure_nega": -12797,
+        "net_earnings": 14976,
+        "wacc": 0.0643,
+        "ebitda_gp": -0.2810435,
+        "cf_change_in_cash": 6893,
+        "adj_net_earnings": 14976,
+        "ebit": 8891,
+        "eps": 4.71907988,
+        "change_in_wc_nega": -7474,
+        "no_of_shares_total": 3173.5,
+        "fin_income": 1238,
+        "dividend_ps": 0,
+        "other_intangible_rights": 362,
+        "pretax_percent": 0.1030556,
+        "tangible_ass": 45123,
+        "net_earnings_percent": 0.15475391,
+        "ns_growth": 0.18795267,
+        "cf_from_operations": 11384,
+        "ns": 96773,
+        "current_ratio": 1.72589398,
+        "cf_from_fin_activities": 8306,
+        "eva": 4543.673,
+        "ebit_percent": 0.0918748,
+        "interest_expenses": -156,
+        "cur_liab_total": 28748,
+        "bv": 62634,
+        "pre_tax_profit": 9973,
+        "ebitda_percent": 0.12929226,
+        "eps_gp": 0.17097828,
+        "fin_ass_ib": 16398,
+        "costs": -84261,
+        "bs_total_liab": 106618,
+        "lt_liab_total": 9345,
+        "ptp_without_extras": 9973,
+        "ebitda": 12512,
+        "cap_invested": 51868,
+        "dep_total": -3621,
+        "total_cur_ass": 49616,
+        "equity_total": 63609,
+        "taxes_paid": -1225,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -6956.68,
+        "st_debt": 1975,
+        "gearing_percent": -0.10729614,
+        "p_per_s": 8.14846372,
+        "p_per_bv": 12.58982789,
+        "pe": 52.65433226,
+        "ev_per_ns": 8.20478193,
+        "enterprise_value": 794001.36219178,
+        "market_cap_ye": 788551.28,
+        "pe_adj_i": 52.65433226,
+        "ev_per_ebitda": 63.45918815,
+        "ev_per_ebit": 89.30394356,
+        "p_per_fcf": -113.38426498
+      },
+      "2024": {
+        "eps_diluted": 2.04488279,
+        "goodwill": 244,
+        "gross_cap_expenditure": 12285,
+        "total_non_cur_ass": 57186,
+        "operating_cash_flow": 1868.17419355,
+        "roi_after_tax_beg_cap": 0.10775766,
+        "net_fin_items": 1914,
+        "net_debt": -2516,
+        "equity_ratio": 0.60358811,
+        "roe_percent": 0.10554273,
+        "change_in_wc": 9298,
+        "ebit_gp": -0.20413902,
+        "bs_total_assets": 122070,
+        "net_debt_per_ebitda": -0.20218579,
+        "total_receivables": 30204,
+        "ebit_without_extras": 7076,
+        "inventories": 12017,
+        "lt_debt": 5535,
+        "free_cash_flow_to_firm": -8790.82580645,
+        "capex_excl_acq_divest": -12285,
+        "gross_cap_expenditure_nega": -12285,
+        "net_earnings": 7153,
+        "wacc": 0.0643,
+        "ebitda_gp": -0.00543478,
+        "cf_change_in_cash": -520,
+        "adj_net_earnings": 7153,
+        "ebit": 7076,
+        "eps": 2.23741007,
+        "change_in_wc_nega": -9298,
+        "no_of_shares_total": 3197,
+        "fin_income": 2264,
+        "dividend_ps": 0,
+        "other_intangible_rights": 1226,
+        "pretax_percent": 0.0920258,
+        "tangible_ass": 51507,
+        "net_earnings_percent": 0.07322141,
+        "ns_growth": 0.00947578,
+        "cf_from_operations": 3171,
+        "ns": 97690,
+        "current_ratio": 2.02491239,
+        "cf_from_fin_activities": 8594,
+        "eva": 2254.06179355,
+        "ebit_percent": 0.07243321,
+        "interest_expenses": -350,
+        "cur_liab_total": 28821,
+        "bv": 72913,
+        "pre_tax_profit": 8990,
+        "ebitda_percent": 0.12738254,
+        "eps_gp": -0.52588002,
+        "fin_ass_ib": 16139,
+        "costs": -85246,
+        "bs_total_liab": 122070,
+        "lt_liab_total": 13824,
+        "ptp_without_extras": 8990,
+        "ebitda": 12444,
+        "cap_invested": 65419,
+        "dep_total": -5368,
+        "total_cur_ass": 58360,
+        "equity_total": 73680,
+        "taxes_paid": -1680,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -8790.82580645,
+        "st_debt": 2343,
+        "gearing_percent": -0.03414767,
+        "p_per_s": 13.21605569,
+        "p_per_bv": 17.70708214,
+        "pe": 180.49440514,
+        "ev_per_ns": 13.32932554,
+        "enterprise_value": 1302141.8120006,
+        "market_cap_ye": 1291076.48,
+        "pe_adj_i": 180.49440514,
+        "ev_per_ebitda": 104.64013275,
+        "ev_per_ebit": 184.02230243,
+        "p_per_fcf": -146.86634776
+      },
+      "2025": {
+        "eps_diluted": 1.09268707,
+        "goodwill": 257,
+        "gross_cap_expenditure": 11201,
+        "total_non_cur_ass": 62239,
+        "operating_cash_flow": 2615.84975369,
+        "roi_after_tax_beg_cap": 0.04862272,
+        "net_fin_items": 923,
+        "net_debt": -8137,
+        "equity_ratio": 0.60131634,
+        "roe_percent": 0.04972589,
+        "change_in_wc": 6312,
+        "ebit_gp": -0.38453929,
+        "bs_total_assets": 137806,
+        "net_debt_per_ebitda": -0.77473103,
+        "total_receivables": 39737,
+        "ebit_without_extras": 4355,
+        "inventories": 12392,
+        "lt_debt": 6736,
+        "free_cash_flow_to_firm": -383.15024631,
+        "capex_excl_acq_divest": -11201,
+        "gross_cap_expenditure_nega": -11201,
+        "net_earnings": 3855,
+        "wacc": 0.0643,
+        "ebitda_gp": -0.15597878,
+        "cf_change_in_cash": 775,
+        "adj_net_earnings": 3855,
+        "ebit": 4355,
+        "eps": 1.19534884,
+        "change_in_wc_nega": -6312,
+        "no_of_shares_total": 3225,
+        "fin_income": 1680,
+        "dividend_ps": 0,
+        "other_intangible_rights": 135,
+        "pretax_percent": 0.05565925,
+        "tangible_ass": 40643,
+        "net_earnings_percent": 0.04065298,
+        "ns_growth": -0.02930699,
+        "cf_from_operations": 3691,
+        "ns": 94827,
+        "current_ratio": 2.16440689,
+        "cf_from_fin_activities": 8285,
+        "eva": -1025.59194631,
+        "ebit_percent": 0.04592574,
+        "interest_expenses": -338,
+        "cur_liab_total": 31714,
+        "bv": 82137,
+        "pre_tax_profit": 5278,
+        "ebitda_percent": 0.11075959,
+        "eps_gp": -0.46574441,
+        "fin_ass_ib": 16513,
+        "costs": -84324,
+        "bs_total_liab": 137806,
+        "lt_liab_total": 23227,
+        "ptp_without_extras": 5278,
+        "ebitda": 10503,
+        "cap_invested": 74728,
+        "dep_total": -6148,
+        "total_cur_ass": 68642,
+        "equity_total": 82865,
+        "taxes_paid": -1824,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -383.15024631,
+        "st_debt": 1640,
+        "gearing_percent": -0.09819586,
+        "p_per_s": 15.29466291,
+        "p_per_bv": 17.65765733,
+        "pe": 376.22490272,
+        "ev_per_ns": 15.3444143,
+        "enterprise_value": 1455064.77453523,
+        "market_cap_ye": 1450347,
+        "pe_adj_i": 376.22490272,
+        "ev_per_ebitda": 138.53801528,
+        "ev_per_ebit": 334.11361069,
+        "p_per_fcf": -3785.32185216
+      },
+      "2026": {
+        "eps_diluted": 1.74321346,
+        "goodwill": 257,
+        "gross_cap_expenditure": 19488.13855629,
+        "total_non_cur_ass": 68998.13855629,
+        "operating_cash_flow": 17746.8506454,
+        "roi_after_tax_beg_cap": 0.06876282,
+        "net_fin_items": 540.49898624,
+        "net_debt": -6879.06720996,
+        "equity_ratio": 0.60396145,
+        "roe_percent": 0.06618011,
+        "change_in_wc": 120.65764987,
+        "ebit_gp": 0.31940299,
+        "bs_total_assets": 146510.77991758,
+        "net_debt_per_ebitda": -0.37234464,
+        "total_receivables": 39990.44125594,
+        "ebit_without_extras": 5746,
+        "inventories": 13097.71300796,
+        "lt_debt": 5310.15994372,
+        "free_cash_flow_to_firm": -1741.28791088,
+        "capex_excl_acq_divest": -19488.13855629,
+        "gross_cap_expenditure_nega": -19488.13855629,
+        "net_earnings": 5621.86341611,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.75902123,
+        "cf_change_in_cash": 986.48709739,
+        "adj_net_earnings": 5621.86341611,
+        "ebit": 5746,
+        "eps": 1.74321346,
+        "change_in_wc_nega": -120.65764987,
+        "no_of_shares_total": 3755.72,
+        "fin_income": 1441.65824145,
+        "dividend_ps": 0,
+        "other_intangible_rights": 145.68018602,
+        "pretax_percent": 0.06143419,
+        "tangible_ass": 47391.45837026,
+        "net_earnings_percent": 0.0549391,
+        "ns_growth": 0.07911249,
+        "cf_from_operations": 18230.20576625,
+        "ns": 102329,
+        "current_ratio": 1.94870982,
+        "cf_from_fin_activities": 2244.41988743,
+        "eva": 333.49789527,
+        "ebit_percent": 0.05615221,
+        "interest_expenses": -594.95925521,
+        "cur_liab_total": 36222.75655775,
+        "bv": 87758.86341611,
+        "pre_tax_profit": 6286.49898624,
+        "ebitda_percent": 0.1805451,
+        "eps_gp": 0.45833033,
+        "fin_ass_ib": 17499.48709739,
+        "costs": -83854,
+        "bs_total_liab": 146510.77991758,
+        "lt_liab_total": 21801.15994372,
+        "ptp_without_extras": 6286.49898624,
+        "ebitda": 18475,
+        "cap_invested": 81607.79620615,
+        "dep_total": -12729,
+        "total_cur_ass": 70587.64136129,
+        "equity_total": 88486.86341611,
+        "taxes_paid": -664.63557012,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -1741.28791088,
+        "st_debt": 5310.25994372,
+        "gearing_percent": -0.07774111,
+        "adj_no_of_shares_a": 3755.72,
+        "p_per_s": 13.15036304,
+        "p_per_bv": 17.85701941,
+        "pe": 239.36253879,
+        "ev_per_ns": 15.3742592,
+        "enterprise_value": 1573232.57011868,
+        "mva": 1479352.86378389,
+        "market_cap_ye": 1567111.7272,
+        "pe_adj_i": 239.36253879,
+        "ev_per_ebitda": 85.15467227,
+        "ev_per_ebit": 273.79613124,
+        "p_per_fcf": -772.79781913
+      },
+      "2027": {
+        "eps_diluted": 3.08216752,
+        "goodwill": 257,
+        "gross_cap_expenditure": 17345.40804627,
+        "total_non_cur_ass": 76377.54660256,
+        "operating_cash_flow": 19037.50378797,
+        "roi_after_tax_beg_cap": 0.11103167,
+        "net_fin_items": 948.77695258,
+        "net_debt": -9450.10327843,
+        "equity_ratio": 0.61752358,
+        "roe_percent": 0.10719414,
+        "change_in_wc": -10.45386188,
+        "ebit_gp": 0.70222764,
+        "bs_total_assets": 159389.62798598,
+        "net_debt_per_ebitda": -0.47855893,
+        "total_receivables": 40740.13757224,
+        "ebit_without_extras": 9781,
+        "inventories": 15130.9310706,
+        "lt_debt": 5382.90473108,
+        "free_cash_flow_to_firm": 1692.09574171,
+        "capex_excl_acq_divest": -17345.40804627,
+        "gross_cap_expenditure_nega": -17345.40804627,
+        "net_earnings": 9939.99025286,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.0688498,
+        "cf_change_in_cash": 2716.52564319,
+        "adj_net_earnings": 9939.99025286,
+        "ebit": 9781,
+        "eps": 3.08216752,
+        "change_in_wc_nega": 10.45386188,
+        "no_of_shares_total": 3755.72,
+        "fin_income": 1581.50130175,
+        "dividend_ps": 0,
+        "other_intangible_rights": 168.29478946,
+        "pretax_percent": 0.0907657,
+        "tangible_ass": 54748.2518131,
+        "net_earnings_percent": 0.08408471,
+        "ns_growth": 0.15523459,
+        "cf_from_operations": 19916.44411474,
+        "ns": 118214,
+        "current_ratio": 1.94651527,
+        "cf_from_fin_activities": 145.48957472,
+        "eva": 3324.02185281,
+        "ebit_percent": 0.08273978,
+        "interest_expenses": -326.52434917,
+        "cur_liab_total": 39088.86958592,
+        "bv": 97698.85366897,
+        "pre_tax_profit": 10729.77695258,
+        "ebitda_percent": 0.16704451,
+        "eps_gp": 0.76809529,
+        "fin_ass_ib": 20216.01274059,
+        "costs": -98467,
+        "bs_total_liab": 159389.62798598,
+        "lt_liab_total": 21873.90473108,
+        "ptp_without_extras": 10729.77695258,
+        "ebitda": 19747,
+        "cap_invested": 88976.75039055,
+        "dep_total": -9966,
+        "total_cur_ass": 76087.08138342,
+        "equity_total": 98426.85366897,
+        "taxes_paid": -789.78669972,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 1692.09574171,
+        "st_debt": 5383.00473108,
+        "gearing_percent": -0.09601143,
+        "p_per_bv": 16.04022635
+      },
+      "2028": {
+        "eps_diluted": 5.04464408,
+        "goodwill": 257,
+        "gross_cap_expenditure": 21112.30062229,
+        "total_non_cur_ass": 85625.84722485,
+        "operating_cash_flow": 26980.08645133,
+        "roi_after_tax_beg_cap": 0.1697408,
+        "net_fin_items": 1258.63654668,
+        "net_debt": -16483.88119297,
+        "equity_ratio": 0.65342526,
+        "roe_percent": 0.15372261,
+        "change_in_wc": -13.10138384,
+        "ebit_gp": 0.66680299,
+        "bs_total_assets": 175530.14465866,
+        "net_debt_per_ebitda": -0.58521963,
+        "total_receivables": 41679.70032105,
+        "ebit_without_extras": 16303,
+        "inventories": 17679.07744711,
+        "lt_debt": 3568.26923634,
+        "free_cash_flow_to_firm": 5867.78582904,
+        "capex_excl_acq_divest": -21112.30062229,
+        "gross_cap_expenditure_nega": -21112.30062229,
+        "net_earnings": 16268.97715299,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.42639388,
+        "cf_change_in_cash": 3404.50692506,
+        "adj_net_earnings": 16268.97715299,
+        "ebit": 16303,
+        "eps": 5.04464408,
+        "change_in_wc_nega": 13.10138384,
+        "no_of_shares_total": 3755.72,
+        "fin_income": 1838.17086774,
+        "dividend_ps": 0,
+        "other_intangible_rights": 196.63671739,
+        "pretax_percent": 0.12714583,
+        "tangible_ass": 63968.21050746,
+        "net_earnings_percent": 0.11778701,
+        "ns_growth": 0.16840645,
+        "cf_from_operations": 28146.07853683,
+        "ns": 138122,
+        "current_ratio": 2.03505105,
+        "cf_from_fin_activities": -3629.27098947,
+        "eva": 8847.91951504,
+        "ebit_percent": 0.11803333,
+        "interest_expenses": -273.33432107,
+        "cur_liab_total": 40775.04460035,
+        "bv": 113967.83082197,
+        "pre_tax_profit": 17561.63654668,
+        "ebitda_percent": 0.20392841,
+        "eps_gp": 0.63671963,
+        "fin_ass_ib": 23620.51966565,
+        "costs": -109955,
+        "bs_total_liab": 175530.14465866,
+        "lt_liab_total": 20059.26923634,
+        "ptp_without_extras": 17561.63654668,
+        "ebitda": 28167,
+        "cap_invested": 98211.949629,
+        "dep_total": -11864,
+        "total_cur_ass": 82979.29743381,
+        "equity_total": 114695.83082197,
+        "taxes_paid": -1292.65939368,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 5867.78582904,
+        "st_debt": 3568.36923634,
+        "gearing_percent": -0.14371822,
+        "p_per_bv": 13.75047429
+      },
+      "2029": {
+        "eps_diluted": 4.42493607,
+        "goodwill": 257,
+        "gross_cap_expenditure": 10083.62904119,
+        "total_non_cur_ass": 87086.4955943,
+        "operating_cash_flow": 21224.49106208,
+        "roi_after_tax_beg_cap": 0.12828827,
+        "net_fin_items": 1803.74597059,
+        "net_debt": -29295.72085352,
+        "equity_ratio": 0.70389919,
+        "roe_percent": 0.117837,
+        "change_in_wc": -2.06919257,
+        "ebit_gp": -0.16576484,
+        "bs_total_assets": 183216.93234886,
+        "net_debt_per_ebitda": -1.31823066,
+        "total_receivables": 41828.09199354,
+        "ebit_without_extras": 13600.53584966,
+        "inventories": 18081.52390749,
+        "free_cash_flow_to_firm": 11140.86202089,
+        "capex_excl_acq_divest": -10083.62904119,
+        "gross_cap_expenditure_nega": -10083.62904119,
+        "net_earnings": 14270.41883744,
+        "wacc": 0.0703,
+        "ebitda_gp": -0.21100875,
+        "cf_change_in_cash": 5675.30118787,
+        "adj_net_earnings": 14270.41883744,
+        "ebit": 13600.53584966,
+        "eps": 4.42493607,
+        "change_in_wc_nega": 2.06919257,
+        "no_of_shares_total": 3755.72,
+        "fin_income": 2218.90898369,
+        "dividend_ps": 0,
+        "other_intangible_rights": 201.11295497,
+        "pretax_percent": 0.10904435,
+        "tangible_ass": 65424.38263933,
+        "net_earnings_percent": 0.10101792,
+        "ns_growth": 0.022764,
+        "cf_from_operations": 22895.46870174,
+        "ns": 141266.20874998,
+        "current_ratio": 2.36245197,
+        "cf_from_fin_activities": -7136.53847268,
+        "eva": 5695.14113885,
+        "ebit_percent": 0.09627593,
+        "interest_expenses": -108.96301309,
+        "cur_liab_total": 37759.68268945,
+        "bv": 128238.2496594,
+        "pre_tax_profit": 15404.28182025,
+        "ebitda_percent": 0.15731658,
+        "eps_gp": -0.12284474,
+        "fin_ass_ib": 24158.21709699,
+        "costs": -119042.69222859,
+        "bs_total_liab": 183216.93234886,
+        "lt_liab_total": 16491,
+        "ptp_without_extras": 15404.28182025,
+        "ebitda": 22223.51652139,
+        "cap_invested": 99670.52880588,
+        "dep_total": -8622.98067174,
+        "total_cur_ass": 89205.43675456,
+        "equity_total": 128966.2496594,
+        "taxes_paid": -1133.86298281,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 11140.86202089,
+        "st_debt": 0.1,
+        "gearing_percent": -0.22715804,
+        "p_per_bv": 12.22031439
+      },
+      "20241": {
+        "eps_diluted": 0.19668382,
+        "costs": -18884,
+        "ns": 21301,
+        "net_fin_items": 717,
+        "ebit": 1171,
+        "eps": 0.43947451,
+        "ebitda": 2417,
+        "dep_total": -1246,
+        "history": 1,
+        "ebit_percent": 0.05497394,
+        "pre_tax_profit": 1888,
+        "ebitda_percent": 0.11346885,
+        "net_earnings": 1405
+      },
+      "20242": {
+        "eps_diluted": 0.35277301,
+        "costs": -22617,
+        "ns": 25500,
+        "net_fin_items": 182,
+        "ebit": 1605,
+        "eps": 0.44291523,
+        "ebitda": 2883,
+        "dep_total": -1278,
+        "history": 1,
+        "ebit_percent": 0.06294118,
+        "pre_tax_profit": 1787,
+        "ebitda_percent": 0.11305882,
+        "net_earnings": 1416,
+        "ns_growth": 0.02298712
+      },
+      "20243": {
+        "eps_diluted": 0.6049171,
+        "costs": -21117,
+        "ns": 25182,
+        "net_fin_items": 67,
+        "ebit": 2717,
+        "eps": 0.68282765,
+        "ebitda": 4065,
+        "dep_total": -1348,
+        "history": 1,
+        "ebit_percent": 0.10789453,
+        "pre_tax_profit": 2784,
+        "ebitda_percent": 0.16142483,
+        "net_earnings": 2183,
+        "ns_growth": 0.07845824
+      },
+      "20244": {
+        "eps_diluted": 0.32847341,
+        "costs": -22628,
+        "ns": 25707,
+        "net_fin_items": 1183,
+        "ebit": 1583,
+        "eps": 0.72943384,
+        "ebitda": 3079,
+        "dep_total": -1496,
+        "history": 1,
+        "ebit_percent": 0.06157856,
+        "pre_tax_profit": 2766,
+        "ebitda_percent": 0.11977282,
+        "net_earnings": 2332,
+        "ns_growth": 0.02145667
+      },
+      "20251": {
+        "eps_diluted": 0.11904762,
+        "costs": -17489,
+        "ns": 19335,
+        "net_fin_items": 190,
+        "ebit": 399,
+        "eps": 0.13023256,
+        "ebitda": 1846,
+        "dep_total": -1447,
+        "history": 1,
+        "ebit_percent": 0.02063615,
+        "pre_tax_profit": 589,
+        "ebitda_percent": 0.09547453,
+        "net_earnings": 420,
+        "ns_growth": -0.09229614
+      },
+      "20252": {
+        "eps_diluted": 0.33730159,
+        "costs": -20140,
+        "ns": 22496,
+        "net_fin_items": 626,
+        "ebit": 923,
+        "eps": 0.36899225,
+        "ebitda": 2356,
+        "dep_total": -1433,
+        "history": 1,
+        "ebit_percent": 0.04102952,
+        "pre_tax_profit": 1549,
+        "ebitda_percent": 0.10472973,
+        "net_earnings": 1190,
+        "ns_growth": -0.11780392
+      },
+      "20253": {
+        "eps_diluted": 0.39370748,
+        "costs": -24846,
+        "ns": 28095,
+        "net_fin_items": 335,
+        "ebit": 1624,
+        "eps": 0.43069767,
+        "ebitda": 3249,
+        "dep_total": -1625,
+        "history": 1,
+        "ebit_percent": 0.05780388,
+        "pre_tax_profit": 1959,
+        "ebitda_percent": 0.11564335,
+        "net_earnings": 1389,
+        "ns_growth": 0.11567787
+      },
+      "20254": {
+        "eps_diluted": 0.24263039,
+        "costs": -21849,
+        "ns": 24901,
+        "net_fin_items": -228,
+        "ebit": 1409,
+        "eps": 0.26542636,
+        "ebitda": 3052,
+        "dep_total": -1643,
+        "history": 1,
+        "ebit_percent": 0.05658407,
+        "pre_tax_profit": 1181,
+        "ebitda_percent": 0.12256536,
+        "net_earnings": 856,
+        "ns_growth": -0.03135333
+      },
+      "20261": {
+        "eps_diluted": 0.15224806,
+        "costs": -21446,
+        "ns": 22387,
+        "net_fin_items": -193,
+        "ebit": 941,
+        "eps": 0.15224806,
+        "ebitda": 941,
+        "history": 1,
+        "ebit_percent": 0.04203332,
+        "pre_tax_profit": 748,
+        "ebitda_percent": 0.04203332,
+        "net_earnings": 491,
+        "ns_growth": 0.15784846
+      },
+      "20262": {
+        "eps_diluted": 0.50302001,
+        "costs": -19183.20545439,
+        "ns": 23901.73535036,
+        "net_fin_items": 626,
+        "ebit": 1125.13534796,
+        "eps": 0.50302001,
+        "ebitda": 4718.52989598,
+        "dep_total": -3593.39454801,
+        "history": 0,
+        "ebit_percent": 0.04707337,
+        "pre_tax_profit": 1751.13534796,
+        "ebitda_percent": 0.1974137,
+        "net_earnings": 1622.23952717,
+        "ns_growth": 0.06248824
+      },
+      "20263": {
+        "eps_diluted": 0.66489253,
+        "costs": -23201.75495835,
+        "ns": 29850.60698206,
+        "net_fin_items": 335,
+        "ebit": 1979.65309327,
+        "eps": 0.66489253,
+        "ebitda": 6648.85202371,
+        "dep_total": -4669.19893044,
+        "history": 0,
+        "ebit_percent": 0.06631869,
+        "pre_tax_profit": 2314.65309327,
+        "ebitda_percent": 0.22273758,
+        "net_earnings": 2144.2784214,
+        "ns_growth": 0.06248824
+      },
+      "20264": {
+        "eps_diluted": 0.42289813,
+        "costs": -20023.03958727,
+        "ns": 26189.65766758,
+        "net_fin_items": -228,
+        "ebit": 1700.21155877,
+        "eps": 0.42289813,
+        "ebitda": 6166.61808031,
+        "dep_total": -4466.40652154,
+        "history": 0,
+        "ebit_percent": 0.0649192,
+        "pre_tax_profit": 1472.21155877,
+        "ebitda_percent": 0.23546005,
+        "net_earnings": 1363.84648152,
+        "ns_growth": 0.05175124
+      }
+    },
+    "textDataMap": {},
+    "costItem": {
+      "cost01": "Costitem 1",
+      "cost02": "Costitem 2",
+      "cost03": "Costitem 3",
+      "cost04": "Costitem 4",
+      "cost05": "Costitem 5",
+      "cost06": "Costitem 6",
+      "cost07": "Costitem 7",
+      "cost08": "Costitem 8"
+    },
+    "financialBulletin": {},
+    "followedModelId": 12823,
+    "companyName": "Tesla",
+    "analystName": "ValuatumDataSources",
+    "companyId": 3545,
+    "companyCode": "US88160R1014",
+    "currency": "USD",
+    "currentYear": 2026,
+    "orderNo": 4,
+    "recommendation": {
+      "recLevel": 0,
+      "lastUpdated": "2025-06-18T13:22:58.917Z"
+    }
+  },
+  "creditRisk": null,
+  "analysis": {
+    "johto": null,
+    "toiminta": null,
+    "asema": null
+  },
+  "autotext": {},
+  "bankruptcyVizPng": null,
+  "bankruptcyRiskModel": "brm_ValuBooster2",
+  "consensus": {
+    "companyName": "Tesla",
+    "ticker": "TSLA",
+    "updated": "2026-05-21",
+    "consensusData": [
+      {
+        "consensusdataid": 103397,
+        "varname": "ebitda",
+        "pos": 2026,
+        "value": 15207
+      },
+      {
+        "consensusdataid": 103398,
+        "varname": "ebitda",
+        "pos": 2027,
+        "value": 19747
+      },
+      {
+        "consensusdataid": 103400,
+        "varname": "ebit",
+        "pos": 2026,
+        "value": 5746
+      },
+      {
+        "consensusdataid": 103401,
+        "varname": "ebit",
+        "pos": 2027,
+        "value": 9781
+      },
+      {
+        "consensusdataid": 103403,
+        "varname": "ns",
+        "pos": 2026,
+        "value": 102329
+      },
+      {
+        "consensusdataid": 103404,
+        "varname": "ns",
+        "pos": 2027,
+        "value": 118214
+      },
+      {
+        "consensusdataid": 140582,
+        "varname": "ebitda",
+        "pos": 2028,
+        "value": 28167
+      },
+      {
+        "consensusdataid": 140583,
+        "varname": "ns",
+        "pos": 2028,
+        "value": 138122
+      },
+      {
+        "consensusdataid": 140669,
+        "varname": "ebit",
+        "pos": 2028,
+        "value": 16303
+      }
+    ]
+  },
+  "quote": {
+    "ticker": "TSLA",
+    "currency": "USD",
+    "price": 308.285
+  },
+  "actualYears": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "estimateYears": [
+    "2026",
+    "2027",
+    "2028",
+    "2029"
+  ],
+  "narrativeCache": {
+    "data": {
+      "identity": {
+        "companyName": "Tesla, Inc.",
+        "ticker": "TSLA",
+        "exchange": "NASDAQ Global Select",
+        "sector": "Auto - Manufacturers",
+        "country": "United States",
+        "reportDateLong": "28 July 2026",
+        "reportDateShort": "28.07.2026",
+        "currency": "USD",
+        "companyProfile": "Tesla designs, manufactures and sells battery-electric vehicles, along with related software (including Full Self-Driving features), servicing, insurance and Supercharging infrastructure, through its Automotive segment. Its second reportable segment, Energy Generation and Storage, produces and deploys solar energy systems and grid-scale and residential battery storage products (Megapack and Powerwall). Tesla is also investing in autonomous ride-hailing (robotaxi) services and humanoid robotics (Optimus), spanning electric mobility, clean energy infrastructure and artificial intelligence."
+      },
+      "recommendation": {
+        "rating": "SELL",
+        "targetPrice": 269.2,
+        "currentPrice": 308.29,
+        "priceAsOf": "Quote as of 28 July 2026",
+        "upsidePct": -12.7,
+        "twelveMonthView": "Tesla's valuation reflects extreme optionality for autonomy and robotics that is unsupported by current commercial realities, presenting material downside risk to its hardware-driven earnings.",
+        "mainDriver": "Deteriorating automotive gross margins",
+        "mainRisk": "Rapid validation of vision-only autonomy",
+        "prose": [
+          "Tesla currently trades at USD 308.29, well above our target price of USD 269.2, implying roughly 13% downside and supporting a SELL view over the next 12 months.",
+          "Tesla's valuation depends on one question: can its vision-only autonomy system close the commercial gap to Waymo before capital runs out. As of Q2/26, Tesla reports 380,000 cumulative unsupervised miles across seven test markets, while Waymo runs ~500,000 paid driverless rides per week across 10 US cities and logged ~50 million rider-only miles in Q1/26 alone. Despite zero standalone robotaxi revenue, this segment carries $654.8bn (45%) of the $1.455trn enterprise value, which would require ~$21.8bn in recurring after-tax cash flow to justify.",
+          "The market prices 70% of enterprise value ($1.02trn combined) on segments with zero current output, against our target price of $269.2 versus the current $308.29 quote. Tesla's 2026E EV/Sales of 8.4x is well above the auto peer median of 0.9x, though below its own 14.0x normalized average — a sign that optionality pricing has compressed but remains elevated."
+        ],
+        "thesisReasons": [
+          {
+            "title": "Massive scale gap versus Waymo",
+            "body": "Tesla has logged 380,000 cumulative unsupervised miles across seven cities, versus Waymo's roughly 500,000 weekly paid rides and 50 million miles in Q1/26 alone. This scale gap makes the $654.8bn Autonomy allocation - which needs $21.8bn in recurring after-tax cash flow to be justified - hard to support.",
+            "fig": "380k vs 500k"
+          },
+          {
+            "title": "Physical businesses must fund AI",
+            "body": "Group EBIT must rise from USD 4.35bn in 2025 to USD 16.3bn by 2028 as revenue grows to USD 138.1bn, but Auto and Energy cash flows must fund this, since Autonomy and Optimus contribute no modeled cash through the forecast window.",
+            "fig": "USD 16.3bn EBIT"
+          },
+          {
+            "title": "Untethered optionality valuation",
+            "body": "The market prices 70% of enterprise value, USD 1.02trn, on Autonomy and Optimus segments with zero current revenue, while Tesla's 8.4x 2026E EV/Sales exceeds the 0.9x auto peer median, pressuring the multiple toward our 7.5x target.",
+            "fig": "70% of EV"
+          }
+        ],
+        "thesisBreaker": "Securing unmonitored commercial robotaxi permits in California or Texas by late 2027 while Waymo struggles to scale."
+      },
+      "multiples": {
+        "forecastYear": 2026,
+        "pe": 239.36253879,
+        "evEbitda": 85.15467227,
+        "fcfYieldPct": -0.1,
+        "divYieldPct": null,
+        "ndEbitda": -0.37234464,
+        "dpsAbs": 0
+      },
+      "cover": {
+        "marketCap": 1567112,
+        "enterpriseValue": 1573233,
+        "netDebt": -8137,
+        "sharesOutstanding": 3755.7
+      },
+      "sharePrice": {
+        "points": [
+          {
+            "period": "2023-08-02",
+            "price": 254.11
+          },
+          {
+            "period": "2023-08-09",
+            "price": 242.19
+          },
+          {
+            "period": "2023-08-16",
+            "price": 225.6
+          },
+          {
+            "period": "2023-08-23",
+            "price": 236.86
+          },
+          {
+            "period": "2023-08-30",
+            "price": 256.9
+          },
+          {
+            "period": "2023-09-06",
+            "price": 251.92
+          },
+          {
+            "period": "2023-09-13",
+            "price": 271.3
+          },
+          {
+            "period": "2023-09-20",
+            "price": 262.59
+          },
+          {
+            "period": "2023-09-27",
+            "price": 240.5
+          },
+          {
+            "period": "2023-10-04",
+            "price": 261.16
+          },
+          {
+            "period": "2023-10-11",
+            "price": 262.99
+          },
+          {
+            "period": "2023-10-18",
+            "price": 242.68
+          },
+          {
+            "period": "2023-10-25",
+            "price": 212.42
+          },
+          {
+            "period": "2023-11-01",
+            "price": 205.66
+          },
+          {
+            "period": "2023-11-08",
+            "price": 222.11
+          },
+          {
+            "period": "2023-11-15",
+            "price": 242.84
+          },
+          {
+            "period": "2023-11-22",
+            "price": 234.21
+          },
+          {
+            "period": "2023-11-29",
+            "price": 244.14
+          },
+          {
+            "period": "2023-12-06",
+            "price": 239.37
+          },
+          {
+            "period": "2023-12-13",
+            "price": 239.29
+          },
+          {
+            "period": "2023-12-20",
+            "price": 247.14
+          },
+          {
+            "period": "2023-12-27",
+            "price": 261.44
+          },
+          {
+            "period": "2024-01-03",
+            "price": 238.45
+          },
+          {
+            "period": "2024-01-10",
+            "price": 233.94
+          },
+          {
+            "period": "2024-01-17",
+            "price": 215.55
+          },
+          {
+            "period": "2024-01-24",
+            "price": 207.83
+          },
+          {
+            "period": "2024-01-31",
+            "price": 187.29
+          },
+          {
+            "period": "2024-02-07",
+            "price": 187.58
+          },
+          {
+            "period": "2024-02-14",
+            "price": 188.71
+          },
+          {
+            "period": "2024-02-21",
+            "price": 194.77
+          },
+          {
+            "period": "2024-02-28",
+            "price": 202.04
+          },
+          {
+            "period": "2024-03-06",
+            "price": 176.54
+          },
+          {
+            "period": "2024-03-13",
+            "price": 169.48
+          },
+          {
+            "period": "2024-03-20",
+            "price": 175.66
+          },
+          {
+            "period": "2024-03-27",
+            "price": 179.83
+          },
+          {
+            "period": "2024-04-03",
+            "price": 168.38
+          },
+          {
+            "period": "2024-04-10",
+            "price": 171.76
+          },
+          {
+            "period": "2024-04-17",
+            "price": 155.45
+          },
+          {
+            "period": "2024-04-24",
+            "price": 162.13
+          },
+          {
+            "period": "2024-05-01",
+            "price": 179.99
+          },
+          {
+            "period": "2024-05-08",
+            "price": 174.72
+          },
+          {
+            "period": "2024-05-15",
+            "price": 173.99
+          },
+          {
+            "period": "2024-05-22",
+            "price": 180.11
+          },
+          {
+            "period": "2024-05-29",
+            "price": 176.19
+          },
+          {
+            "period": "2024-06-05",
+            "price": 175
+          },
+          {
+            "period": "2024-06-12",
+            "price": 177.29
+          },
+          {
+            "period": "2024-06-18",
+            "price": 184.86
+          },
+          {
+            "period": "2024-06-26",
+            "price": 196.37
+          },
+          {
+            "period": "2024-07-03",
+            "price": 246.39
+          },
+          {
+            "period": "2024-07-10",
+            "price": 263.26
+          },
+          {
+            "period": "2024-07-17",
+            "price": 248.5
+          },
+          {
+            "period": "2024-07-24",
+            "price": 215.99
+          },
+          {
+            "period": "2024-07-31",
+            "price": 232.07
+          },
+          {
+            "period": "2024-08-07",
+            "price": 191.76
+          },
+          {
+            "period": "2024-08-14",
+            "price": 201.38
+          },
+          {
+            "period": "2024-08-21",
+            "price": 223.27
+          },
+          {
+            "period": "2024-08-28",
+            "price": 205.75
+          },
+          {
+            "period": "2024-09-04",
+            "price": 219.41
+          },
+          {
+            "period": "2024-09-11",
+            "price": 228.13
+          },
+          {
+            "period": "2024-09-18",
+            "price": 227.2
+          },
+          {
+            "period": "2024-09-25",
+            "price": 257.02
+          },
+          {
+            "period": "2024-10-02",
+            "price": 249.02
+          },
+          {
+            "period": "2024-10-09",
+            "price": 241.05
+          },
+          {
+            "period": "2024-10-16",
+            "price": 221.33
+          },
+          {
+            "period": "2024-10-23",
+            "price": 213.65
+          },
+          {
+            "period": "2024-10-30",
+            "price": 257.55
+          },
+          {
+            "period": "2024-11-06",
+            "price": 288.53
+          },
+          {
+            "period": "2024-11-13",
+            "price": 330.24
+          },
+          {
+            "period": "2024-11-20",
+            "price": 342.03
+          },
+          {
+            "period": "2024-11-27",
+            "price": 332.89
+          },
+          {
+            "period": "2024-12-04",
+            "price": 357.93
+          },
+          {
+            "period": "2024-12-11",
+            "price": 424.77
+          },
+          {
+            "period": "2024-12-18",
+            "price": 440.13
+          },
+          {
+            "period": "2024-12-24",
+            "price": 462.28
+          },
+          {
+            "period": "2024-12-31",
+            "price": 403.84
+          },
+          {
+            "period": "2025-01-08",
+            "price": 394.94
+          },
+          {
+            "period": "2025-01-15",
+            "price": 428.22
+          },
+          {
+            "period": "2025-01-22",
+            "price": 415.11
+          },
+          {
+            "period": "2025-01-29",
+            "price": 389.1
+          },
+          {
+            "period": "2025-02-05",
+            "price": 378.17
+          },
+          {
+            "period": "2025-02-12",
+            "price": 336.51
+          },
+          {
+            "period": "2025-02-19",
+            "price": 360.56
+          },
+          {
+            "period": "2025-02-26",
+            "price": 290.8
+          },
+          {
+            "period": "2025-03-05",
+            "price": 279.1
+          },
+          {
+            "period": "2025-03-12",
+            "price": 248.09
+          },
+          {
+            "period": "2025-03-19",
+            "price": 235.86
+          },
+          {
+            "period": "2025-03-26",
+            "price": 272.06
+          },
+          {
+            "period": "2025-04-02",
+            "price": 282.76
+          },
+          {
+            "period": "2025-04-09",
+            "price": 272.2
+          },
+          {
+            "period": "2025-04-16",
+            "price": 241.55
+          },
+          {
+            "period": "2025-04-23",
+            "price": 250.74
+          },
+          {
+            "period": "2025-04-30",
+            "price": 282.16
+          },
+          {
+            "period": "2025-05-07",
+            "price": 276.22
+          },
+          {
+            "period": "2025-05-14",
+            "price": 347.68
+          },
+          {
+            "period": "2025-05-21",
+            "price": 334.62
+          },
+          {
+            "period": "2025-05-28",
+            "price": 356.9
+          },
+          {
+            "period": "2025-06-04",
+            "price": 332.05
+          },
+          {
+            "period": "2025-06-11",
+            "price": 326.43
+          },
+          {
+            "period": "2025-06-18",
+            "price": 322.05
+          },
+          {
+            "period": "2025-06-25",
+            "price": 327.55
+          },
+          {
+            "period": "2025-07-02",
+            "price": 315.65
+          },
+          {
+            "period": "2025-07-09",
+            "price": 295.88
+          },
+          {
+            "period": "2025-07-16",
+            "price": 321.67
+          },
+          {
+            "period": "2025-07-23",
+            "price": 332.56
+          },
+          {
+            "period": "2025-07-30",
+            "price": 319.04
+          },
+          {
+            "period": "2025-08-06",
+            "price": 319.91
+          },
+          {
+            "period": "2025-08-13",
+            "price": 339.38
+          },
+          {
+            "period": "2025-08-20",
+            "price": 323.9
+          },
+          {
+            "period": "2025-08-27",
+            "price": 349.6
+          },
+          {
+            "period": "2025-09-03",
+            "price": 334.09
+          },
+          {
+            "period": "2025-09-10",
+            "price": 347.79
+          },
+          {
+            "period": "2025-09-17",
+            "price": 425.86
+          },
+          {
+            "period": "2025-09-24",
+            "price": 442.79
+          },
+          {
+            "period": "2025-10-01",
+            "price": 459.46
+          },
+          {
+            "period": "2025-10-08",
+            "price": 438.69
+          },
+          {
+            "period": "2025-10-15",
+            "price": 435.15
+          },
+          {
+            "period": "2025-10-22",
+            "price": 438.97
+          },
+          {
+            "period": "2025-10-29",
+            "price": 461.51
+          },
+          {
+            "period": "2025-11-05",
+            "price": 462.07
+          },
+          {
+            "period": "2025-11-12",
+            "price": 430.6
+          },
+          {
+            "period": "2025-11-19",
+            "price": 403.99
+          },
+          {
+            "period": "2025-11-26",
+            "price": 426.58
+          },
+          {
+            "period": "2025-12-03",
+            "price": 446.74
+          },
+          {
+            "period": "2025-12-10",
+            "price": 451.45
+          },
+          {
+            "period": "2025-12-17",
+            "price": 467.26
+          },
+          {
+            "period": "2025-12-24",
+            "price": 485.4
+          },
+          {
+            "period": "2025-12-31",
+            "price": 449.72
+          },
+          {
+            "period": "2026-01-07",
+            "price": 431.41
+          },
+          {
+            "period": "2026-01-14",
+            "price": 439.2
+          },
+          {
+            "period": "2026-01-21",
+            "price": 431.44
+          },
+          {
+            "period": "2026-01-28",
+            "price": 431.46
+          },
+          {
+            "period": "2026-02-04",
+            "price": 406.01
+          },
+          {
+            "period": "2026-02-11",
+            "price": 428.27
+          },
+          {
+            "period": "2026-02-18",
+            "price": 411.32
+          },
+          {
+            "period": "2026-02-25",
+            "price": 417.4
+          },
+          {
+            "period": "2026-03-04",
+            "price": 405.94
+          },
+          {
+            "period": "2026-03-11",
+            "price": 407.82
+          },
+          {
+            "period": "2026-03-18",
+            "price": 392.78
+          },
+          {
+            "period": "2026-03-25",
+            "price": 385.95
+          },
+          {
+            "period": "2026-04-01",
+            "price": 381.26
+          },
+          {
+            "period": "2026-04-08",
+            "price": 343.25
+          },
+          {
+            "period": "2026-04-15",
+            "price": 391.95
+          },
+          {
+            "period": "2026-04-22",
+            "price": 387.51
+          },
+          {
+            "period": "2026-04-29",
+            "price": 372.8
+          },
+          {
+            "period": "2026-05-06",
+            "price": 398.73
+          },
+          {
+            "period": "2026-05-13",
+            "price": 445.27
+          },
+          {
+            "period": "2026-05-20",
+            "price": 417.26
+          },
+          {
+            "period": "2026-05-27",
+            "price": 440.36
+          },
+          {
+            "period": "2026-06-03",
+            "price": 423.7
+          },
+          {
+            "period": "2026-06-10",
+            "price": 381.59
+          },
+          {
+            "period": "2026-06-17",
+            "price": 396.38
+          },
+          {
+            "period": "2026-06-24",
+            "price": 375.53
+          },
+          {
+            "period": "2026-07-01",
+            "price": 425.3
+          },
+          {
+            "period": "2026-07-08",
+            "price": 394.06
+          },
+          {
+            "period": "2026-07-15",
+            "price": 394.46
+          },
+          {
+            "period": "2026-07-22",
+            "price": 374.01
+          },
+          {
+            "period": "2026-07-28",
+            "price": 308.29
+          }
+        ],
+        "targetLine": 269.2,
+        "quickFacts": {
+          "currentPrice": 308.29,
+          "currentPriceAsOf": "28 July 2026",
+          "targetPrice": 269.2,
+          "upsidePct": -12.7,
+          "fiftyTwoWeekHigh": 498.83,
+          "fiftyTwoWeekLow": 297.82,
+          "oneYearChangePct": -7,
+          "threeYearChangePct": 13.6,
+          "reportDate": "28 July 2026"
+        },
+        "context": "Tesla's share price reflects large optionality premiums rather than current cash generation. The current valuation requires near-perfect execution in unproven autonomous and robotics markets, leaving the stock vulnerable to regulatory or competitive setbacks."
+      },
+      "valuePools": [
+        {
+          "id": "core-automotive",
+          "name": "Core Automotive",
+          "archetype": "current_profit_engine",
+          "revenue": 82056,
+          "revenueShare": 0.8653231674523079,
+          "comparableEbit": 13244,
+          "ebitShare": 0.7747747747747747,
+          "enterpriseValue": 314647,
+          "enterpriseValueShare": 0.20000025425350218,
+          "factSheet": [
+            {
+              "label": "Profit metric",
+              "value": "Gross profit (~16.1% margin)"
+            },
+            {
+              "label": "Valuation basis",
+              "value": "Peer/revenue multiple"
+            },
+            {
+              "label": "Key vulnerability",
+              "value": "Market share loss to BYD"
+            }
+          ],
+          "deepDive": [
+            "Core Automotive drives most of Tesla's actual cash generation, providing 86.5% of group revenue ($82.0 billion in FY2025) and an estimated 77.5% of segment gross profit. Despite this weight in the P&L, it receives only 20.0% of the allocated enterprise value ($291.0 billion). This reflects a medium-confidence judgment that the market is heavily discounting the legacy automotive business because of intense price competition, margin compression (gross margins down to ~16.1%), and market share losses to Chinese OEMs.",
+            "The market values this segment as a maturing, high-volume premium automotive manufacturer. Tesla once commanded software-like multiples on its automotive gross margins (which peaked above 25%), but the normalization of the EV market has forced a repricing. The $291 billion allocation implies an EV/EBIT multiple in the mid-teens on normalized future earnings — a premium to legacy internal combustion engine (ICE) automakers (which trade at 4-6x) but well below Tesla's historical peaks. The valuation assumes Tesla's brand, Supercharger network, vertical integration, and cost advantages let it survive the current EV price war.",
+            "Tesla's competitive advantage in Core Automotive rests on manufacturing efficiency (gigacasting, simplified wiring architectures), its global Supercharger network, and its direct-to-consumer sales model. BYD, however, has offset many of these advantages. BYD now manufactures millions of New Energy Vehicles (NEVs) annually, using in-house battery chemistry (LFP) and tight supply chain integration to undercut Tesla on price while staying profitable.",
+            "To justify the $291 billion allocation, Core Automotive needs to stabilize its unit economics. At a $40,000 average selling price (ASP) and a required 10% operating margin, each vehicle generates $4,000 in EBIT. To support a 15x multiple on $291 billion, the segment needs roughly $19.4 billion in operating profit — nearly 5 million vehicles sold annually. Tesla delivered roughly 1.8 to 2 million vehicles in recent years, so the valuation requires volumes to roughly double while operating margins expand from their current compressed level."
+          ],
+          "bridgeContribution": 13803
+        },
+        {
+          "id": "autonomy-fsd-robotaxi",
+          "name": "Autonomy, FSD & Robotaxi",
+          "archetype": "emerging_option",
+          "revenue": 0,
+          "revenueShare": 0,
+          "comparableEbit": 0,
+          "ebitShare": 0,
+          "enterpriseValue": 707955,
+          "enterpriseValueShare": 0.4500000953450633,
+          "factSheet": [
+            {
+              "label": "Current revenue",
+              "value": "$0 (Standalone)"
+            },
+            {
+              "label": "Required Scale",
+              "value": "87.2bn autonomous miles/year"
+            },
+            {
+              "label": "Primary Competitor",
+              "value": "Waymo (~500k weekly paid rides)"
+            }
+          ],
+          "deepDive": [
+            "This segment currently produces no standalone disclosed revenue, no autonomous ride-hailing operating profit, and no free cash flow. Any FSD software attach revenue is embedded within the Core Automotive revenue line. Despite this lack of standalone economic output, the segment commands 45.0% of group enterprise value ($654.78 billion). The allocation is based on residual option value logic, with low confidence, reflecting the large premium the market pays for future mobility network economics.",
+            "The market values this segment as a future leader (or one of a small number of leaders) in global autonomous ride-hailing and software-defined mobility. Investors are pricing in a shift from a low-margin, high-capex hardware sales model to a high-margin software-as-a-service (SaaS) and transportation-as-a-service (TaaS) platform. If Tesla successfully deploys a generalized, vision-only autonomous network, it could in theory capture the full per-mile transport spend of its user base, replacing private car ownership and standard ride-hailing models.",
+            "The central debate for this segment is Tesla's competitive position against Waymo. As of mid-2026, Waymo is the clear commercial leader in the United States, running approximately 500,000 paid, fully driverless rides per week across 10 major U.S. metropolitan areas, including San Francisco, Phoenix, Los Angeles, and Austin. Waymo completed nearly 50 million rider-only miles in Q1 2026 alone. By contrast, Tesla's self-reported progress in Q2 2026 cited 380,000 cumulative unsupervised miles across its test markets — a figure Waymo surpasses in less than a single day of operation.",
+            "To justify a software-like valuation, robotaxi unit economics need to combine high asset utilization with high contribution margins. The market is pricing this segment as if Tesla captures both the network take rate and the underlying utilization efficiency, assuming an operating margin above 40% at scale, without the heavy working capital drag of traditional automotive manufacturing. To support a $654 billion valuation at an aggressive 30x EV/NOPAT multiple, this segment must generate ~$21.8 billion in recurring after-tax cash flow."
+          ],
+          "bridgeContribution": 0
+        },
+        {
+          "id": "energy-generation-storage",
+          "name": "Energy Generation & Storage",
+          "archetype": "scaling_current_business",
+          "revenue": 12771,
+          "revenueShare": 0.1346768325476921,
+          "comparableEbit": 3850,
+          "ebitShare": 0.22522522522522523,
+          "enterpriseValue": 157324,
+          "enterpriseValueShare": 0.10000044494362882,
+          "factSheet": [
+            {
+              "label": "Profit metric",
+              "value": "Gross profit (~30.2% margin)"
+            },
+            {
+              "label": "Growth trajectory",
+              "value": "~27% YoY revenue growth"
+            },
+            {
+              "label": "Key products",
+              "value": "Megapack, Powerwall"
+            }
+          ],
+          "deepDive": [
+            "The Energy segment generated $12.7 billion in revenue in FY2025 (13.5% of group) but contributed a disproportionate 22.5% of estimated gross profit (~$3.85 billion), driven by a strong ~30.2% gross margin. It is allocated 10.0% of enterprise value ($145.5 billion).",
+            "The market values the Energy segment as a leading, high-growth supplier to the global grid infrastructure upgrade cycle. As renewable energy penetration increases, grid-scale battery storage (Megapack) becomes a necessary asset for utilities managing intermittency. The $145.5 billion allocation reflects the segment's rapid top-line growth (up ~27% YoY) and its ability to grow independently of the cyclicality in consumer auto sales. It is priced as a high-margin industrial technology business.",
+            "The demand for utility-scale battery storage is surging, driven by data center power requirements, grid decarbonization targets, and the declining cost of lithium-ion cells. Utilities are rapidly deploying mega-projects to stabilize grids. The residential side (Powerwall and solar) is more sensitive to consumer interest rates and net-metering policies, but the bulk of the segment's value is driven by commercial Megapack deployments.",
+            "Tesla's advantage lies in its software integration (Autobidder), manufacturing scale (Lathrop and Shanghai Megafactories), and brand reliability. Competitors include pure-play integrators like Fluence Energy and battery makers like CATL who supply directly to utilities. Tesla's edge is bundling hardware with energy trading software, which captures higher margins than pure hardware assembly. The ~30% gross margin points to strong pricing power and favorable raw material cost trends."
+          ],
+          "bridgeContribution": 2500
+        },
+        {
+          "id": "optimus-robotics",
+          "name": "Optimus & Robotics",
+          "archetype": "emerging_option",
+          "revenue": 0,
+          "revenueShare": 0,
+          "comparableEbit": 0,
+          "ebitShare": 0,
+          "enterpriseValue": 393307,
+          "enterpriseValueShare": 0.24999920545780568,
+          "factSheet": [
+            {
+              "label": "Current revenue",
+              "value": "$0"
+            },
+            {
+              "label": "Required Earnings",
+              "value": "~$14.5 billion"
+            },
+            {
+              "label": "Scale driver",
+              "value": "1.45mn units sold/leased annually"
+            }
+          ],
+          "deepDive": [
+            "This segment generates no external revenue and no gross profit, and consumes significant R&D and capital spending. Despite this, it is allocated 25.0% of group enterprise value ($363.8 billion). The allocation is an analytical estimate reflecting the wide valuation gap in the stock and management's claim that Optimus will eventually be the company's most valuable product.",
+            "Optimus is valued as a solution to global physical labor shortages. The market assumes Tesla can use its existing advantages in battery technology, electric motors, manufacturing scale, and AI inference (the same neural net architecture used in FSD) to mass-produce humanoid robots. If a robot can perform general tasks for an amortized cost of less than $5 per hour, it undercuts human minimum wage across logistics, manufacturing, and eventually domestic service. The $363.8 billion valuation prices in successful commercialization of a product that would decouple economic output from population growth, with a potential market as large as global GDP.",
+            "Tesla is not alone in the humanoid race. Agility Robotics has already deployed its Digit robot in pilot programs for logistics operators. Figure AI, backed by substantial venture capital, has demonstrated robots working in BMW facilities, while Unitree offers highly capable hardware at low price points. Boston Dynamics remains the benchmark for dynamic control and movement. Tesla's advantage is not currently in robotic dexterity but in its potential manufacturing capacity and AI training infrastructure.",
+            "The unit economics of generalized robotics work similarly to capital equipment leasing or SaaS. If Tesla sells the robot for $25,000 with a $10,000 hardware margin, the upfront economics resemble a car. The real value comes if Tesla leases the labor at $10/hour or charges a recurring software licensing fee for skill upgrades. At $10/hour for two shifts a day, a single robot generates ~$40,000 in annual revenue. Capital intensity is high upfront, but operating leverage is significant if maintenance costs are controlled and the software scales smoothly."
+          ],
+          "bridgeContribution": 0
+        }
+      ],
+      "groupTotals": {
+        "revenue": 94827,
+        "comparableEbit": 4355,
+        "enterpriseValue": 1573233
+      },
+      "segmentFinancialsPeriod": "FY2025A",
+      "segmentFinancialsSource": "Tesla's Form 10-K (FY2025), Note 16 \"Segment Reporting,\" and Tesla's Q4 2025 Update (shareholder letter)",
+      "valueBreakdownInterpretation": "The EV breakdown shows a wide gap: 70% of Tesla's $1.455 trillion enterprise value is assigned to pre-revenue AI options (Autonomy and Optimus), while the core hardware businesses that generate all of the company's current cash flow account for only 30% of the valuation.",
+      "coreAnalysis": {
+        "executiveMap": [
+          "There is a wide gap between Tesla's current economics and how enterprise value is allocated. The company generates 100% of its reported revenue and gross profit from two hardware businesses: Core Automotive and Energy Generation & Storage. Yet the market allocates only 30% of the group's $1.455 trillion enterprise value to these proven, cash-generating operations. The remaining 70% — over $1 trillion — is allocated to two speculative segments: Autonomy, FSD & Robotaxi (45%) and Optimus & Robotics (25%). In effect, the equity is priced not as a premium automotive manufacturer working through a commoditizing market, but as a future leader in autonomous mobility and generalized AI labor.",
+          "The bridge from group enterprise value to equity market capitalization contains a data discrepancy worth flagging. The reported group enterprise value is $1,455.06 billion. Subtracting the net cash position of $8.14 billion gives an operating asset value of roughly $1,463.2 billion. But the reported year-end market capitalization is $1,450.35 billion — leaving an unexplained gap of approximately $12.86 billion. We treat this in the analysis as an implicit senior claim or lease adjustment, so the valuation totals stay consistent.",
+          "Tesla's reported group EBIT ($4.35 billion in FY2025, a 4.6% margin) blends together segments with very different economics. Tesla officially measures segment performance at the gross profit line, not operating income. The Energy segment runs at a strong ~30.2% gross margin and contributes more than its share of group profitability, while Core Automotive has compressed to an estimated ~16.1% gross margin under price cuts and heavy competition. Because 70% of enterprise value is disconnected from current cash flow, standard operating multiples don't tell us much about the legacy hardware business."
+        ],
+        "analyticalAnchor": "70% of enterprise value is allocated to speculative AI options that currently generate no standalone revenue.",
+        "groupedPools": [],
+        "crossPoolBridge": [
+          "The consensus forecast relies heavily on the physical businesses — Core Automotive and Energy — to drive the revenue and EBITDA bridge through 2028. The jump from $4.3 billion in EBIT in 2025 to $16.3 billion in 2028 requires a sharp reversal in current margin trends. It assumes the EV price war stabilizes, new lower-cost vehicle platforms scale profitably, and the Energy division holds its 30% gross margins as capacity doubles.",
+          "The cash flow bridge shows negative free cash flow in 2026 (-$1.74 billion), reflecting the heavy capital spending needed to fund the AI compute clusters (AI5/AI6 chips) used for Autonomy and Optimus training.",
+          "The bridge is weakest where capital intensity meets future payoff: the legacy automotive and energy businesses must fund the multi-billion dollar R&D and capex needs of the Robotaxi and Optimus segments, which are not modeled to generate material standalone cash flow within this timeframe. If automotive margins compress further against BYD, the funding base for the AI optionality weakens, putting the entire $1.45T valuation at risk."
+        ],
+        "bridgeMechanics": "Auto and Energy must reverse margin compression to fund the multibillion-dollar AI compute capex drag.",
+        "valuationRealityCheck": [
+          "Tesla's $1.455 trillion enterprise value is largely disconnected from its current cash-generating ability. Using a normalized industrial/automotive framework (e.g., 15x EBIT), the current operating earnings of Core Auto and Energy would support an enterprise value of approximately $80 billion to $100 billion. The remaining $1.35 trillion is essentially a premium paid for future optionality, market expansion, and AI leadership.",
+          "The bridge to equity market capitalization relies on the company's net cash position ($8.1 billion), which adds balance sheet safety but doesn't materially change the stretched valuation multiples. The weakest assumption in this allocation is that the Autonomy/Robotaxi segment ($654.8 billion) will make it through the regulatory and operational hurdles to monetization smoothly. By pricing this option at nearly half the company's value, the market largely ignores that Waymo is currently ahead in commercial deployment.",
+          "If Tesla's vision-only approach fails to achieve the safety validation required by state regulators, or if the consumer habituation window closes because Waymo scales to millions of weekly rides first, the $654 billion allocation evaporates, with no hard asset floor or alternative source of value behind it.",
+          "This valuation only holds together if Tesla is viewed not as a car company but as a leading AI infrastructure business, with its physical products (cars, robots, batteries) as the delivery mechanism for a dominant software layer. If that thesis breaks, the reversion to an automotive/industrial hardware multiple would be sharp."
+        ],
+        "scenarios": [
+          "The scenarios depend entirely on whether the AI segments succeed or fail. In the Bear case, the vision-only FSD system fails to reach regulatory approval for unmonitored commercial deployment, and Waymo captures the robotaxi market. Optimus stays a localized factory experiment. Tesla is re-rated as a successful but cyclical automotive and energy hardware manufacturer. Assuming $30 billion in mature EBITDA at a 15x hardware multiple, enterprise value resets to roughly $450 billion, destroying over $1 trillion in market capitalization.",
+          "The Base case assumes Tesla launches a niche robotaxi service in select markets, keeping some option value alive, while Core Auto stabilizes margins and Energy continues to scale. This sustains the current $1.45T valuation, as the market keeps rolling forward the terminal value of the option segments.",
+          "The Bull case requires Tesla to win the robotaxi race outright, using its millions of vehicles to outscale Waymo's more localized approach, capturing software-like margins on mobility, and successfully commercializing Optimus. The upside depends on the AI network effects playing out exactly as management claims, taking enterprise value toward $3 trillion. What would break this case is capital exhaustion: if the core automotive business compresses to zero operating margin, it can no longer fund the heavy capex AI compute requires, forcing Tesla to slow R&D just as competitors scale."
+        ],
+        "bottomLine": "The central investment debate for Tesla is whether it's an automotive manufacturer working through a cyclical, competitive downturn, or an early-stage AI infrastructure leader on the verge of automating physical labor and transportation. In reality, the physical businesses — Core Automotive and Energy — determine the company's short-term financial health, yet the market assigns 70% of enterprise value to the speculative Autonomy and Robotics segments. The valuation rests almost entirely on future optionality, which requires significant patience and capital. A portfolio manager should track Waymo's scale rate and Tesla's state-level permit filings as the clearest indicators of whether the robotaxi option has a realistic path to monetization, while watching Core Auto gross margins to confirm the company still has the funding to sustain the race."
+      },
+      "reverseValuation": null,
+      "financialBridge": {
+        "netSales": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            96773,
+            97690,
+            94827,
+            102329,
+            118214,
+            138122,
+            141266
+          ],
+          "forecastFromIndex": 3
+        },
+        "ebitdaEbit": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "ebitda": [
+            12512,
+            12444,
+            10503,
+            18475,
+            19747,
+            28167,
+            22224
+          ],
+          "ebit": [
+            8891,
+            7076,
+            4355,
+            5746,
+            9781,
+            16303,
+            13601
+          ],
+          "forecastFromIndex": 3
+        },
+        "marginLines": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "ebitMarginPct": [
+            9.2,
+            7.2,
+            4.6,
+            5.6,
+            8.3,
+            11.8,
+            9.6
+          ],
+          "ebitdaMarginPct": [
+            12.9,
+            12.7,
+            11.1,
+            18.1,
+            16.7,
+            20.4,
+            15.7
+          ],
+          "forecastFromIndex": 3
+        },
+        "freeCashFlow": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            -6955,
+            -8791,
+            -383,
+            -1741,
+            1692,
+            5868,
+            11141
+          ],
+          "forecastFromIndex": 3
+        },
+        "netDebtPerEbitda": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            -0.5,
+            -0.2,
+            -0.8,
+            -0.4,
+            -0.5,
+            -0.6,
+            -1.3
+          ],
+          "forecastFromIndex": 3
+        },
+        "keyFinancials": {
+          "periods": [
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                94827,
+                102329,
+                118214,
+                138122,
+                141266
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                10503,
+                18475,
+                19747,
+                28167,
+                22224
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                4355,
+                5746,
+                9781,
+                16303,
+                13601
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                3855,
+                5622,
+                9940,
+                16269,
+                14270
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EPS (USD)",
+              "values": [
+                1.2,
+                1.74,
+                3.08,
+                5.04,
+                4.42
+              ]
+            },
+            {
+              "metric": "DPS (USD)",
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "forwardMultiples": {
+        "periods": [
+          "2026"
+        ],
+        "rows": [
+          {
+            "metric": "P/E",
+            "values": [
+              "239.4×"
+            ]
+          },
+          {
+            "metric": "EV/EBITDA",
+            "values": [
+              "85.2×"
+            ]
+          },
+          {
+            "metric": "EV/EBIT",
+            "values": [
+              "273.8×"
+            ]
+          },
+          {
+            "metric": "P/FCF",
+            "values": [
+              "-772.8×"
+            ]
+          },
+          {
+            "metric": "P/BV",
+            "values": [
+              "17.9×"
+            ]
+          },
+          {
+            "metric": "Dividend Yield",
+            "values": [
+              "—"
+            ]
+          },
+          {
+            "metric": "Net Debt / EBITDA",
+            "values": [
+              "-0.4×"
+            ]
+          }
+        ]
+      },
+      "sensitivityMatrix": {
+        "rowAxis": {
+          "label": "EBITDA",
+          "deltas": [
+            -0.2,
+            -0.1,
+            0,
+            0.1,
+            0.2
+          ],
+          "absoluteValues": [
+            14780,
+            16628,
+            18475,
+            20323,
+            22170
+          ],
+          "baseIndex": 2
+        },
+        "colAxis": {
+          "label": "EV/EBITDA",
+          "multiples": [
+            25,
+            30,
+            35,
+            40,
+            45
+          ],
+          "baseIndex": 2
+        },
+        "cells": [
+          [
+            {
+              "ev": 369500,
+              "perShare": 100.5
+            },
+            {
+              "ev": 443400,
+              "perShare": 120.2
+            },
+            {
+              "ev": 517300,
+              "perShare": 139.9
+            },
+            {
+              "ev": 591200,
+              "perShare": 159.6
+            },
+            {
+              "ev": 665100,
+              "perShare": 179.3
+            }
+          ],
+          [
+            {
+              "ev": 415700,
+              "perShare": 112.9
+            },
+            {
+              "ev": 498840,
+              "perShare": 135
+            },
+            {
+              "ev": 581980,
+              "perShare": 157.1
+            },
+            {
+              "ev": 665120,
+              "perShare": 179.3
+            },
+            {
+              "ev": 748260,
+              "perShare": 201.4
+            }
+          ],
+          [
+            {
+              "ev": 461875,
+              "perShare": 125.1
+            },
+            {
+              "ev": 554250,
+              "perShare": 149.7
+            },
+            {
+              "ev": 646625,
+              "perShare": 174.3
+            },
+            {
+              "ev": 739000,
+              "perShare": 198.9
+            },
+            {
+              "ev": 831375,
+              "perShare": 223.5
+            }
+          ],
+          [
+            {
+              "ev": 508075,
+              "perShare": 137.4
+            },
+            {
+              "ev": 609690,
+              "perShare": 164.5
+            },
+            {
+              "ev": 711305,
+              "perShare": 191.6
+            },
+            {
+              "ev": 812920,
+              "perShare": 218.6
+            },
+            {
+              "ev": 914535,
+              "perShare": 245.7
+            }
+          ],
+          [
+            {
+              "ev": 554250,
+              "perShare": 149.7
+            },
+            {
+              "ev": 665100,
+              "perShare": 179.3
+            },
+            {
+              "ev": 775950,
+              "perShare": 208.8
+            },
+            {
+              "ev": 886800,
+              "perShare": 238.3
+            },
+            {
+              "ev": 997650,
+              "perShare": 267.8
+            }
+          ]
+        ]
+      },
+      "scenarioValuation": {
+        "rows": [
+          {
+            "scenario": "Bear",
+            "revenue": 138122,
+            "ebitda": 30000,
+            "marginPct": 21.72,
+            "multiple": 15,
+            "ev": 450000,
+            "equity": 458137,
+            "valuePerShare": 121.98,
+            "upsidePct": -60.4
+          },
+          {
+            "scenario": "Base",
+            "revenue": 138122,
+            "ebitda": 28167,
+            "marginPct": 20.39,
+            "multiple": 51.65,
+            "ev": 1454826,
+            "equity": 1462963,
+            "valuePerShare": 389.53,
+            "upsidePct": 26.4
+          },
+          {
+            "scenario": "Bull",
+            "revenue": 138122,
+            "ebitda": 60000,
+            "marginPct": 43.44,
+            "multiple": 50,
+            "ev": 3000000,
+            "equity": 3008137,
+            "valuePerShare": 800.95,
+            "upsidePct": 159.8
+          }
+        ],
+        "keyConditions": "The scenarios depend entirely on whether the AI segments succeed or fail. The Bear case assumes vision-only FSD fails to secure regulatory approval, while the Bull case assumes Tesla wins the robotaxi race outright and successfully commercializes Optimus.",
+        "thesisBreaker": "Capital exhaustion, if automotive margin compression leaves Tesla unable to fund the capex required for AI compute clusters."
+      },
+      "catalysts": {
+        "rows": [
+          {
+            "milestone": "Robotaxi Commercial Permits",
+            "timing": "NEAR-TERM",
+            "pool": "Autonomy, FSD & Robotaxi",
+            "indicator": "CPUC / DMV unmonitored commercial deployment permits",
+            "valuationImpact": "Validates $654bn autonomy option"
+          },
+          {
+            "milestone": "Waymo Scale Rate",
+            "timing": "NEAR-TERM",
+            "pool": "Autonomy, FSD & Robotaxi",
+            "indicator": "Weekly paid driverless rides (>1M target)",
+            "valuationImpact": "Competitive downside risk to option EV"
+          },
+          {
+            "milestone": "Auto Gross Margin Stabilization",
+            "timing": "NEAR-TERM",
+            "pool": "Core Automotive",
+            "indicator": "Segment gross margin excluding regulatory credits",
+            "valuationImpact": "Preserves core cash generation for AI R&D"
+          },
+          {
+            "milestone": "Optimus Gen 3 Factory Autonomy",
+            "timing": "MEDIUM-TERM",
+            "pool": "Optimus & Robotics",
+            "indicator": "Verified 24/7 unassisted operational hours",
+            "valuationImpact": "Provides evidence for $363bn option value"
+          }
+        ],
+        "prose": "The most important catalyst to watch is the gap between Waymo's weekly paid ride volume and Tesla's progress on unmonitored permit filings. Waymo's progress is easy to observe through third-party ridership data and regulatory filings. Tesla's progress is harder to read, since management leans on 'cumulative' mile figures that blend supervised driver assistance with true autonomy. A portfolio manager should look past the cumulative mileage charts and look for evidence of actual municipal commercial permits.\n\nIf Tesla fails to secure unmonitored commercial permits in California or Texas by late 2027, the robotaxi thesis is seriously undermined. Core Automotive gross margin also needs close monitoring, since it funds the AI option value. If auto margins slip below 10%, market patience for the multi-year robotics R&D timeline is likely to run out."
+      },
+      "risks": {
+        "rows": [
+          {
+            "risk": "Regulatory blockade of vision-only FSD",
+            "pool": "Autonomy, FSD & Robotaxi",
+            "mechanism": "NHTSA or state DMVs mandate sensor redundancy for Level 4/5 operations.",
+            "earlyWarning": "Regulatory bans on vision-only tech",
+            "impact": "HIGH",
+            "type": "STRUCTURAL"
+          },
+          {
+            "risk": "Chinese EV structural cost advantage",
+            "pool": "Core Automotive",
+            "mechanism": "BYD and peers undercut Tesla on price, compressing legacy vehicle margins.",
+            "earlyWarning": "Core auto gross margins <10%",
+            "impact": "HIGH",
+            "type": "THESIS-BREAKER IF COMBINED"
+          },
+          {
+            "risk": "Waymo secures consumer habituation",
+            "pool": "Autonomy, FSD & Robotaxi",
+            "mechanism": "Waymo captures the urban mobility market and forms exclusive municipal partnerships before Tesla scales.",
+            "earlyWarning": "Waymo exceeds 1mn weekly paid rides",
+            "impact": "MEDIUM",
+            "type": "STRUCTURAL"
+          },
+          {
+            "risk": "Battery cell supply chain bottlenecks",
+            "pool": "Energy Generation & Storage",
+            "mechanism": "Commoditization and input cost shocks delay utility-scale Megapack deployments.",
+            "earlyWarning": "Declining segment gross margin YoY",
+            "impact": "LOW",
+            "type": "MANAGEABLE"
+          }
+        ],
+        "prose": "The biggest risk to the thesis is regulatory. Tesla's entire Autonomy valuation depends on a vision-only system, without the redundancy of LiDAR and radar, being judged safe enough by state and federal regulators for unmonitored commercial deployment. If the NHTSA or state DMVs mandate sensor redundancy for Level 4/5 operations, Tesla's entire current fleet becomes incapable of operating as robotaxis, and the data advantage from its consumer fleet is largely wiped out. The market, which is pricing in software-like certainty, appears to underweight this risk.\n\nRisks also interact across segments. The Chinese EV threat (BYD) forces Tesla to keep cutting vehicle prices. Lower vehicle prices compress Core Automotive cash flow. Lower cash flow limits Tesla's ability to invest aggressively in the AI5/AI6 compute clusters needed to advance the FSD neural network. A delayed neural network lets Waymo capture the urban mobility market and lock in exclusive municipal partnerships. The early warning sign for this chain of events is sequential negative free cash flow combined with declining Core Automotive gross margins."
+      },
+      "appendix": {
+        "incomeStatement": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                96773,
+                97690,
+                94827,
+                102329,
+                118214,
+                138122
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                12512,
+                12444,
+                10503,
+                18475,
+                19747,
+                28167
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "12.9%",
+                "12.7%",
+                "11.1%",
+                "18.1%",
+                "16.7%",
+                "20.4%"
+              ]
+            },
+            {
+              "metric": "Depreciation",
+              "values": [
+                -3621,
+                -5368,
+                -6148,
+                -12729,
+                -9966,
+                -11864
+              ]
+            },
+            {
+              "metric": "Operating Profit (EBIT)",
+              "values": [
+                8891,
+                7076,
+                4355,
+                5746,
+                9781,
+                16303
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "9.2%",
+                "7.2%",
+                "4.6%",
+                "5.6%",
+                "8.3%",
+                "11.8%"
+              ]
+            },
+            {
+              "metric": "Net financial items",
+              "values": [
+                1082,
+                1914,
+                923,
+                540,
+                949,
+                1259
+              ]
+            },
+            {
+              "metric": "Pre-tax Profit",
+              "values": [
+                9973,
+                8990,
+                5278,
+                6286,
+                10730,
+                17562
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                14976,
+                7153,
+                3855,
+                5622,
+                9940,
+                16269
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Per share",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                4.72,
+                2.24,
+                1.2,
+                1.74,
+                3.08,
+                5.04
+              ]
+            },
+            {
+              "metric": "DPS",
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "metric": "Payout ratio",
+              "values": [
+                "—",
+                "—",
+                "—",
+                "—",
+                "—",
+                "—"
+              ]
+            }
+          ]
+        },
+        "balanceSheet": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Assets",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Tangible assets",
+              "values": [
+                45123,
+                51507,
+                40643,
+                47391,
+                54748,
+                63968
+              ]
+            },
+            {
+              "metric": "Intangibles",
+              "values": [
+                362,
+                1226,
+                135,
+                146,
+                168,
+                197
+              ]
+            },
+            {
+              "metric": "Goodwill",
+              "values": [
+                253,
+                244,
+                257,
+                257,
+                257,
+                257
+              ]
+            },
+            {
+              "metric": "Non-current assets",
+              "values": [
+                50269,
+                57186,
+                62239,
+                68998,
+                76378,
+                85626
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Inventories",
+              "values": [
+                13626,
+                12017,
+                12392,
+                13098,
+                15131,
+                17679
+              ]
+            },
+            {
+              "metric": "Receivables",
+              "values": [
+                19592,
+                30204,
+                39737,
+                39990,
+                40740,
+                41680
+              ]
+            },
+            {
+              "metric": "Cash & equivalents",
+              "values": [
+                16398,
+                16139,
+                16513,
+                17499,
+                20216,
+                23621
+              ]
+            },
+            {
+              "metric": "Current assets",
+              "values": [
+                49616,
+                58360,
+                68642,
+                70588,
+                76087,
+                82979
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total Assets",
+              "values": [
+                106618,
+                122070,
+                137806,
+                146511,
+                159390,
+                175530
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Equity & liabilities",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Equity",
+              "values": [
+                63609,
+                73680,
+                82865,
+                88487,
+                98427,
+                114696
+              ]
+            },
+            {
+              "metric": "Long-term debt",
+              "values": [
+                2682,
+                5535,
+                6736,
+                5310,
+                5383,
+                3568
+              ]
+            },
+            {
+              "metric": "Short-term debt",
+              "values": [
+                1975,
+                2343,
+                1640,
+                5310,
+                5383,
+                3568
+              ]
+            },
+            {
+              "metric": "Long-term liabilities",
+              "values": [
+                9345,
+                13824,
+                23227,
+                21801,
+                21874,
+                20059
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Current liabilities",
+              "values": [
+                28748,
+                28821,
+                31714,
+                36223,
+                39089,
+                40775
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total liabilities & equity",
+              "values": [
+                106618,
+                122070,
+                137806,
+                146511,
+                159390,
+                175530
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Capital structure & ratios",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Net debt",
+              "values": [
+                -6825,
+                -2516,
+                -8137,
+                -6879,
+                -9450,
+                -16484
+              ]
+            },
+            {
+              "metric": "Capital invested",
+              "values": [
+                51868,
+                65419,
+                74728,
+                81608,
+                88977,
+                98212
+              ]
+            },
+            {
+              "metric": "Equity ratio",
+              "values": [
+                "59.7%",
+                "60.4%",
+                "60.1%",
+                "60.4%",
+                "61.8%",
+                "65.3%"
+              ]
+            },
+            {
+              "metric": "Gearing",
+              "values": [
+                "-10.7%",
+                "-3.4%",
+                "-9.8%",
+                "-7.8%",
+                "-9.6%",
+                "-14.4%"
+              ]
+            },
+            {
+              "metric": "Net debt / EBITDA",
+              "values": [
+                "-0.5×",
+                "-0.2×",
+                "-0.8×",
+                "-0.4×",
+                "-0.5×",
+                "-0.6×"
+              ]
+            },
+            {
+              "metric": "Current ratio",
+              "values": [
+                1.73,
+                2.02,
+                2.16,
+                1.95,
+                1.95,
+                2.04
+              ]
+            }
+          ]
+        },
+        "cashFlow": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Operations",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "CF from operations",
+              "values": [
+                11384,
+                3171,
+                3691,
+                18230,
+                19916,
+                28146
+              ]
+            },
+            {
+              "metric": "Operating cash flow",
+              "values": [
+                4094,
+                1868,
+                2616,
+                17747,
+                19038,
+                26980
+              ]
+            },
+            {
+              "metric": "Change in working capital",
+              "values": [
+                7474,
+                9298,
+                6312,
+                121,
+                -10,
+                -13
+              ]
+            },
+            {
+              "metric": "Investing & free cash",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Gross capex",
+              "values": [
+                12797,
+                12285,
+                11201,
+                19488,
+                17345,
+                21112
+              ]
+            },
+            {
+              "metric": "Capex (ex. M&A)",
+              "values": [
+                -12797,
+                -12285,
+                -11201,
+                -19488,
+                -17345,
+                -21112
+              ]
+            },
+            {
+              "metric": "Free Operating Cash Flow",
+              "values": [
+                -6957,
+                -8791,
+                -383,
+                -1741,
+                1692,
+                5868
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Free cash flow to firm",
+              "values": [
+                -6955,
+                -8791,
+                -383,
+                -1741,
+                1692,
+                5868
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Financing",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "CF from financing",
+              "values": [
+                8306,
+                8594,
+                8285,
+                2244,
+                145,
+                -3629
+              ]
+            },
+            {
+              "metric": "Dividends paid",
+              "values": [
+                "—",
+                "—",
+                "—",
+                "—",
+                "—",
+                "—"
+              ]
+            },
+            {
+              "metric": "Net change in cash",
+              "values": [
+                6893,
+                -520,
+                775,
+                986,
+                2717,
+                3405
+              ],
+              "isSubtotal": true
+            }
+          ]
+        },
+        "quarterly": {
+          "periods": [
+            "Q1/24",
+            "Q2/24",
+            "Q3/24",
+            "Q4/24",
+            "Q1/25",
+            "Q2/25",
+            "Q3/25",
+            "Q4/25"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                21301,
+                25500,
+                25182,
+                25707,
+                19335,
+                22496,
+                28095,
+                24901
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                2417,
+                2883,
+                4065,
+                3079,
+                1846,
+                2356,
+                3249,
+                3052
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "11.3%",
+                "11.3%",
+                "16.1%",
+                "12.0%",
+                "9.5%",
+                "10.5%",
+                "11.6%",
+                "12.3%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                1171,
+                1605,
+                2717,
+                1583,
+                399,
+                923,
+                1624,
+                1409
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "5.5%",
+                "6.3%",
+                "10.8%",
+                "6.2%",
+                "2.1%",
+                "4.1%",
+                "5.8%",
+                "5.7%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                1405,
+                1416,
+                2183,
+                2332,
+                420,
+                1190,
+                1389,
+                856
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.44,
+                0.44,
+                0.68,
+                0.73,
+                0.13,
+                0.37,
+                0.43,
+                0.27
+              ]
+            }
+          ]
+        },
+        "quarterlyCurrent": {
+          "periods": [
+            "Q1/26",
+            "Q2/26",
+            "Q3/26",
+            "Q4/26"
+          ],
+          "columnIsEstimate": [
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                22387,
+                23902,
+                29851,
+                26190
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                941,
+                4719,
+                6649,
+                6167
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "4.2%",
+                "19.7%",
+                "22.3%",
+                "23.5%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                941,
+                1125,
+                1980,
+                1700
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "4.2%",
+                "4.7%",
+                "6.6%",
+                "6.5%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                491,
+                1622,
+                2144,
+                1364
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.15,
+                0.5,
+                0.66,
+                0.42
+              ]
+            }
+          ]
+        }
+      },
+      "sources": {
+        "rows": [
+          {
+            "dataPoint": "Target Price ($269.2)",
+            "value": "269.2",
+            "sourceCategory": "ANALYST-GENERATED ESTIMATE",
+            "usedIn": "Cover Page & Recommendation"
+          },
+          {
+            "dataPoint": "Enterprise Value ($1,455bn)",
+            "value": "1,455,065",
+            "sourceCategory": "FINANCIAL SNAPSHOT",
+            "usedIn": "Enterprise Value Allocation"
+          },
+          {
+            "dataPoint": "FY2025 Revenue ($94,827mn)",
+            "value": "94,827",
+            "sourceCategory": "FINANCIAL SNAPSHOT",
+            "usedIn": "Segment Financials Table"
+          },
+          {
+            "dataPoint": "Waymo ~500k Weekly Paid Rides",
+            "value": "500,000",
+            "sourceCategory": "MARKET DATA",
+            "usedIn": "Autonomy Deep Dive"
+          },
+          {
+            "dataPoint": "Autonomy Option Value ($654.8bn)",
+            "value": "654,779",
+            "sourceCategory": "COMPANY VALUE MAP",
+            "usedIn": "Enterprise Value Allocation"
+          },
+          {
+            "dataPoint": "2028E EBITDA ($28,167mn)",
+            "value": "28,167",
+            "sourceCategory": "CONSENSUS ESTIMATES",
+            "usedIn": "Cross-Pool Financial Bridge"
+          }
+        ],
+        "disclaimer": "This information is derived from third-party and institutional data sources. Analysis is for illustrative purposes.",
+        "copyright": "© 2026 Tesla research. For institutional use only."
+      },
+      "valuation": {
+        "multiples": {
+          "columns": [
+            "Metric",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026e",
+            "2027e",
+            "2028e",
+            "Norm. avg",
+            "Selected fair multiple"
+          ],
+          "rows": [
+            [
+              "P/E",
+              "763.78x",
+              "184.52x",
+              "30.57x",
+              "52.65x",
+              "180.49x",
+              "376.22x",
+              "177.18x",
+              "100.09x",
+              "61.17x",
+              "112.06x",
+              ""
+            ],
+            [
+              "P/FCF",
+              "1841.87x",
+              "2055.23x",
+              "9835.96x",
+              "-113.38x",
+              "-146.87x",
+              "-3785.32x",
+              "-665.09x",
+              "684.35x",
+              "197.33x",
+              "1948.55x",
+              ""
+            ],
+            [
+              "P/BV",
+              "29.62x",
+              "34.53x",
+              "8.62x",
+              "12.59x",
+              "17.71x",
+              "17.66x",
+              "13.09x",
+              "11.76x",
+              "10.09x",
+              "20.12x",
+              ""
+            ],
+            [
+              "P/S",
+              "20.88x",
+              "19.37x",
+              "4.73x",
+              "8.15x",
+              "13.22x",
+              "15.29x",
+              "11.32x",
+              "9.80x",
+              "8.38x",
+              "13.61x",
+              ""
+            ],
+            [
+              "EV/Sales",
+              "22.05x",
+              "20.10x",
+              "4.73x",
+              "8.20x",
+              "13.33x",
+              "15.34x",
+              "11.37x",
+              "9.82x",
+              "8.36x",
+              "13.96x",
+              "7.50x"
+            ],
+            [
+              "EV/EBITDA",
+              "161.11x",
+              "114.67x",
+              "22.14x",
+              "63.46x",
+              "104.64x",
+              "138.54x",
+              "63.00x",
+              "58.81x",
+              "40.98x",
+              "100.76x",
+              "35.00x"
+            ],
+            [
+              "Dividend yield",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              ""
+            ]
+          ]
+        },
+        "peerComparison": {
+          "columns": [
+            "Company",
+            "Country",
+            "Mkt cap",
+            "P/E 2026e",
+            "P/E 2027e",
+            "EV/EBITDA 2026e",
+            "EV/EBITDA 2027e",
+            "P/BV",
+            "EBIT margin",
+            "ROE",
+            "Div yield"
+          ],
+          "rows": [
+            [
+              "Rivian Automotive, Inc.",
+              "United States",
+              "13,746 USDm",
+              "-2.6x",
+              "-1.7x",
+              "-6.3x",
+              "-6.3x",
+              "-8.1x",
+              "-57.8%",
+              "n/a",
+              "n/a"
+            ],
+            [
+              "Lucid Group, Inc.",
+              "United States",
+              "4,104 USDm",
+              "-1.7x",
+              "-3.9x",
+              "-15.1x",
+              "-99.1x",
+              "-2.7x",
+              "-82.8%",
+              "n/a",
+              "n/a"
+            ],
+            [
+              "Ford Motor Company",
+              "United States",
+              "56,161 USDm",
+              "8.0x",
+              "5.9x",
+              "13.5x",
+              "11.3x",
+              "1.1x",
+              "4.3%",
+              "14.4%",
+              "9.9%"
+            ],
+            [
+              "General Motors Company",
+              "United States",
+              "58,305 USDm",
+              "6.2x",
+              "5.1x",
+              "6.0x",
+              "5.1x",
+              "0.7x",
+              "7.3%",
+              "13.8%",
+              "0.9%"
+            ],
+            [
+              "Alphabet Inc.",
+              "United States",
+              "3,867,895 USDm",
+              "27.7x",
+              "23.8x",
+              "16.1x",
+              "14.0x",
+              "7.1x",
+              "33.7%",
+              "29.1%",
+              "0.3%"
+            ],
+            [
+              "Uber Technologies, Inc.",
+              "United States",
+              "135,712 USDm",
+              "22.6x",
+              "17.5x",
+              "12.1x",
+              "9.9x",
+              "4.1x",
+              "14.1%",
+              "20.2%",
+              "n/a"
+            ],
+            [
+              "Fluence Energy, Inc.",
+              "United States",
+              "855 USDm",
+              "-0.9x",
+              "-0.7x",
+              "-2.3x",
+              "-3.0x",
+              "-0.6x",
+              "-30.8%",
+              "n/a",
+              "n/a"
+            ],
+            [
+              "Enphase Energy, Inc.",
+              "United States",
+              "4,903 USDm",
+              "20.1x",
+              "18.4x",
+              "13.7x",
+              "11.6x",
+              "4.0x",
+              "14.2%",
+              "22.1%",
+              "n/a"
+            ],
+            [
+              "NIO Inc.",
+              "China",
+              "13,400 CNYm",
+              "-1.3x",
+              "-2.1x",
+              "-12.5x",
+              "-178.7x",
+              "-0.6x",
+              "-9.3%",
+              "n/a",
+              "n/a"
+            ],
+            [
+              "Peer median",
+              "",
+              "",
+              "20.1x",
+              "17.5x",
+              "13.5x",
+              "11.3x",
+              "4.0x",
+              "10.7%",
+              "20.2%",
+              "5.1%"
+            ],
+            [
+              "Peer average",
+              "",
+              "",
+              "16.9x",
+              "14.1x",
+              "12.3x",
+              "10.4x",
+              "3.4x",
+              "10.0%",
+              "19.9%",
+              "5.1%"
+            ],
+            [
+              "Web-sourced: General Motors Company (GM) Dividend yield.",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ]
+        },
+        "targetBridge": {
+          "columns": [
+            "Method",
+            "Forecast metric",
+            "Metric value",
+            "Selected multiple",
+            "Implied price",
+            "Weight",
+            "Rationale"
+          ],
+          "rows": [
+            [
+              "EV/Sales",
+              "2028e ns",
+              "138,122",
+              "7.50x",
+              "274.5 USD",
+              "60%",
+              "Primary valuation anchor reflecting structural growth and autonomy optionality."
+            ],
+            [
+              "EV/EBITDA",
+              "2028e ebitda",
+              "28,167",
+              "35.00x",
+              "261.2 USD",
+              "40%",
+              "Secondary support method accounting for long-term margin potential."
+            ],
+            [
+              "Weighted target price",
+              "",
+              "",
+              "",
+              "269.2 USD",
+              "100%",
+              ""
+            ]
+          ]
+        },
+        "sensitivity": {
+          "columns": [
+            "2028e ns (USDm)",
+            "Multiple 6.5x",
+            "Multiple 7.5x (base)",
+            "Multiple 8.5x"
+          ],
+          "rows": [
+            [
+              "110,498 (-20%)",
+              "189.9",
+              "219.4",
+              "248.8"
+            ],
+            [
+              "124,310 (-10%)",
+              "213.8",
+              "246.9",
+              "280.0"
+            ],
+            [
+              "138,122 (Base)",
+              "237.7",
+              "274.5",
+              "311.3"
+            ],
+            [
+              "151,934 (+10%)",
+              "261.6",
+              "302.1",
+              "342.5"
+            ],
+            [
+              "165,746 (+20%)",
+              "285.5",
+              "329.7",
+              "373.8"
+            ]
+          ]
+        },
+        "methodRationale": "Tesla is evaluated as a loss-making growth archetype because its near-term earnings are heavily distorted by automotive price cuts and substantial R&D investments in pre-revenue AI options. Consequently, EV/Sales is selected as the primary valuation method on 2028 estimates to reflect its structural growth and platform scale, with EV/EBITDA providing secondary support. Tesla's forward multiple of 8.4x EV/Sales represents a steep premium to traditional automotive peers (median 0.9x) but stands well below its own normalized historical average of 14.0x. We assign a selected fair EV/Sales multiple of 7.5x, reflecting the embedded optionality of its energy and autonomy segments—particularly its robotaxi ambitions competing directly with Waymo—while accommodating ongoing margin normalization. The XY scatter valuation signal is omitted from the final target price calculation, as the recommended weight is 0% and the company is valued primarily on future revenue growth and optionality rather than near-term return on equity. The primary valuation risk remains the delayed deployment or unexpected regulatory headwinds surrounding its autonomous network, which would compress its premium technology multiple closer to conventional automotive peers.",
+        "targetPrice": 269.2,
+        "selectedMultiple": "7.50x",
+        "primaryValuationMethod": "EV/Sales",
+        "fallbackApplied": false
+      },
+      "multiplesExtended": {
+        "forecastYear": 2026,
+        "evSales": 15.3742592,
+        "pSales": 13.15036304,
+        "peAdj": 239.36253879
+      },
+      "xyScatterInterpretation": "Tesla sits far above the peer curve, trading at a forecast average P/BV of 15.9x against a projected average ROE of 10.9%. The market typically pays a 1.6x multiple for this level of return, implying a share price of $41.5 — 87% below the current price of $308.3. This means Tesla trades at a large premium to the relationship between profitability and valuation multiples seen across the broader market."
+    },
+    "synthesis": {
+      "reportDate": "28 July 2026",
+      "peerCandidates": [
+        {
+          "companyName": "BYD Company Limited",
+          "ticker": "1211",
+          "exchange": "HKEX",
+          "country": "China",
+          "peerType": "direct_peer",
+          "similarityScore": "high",
+          "whyComparable": "Largest global EV/NEV manufacturer competing directly with Tesla across vehicle segments and battery technology; comparable scale in EV volumes.",
+          "mainLimitation": "Also sells hybrid/ICE vehicles and has a large battery-supply business; lower average selling price and different geographic mix."
+        },
+        {
+          "companyName": "Rivian Automotive, Inc.",
+          "ticker": "RIVN",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "direct_peer",
+          "similarityScore": "medium",
+          "whyComparable": "US-listed pure-play EV manufacturer targeting similar premium/adventure vehicle segments and software-defined vehicle strategy.",
+          "mainLimitation": "Much smaller production scale, not yet profitable, no comparable energy or autonomy business."
+        },
+        {
+          "companyName": "Lucid Group, Inc.",
+          "ticker": "LCID",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "direct_peer",
+          "similarityScore": "low",
+          "whyComparable": "US premium EV maker with in-house powertrain technology comparable to Tesla's vertical integration approach.",
+          "mainLimitation": "Very small volume and revenue base, ongoing cash burn, no energy or autonomy optionality comparable to Tesla."
+        },
+        {
+          "companyName": "Ford Motor Company",
+          "ticker": "F",
+          "exchange": "NYSE",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Large-scale automotive peer with a growing EV division and direct competition in North American vehicle market.",
+          "mainLimitation": "Predominantly an ICE manufacturer with much lower EV mix and margins; no comparable energy-storage or autonomy business."
+        },
+        {
+          "companyName": "General Motors Company",
+          "ticker": "GM",
+          "exchange": "NYSE",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Diversified automaker with EV ambitions and prior direct investment in autonomous driving (Cruise), relevant to the autonomy comparison.",
+          "mainLimitation": "Scaled back its robotaxi ambitions; core business remains ICE-dominated with lower margins than Tesla's EV-only model."
+        },
+        {
+          "companyName": "Alphabet Inc. (Waymo parent)",
+          "ticker": "GOOGL",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "valuation_reference",
+          "similarityScore": "low",
+          "whyComparable": "Owns Waymo, the market-leading robotaxi/autonomy operator directly referenced in the analyst request as Tesla's principal autonomy competitor.",
+          "mainLimitation": "Waymo is a small, non-separately-reported part of a much larger, diversified search/cloud/advertising business; no standalone Waymo valuation is disclosed."
+        },
+        {
+          "companyName": "Uber Technologies, Inc.",
+          "ticker": "UBER",
+          "exchange": "NYSE",
+          "country": "United States",
+          "peerType": "valuation_reference",
+          "similarityScore": "low",
+          "whyComparable": "Asset-light ride-hailing network partnering with multiple robotaxi/AV providers, relevant as a valuation reference for the mobility-network optionality embedded in Tesla's robotaxi ambitions.",
+          "mainLimitation": "Does not manufacture vehicles or autonomy hardware/software itself; fundamentally different asset-light platform economics."
+        },
+        {
+          "companyName": "Fluence Energy, Inc.",
+          "ticker": "FLNC",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Pure-play grid-scale battery energy storage integrator, directly comparable to Tesla's Megapack business.",
+          "mainLimitation": "No automotive or autonomy business; much smaller scale and different vertical-integration model (less in-house cell manufacturing)."
+        },
+        {
+          "companyName": "Enphase Energy, Inc.",
+          "ticker": "ENPH",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "low",
+          "whyComparable": "Residential solar and battery storage technology provider comparable to Tesla's Powerwall/solar offering.",
+          "mainLimitation": "Focused on residential/small-commercial only, no utility-scale Megapack equivalent, no automotive business."
+        },
+        {
+          "companyName": "NIO Inc.",
+          "ticker": "NIO",
+          "exchange": "NYSE",
+          "country": "China",
+          "peerType": "direct_peer",
+          "similarityScore": "low",
+          "whyComparable": "Chinese premium EV manufacturer with in-house software/autonomy ambitions and battery-swap infrastructure comparable to Tesla's Supercharger network strategy.",
+          "mainLimitation": "Much smaller revenue base, different geography/regulatory environment, not yet profitable."
+        }
+      ],
+      "peerValuationPack": "Peer multiples from Valuatum followed models (primary, highest-volume listing per company). Multiples shown as ratios (x), margins/yields/returns as percent, book value per share in local currency. Year columns suffixed \"e\" are forecasts. 9 of 10 suggested peers resolved.\n\n\n\n### Rivian Automotive, Inc. (RIVN, United States)\n- Peer type: direct_peer; similarity: medium\n- Why comparable: US-listed pure-play EV manufacturer targeting similar premium/adventure vehicle segments and software-defined vehicle strategy.\n- Main limitation: Much smaller production scale, not yet profitable, no comparable energy or autonomy business.\n- Current price: 13.4585 USD | Market cap: 13,746 USDm | Net debt: 39,040 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | -2.5x | -4.1x | -2.8x | -4.5x | -2.6x | -1.7x | -1.0x\nP/E adj. | -2.5x | -4.1x | -2.8x | -4.5x | -2.6x | -1.7x | -1.0x\nEV/EBITDA | -1.1x | -4.0x | -3.6x | -7.2x | -6.3x | -6.3x | -5.8x\nEV/EBIT | -1.0x | -3.4x | -2.8x | -5.4x | -5.7x | -5.8x | -4.6x\nEV/Sales | 4.1x | 4.3x | 2.6x | 3.1x | 3.3x | 3.3x | 4.3x\nP/FCF | 1.2x | -2.7x | -2.9x | -4.3x | -2.0x | -1.2x | -1.1x\nP/BV | 1.2x | 2.4x | 2.1x | 3.9x | -8.1x | -1.4x | -0.6x\nP/S | 10.1x | 5.0x | 2.7x | 2.6x | 1.9x | 1.2x | 1.1x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | -413.5% | -129.4% | -94.3% | -57.8% | -57.8% | -57.8% | -94.1%\nROE | -40.5% | -47.4% | -60.5% | -60.8% | n/a | n/a | n/a\nROIC | -22.6% | -35.4% | -33.7% | -24.7% | -25.0% | -25.9% | -36.9%\nBook value / share | 15.11 | 9.65 | 6.47 | 2.89 | -1.39 | -8.21 | -19.98\n\n### Lucid Group, Inc. (LCID, United States)\n- Peer type: direct_peer; similarity: low\n- Why comparable: US premium EV maker with in-house powertrain technology comparable to Tesla's vertical integration approach.\n- Main limitation: Very small volume and revenue base, ongoing cash burn, no energy or autonomy optionality comparable to Tesla.\n- Current price: 16.785 USD | Market cap: 4,104 USDm | Net debt: 52,043 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | -8.8x | -3.1x | -2.7x | -1.4x | -1.7x | -3.9x | -0.2x\nP/E adj. | -8.8x | -3.1x | -2.7x | -1.4x | -1.7x | -3.9x | -0.2x\nEV/EBITDA | -4.9x | -3.4x | -3.0x | -5.8x | -15.1x | -99.1x | -3.7x\nEV/EBIT | -4.7x | -3.2x | -2.7x | -3.9x | -8.9x | -18.7x | -3.2x\nEV/Sales | 19.9x | 16.5x | 10.2x | 7.9x | 7.4x | 6.4x | 9.1x\nP/FCF | 63.5x | -2.2x | -4.1x | -0.6x | -0.4x | -0.2x | -0.2x\nP/BV | 2.6x | 1.8x | 1.9x | 4.3x | -2.7x | -1.6x | -0.2x\nP/S | 18.8x | 14.7x | 9.1x | 2.9x | 1.4x | 0.7x | 0.7x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | -426.5% | -520.7% | -373.9% | -203.7% | -82.8% | -34.3% | -281.7%\nROE | -31.6% | -61.5% | -62.2% | -120.7% | n/a | n/a | n/a\nROIC | -12.3% | -40.1% | -39.4% | -33.2% | -7.4% | 1.4% | -34.0%\nBook value / share | 25.92 | 23.31 | 15.84 | 3.11 | -4.89 | -8.28 | -63.06\n\n### Ford Motor Company (F, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Large-scale automotive peer with a growing EV division and direct competition in North American vehicle market.\n- Main limitation: Predominantly an ICE manufacturer with much lower EV mix and margins; no comparable energy-storage or autonomy business.\n- Current price: 14.35 USD | Market cap: 56,161 USDm | Net debt: 133,769 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | -21.7x | 11.3x | 6.7x | 8.5x | 8.0x | 5.9x | 4.6x\nP/E adj. | -21.7x | 11.3x | 6.7x | 8.5x | 8.0x | 5.9x | 4.6x\nEV/EBITDA | 20.3x | 14.6x | 16.1x | 26.4x | 13.5x | 11.3x | 9.7x\nEV/EBIT | 25.8x | 32.1x | 34.1x | 26.4x | 23.5x | 17.9x | 14.4x\nEV/Sales | 1.0x | 1.0x | 1.0x | 1.0x | 1.0x | 1.0x | 0.9x\nP/FCF | 3.1x | -10.6x | -3.9x | 4.5x | 40.2x | 11.6x | 7.1x\nP/BV | 1.1x | 1.1x | 0.9x | 1.2x | 1.1x | 1.0x | 0.9x\nP/S | 0.3x | 0.3x | 0.2x | 0.3x | 0.3x | 0.3x | 0.3x\nDividend yield | 4.3% | 10.3% | 7.9% | 9.3% | 9.9% | 13.5% | 17.1%\nEBIT margin | 4.0% | 3.1% | 2.8% | 4.0% | 4.3% | 5.5% | 6.6%\nROE | -4.7% | 10.1% | 13.5% | 14.3% | 14.4% | 18.5% | 21.7%\nROIC | 3.7% | 3.7% | 4.2% | 3.4% | 6.5% | 7.6% | 8.7%\nBook value / share | 10.77 | 10.70 | 11.27 | 12.41 | 12.91 | 13.98 | 15.20\n\n### General Motors Company (GM, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Diversified automaker with EV ambitions and prior direct investment in autonomous driving (Cruise), relevant to the autonomy comparison.\n- Main limitation: Scaled back its robotaxi ambitions; core business remains ICE-dominated with lower margins than Tesla's EV-only model.\n- Current price: 48.65 USD | Market cap: 58,305 USDm | Net debt: 98,991 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 4.8x | 5.0x | 10.0x | 6.5x | 6.2x | 5.1x | 4.4x\nP/E adj. | 4.8x | 5.0x | 10.0x | 6.5x | 6.2x | 5.1x | 4.4x\nEV/EBITDA | 9.4x | 7.4x | 6.9x | 14.1x | 6.0x | 5.1x | 4.3x\nEV/EBIT | 14.4x | 16.8x | 13.5x | 14.1x | 11.2x | 9.1x | 7.5x\nEV/Sales | 0.9x | 0.9x | 0.9x | 0.9x | 0.8x | 0.7x | 0.7x\nP/FCF | -13.5x | 8.9x | 12.8x | -5.1x | 9.9x | 6.5x | 5.0x\nP/BV | 0.7x | 0.8x | 0.9x | 0.8x | 0.7x | 0.6x | 0.5x\nP/S | 0.3x | 0.3x | 0.3x | 0.3x | 0.3x | 0.3x | 0.3x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 6.6% | 5.4% | 6.8% | 6.4% | 7.3% | 8.1% | 8.8%\nROE | 16.0% | 14.9% | 9.4% | 15.3% | 13.8% | 14.6% | 14.7%\nROIC | 6.9% | 6.0% | 7.1% | 6.3% | 8.3% | 9.3% | 10.2%\nBook value / share | 46.91 | 47.13 | 56.57 | 77.25 | 88.75 | 102.71 | 118.99\n\n### Alphabet Inc. (GOOGL, United States)\n- Peer type: valuation_reference; similarity: low\n- Why comparable: Owns Waymo, the market-leading robotaxi/autonomy operator directly referenced in the analyst request as Tesla's principal autonomy competitor.\n- Main limitation: Waymo is a small, non-separately-reported part of a much larger, diversified search/cloud/advertising business; no standalone Waymo valuation is disclosed.\n- Current price: 319.74 USD | Market cap: 3,867,895 USDm | Net debt: -583,049 USDm\n\nMetric | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 23.9x | 23.3x | 28.7x | 27.7x | 23.8x | 20.3x | 13.1x\nP/E adj. | 23.9x | 23.3x | 28.7x | 27.7x | 23.8x | 20.3x | 13.1x\nEV/EBITDA | 18.7x | 18.3x | 25.4x | 16.1x | 14.0x | 11.4x | 16.7x\nEV/EBIT | 21.0x | 20.8x | 29.6x | 23.8x | 19.8x | 16.3x | 19.8x\nEV/Sales | 5.7x | 6.7x | 9.5x | 8.0x | 6.8x | 5.7x | 5.0x\nP/FCF | 35.2x | 43.8x | -408.6x | 36.2x | 33.6x | 28.3x | 31.7x\nP/BV | 6.2x | 7.2x | 9.1x | 7.1x | 5.5x | 4.4x | 3.3x\nP/S | 5.7x | 6.7x | 9.4x | 8.2x | 7.1x | 6.2x | 5.9x\nDividend yield | n/a | 0.3% | 0.3% | 0.3% | 0.3% | 0.4% | 0.6%\nEBIT margin | 27.4% | 32.1% | 32.1% | 33.7% | 34.2% | 35.0% | 25.4%\nROE | 27.4% | 32.9% | 35.7% | 29.1% | 26.2% | 24.3% | 29.2%\nROIC | 29.6% | 36.3% | 38.5% | 33.4% | 31.8% | 29.4% | 35.1%\nBook value / share | 22.44 | 26.39 | 34.27 | 45.04 | 57.62 | 72.39 | 95.72\n\n### Uber Technologies, Inc. (UBER, United States)\n- Peer type: valuation_reference; similarity: low\n- Why comparable: Asset-light ride-hailing network partnering with multiple robotaxi/AV providers, relevant as a valuation reference for the mobility-network optionality embedded in Tesla's robotaxi ambitions.\n- Main limitation: Does not manufacture vehicles or autonomy hardware/software itself; fundamentally different asset-light platform economics.\n- Current price: 65.94 USD | Market cap: 135,712 USDm | Net debt: -19,342 USDm\n\nMetric | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 58.1x | 12.8x | 16.9x | 22.6x | 17.5x | 14.2x | 25.8x\nP/E adj. | 58.1x | 12.8x | 16.9x | 22.6x | 17.5x | 14.2x | 25.8x\nEV/EBITDA | 76.4x | 38.7x | 28.9x | 12.1x | 9.9x | 7.8x | 16.6x\nEV/EBIT | 133.0x | 48.8x | 32.8x | 17.2x | 12.8x | 9.7x | 19.7x\nEV/Sales | 4.0x | 3.1x | 3.5x | 2.4x | 2.0x | 1.7x | 1.5x\nP/FCF | -46.7x | 284.0x | 47.1x | 27.4x | 20.9x | 16.4x | 35.0x\nP/BV | 11.1x | 5.9x | 6.3x | 4.1x | 3.3x | 2.7x | 2.4x\nP/S | 3.4x | 2.9x | 3.3x | 2.4x | 2.1x | 1.8x | 1.7x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 3.0% | 6.4% | 10.7% | 14.1% | 15.6% | 17.1% | 7.6%\nROE | 23.2% | 60.0% | 41.5% | 20.2% | 21.2% | 21.1% | 10.0%\nROIC | 13.4% | 15.8% | 16.7% | 25.6% | 29.3% | 31.4% | 17.3%\nBook value / share | 5.53 | 10.29 | 12.97 | 16.10 | 19.92 | 24.61 | 27.21\n\n### Fluence Energy, Inc. (FLNC, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Pure-play grid-scale battery energy storage integrator, directly comparable to Tesla's Megapack business.\n- Main limitation: No automotive or autonomy business; much smaller scale and different vertical-integration model (less in-house cell manufacturing).\n- Current price: 5.01 USD | Market cap: 855 USDm | Net debt: 2,914 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | -3.5x | -25.5x | 94.6x | -1.1x | -0.9x | -0.7x | -16.0x\nP/E adj. | -3.5x | -25.5x | 94.6x | -1.1x | -0.9x | -0.7x | -16.0x\nEV/EBITDA | -3.9x | -36.7x | 81.7x | -1.2x | -2.3x | -3.0x | -78.2x\nEV/EBIT | -3.9x | -33.2x | 122.9x | -1.1x | -2.2x | -2.9x | -54.9x\nEV/Sales | 0.9x | 1.5x | 1.2x | 0.4x | 0.7x | 0.9x | 0.8x\nP/FCF | -2.3x | -28.7x | 32.4x | -0.9x | -0.8x | -0.7x | -8.4x\nP/BV | 2.3x | 6.7x | 6.1x | -2.6x | -0.6x | -0.3x | -0.3x\nP/S | 0.8x | 1.2x | 1.1x | 0.3x | 0.2x | 0.2x | 0.2x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | -23.8% | -4.6% | 1.0% | -31.5% | -30.8% | -30.3% | -1.5%\nROE | n/a | -25.0% | 6.9% | n/a | n/a | n/a | n/a\nROIC | -99.9% | -15.7% | 6.3% | -126.0% | -127.0% | -120.0% | -4.7%\nBook value / share | 6.25 | 3.46 | 3.74 | -2.53 | -10.12 | -19.02 | -19.43\n\n### Enphase Energy, Inc. (ENPH, United States)\n- Peer type: segment_peer; similarity: low\n- Why comparable: Residential solar and battery storage technology provider comparable to Tesla's Powerwall/solar offering.\n- Main limitation: Focused on residential/small-commercial only, no utility-scale Megapack equivalent, no automotive business.\n- Current price: 44.58 USD | Market cap: 4,903 USDm | Net debt: 4 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 85.2x | 41.4x | 90.7x | 32.8x | 20.1x | 18.4x | 15.2x\nP/E adj. | 85.2x | 41.4x | 90.7x | 32.8x | 20.1x | 18.4x | 15.2x\nEV/EBITDA | 76.5x | 36.8x | 64.6x | 12.0x | 13.7x | 11.6x | 11.7x\nEV/EBIT | 81.3x | 43.0x | 132.6x | 50.2x | 26.9x | 23.5x | 14.4x\nEV/Sales | 15.6x | 8.4x | 7.7x | 3.9x | 3.8x | 3.3x | 3.2x\nP/FCF | 272.1x | 511.3x | 32.4x | 67.9x | 25.7x | 29.0x | 15.4x\nP/BV | 43.1x | 18.5x | 11.2x | 5.0x | 4.0x | 3.3x | 2.7x\nP/S | 15.3x | 7.9x | 7.0x | 3.4x | 3.4x | 3.1x | 3.2x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 19.2% | 19.5% | 5.8% | 7.8% | 14.2% | 14.3% | 22.4%\nROE | 66.6% | 48.5% | 11.3% | 16.5% | 22.1% | 19.6% | 19.5%\nROIC | 25.6% | 23.7% | 7.0% | 7.7% | 14.1% | 15.1% | 17.7%\nBook value / share | 6.10 | 7.21 | 6.16 | 7.51 | 9.38 | 11.42 | 13.88\n\n### NIO Inc. (NIO, China)\n- Peer type: direct_peer; similarity: low\n- Why comparable: Chinese premium EV manufacturer with in-house software/autonomy ambitions and battery-swap infrastructure comparable to Tesla's Supercharger network strategy.\n- Main limitation: Much smaller revenue base, different geography/regulatory environment, not yet profitable.\n- Market cap: 13,400 CNYm | Net debt: 94,010 CNYm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | -1.1x | -0.7x | -0.4x | -0.8x | -1.3x | -2.1x | -0.5x\nP/E adj. | -1.1x | -0.7x | -0.4x | -0.8x | -1.3x | -2.1x | -0.5x\nEV/EBITDA | -1.4x | -0.9x | -1.6x | -3.9x | -12.5x | -178.7x | -4.0x\nEV/EBIT | -1.4x | -0.9x | -1.6x | -2.6x | -6.0x | -8.8x | -4.0x\nEV/Sales | 0.4x | 0.4x | 0.5x | 0.5x | 0.6x | 0.6x | 0.8x\nP/FCF | -3.7x | -0.7x | -0.5x | -0.5x | -0.8x | -1.0x | -0.5x\nP/BV | 0.7x | 0.6x | 1.5x | -1.2x | -0.6x | -0.5x | -0.2x\nP/S | 0.3x | 0.3x | 0.1x | 0.1x | 0.1x | 0.1x | 0.1x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | -31.7% | -40.7% | -33.3% | -18.5% | -9.3% | -6.5% | -18.9%\nROE | -49.2% | -83.9% | -142.2% | n/a | n/a | n/a | n/a\nROIC | -25.6% | -34.7% | -37.7% | -27.5% | -9.4% | -3.8% | -22.5%\nBook value / share | 14.58 | 15.03 | 2.90 | -5.36 | -10.17 | -13.29 | -25.95\n\n\n\n#### Peer median / average (across 9 resolved peers; cells need ≥2 peers)\nMetric | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | ---\nP/E (median) | 11.4x | 16.9x | 20.1x | 17.5x | 14.2x | 19.4x\nP/E (mean) | 13.2x | 18.7x | 16.9x | 14.1x | 11.8x | 19.4x\nP/E adj. (median) | 11.4x | 16.9x | 20.1x | 17.5x | 14.2x | 19.4x\nP/E adj. (mean) | 13.2x | 18.7x | 16.9x | 14.1x | 11.8x | 19.4x\nEV/EBITDA (median) | 17.2x | 25.4x | 13.5x | 11.3x | 9.7x | 16.6x\nEV/EBITDA (mean) | 20.0x | 21.4x | 12.3x | 10.4x | 9.0x | 16.6x\nEV/EBIT (median) | 27.4x | 29.6x | 23.5x | 17.9x | 14.4x | 19.8x\nEV/EBIT (mean) | 29.3x | 30.6x | 20.5x | 16.6x | 12.4x | 19.8x\nEV/Sales (median) | 1.1x | 1.0x | 1.0x | 1.0x | 0.9x | 3.3x\nEV/Sales (mean) | 1.6x | 1.9x | 1.8x | 1.7x | 1.3x | 3.3x\nP/FCF (median) | 32.4x | 47.1x | 27.4x | 20.9x | 15.4x | 33.4x\nP/FCF (mean) | 30.3x | 39.8x | 27.9x | 20.3x | 14.4x | 33.4x\nP/BV (median) | 1.5x | 4.1x | 4.0x | 3.3x | 2.7x | 2.9x\nP/BV (mean) | 1.5x | 3.6x | 3.4x | 2.8x | 2.3x | 2.9x\nP/S (median) | 0.7x | 1.5x | 0.3x | 0.3x | 0.3x | 3.8x\nP/S (mean) | 1.2x | 1.7x | 0.9x | 0.5x | 0.4x | 3.8x\nDividend yield (median) | 4.1% | 4.8% | 5.1% | 6.9% | 8.7% | n/a\nDividend yield (mean) | 4.1% | 4.8% | 5.1% | 6.9% | 8.7% | n/a\nEBIT margin (median) | 5.8% | 7.1% | 10.7% | 11.2% | 12.9% | 16.5%\nEBIT margin (mean) | 4.6% | 7.2% | 10.0% | 10.9% | 13.7% | 16.5%\nROE (median) | 10.3% | 15.3% | 20.2% | 19.6% | 21.1% | 19.6%\nROE (mean) | 10.3% | 15.4% | 19.9% | 20.0% | 20.2% | 19.6%\nROIC (median) | 6.7% | 6.3% | 11.2% | 8.4% | 17.7% | 26.2%\nROIC (mean) | 6.1% | 5.8% | 13.6% | 8.3% | 19.5% | 26.2%\nBook value / share (median) | 6.47 | 7.51 | 12.91 | 13.98 | 15.20 | 61.46\nBook value / share (mean) | 8.10 | 7.78 | 12.79 | 15.11 | 17.90 | 61.46",
+      "reverseValuation": "Market-implied (reverse valuation) scenario — the figures that make the model's fair value equal its current market cap (what the market is pricing in).\nMarket cap: 1,567,112 USDm | Original fair value: 81.53 USDm | Implied fair value: 417 USDm\nColumns are full estimate years from 2026 plus a terminal (TRM) column. Values shown are the market-implied (post-solve) figures; monetary values in USD millions, percentage variables as shown.\n\n#### base_figures_with_currency\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns | 102,329 | 118,214 | 138,122 | 141,266 | 145,196 | 149,482 | 153,955 | 158,573 | 163,330 | 168,230 | 173,277\nebitda | 52,435 | 69,965 | 86,842 | 82,234 | 85,470 | 88,934 | 92,516 | 96,188 | 99,945 | 102,943 | n/a\nebit | 39,706 | 59,999 | 74,978 | 73,611 | 76,651 | 79,869 | 83,184 | 86,576 | 90,045 | 92,746 | 95,529\ntangible_ass | 47,391 | 54,748 | 63,968 | 65,424 | 67,245 | 69,229 | 71,301 | 73,440 | 75,643 | 77,912 | n/a\nbv | 119,215 | 179,550 | 258,528 | 342,140 | 435,308 | 538,955 | 654,011 | 781,465 | 922,390 | 1,077,128 | n/a\nliab_ib_total | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | n/a\nbs_total_assets | 167,347 | 230,475 | 312,954 | 397,119 | 490,978 | 595,379 | 711,221 | 839,487 | 981,249 | 1,136,849 | n/a\ngross_cap_expenditure | 19,488 | 17,345 | 21,112 | 10,084 | 10,645 | 11,056 | 11,410 | 11,757 | 12,110 | 12,473 | 12,847\n\n#### key_ratios\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns_growth | 7.9% | 15.5% | 16.8% | 2.3% | 2.8% | 3.0% | 3.0% | 3.0% | 3.0% | 3.0% | 3.0%\nebitda_percent | 51.2% | 59.2% | 62.9% | 58.2% | 58.9% | 59.5% | 60.1% | 60.7% | 61.2% | 61.2% | n/a\nebit_percent | 38.8% | 50.8% | 54.3% | 52.1% | 52.8% | 53.4% | 54.0% | 54.6% | 55.1% | 55.1% | 55.1%\nasset_turnover | 1.25 | 1.33 | 1.41 | 1.42 | 1.43 | 1.44 | 1.46 | 1.47 | 1.49 | 1.50 | n/a\nroi_before_tax_avg_cap | 39.8% | 43.6% | 38.9% | 30.1% | 25.9% | 23.0% | 20.8% | 19.2% | 17.9% | 16.7% | n/a\nroe_percent | 36.8% | 40.4% | 36.1% | 27.8% | 24.0% | 21.3% | 19.3% | 17.8% | 16.5% | 15.5% | n/a\nequity_ratio | 71.7% | 78.2% | 82.8% | 86.3% | 88.8% | 90.6% | 92.1% | 93.2% | 94.1% | 94.8% | n/a\n\n#### Estimate parameters\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\ninv_gross_per_ns | 0.19 | 0.15 | 0.15 | 0.07 | 0.07 | 0.07 | 0.07 | 0.07 | 0.07 | 0.07 | n/a\ntangible_ass_per_ns | 0.46 | 0.46 | 0.46 | 0.46 | 0.46 | 0.46 | 0.46 | 0.46 | 0.46 | 0.46 | n/a\ninv_gross | 19,477 | 17,323 | 21,084 | 10,079 | 10,639 | 11,049 | 11,404 | 11,750 | 12,103 | 12,466 | n/a\ndep_without_gwa_percent | 31.3% | 21.0% | 21.7% | 13.5% | 13.5% | 13.5% | 13.5% | 13.5% | 13.5% | 13.5% | n/a\ninventories_per_ns | 0.13 | 0.13 | 0.13 | 0.13 | 0.13 | 0.13 | 0.13 | 0.13 | 0.13 | 0.13 | n/a\napum_fa_hall | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | n/a\ndefault_zero | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nbs_allocated_share_lt | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | n/a\n\n#### dcf_valuation_with_currency\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nebit | 39,706 | 59,999 | 74,978 | 73,611 | 76,651 | 79,869 | 83,184 | 86,576 | 90,045 | 92,746 | 95,529\ndep_total_nega | 12,729 | 9,966 | 11,864 | 8,623 | 8,819 | 9,065 | 9,332 | 9,611 | 9,900 | 10,197 | n/a\ntaxes_paid | -4,384 | -4,794 | -6,275 | -6,643 | -7,403 | -8,235 | -9,142 | -10,127 | -11,197 | -12,295 | n/a\ntax_fin_expenses | -60.11 | -22.54 | -22.54 | -22.54 | -22.54 | -22.54 | -22.54 | -22.54 | -22.54 | -22.54 | n/a\ntax_fin_income | 246 | 400 | 779 | 1,248 | 1,783 | 2,379 | 3,041 | 3,777 | 4,592 | 5,491 | n/a\nchange_in_wc_nega | -121 | 10.45 | 13.10 | 2.07 | 2.59 | 2.82 | 2.94 | 3.04 | 3.13 | 3.22 | n/a\noperating_cash_flow | 48,116 | 65,559 | 81,336 | 76,818 | 79,831 | 83,058 | 86,396 | 89,818 | 93,320 | 96,119 | n/a\nchange_in_lt_liab_nib | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\ngross_cap_expenditure_nega | -19,488 | -17,345 | -21,112 | -10,084 | -10,645 | -11,056 | -11,410 | -11,757 | -12,110 | -12,473 | -12,847\nfree_operating_cash_flow | 28,628 | 48,213 | 60,224 | 66,734 | 69,186 | 72,002 | 74,986 | 78,061 | 81,210 | 83,646 | n/a\nother_items_fcf | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nfree_cash_flow_to_firm | 28,628 | 48,213 | 60,224 | 66,734 | 69,186 | 72,002 | 74,986 | 78,061 | 81,210 | 83,646 | 2,137,862\ndisc_fcff | 27,549 | 43,199 | 50,416 | 52,197 | 50,560 | 49,162 | 47,836 | 46,527 | 45,225 | 43,522 | 1,112,351\ncum_disc_fcff | 1,568,544 | 1,540,995 | 1,497,796 | 1,447,380 | 1,395,184 | 1,344,624 | 1,295,461 | 1,247,625 | 1,201,098 | 1,155,873 | n/a\nib_debt_nega_prev_year | -8,376 | -0.10 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | -8,376\ncash_prev_year | 16,513 | 38,336 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 16,513\ndcf_dividends | 0.00 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nvalue_of_equity_fcff | 1,567,112 | 1,572,977 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 1,567,112\nno_of_shares_total | 3,756 | 3,756 | 3,756 | 3,756 | 3,756 | 3,756 | 3,756 | 3,756 | 3,756 | 3,756 | n/a\nfair_value_fcff | 417 | 419 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 417\nmarket_value_of_associated | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00\nmarket_value_of_minorities_nega | -9,570 | -6,354 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | -9,570",
+      "frozenMarketData": {
+        "sharePrice": {
+          "points": [
+            {
+              "period": "2023-08-02",
+              "price": 254.11
+            },
+            {
+              "period": "2023-08-09",
+              "price": 242.19
+            },
+            {
+              "period": "2023-08-16",
+              "price": 225.6
+            },
+            {
+              "period": "2023-08-23",
+              "price": 236.86
+            },
+            {
+              "period": "2023-08-30",
+              "price": 256.9
+            },
+            {
+              "period": "2023-09-06",
+              "price": 251.92
+            },
+            {
+              "period": "2023-09-13",
+              "price": 271.3
+            },
+            {
+              "period": "2023-09-20",
+              "price": 262.59
+            },
+            {
+              "period": "2023-09-27",
+              "price": 240.5
+            },
+            {
+              "period": "2023-10-04",
+              "price": 261.16
+            },
+            {
+              "period": "2023-10-11",
+              "price": 262.99
+            },
+            {
+              "period": "2023-10-18",
+              "price": 242.68
+            },
+            {
+              "period": "2023-10-25",
+              "price": 212.42
+            },
+            {
+              "period": "2023-11-01",
+              "price": 205.66
+            },
+            {
+              "period": "2023-11-08",
+              "price": 222.11
+            },
+            {
+              "period": "2023-11-15",
+              "price": 242.84
+            },
+            {
+              "period": "2023-11-22",
+              "price": 234.21
+            },
+            {
+              "period": "2023-11-29",
+              "price": 244.14
+            },
+            {
+              "period": "2023-12-06",
+              "price": 239.37
+            },
+            {
+              "period": "2023-12-13",
+              "price": 239.29
+            },
+            {
+              "period": "2023-12-20",
+              "price": 247.14
+            },
+            {
+              "period": "2023-12-27",
+              "price": 261.44
+            },
+            {
+              "period": "2024-01-03",
+              "price": 238.45
+            },
+            {
+              "period": "2024-01-10",
+              "price": 233.94
+            },
+            {
+              "period": "2024-01-17",
+              "price": 215.55
+            },
+            {
+              "period": "2024-01-24",
+              "price": 207.83
+            },
+            {
+              "period": "2024-01-31",
+              "price": 187.29
+            },
+            {
+              "period": "2024-02-07",
+              "price": 187.58
+            },
+            {
+              "period": "2024-02-14",
+              "price": 188.71
+            },
+            {
+              "period": "2024-02-21",
+              "price": 194.77
+            },
+            {
+              "period": "2024-02-28",
+              "price": 202.04
+            },
+            {
+              "period": "2024-03-06",
+              "price": 176.54
+            },
+            {
+              "period": "2024-03-13",
+              "price": 169.48
+            },
+            {
+              "period": "2024-03-20",
+              "price": 175.66
+            },
+            {
+              "period": "2024-03-27",
+              "price": 179.83
+            },
+            {
+              "period": "2024-04-03",
+              "price": 168.38
+            },
+            {
+              "period": "2024-04-10",
+              "price": 171.76
+            },
+            {
+              "period": "2024-04-17",
+              "price": 155.45
+            },
+            {
+              "period": "2024-04-24",
+              "price": 162.13
+            },
+            {
+              "period": "2024-05-01",
+              "price": 179.99
+            },
+            {
+              "period": "2024-05-08",
+              "price": 174.72
+            },
+            {
+              "period": "2024-05-15",
+              "price": 173.99
+            },
+            {
+              "period": "2024-05-22",
+              "price": 180.11
+            },
+            {
+              "period": "2024-05-29",
+              "price": 176.19
+            },
+            {
+              "period": "2024-06-05",
+              "price": 175
+            },
+            {
+              "period": "2024-06-12",
+              "price": 177.29
+            },
+            {
+              "period": "2024-06-18",
+              "price": 184.86
+            },
+            {
+              "period": "2024-06-26",
+              "price": 196.37
+            },
+            {
+              "period": "2024-07-03",
+              "price": 246.39
+            },
+            {
+              "period": "2024-07-10",
+              "price": 263.26
+            },
+            {
+              "period": "2024-07-17",
+              "price": 248.5
+            },
+            {
+              "period": "2024-07-24",
+              "price": 215.99
+            },
+            {
+              "period": "2024-07-31",
+              "price": 232.07
+            },
+            {
+              "period": "2024-08-07",
+              "price": 191.76
+            },
+            {
+              "period": "2024-08-14",
+              "price": 201.38
+            },
+            {
+              "period": "2024-08-21",
+              "price": 223.27
+            },
+            {
+              "period": "2024-08-28",
+              "price": 205.75
+            },
+            {
+              "period": "2024-09-04",
+              "price": 219.41
+            },
+            {
+              "period": "2024-09-11",
+              "price": 228.13
+            },
+            {
+              "period": "2024-09-18",
+              "price": 227.2
+            },
+            {
+              "period": "2024-09-25",
+              "price": 257.02
+            },
+            {
+              "period": "2024-10-02",
+              "price": 249.02
+            },
+            {
+              "period": "2024-10-09",
+              "price": 241.05
+            },
+            {
+              "period": "2024-10-16",
+              "price": 221.33
+            },
+            {
+              "period": "2024-10-23",
+              "price": 213.65
+            },
+            {
+              "period": "2024-10-30",
+              "price": 257.55
+            },
+            {
+              "period": "2024-11-06",
+              "price": 288.53
+            },
+            {
+              "period": "2024-11-13",
+              "price": 330.24
+            },
+            {
+              "period": "2024-11-20",
+              "price": 342.03
+            },
+            {
+              "period": "2024-11-27",
+              "price": 332.89
+            },
+            {
+              "period": "2024-12-04",
+              "price": 357.93
+            },
+            {
+              "period": "2024-12-11",
+              "price": 424.77
+            },
+            {
+              "period": "2024-12-18",
+              "price": 440.13
+            },
+            {
+              "period": "2024-12-24",
+              "price": 462.28
+            },
+            {
+              "period": "2024-12-31",
+              "price": 403.84
+            },
+            {
+              "period": "2025-01-08",
+              "price": 394.94
+            },
+            {
+              "period": "2025-01-15",
+              "price": 428.22
+            },
+            {
+              "period": "2025-01-22",
+              "price": 415.11
+            },
+            {
+              "period": "2025-01-29",
+              "price": 389.1
+            },
+            {
+              "period": "2025-02-05",
+              "price": 378.17
+            },
+            {
+              "period": "2025-02-12",
+              "price": 336.51
+            },
+            {
+              "period": "2025-02-19",
+              "price": 360.56
+            },
+            {
+              "period": "2025-02-26",
+              "price": 290.8
+            },
+            {
+              "period": "2025-03-05",
+              "price": 279.1
+            },
+            {
+              "period": "2025-03-12",
+              "price": 248.09
+            },
+            {
+              "period": "2025-03-19",
+              "price": 235.86
+            },
+            {
+              "period": "2025-03-26",
+              "price": 272.06
+            },
+            {
+              "period": "2025-04-02",
+              "price": 282.76
+            },
+            {
+              "period": "2025-04-09",
+              "price": 272.2
+            },
+            {
+              "period": "2025-04-16",
+              "price": 241.55
+            },
+            {
+              "period": "2025-04-23",
+              "price": 250.74
+            },
+            {
+              "period": "2025-04-30",
+              "price": 282.16
+            },
+            {
+              "period": "2025-05-07",
+              "price": 276.22
+            },
+            {
+              "period": "2025-05-14",
+              "price": 347.68
+            },
+            {
+              "period": "2025-05-21",
+              "price": 334.62
+            },
+            {
+              "period": "2025-05-28",
+              "price": 356.9
+            },
+            {
+              "period": "2025-06-04",
+              "price": 332.05
+            },
+            {
+              "period": "2025-06-11",
+              "price": 326.43
+            },
+            {
+              "period": "2025-06-18",
+              "price": 322.05
+            },
+            {
+              "period": "2025-06-25",
+              "price": 327.55
+            },
+            {
+              "period": "2025-07-02",
+              "price": 315.65
+            },
+            {
+              "period": "2025-07-09",
+              "price": 295.88
+            },
+            {
+              "period": "2025-07-16",
+              "price": 321.67
+            },
+            {
+              "period": "2025-07-23",
+              "price": 332.56
+            },
+            {
+              "period": "2025-07-30",
+              "price": 319.04
+            },
+            {
+              "period": "2025-08-06",
+              "price": 319.91
+            },
+            {
+              "period": "2025-08-13",
+              "price": 339.38
+            },
+            {
+              "period": "2025-08-20",
+              "price": 323.9
+            },
+            {
+              "period": "2025-08-27",
+              "price": 349.6
+            },
+            {
+              "period": "2025-09-03",
+              "price": 334.09
+            },
+            {
+              "period": "2025-09-10",
+              "price": 347.79
+            },
+            {
+              "period": "2025-09-17",
+              "price": 425.86
+            },
+            {
+              "period": "2025-09-24",
+              "price": 442.79
+            },
+            {
+              "period": "2025-10-01",
+              "price": 459.46
+            },
+            {
+              "period": "2025-10-08",
+              "price": 438.69
+            },
+            {
+              "period": "2025-10-15",
+              "price": 435.15
+            },
+            {
+              "period": "2025-10-22",
+              "price": 438.97
+            },
+            {
+              "period": "2025-10-29",
+              "price": 461.51
+            },
+            {
+              "period": "2025-11-05",
+              "price": 462.07
+            },
+            {
+              "period": "2025-11-12",
+              "price": 430.6
+            },
+            {
+              "period": "2025-11-19",
+              "price": 403.99
+            },
+            {
+              "period": "2025-11-26",
+              "price": 426.58
+            },
+            {
+              "period": "2025-12-03",
+              "price": 446.74
+            },
+            {
+              "period": "2025-12-10",
+              "price": 451.45
+            },
+            {
+              "period": "2025-12-17",
+              "price": 467.26
+            },
+            {
+              "period": "2025-12-24",
+              "price": 485.4
+            },
+            {
+              "period": "2025-12-31",
+              "price": 449.72
+            },
+            {
+              "period": "2026-01-07",
+              "price": 431.41
+            },
+            {
+              "period": "2026-01-14",
+              "price": 439.2
+            },
+            {
+              "period": "2026-01-21",
+              "price": 431.44
+            },
+            {
+              "period": "2026-01-28",
+              "price": 431.46
+            },
+            {
+              "period": "2026-02-04",
+              "price": 406.01
+            },
+            {
+              "period": "2026-02-11",
+              "price": 428.27
+            },
+            {
+              "period": "2026-02-18",
+              "price": 411.32
+            },
+            {
+              "period": "2026-02-25",
+              "price": 417.4
+            },
+            {
+              "period": "2026-03-04",
+              "price": 405.94
+            },
+            {
+              "period": "2026-03-11",
+              "price": 407.82
+            },
+            {
+              "period": "2026-03-18",
+              "price": 392.78
+            },
+            {
+              "period": "2026-03-25",
+              "price": 385.95
+            },
+            {
+              "period": "2026-04-01",
+              "price": 381.26
+            },
+            {
+              "period": "2026-04-08",
+              "price": 343.25
+            },
+            {
+              "period": "2026-04-15",
+              "price": 391.95
+            },
+            {
+              "period": "2026-04-22",
+              "price": 387.51
+            },
+            {
+              "period": "2026-04-29",
+              "price": 372.8
+            },
+            {
+              "period": "2026-05-06",
+              "price": 398.73
+            },
+            {
+              "period": "2026-05-13",
+              "price": 445.27
+            },
+            {
+              "period": "2026-05-20",
+              "price": 417.26
+            },
+            {
+              "period": "2026-05-27",
+              "price": 440.36
+            },
+            {
+              "period": "2026-06-03",
+              "price": 423.7
+            },
+            {
+              "period": "2026-06-10",
+              "price": 381.59
+            },
+            {
+              "period": "2026-06-17",
+              "price": 396.38
+            },
+            {
+              "period": "2026-06-24",
+              "price": 375.53
+            },
+            {
+              "period": "2026-07-01",
+              "price": 425.3
+            },
+            {
+              "period": "2026-07-08",
+              "price": 394.06
+            },
+            {
+              "period": "2026-07-15",
+              "price": 394.46
+            },
+            {
+              "period": "2026-07-22",
+              "price": 374.01
+            },
+            {
+              "period": "2026-07-28",
+              "price": 308.29
+            }
+          ],
+          "targetLine": 269.2,
+          "quickFacts": {
+            "currentPrice": 308.29,
+            "currentPriceAsOf": "28 July 2026",
+            "targetPrice": 269.2,
+            "upsidePct": -12.7,
+            "fiftyTwoWeekHigh": 498.83,
+            "fiftyTwoWeekLow": 297.82,
+            "oneYearChangePct": -7,
+            "threeYearChangePct": 13.6,
+            "reportDate": "28 July 2026"
+          },
+          "context": "Tesla's share price reflects large optionality premiums rather than current cash generation. The current valuation requires near-perfect execution in unproven autonomous and robotics markets, leaving the stock vulnerable to regulatory or competitive setbacks."
+        },
+        "identityOverrides": {
+          "exchange": "NASDAQ Global Select",
+          "sector": "Auto - Manufacturers",
+          "country": "United States",
+          "currency": "USD"
+        }
+      }
+    }
+  }
+}

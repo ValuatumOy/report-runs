@@ -1,0 +1,4740 @@
+{
+  "companyCode": "AMD",
+  "lang": "fi",
+  "currency": "USD",
+  "kind": "equity",
+  "company": {
+    "companyId": 5277,
+    "companyName": "Advanced Micro Devices, Inc.",
+    "companyCode": "US0079031078",
+    "ticker": "AMD",
+    "industry": "Semiconductors",
+    "models": [
+      {
+        "followedModelId": 5639,
+        "analystName": "ValuatumDataSources"
+      }
+    ]
+  },
+  "primaryFid": 5639,
+  "model": {
+    "dataMap": {
+      "2017": {
+        "ns": 0,
+        "pre_tax_profit": 0,
+        "ebit": 0,
+        "extras_in_ebit": 0,
+        "ebitda": 0,
+        "wacc": 0.0643
+      },
+      "2018": {
+        "eps_diluted": 0.31672932,
+        "gross_cap_expenditure": 1186,
+        "cf_change_in_cash": 1078,
+        "operating_cash_flow": 19.375,
+        "ns": 0,
+        "ebit": 0,
+        "ebitda": 0,
+        "change_in_wc": 614,
+        "cf_from_fin_activities": 2371,
+        "change_in_wc_nega": -614,
+        "eva": 463.375,
+        "pre_tax_profit": 0,
+        "free_cash_flow_to_firm": -974.625,
+        "taxes_paid": 9,
+        "extras_in_ebit": 0,
+        "capex_excl_acq_divest": -1186,
+        "free_operating_cash_flow": -974.625,
+        "gross_cap_expenditure_nega": -1186,
+        "wacc": 0.0643,
+        "cf_from_operations": -107
+      },
+      "2019": {
+        "eps_diluted": 0.30446429,
+        "goodwill": 289,
+        "gross_cap_expenditure": 1667,
+        "total_non_cur_ass": 1409,
+        "operating_cash_flow": 42.41666667,
+        "net_fin_items": -259,
+        "net_debt": -738,
+        "equity_ratio": 0.4689781,
+        "change_in_wc": 772,
+        "bs_total_assets": 6028,
+        "ebit_without_extras": 631,
+        "inventories": 982,
+        "lt_debt": 486,
+        "free_cash_flow_to_firm": -1510.58333333,
+        "capex_excl_acq_divest": -1667,
+        "gross_cap_expenditure_nega": -1667,
+        "net_earnings": 341,
+        "wacc": 0.0643,
+        "cf_change_in_cash": 1488,
+        "adj_net_earnings": 341,
+        "ebit": 631,
+        "eps": 0.31255729,
+        "change_in_wc_nega": -772,
+        "no_of_shares_total": 1091,
+        "fin_income": 15,
+        "dividend_ps": 0,
+        "other_intangible_rights": 210,
+        "pretax_percent": 0.05526668,
+        "tangible_ass": 705,
+        "net_earnings_percent": 0.05066112,
+        "cf_from_operations": -173,
+        "ns": 6731,
+        "current_ratio": 1.94870708,
+        "cf_from_fin_activities": 3328,
+        "eva": 578.41666667,
+        "ebit_percent": 0.09374536,
+        "interest_expenses": -94,
+        "cur_liab_total": 2359,
+        "bv": 2827,
+        "pre_tax_profit": 372,
+        "ebitda_percent": 0.13207547,
+        "fin_ass_ib": 1466,
+        "costs": -5842,
+        "bs_total_liab": 6028,
+        "lt_liab_total": 600,
+        "ptp_without_extras": 372,
+        "ebitda": 889,
+        "cap_invested": 1847,
+        "dep_total": -258,
+        "total_cur_ass": 4597,
+        "equity_total": 2827,
+        "taxes_paid": -53,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -1510.58333333,
+        "gearing_percent": -0.26105412
+      },
+      "2020": {
+        "eps_diluted": 2.06296603,
+        "goodwill": 289,
+        "gross_cap_expenditure": 519,
+        "total_non_cur_ass": 1574,
+        "operating_cash_flow": 327.86,
+        "roi_after_tax_beg_cap": 0.54848944,
+        "net_fin_items": -89,
+        "net_debt": -1064,
+        "equity_ratio": 0.65130551,
+        "roe_percent": 0.57479224,
+        "change_in_wc": 1359,
+        "ebit_gp": 1.16957211,
+        "bs_total_assets": 8962,
+        "total_receivables": 3149,
+        "ebit_without_extras": 1369,
+        "inventories": 1399,
+        "lt_debt": 330,
+        "free_cash_flow_to_firm": -128.14,
+        "capex_excl_acq_divest": -519,
+        "gross_cap_expenditure_nega": -519,
+        "net_earnings": 2490,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.93813273,
+        "cf_change_in_cash": 1352,
+        "adj_net_earnings": 2490,
+        "ebit": 1369,
+        "eps": 2.10304054,
+        "change_in_wc_nega": -1359,
+        "no_of_shares_total": 1184,
+        "fin_income": 8,
+        "dividend_ps": 0,
+        "other_intangible_rights": 229,
+        "pretax_percent": 0.13110724,
+        "tangible_ass": 849,
+        "net_earnings_percent": 0.25504456,
+        "ns_growth": 0.45045313,
+        "cf_from_operations": 1485,
+        "ns": 9763,
+        "current_ratio": 2.54158047,
+        "cf_from_fin_activities": 386,
+        "eva": 894.2979,
+        "ebit_percent": 0.14022329,
+        "interest_expenses": -47,
+        "cur_liab_total": 2417,
+        "bv": 5837,
+        "pre_tax_profit": 1280,
+        "ebitda_percent": 0.17648264,
+        "eps_gp": 5.72849627,
+        "fin_ass_ib": 1595,
+        "costs": -8040,
+        "bs_total_liab": 8962,
+        "lt_liab_total": 507,
+        "ptp_without_extras": 1280,
+        "ebitda": 1723,
+        "cap_invested": 4572,
+        "dep_total": -354,
+        "total_cur_ass": 6143,
+        "equity_total": 5837,
+        "taxes_paid": -13,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -128.14,
+        "gearing_percent": -0.18228542,
+        "p_per_s": 11.13418416,
+        "p_per_bv": 18.62310091,
+        "pe": 43.65583936,
+        "ev_per_ns": 11.02520127,
+        "enterprise_value": 107639.04,
+        "market_cap_ye": 108703.04,
+        "pe_adj_i": 43.65583936,
+        "ev_per_ebitda": 62.47187464,
+        "ev_per_ebit": 78.6260336,
+        "p_per_fcf": -848.31465585
+      },
+      "2021": {
+        "eps_diluted": 2.57282343,
+        "goodwill": 289,
+        "gross_cap_expenditure": 1794,
+        "total_non_cur_ass": 2905,
+        "operating_cash_flow": 3938.76897959,
+        "roi_after_tax_beg_cap": 0.6865199,
+        "net_fin_items": 27,
+        "net_debt": -1874,
+        "equity_ratio": 0.60367179,
+        "roe_percent": 0.47427629,
+        "change_in_wc": -11,
+        "ebit_gp": 1.66471877,
+        "bs_total_assets": 12419,
+        "net_debt_per_ebitda": -0.45585016,
+        "total_receivables": 4093,
+        "ebit_without_extras": 3648,
+        "inventories": 1955,
+        "lt_debt": 1,
+        "free_cash_flow_to_firm": 2288.76897959,
+        "capex_excl_acq_divest": -1794,
+        "gross_cap_expenditure_nega": -1794,
+        "net_earnings": 3162,
+        "wacc": 0.0643,
+        "ebitda_gp": 1.38595473,
+        "cf_change_in_cash": 614,
+        "adj_net_earnings": 3162,
+        "ebit": 3648,
+        "eps": 2.6067601,
+        "change_in_wc_nega": 11,
+        "no_of_shares_total": 1213,
+        "fin_income": 61,
+        "dividend_ps": 0,
+        "other_intangible_rights": 323,
+        "pretax_percent": 0.22362176,
+        "tangible_ass": 1069,
+        "net_earnings_percent": 0.19240599,
+        "ns_growth": 0.68329407,
+        "cf_from_operations": 3636,
+        "ns": 16434,
+        "current_ratio": 2.02429245,
+        "cf_from_fin_activities": -1228,
+        "eva": 2844.78937959,
+        "ebit_percent": 0.22197882,
+        "interest_expenses": -34,
+        "cur_liab_total": 4240,
+        "bv": 7497,
+        "pre_tax_profit": 3675,
+        "ebitda_percent": 0.25015212,
+        "eps_gp": 0.23951966,
+        "fin_ass_ib": 2535,
+        "costs": -12323,
+        "bs_total_liab": 12419,
+        "lt_liab_total": 322,
+        "ptp_without_extras": 3675,
+        "ebitda": 4111,
+        "cap_invested": 5275,
+        "dep_total": -463,
+        "total_cur_ass": 8583,
+        "equity_total": 7497,
+        "taxes_paid": -187,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 2288.76897959,
+        "st_debt": 312,
+        "gearing_percent": -0.24996665,
+        "p_per_s": 10.78665085,
+        "p_per_bv": 23.6451674,
+        "pe": 56.06192916,
+        "ev_per_ns": 10.67261896,
+        "enterprise_value": 175393.82,
+        "market_cap_ye": 177267.82,
+        "pe_adj_i": 56.06192916,
+        "ev_per_ebitda": 42.66451472,
+        "ev_per_ebit": 48.07944627,
+        "p_per_fcf": 77.4511633
+      },
+      "2022": {
+        "eps_diluted": 0.84022915,
+        "goodwill": 24177,
+        "gross_cap_expenditure": 53860,
+        "total_non_cur_ass": 52503,
+        "operating_cash_flow": 6754.721202,
+        "roi_after_tax_beg_cap": 0.26402298,
+        "net_fin_items": -66,
+        "net_debt": -1972,
+        "equity_ratio": 0.81015093,
+        "roe_percent": 0.04241168,
+        "change_in_wc": 1695,
+        "ebit_gp": -0.65350877,
+        "bs_total_assets": 67580,
+        "net_debt_per_ebitda": -0.35685849,
+        "total_receivables": 6413,
+        "ebit_without_extras": 1264,
+        "inventories": 3771,
+        "lt_debt": 2467,
+        "free_cash_flow_to_firm": -45762.278798,
+        "capex_excl_acq_divest": -53860,
+        "gross_cap_expenditure_nega": -53860,
+        "net_earnings": 1320,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.34419849,
+        "cf_change_in_cash": -495,
+        "adj_net_earnings": 1320,
+        "ebit": 1264,
+        "eps": 0.84561179,
+        "change_in_wc_nega": -1695,
+        "no_of_shares_total": 1561,
+        "fin_income": 65,
+        "dividend_ps": 0,
+        "other_intangible_rights": 24118,
+        "pretax_percent": 0.05076056,
+        "tangible_ass": 1973,
+        "net_earnings_percent": 0.05592983,
+        "ns_growth": 0.43610807,
+        "cf_from_operations": 3887,
+        "ns": 23601,
+        "current_ratio": 2.358141,
+        "cf_from_fin_activities": 49478,
+        "eva": 1053.538702,
+        "ebit_percent": 0.05355705,
+        "interest_expenses": -88,
+        "cur_liab_total": 6369,
+        "bv": 54750,
+        "pre_tax_profit": 1198,
+        "ebitda_percent": 0.23414262,
+        "eps_gp": -0.67560813,
+        "fin_ass_ib": 4835,
+        "costs": -18075,
+        "bs_total_liab": 67580,
+        "lt_liab_total": 4131,
+        "ptp_without_extras": 1198,
+        "ebitda": 5526,
+        "cap_invested": 52382,
+        "dep_total": -4262,
+        "total_cur_ass": 15019,
+        "equity_total": 54750,
+        "taxes_paid": 2917,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -45762.278798,
+        "gearing_percent": -0.03601826,
+        "p_per_s": 4.28396975,
+        "p_per_bv": 1.84668438,
+        "pe": 76.59543182,
+        "ev_per_ns": 4.20041397,
+        "enterprise_value": 99133.97,
+        "market_cap_ye": 101105.97,
+        "pe_adj_i": 76.59543182,
+        "ev_per_ebitda": 17.93955302,
+        "ev_per_ebit": 78.42877373,
+        "p_per_fcf": -2.20937359
+      },
+      "2023": {
+        "eps_diluted": 0.52553846,
+        "goodwill": 24262,
+        "gross_cap_expenditure": -80,
+        "total_non_cur_ass": 50751,
+        "operating_cash_flow": -1685.18,
+        "roi_after_tax_beg_cap": 0.00566492,
+        "net_fin_items": 107,
+        "net_debt": -930,
+        "equity_ratio": 0.82333358,
+        "roe_percent": 0.01543718,
+        "change_in_wc": 3082,
+        "ebit_gp": -0.68275316,
+        "bs_total_assets": 67885,
+        "net_debt_per_ebitda": -0.44862518,
+        "total_receivables": 8484,
+        "ebit_without_extras": 401,
+        "inventories": 4351,
+        "lt_debt": 1717,
+        "free_cash_flow_to_firm": -1419.18,
+        "capex_excl_acq_divest": 80,
+        "gross_cap_expenditure_nega": 80,
+        "net_earnings": 854,
+        "wacc": 0.0643,
+        "ebitda_gp": -0.62486428,
+        "cf_change_in_cash": 128,
+        "adj_net_earnings": 854,
+        "ebit": 401,
+        "eps": 0.5291202,
+        "change_in_wc_nega": -3082,
+        "no_of_shares_total": 1614,
+        "fin_income": 213,
+        "dividend_ps": 0,
+        "other_intangible_rights": 21363,
+        "pretax_percent": 0.02239859,
+        "tangible_ass": 2222,
+        "net_earnings_percent": 0.03765432,
+        "ns_growth": -0.03902377,
+        "cf_from_operations": -566,
+        "ns": 22680,
+        "current_ratio": 2.50680221,
+        "cf_from_fin_activities": 614,
+        "eva": -3071.4226,
+        "ebit_percent": 0.01768078,
+        "interest_expenses": -106,
+        "cur_liab_total": 6689,
+        "bv": 55892,
+        "pre_tax_profit": 508,
+        "ebitda_percent": 0.09140212,
+        "eps_gp": -0.37427528,
+        "fin_ass_ib": 3933,
+        "costs": -20607,
+        "bs_total_liab": 67885,
+        "lt_liab_total": 3567,
+        "ptp_without_extras": 508,
+        "ebitda": 2073,
+        "cap_invested": 54427,
+        "dep_total": -1672,
+        "total_cur_ass": 16768,
+        "equity_total": 55892,
+        "taxes_paid": -704,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -1419.18,
+        "st_debt": 751,
+        "gearing_percent": -0.01663923,
+        "p_per_s": 10.49028836,
+        "p_per_bv": 4.25677628,
+        "pe": 278.59454333,
+        "ev_per_ns": 10.44928307,
+        "enterprise_value": 236989.74,
+        "market_cap_ye": 237919.74,
+        "pe_adj_i": 278.59454333,
+        "ev_per_ebitda": 114.32211288,
+        "ev_per_ebit": 590.99685786,
+        "p_per_fcf": -167.64592229
+      },
+      "2024": {
+        "eps_diluted": 1.00244349,
+        "goodwill": 24839,
+        "gross_cap_expenditure": 1915,
+        "total_non_cur_ass": 49489,
+        "operating_cash_flow": 2459.98813056,
+        "roi_after_tax_beg_cap": 0.02833131,
+        "net_fin_items": 122,
+        "net_debt": -1575,
+        "equity_ratio": 0.83159507,
+        "roe_percent": 0.02892649,
+        "change_in_wc": 1084,
+        "ebit_gp": 3.73815461,
+        "bs_total_assets": 69226,
+        "net_debt_per_ebitda": -0.31022257,
+        "total_receivables": 9528,
+        "ebit_without_extras": 1900,
+        "inventories": 5734,
+        "lt_debt": 1721,
+        "free_cash_flow_to_firm": 510.98813056,
+        "capex_excl_acq_divest": -1915,
+        "gross_cap_expenditure_nega": -1915,
+        "net_earnings": 1641,
+        "wacc": 0.0643,
+        "ebitda_gp": 1.44910757,
+        "cf_change_in_cash": 1029,
+        "adj_net_earnings": 1641,
+        "ebit": 1900,
+        "eps": 1.01296296,
+        "change_in_wc_nega": -1084,
+        "no_of_shares_total": 1620,
+        "fin_income": 214,
+        "dividend_ps": 0,
+        "other_intangible_rights": 18930,
+        "pretax_percent": 0.07841768,
+        "tangible_ass": 2425,
+        "net_earnings_percent": 0.06364165,
+        "ns_growth": 0.13690476,
+        "cf_from_operations": 3734,
+        "ns": 25785,
+        "current_ratio": 2.6162615,
+        "cf_from_fin_activities": -790,
+        "eva": -1957.66796944,
+        "ebit_percent": 0.07368625,
+        "interest_expenses": -92,
+        "cur_liab_total": 7281,
+        "bv": 57568,
+        "pre_tax_profit": 2022,
+        "ebitda_percent": 0.19689742,
+        "eps_gp": 0.91442883,
+        "fin_ass_ib": 3787,
+        "costs": -20708,
+        "bs_total_liab": 69226,
+        "lt_liab_total": 3537,
+        "ptp_without_extras": 2022,
+        "ebitda": 5077,
+        "cap_invested": 55502,
+        "dep_total": -3177,
+        "total_cur_ass": 19049,
+        "equity_total": 57568,
+        "taxes_paid": -1556,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 510.98813056,
+        "gearing_percent": -0.02735895,
+        "p_per_s": 7.86534031,
+        "p_per_bv": 3.52292593,
+        "pe": 123.58793419,
+        "ev_per_ns": 7.80425829,
+        "enterprise_value": 201232.8,
+        "market_cap_ye": 202807.8,
+        "pe_adj_i": 123.58793419,
+        "ev_per_ebitda": 39.63616309,
+        "ev_per_ebit": 105.912,
+        "p_per_fcf": 396.89336771
+      },
+      "2025": {
+        "eps_diluted": 2.6497555,
+        "goodwill": 25126,
+        "gross_cap_expenditure": 3110,
+        "total_non_cur_ass": 49595,
+        "operating_cash_flow": 2211.33029285,
+        "roi_after_tax_beg_cap": 0.06820169,
+        "net_fin_items": 472,
+        "net_debt": -1067,
+        "equity_ratio": 0.81895588,
+        "roe_percent": 0.07191022,
+        "change_in_wc": 4846,
+        "ebit_gp": 0.94421053,
+        "bs_total_assets": 76926,
+        "net_debt_per_ebitda": -0.15930128,
+        "total_receivables": 13488,
+        "ebit_without_extras": 3694,
+        "inventories": 7920,
+        "lt_debt": 2973,
+        "free_cash_flow_to_firm": -2087.66970715,
+        "capex_excl_acq_divest": -3110,
+        "gross_cap_expenditure_nega": -3110,
+        "net_earnings": 4335,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.31928304,
+        "cf_change_in_cash": 1484,
+        "adj_net_earnings": 4335,
+        "ebit": 3694,
+        "eps": 2.66933498,
+        "change_in_wc_nega": -4846,
+        "no_of_shares_total": 1624,
+        "fin_income": 603,
+        "dividend_ps": 0,
+        "other_intangible_rights": 16705,
+        "pretax_percent": 0.12026906,
+        "tangible_ass": 2312,
+        "net_earnings_percent": 0.12514795,
+        "ns_growth": 0.34337793,
+        "cf_from_operations": 2493,
+        "ns": 34639,
+        "current_ratio": 2.85002644,
+        "cf_from_fin_activities": 2101,
+        "eva": 282.55169285,
+        "ebit_percent": 0.1066428,
+        "interest_expenses": -131,
+        "cur_liab_total": 9455,
+        "bv": 62999,
+        "pre_tax_profit": 4166,
+        "ebitda_percent": 0.19336586,
+        "eps_gp": 1.6351753,
+        "fin_ass_ib": 5539,
+        "costs": -27941,
+        "bs_total_liab": 76926,
+        "lt_liab_total": 3534,
+        "ptp_without_extras": 4166,
+        "ebitda": 6698,
+        "cap_invested": 61307,
+        "dep_total": -3004,
+        "total_cur_ass": 26947,
+        "equity_total": 62999,
+        "taxes_paid": 371,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -2153.66970715,
+        "st_debt": 874,
+        "gearing_percent": -0.01693678,
+        "p_per_s": 10.07949883,
+        "p_per_bv": 5.54205241,
+        "pe": 80.54065975,
+        "ev_per_ns": 10.0486954,
+        "enterprise_value": 348076.76,
+        "market_cap_ye": 349143.76,
+        "pe_adj_i": 80.54065975,
+        "ev_per_ebitda": 51.96726784,
+        "ev_per_ebit": 94.22760152,
+        "p_per_fcf": -167.24089965
+      },
+      "2026": {
+        "eps_diluted": 4.07093727,
+        "goodwill": 25126,
+        "gross_cap_expenditure": 19011.41548189,
+        "total_non_cur_ass": 58346.29802563,
+        "operating_cash_flow": 8501.95163753,
+        "roi_after_tax_beg_cap": 0.04249855,
+        "net_fin_items": 6048.1193878,
+        "net_debt": 5096.17030623,
+        "equity_ratio": 0.73282633,
+        "roe_percent": 0.09945415,
+        "change_in_wc": 4363.62440328,
+        "ebit_gp": 0.06493843,
+        "bs_total_assets": 95453.38226149,
+        "net_debt_per_ebitda": 0.35903694,
+        "total_receivables": 17742.58723895,
+        "ebit_without_extras": 3933.88254374,
+        "inventories": 11257.76920459,
+        "lt_debt": 6023.20002744,
+        "free_cash_flow_to_firm": -10509.46384436,
+        "capex_excl_acq_divest": -19011.41548189,
+        "gross_cap_expenditure_nega": -19011.41548189,
+        "net_earnings": 6611.20212268,
+        "wacc": 0.0643,
+        "ebitda_gp": 1.11914004,
+        "cf_change_in_cash": 2183.72779232,
+        "adj_net_earnings": 6611.20212268,
+        "ebit": 3933.88254374,
+        "eps": 4.07093727,
+        "change_in_wc_nega": -4363.62440328,
+        "no_of_shares_total": 1630.6,
+        "fin_income": 6418.15780989,
+        "dividend_ps": 0,
+        "other_intangible_rights": 23975.06769826,
+        "pretax_percent": 0.20078855,
+        "tangible_ass": 3793.23032737,
+        "net_earnings_percent": 0.13298472,
+        "ns_growth": 0.43520309,
+        "cf_from_operations": 12507.69517566,
+        "ns": 49714,
+        "current_ratio": 2.05927316,
+        "cf_from_fin_activities": 8687.44809855,
+        "eva": -1336.58151545,
+        "ebit_percent": 0.07913028,
+        "interest_expenses": -327.03842209,
+        "cur_liab_total": 17833.0320677,
+        "bv": 69950.75212268,
+        "pre_tax_profit": 9982.00193154,
+        "ebitda_percent": 0.28551314,
+        "eps_gp": 0.52507546,
+        "cost_of_equity": 0.0825,
+        "fin_ass_ib": 7722.72779232,
+        "costs": -35520,
+        "bs_total_liab": 95453.38226149,
+        "lt_liab_total": 6584.20002744,
+        "ptp_without_extras": 9982.00193154,
+        "ebitda": 14194,
+        "cap_invested": 74274.52438523,
+        "dep_total": -10260.11745626,
+        "total_cur_ass": 36723.08423586,
+        "equity_total": 69950.75212268,
+        "taxes_paid": -3370.79980886,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -10509.46384436,
+        "st_debt": 6023.30002744,
+        "gearing_percent": 0.07285369,
+        "adj_no_of_shares_a": 1630.6,
+        "p_per_s": 15.74705717,
+        "p_per_bv": 11.23691606,
+        "pe": 118.41253459,
+        "ev_per_ns": 15.91356359,
+        "enterprise_value": 791126.90030623,
+        "mva": 716079.97787732,
+        "market_cap_ye": 786030.73,
+        "pe_adj_i": 118.41253459,
+        "ev_per_ebitda": 55.73671272,
+        "ev_per_ebit": 201.10587734,
+        "p_per_fcf": -74.48992752
+      },
+      "2027": {
+        "eps_diluted": 9.80181034,
+        "goodwill": 25126,
+        "gross_cap_expenditure": 16692.94420329,
+        "total_non_cur_ass": 74918.24222892,
+        "operating_cash_flow": 10373.54750572,
+        "roi_after_tax_beg_cap": 0.26394084,
+        "net_fin_items": -4981,
+        "net_debt": 15101.50700381,
+        "equity_ratio": 0.66225879,
+        "roe_percent": 0.20431493,
+        "change_in_wc": 9351.53249428,
+        "ebit_gp": 5.73431393,
+        "bs_total_assets": 129660.62938134,
+        "net_debt_per_ebitda": 0.5674485,
+        "total_receivables": 24050.44988915,
+        "ebit_without_extras": 26492,
+        "inventories": 17976.33448864,
+        "lt_debt": 13248.94381006,
+        "free_cash_flow_to_firm": -6319.39669758,
+        "capex_excl_acq_divest": -16692.94420329,
+        "gross_cap_expenditure_nega": -16692.94420329,
+        "net_earnings": 15918.14,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.87494716,
+        "cf_change_in_cash": 4608.87498231,
+        "adj_net_earnings": 15918.14,
+        "ebit": 26492,
+        "eps": 9.80181034,
+        "change_in_wc_nega": -9351.53249428,
+        "no_of_shares_total": 1630.6,
+        "fin_income": 629.15736684,
+        "dividend_ps": 0,
+        "other_intangible_rights": 38283.23609227,
+        "pretax_percent": 0.27097741,
+        "tangible_ass": 6057.00613666,
+        "net_earnings_percent": 0.20052329,
+        "ns_growth": 0.59679366,
+        "cf_from_operations": 6687.60750572,
+        "ns": 79383,
+        "current_ratio": 1.89180097,
+        "cf_from_fin_activities": 14614.21167988,
+        "eva": 14382.58093572,
+        "ebit_percent": 0.33372385,
+        "interest_expenses": -5567.15736684,
+        "cur_liab_total": 28733.67129029,
+        "bv": 85868.89212268,
+        "pre_tax_profit": 21511,
+        "ebitda_percent": 0.3352481,
+        "eps_gp": 1.40775274,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 12331.60277462,
+        "costs": -52770,
+        "bs_total_liab": 129660.62938134,
+        "lt_liab_total": 13809.94381006,
+        "ptp_without_extras": 21511,
+        "ebitda": 26613,
+        "cap_invested": 100035.27696817,
+        "dep_total": -121,
+        "total_cur_ass": 54358.38715242,
+        "equity_total": 85868.89212268,
+        "taxes_paid": -5592.86,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -6319.39669758,
+        "st_debt": 13249.04381006,
+        "gearing_percent": 0.17586703,
+        "p_per_bv": 9.15384734
+      },
+      "2028": {
+        "eps_diluted": 15.62839901,
+        "goodwill": 25126,
+        "gross_cap_expenditure": 18216.28611421,
+        "total_non_cur_ass": 91388.52834313,
+        "operating_cash_flow": 20738.33306957,
+        "roi_after_tax_beg_cap": 0.28276525,
+        "net_fin_items": -3927,
+        "net_debt": 15485.44004845,
+        "equity_ratio": 0.67976748,
+        "roe_percent": 0.25751561,
+        "change_in_wc": 9294.16693043,
+        "ebit_gp": 0.44288842,
+        "bs_total_assets": 163658.03730958,
+        "net_debt_per_ebitda": 0.38741688,
+        "total_receivables": 30319.61790852,
+        "ebit_without_extras": 38225,
+        "inventories": 24653.68574856,
+        "lt_debt": 15673.01401671,
+        "free_cash_flow_to_firm": 2522.04695536,
+        "capex_excl_acq_divest": -18216.28611421,
+        "gross_cap_expenditure_nega": -18216.28611421,
+        "net_earnings": 25380.52,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.50193514,
+        "cf_change_in_cash": 4580.60253474,
+        "adj_net_earnings": 25380.52,
+        "ebit": 38225,
+        "eps": 15.62839901,
+        "change_in_wc_nega": -9294.16693043,
+        "no_of_shares_total": 1630.6,
+        "fin_income": 917.45557046,
+        "dividend_ps": 0,
+        "other_intangible_rights": 52503.63318803,
+        "pretax_percent": 0.31503628,
+        "tangible_ass": 8306.89515511,
+        "net_earnings_percent": 0.23312685,
+        "ns_growth": 0.37145233,
+        "cf_from_operations": 17832.35306957,
+        "ns": 108870,
+        "current_ratio": 2.06507656,
+        "cf_from_fin_activities": 4964.53557938,
+        "eva": 21254.02002914,
+        "ebit_percent": 0.35110682,
+        "interest_expenses": -4801.45557046,
+        "cur_liab_total": 34810.0938458,
+        "bv": 111249.41212268,
+        "pre_tax_profit": 34298,
+        "ebitda_percent": 0.3671443,
+        "eps_gp": 0.59444005,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 16912.20530937,
+        "costs": -68899,
+        "bs_total_liab": 163658.03730958,
+        "lt_liab_total": 16234.01401671,
+        "ptp_without_extras": 34298,
+        "ebitda": 39971,
+        "cap_invested": 125683.33484673,
+        "dep_total": -1746,
+        "total_cur_ass": 71885.50896645,
+        "equity_total": 111249.41212268,
+        "taxes_paid": -8917.48,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 2522.04695536,
+        "st_debt": 15673.11401671,
+        "gearing_percent": 0.1391957,
+        "p_per_bv": 7.0654821
+      },
+      "2029": {
+        "eps_diluted": 5.74211525,
+        "goodwill": 25126,
+        "gross_cap_expenditure": 14935.00404448,
+        "total_non_cur_ass": 95498.93148524,
+        "operating_cash_flow": 17932.68971562,
+        "roi_after_tax_beg_cap": 0.07501062,
+        "net_fin_items": -138.36521689,
+        "net_debt": 12590.1446378,
+        "equity_ratio": 0.70043448,
+        "roe_percent": 0.08045064,
+        "change_in_wc": 2319.49661889,
+        "ebit_gp": -0.66671078,
+        "bs_total_assets": 172142.59255063,
+        "net_debt_per_ebitda": 0.53428255,
+        "total_receivables": 31884.1813743,
+        "ebit_without_extras": 12739.98031371,
+        "inventories": 26320.1173703,
+        "lt_debt": 14761.40689108,
+        "free_cash_flow_to_firm": 2997.68567114,
+        "capex_excl_acq_divest": -14935.00404448,
+        "gross_cap_expenditure_nega": -14935.00404448,
+        "net_earnings": 9325.19517165,
+        "wacc": 0.0703,
+        "ebitda_gp": -0.41045805,
+        "cf_change_in_cash": 1143.15701142,
+        "adj_net_earnings": 9325.19517165,
+        "ebit": 12739.98031371,
+        "eps": 5.74211525,
+        "change_in_wc_nega": -2319.49661889,
+        "no_of_shares_total": 1630.6,
+        "fin_income": 1097.02503913,
+        "dividend_ps": 0,
+        "other_intangible_rights": 56052.54329797,
+        "pretax_percent": 0.10842065,
+        "tangible_ass": 8868.38818727,
+        "net_earnings_percent": 0.08023128,
+        "ns_growth": 0.06759361,
+        "cf_from_operations": 17830.29945513,
+        "ns": 116228.91633035,
+        "current_ratio": 2.19074098,
+        "cf_from_fin_activities": -1752.13839922,
+        "eva": 592.04699242,
+        "ebit_percent": 0.10961111,
+        "interest_expenses": -1192.39025602,
+        "cur_liab_total": 34809.9851888,
+        "bv": 120574.60729432,
+        "pre_tax_profit": 12601.61509682,
+        "ebitda_percent": 0.20274285,
+        "eps_gp": -0.63258455,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 18055.36232079,
+        "costs": -92664.33511426,
+        "bs_total_liab": 172142.59255063,
+        "lt_liab_total": 15322.40689108,
+        "ptp_without_extras": 12601.61509682,
+        "ebitda": 23564.58121608,
+        "cap_invested": 132042.1587557,
+        "dep_total": -10824.60090237,
+        "total_cur_ass": 76259.66106539,
+        "equity_total": 120574.60729432,
+        "taxes_paid": -3276.41992517,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 2997.68567114,
+        "st_debt": 14761.50689108,
+        "gearing_percent": 0.10441788,
+        "p_per_bv": 6.51904035
+      },
+      "20241": {
+        "eps_diluted": 0.07513745,
+        "costs": -4653,
+        "ns": 5473,
+        "net_fin_items": 35,
+        "ebit": 36,
+        "eps": 0.07592593,
+        "ebitda": 820,
+        "dep_total": -784,
+        "history": 1,
+        "ebit_percent": 0.00657775,
+        "pre_tax_profit": 71,
+        "ebitda_percent": 0.14982642,
+        "net_earnings": 123
+      },
+      "20242": {
+        "eps_diluted": 0.16188149,
+        "costs": -4797,
+        "ns": 5835,
+        "net_fin_items": 37,
+        "ebit": 269,
+        "eps": 0.16358025,
+        "ebitda": 1038,
+        "dep_total": -769,
+        "history": 1,
+        "ebit_percent": 0.04610111,
+        "pre_tax_profit": 306,
+        "ebitda_percent": 0.17789203,
+        "net_earnings": 265
+      },
+      "20243": {
+        "eps_diluted": 0.47098351,
+        "costs": -5257,
+        "ns": 6819,
+        "net_fin_items": 20,
+        "ebit": 724,
+        "eps": 0.47592593,
+        "ebitda": 1562,
+        "dep_total": -838,
+        "history": 1,
+        "ebit_percent": 0.10617393,
+        "pre_tax_profit": 744,
+        "ebitda_percent": 0.22906585,
+        "net_earnings": 771,
+        "ns_growth": 0.17568966
+      },
+      "20244": {
+        "eps_diluted": 0.29444105,
+        "costs": -6001,
+        "ns": 7658,
+        "net_fin_items": 30,
+        "ebit": 871,
+        "eps": 0.29753086,
+        "ebitda": 1657,
+        "dep_total": -786,
+        "history": 1,
+        "ebit_percent": 0.11373727,
+        "pre_tax_profit": 901,
+        "ebitda_percent": 0.21637503,
+        "net_earnings": 482,
+        "ns_growth": 0.24156939
+      },
+      "20251": {
+        "eps_diluted": 0.43337408,
+        "costs": -5890,
+        "ns": 7438,
+        "net_fin_items": 26,
+        "ebit": 806,
+        "eps": 0.43657635,
+        "ebitda": 1548,
+        "dep_total": -742,
+        "history": 1,
+        "ebit_percent": 0.10836246,
+        "pre_tax_profit": 832,
+        "ebitda_percent": 0.20812046,
+        "net_earnings": 709,
+        "ns_growth": 0.35903526
+      },
+      "20252": {
+        "eps_diluted": 0.53300733,
+        "costs": -7062,
+        "ns": 7685,
+        "net_fin_items": 68,
+        "ebit": -134,
+        "eps": 0.53694581,
+        "ebitda": 623,
+        "dep_total": -757,
+        "history": 1,
+        "ebit_percent": -0.01743656,
+        "pre_tax_profit": -66,
+        "ebitda_percent": 0.08106701,
+        "net_earnings": 872,
+        "ns_growth": 0.31705227
+      },
+      "20253": {
+        "eps_diluted": 0.75977995,
+        "costs": -7222,
+        "ns": 9246,
+        "net_fin_items": 55,
+        "ebit": 1270,
+        "eps": 0.76539409,
+        "ebitda": 2024,
+        "dep_total": -754,
+        "history": 1,
+        "ebit_percent": 0.13735669,
+        "pre_tax_profit": 1325,
+        "ebitda_percent": 0.21890547,
+        "net_earnings": 1243,
+        "ns_growth": 0.35591729
+      },
+      "20254": {
+        "eps_diluted": 0.92359413,
+        "costs": -7767,
+        "ns": 10270,
+        "net_fin_items": 323,
+        "ebit": 1752,
+        "eps": 0.93041872,
+        "ebitda": 2503,
+        "dep_total": -751,
+        "history": 1,
+        "ebit_percent": 0.17059396,
+        "pre_tax_profit": 2075,
+        "ebitda_percent": 0.24371957,
+        "net_earnings": 1511,
+        "ns_growth": 0.34108122
+      },
+      "20261": {
+        "eps_diluted": 0.85160099,
+        "costs": -8020,
+        "ns": 10253,
+        "net_fin_items": 134,
+        "ebit": 1476,
+        "eps": 0.85160099,
+        "ebitda": 2233,
+        "dep_total": -757,
+        "history": 1,
+        "ebit_percent": 0.14395787,
+        "pre_tax_profit": 1610,
+        "ebitda_percent": 0.21778992,
+        "net_earnings": 1383,
+        "ns_growth": 0.37846195
+      },
+      "20262": {
+        "eps_diluted": 1.41440887,
+        "costs": -8781,
+        "ns": 11536,
+        "net_fin_items": 561,
+        "ebit": 1990,
+        "eps": 1.41440887,
+        "ebitda": 2755,
+        "dep_total": -765,
+        "history": 1,
+        "ebit_percent": 0.17250347,
+        "pre_tax_profit": 2551,
+        "ebitda_percent": 0.23881761,
+        "net_earnings": 2297,
+        "ns_growth": 0.50110605
+      },
+      "20263": {
+        "eps_diluted": 1.42003392,
+        "costs": -6908.06460195,
+        "ns": 12400,
+        "net_fin_items": 1904.45741298,
+        "ebit": 1703.22301536,
+        "eps": 1.42003392,
+        "ebitda": 5491.93539805,
+        "dep_total": -3788.7123827,
+        "history": 0,
+        "ebit_percent": 0.13735669,
+        "pre_tax_profit": 3607.68042834,
+        "ebitda_percent": 0.44289802,
+        "net_earnings": 2306.13508056,
+        "ns_growth": 0.34112048
+      },
+      "20264": {
+        "eps_diluted": 2.77825005,
+        "costs": -7927.12365087,
+        "ns": 15525,
+        "net_fin_items": 3448.6612671,
+        "ebit": 2648.47127556,
+        "eps": 2.77825005,
+        "ebitda": 7597.87634913,
+        "dep_total": -4949.40507357,
+        "history": 0,
+        "ebit_percent": 0.17059396,
+        "pre_tax_profit": 6097.13254266,
+        "ebitda_percent": 0.48939622,
+        "net_earnings": 4511.87808157,
+        "ns_growth": 0.51168452
+      }
+    },
+    "textDataMap": {},
+    "costItem": {
+      "cost01": "Costitem 1",
+      "cost02": "Costitem 2",
+      "cost03": "Costitem 3",
+      "cost04": "Costitem 4",
+      "cost05": "Costitem 5",
+      "cost06": "Costitem 6",
+      "cost07": "Costitem 7",
+      "cost08": "Costitem 8"
+    },
+    "financialBulletin": {},
+    "followedModelId": 5639,
+    "companyName": "Advanced Micro Devices, Inc.",
+    "analystName": "ValuatumDataSources",
+    "companyId": 5277,
+    "companyCode": "US0079031078",
+    "currency": "USD",
+    "currentYear": 2026,
+    "orderNo": 1,
+    "recommendation": {
+      "recLevel": 0,
+      "lastUpdated": "2025-06-13T13:09:14.583Z"
+    }
+  },
+  "creditRisk": null,
+  "analysis": {
+    "johto": null,
+    "toiminta": null,
+    "asema": null
+  },
+  "autotext": {},
+  "bankruptcyVizPng": null,
+  "bankruptcyContourArea": null,
+  "bankruptcyRiskModel": "brm_ValuBooster2",
+  "consensus": {
+    "companyName": "Advanced Micro Devices, Inc.",
+    "ticker": "AMD",
+    "updated": "2026-08-06",
+    "consensusData": [
+      {
+        "consensusdataid": 123101,
+        "varname": "ebitda",
+        "pos": 2026,
+        "value": 13443
+      },
+      {
+        "consensusdataid": 123102,
+        "varname": "ebitda",
+        "pos": 2027,
+        "value": 26613
+      },
+      {
+        "consensusdataid": 123104,
+        "varname": "ns",
+        "pos": 2026,
+        "value": 49714
+      },
+      {
+        "consensusdataid": 123105,
+        "varname": "ns",
+        "pos": 2027,
+        "value": 79383
+      },
+      {
+        "consensusdataid": 126893,
+        "varname": "pre_tax_profit",
+        "pos": 2026,
+        "value": 9982
+      },
+      {
+        "consensusdataid": 126894,
+        "varname": "pre_tax_profit",
+        "pos": 2027,
+        "value": 21511
+      },
+      {
+        "consensusdataid": 126897,
+        "varname": "ebit",
+        "pos": 2027,
+        "value": 26492
+      },
+      {
+        "consensusdataid": 151959,
+        "varname": "pre_tax_profit",
+        "pos": 2028,
+        "value": 34298
+      },
+      {
+        "consensusdataid": 151960,
+        "varname": "ebitda",
+        "pos": 2028,
+        "value": 39971
+      },
+      {
+        "consensusdataid": 151961,
+        "varname": "ebit",
+        "pos": 2028,
+        "value": 38225
+      },
+      {
+        "consensusdataid": 151962,
+        "varname": "ns",
+        "pos": 2028,
+        "value": 108870
+      },
+      {
+        "consensusdataid": 151963,
+        "varname": "ns",
+        "pos": 20263,
+        "value": 12400
+      },
+      {
+        "consensusdataid": 151964,
+        "varname": "eps",
+        "pos": 20263,
+        "value": 1.42
+      }
+    ]
+  },
+  "quote": {
+    "ticker": "AMD",
+    "currency": "USD",
+    "price": 482.05
+  },
+  "actualYears": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "estimateYears": [
+    "2026",
+    "2027",
+    "2028",
+    "2029"
+  ],
+  "narrativeCache": {
+    "data": {
+      "identity": {
+        "companyName": "Advanced Micro Devices, Inc.",
+        "ticker": "AMD",
+        "exchange": "NASDAQ Global Select",
+        "sector": "Semiconductors",
+        "country": "United States",
+        "reportDateLong": "6 August 2026",
+        "reportDateShort": "6.8.2026",
+        "currency": "USD",
+        "companyProfile": "Advanced Micro Devices designs and sells semiconductor products across three reportable segments: Data Center (server CPUs and AI accelerator GPUs for cloud and enterprise computing), Client and Gaming (PC processors, semi-custom console chips, and discrete graphics), and Embedded (adaptive computing products for industrial, automotive, aerospace, and communications markets). The company is investing heavily to expand its AI accelerator business, including large-scale GPU deployment commitments with major technology customers."
+      },
+      "recommendation": {
+        "rating": "HOLD",
+        "targetPrice": 490.5,
+        "currentPrice": 482.05,
+        "priceAsOf": "Quote as of 6 August 2026",
+        "upsidePct": 1.8,
+        "twelveMonthView": "The valuation prices in a seamless ramp for AI accelerators, leaving the stock fully valued as the company navigates demanding volume execution and heavy near-term working capital requirements.",
+        "mainDriver": "AI Accelerator revenue scaling and operating margin defense.",
+        "mainRisk": "Nvidia pricing action and CoWoS advanced packaging bottlenecks.",
+        "prose": [
+          "The stock trades at USD 482.05, close to fair value. We maintain a HOLD rating and a USD 490.5 target price, implying roughly 1.8% upside over the next 12 months.",
+          "AMD’s valuation depends most on the AI Accelerator ramp. Group EBITDA rises from $14,194m in 2026 (28.6% margin) to $39,971m by 2028 (36.7% margin), reducing EV/EBITDA from 55.74x on 2026e to 20.05x on 2028e. AI Accelerators account for 48.0% of EV, or $379,741m of the $791,127m total. To support this valuation through 2027-2028, AMD must sell roughly 2.5 million Instinct GPU units at a $12,500 blended ASP and sustain a 40% operating margin.",
+          "Four divisions account for the $791,127m EV. AI Accelerators require ~2.5 million units at a $12,500 ASP to reach $31,645m revenue by 2027-2028. Server CPUs hold 46.2% x86 revenue share versus 33.2% unit share. They generate $14,943m revenue at a 45% margin ($6,724m EBITDA) on a 20x multiple, supported by current run-rates. Client Computing requires roughly $6,000m EBITDA at ~20x and depends on maintaining 20%-25% PC share through the AI-PC refresh. Embedded is supported by $25,126m goodwill and $16,705m intangibles, but needs ~$5,000m EBITDA after industrial inventory clears. Gaming is a mature, cash-generative $55.4B allocation with structurally declining volume."
+        ],
+        "thesisReasons": [
+          {
+            "title": "AI Accelerator Volume Scales",
+            "body": "AI Accelerator volume must reach roughly 2.5 million Instinct GPU units at a 12,500 USD blended ASP to generate 31,645 USDm revenue by 2027-2028. Sustaining a 40% operating margin on this revenue base supports the 48.0% EV allocation underlying the target.",
+            "fig": "31,645 USDm revenue"
+          },
+          {
+            "title": "EBITDA Margin Expansion",
+            "body": "Group EBITDA rises from 14,194 USDm in 2026 to 39,971 USDm in 2028 as AI revenue improves mix. Margins rise from 28.6% to 36.7%, reducing EV/EBITDA from 55.74x to 20.05x and supporting the 25.0x fair multiple used in the valuation.",
+            "fig": "39,971 USDm EBITDA"
+          },
+          {
+            "title": "Delayed FCF Inflection",
+            "body": "Free cash flow remains negative at negative 10,509 USDm in 2026, driven by a 9,352 USDm working-capital build for AI ramp inventory. It turns positive at 2,522 USDm in 2028. This delayed cash inflection limits near-term upside despite the constructive EBITDA outlook.",
+            "fig": "-10,509 USDm 2026 FCF"
+          }
+        ],
+        "thesisBreaker": "If Nvidia cuts flagship GPU prices aggressively to defend its dominant market share, AMD’s required 40% AI margin would collapse, undermining the main driver of its valuation."
+      },
+      "multiples": {
+        "forecastYear": 2026,
+        "pe": 118.41253459,
+        "evEbitda": 55.73671272,
+        "fcfYieldPct": -1.3,
+        "divYieldPct": null,
+        "ndEbitda": 0.35903694,
+        "dpsAbs": 0
+      },
+      "cover": {
+        "marketCap": 786031,
+        "enterpriseValue": 791127,
+        "netDebt": -1067,
+        "sharesOutstanding": 1630.6
+      },
+      "sharePrice": {
+        "points": [
+          {
+            "period": "2023-08-09",
+            "price": 110.47
+          },
+          {
+            "period": "2023-08-16",
+            "price": 107.19
+          },
+          {
+            "period": "2023-08-23",
+            "price": 109.43
+          },
+          {
+            "period": "2023-08-30",
+            "price": 106.59
+          },
+          {
+            "period": "2023-09-06",
+            "price": 109.28
+          },
+          {
+            "period": "2023-09-13",
+            "price": 107.71
+          },
+          {
+            "period": "2023-09-20",
+            "price": 100.34
+          },
+          {
+            "period": "2023-09-27",
+            "price": 98.07
+          },
+          {
+            "period": "2023-10-04",
+            "price": 104.07
+          },
+          {
+            "period": "2023-10-11",
+            "price": 108.31
+          },
+          {
+            "period": "2023-10-18",
+            "price": 102.17
+          },
+          {
+            "period": "2023-10-25",
+            "price": 96.06
+          },
+          {
+            "period": "2023-11-01",
+            "price": 108.04
+          },
+          {
+            "period": "2023-11-08",
+            "price": 113.59
+          },
+          {
+            "period": "2023-11-15",
+            "price": 118
+          },
+          {
+            "period": "2023-11-22",
+            "price": 122.51
+          },
+          {
+            "period": "2023-11-29",
+            "price": 123.85
+          },
+          {
+            "period": "2023-12-06",
+            "price": 116.82
+          },
+          {
+            "period": "2023-12-13",
+            "price": 138.19
+          },
+          {
+            "period": "2023-12-20",
+            "price": 135.47
+          },
+          {
+            "period": "2023-12-27",
+            "price": 146.07
+          },
+          {
+            "period": "2024-01-03",
+            "price": 135.32
+          },
+          {
+            "period": "2024-01-10",
+            "price": 148.54
+          },
+          {
+            "period": "2024-01-17",
+            "price": 160.17
+          },
+          {
+            "period": "2024-01-24",
+            "price": 178.29
+          },
+          {
+            "period": "2024-01-31",
+            "price": 167.69
+          },
+          {
+            "period": "2024-02-07",
+            "price": 170.94
+          },
+          {
+            "period": "2024-02-14",
+            "price": 178.7
+          },
+          {
+            "period": "2024-02-21",
+            "price": 164.29
+          },
+          {
+            "period": "2024-02-28",
+            "price": 176.54
+          },
+          {
+            "period": "2024-03-06",
+            "price": 210.63
+          },
+          {
+            "period": "2024-03-13",
+            "price": 194.79
+          },
+          {
+            "period": "2024-03-20",
+            "price": 179.73
+          },
+          {
+            "period": "2024-03-27",
+            "price": 179.59
+          },
+          {
+            "period": "2024-04-03",
+            "price": 180.77
+          },
+          {
+            "period": "2024-04-10",
+            "price": 167.14
+          },
+          {
+            "period": "2024-04-17",
+            "price": 154.02
+          },
+          {
+            "period": "2024-04-24",
+            "price": 151.74
+          },
+          {
+            "period": "2024-05-01",
+            "price": 144.27
+          },
+          {
+            "period": "2024-05-08",
+            "price": 153.62
+          },
+          {
+            "period": "2024-05-15",
+            "price": 159.67
+          },
+          {
+            "period": "2024-05-22",
+            "price": 165.52
+          },
+          {
+            "period": "2024-05-29",
+            "price": 165.14
+          },
+          {
+            "period": "2024-06-05",
+            "price": 166.17
+          },
+          {
+            "period": "2024-06-12",
+            "price": 160.24
+          },
+          {
+            "period": "2024-06-18",
+            "price": 154.63
+          },
+          {
+            "period": "2024-06-26",
+            "price": 157.54
+          },
+          {
+            "period": "2024-07-03",
+            "price": 163.9
+          },
+          {
+            "period": "2024-07-10",
+            "price": 183.96
+          },
+          {
+            "period": "2024-07-17",
+            "price": 159.43
+          },
+          {
+            "period": "2024-07-24",
+            "price": 144.63
+          },
+          {
+            "period": "2024-07-31",
+            "price": 144.48
+          },
+          {
+            "period": "2024-08-07",
+            "price": 128.67
+          },
+          {
+            "period": "2024-08-14",
+            "price": 140.75
+          },
+          {
+            "period": "2024-08-21",
+            "price": 157.81
+          },
+          {
+            "period": "2024-08-28",
+            "price": 146.36
+          },
+          {
+            "period": "2024-09-04",
+            "price": 140.87
+          },
+          {
+            "period": "2024-09-11",
+            "price": 149.86
+          },
+          {
+            "period": "2024-09-18",
+            "price": 148.29
+          },
+          {
+            "period": "2024-09-25",
+            "price": 162.02
+          },
+          {
+            "period": "2024-10-02",
+            "price": 159.78
+          },
+          {
+            "period": "2024-10-09",
+            "price": 171.02
+          },
+          {
+            "period": "2024-10-16",
+            "price": 156.13
+          },
+          {
+            "period": "2024-10-23",
+            "price": 152.91
+          },
+          {
+            "period": "2024-10-30",
+            "price": 148.6
+          },
+          {
+            "period": "2024-11-06",
+            "price": 145.1
+          },
+          {
+            "period": "2024-11-13",
+            "price": 139.3
+          },
+          {
+            "period": "2024-11-20",
+            "price": 137.6
+          },
+          {
+            "period": "2024-11-27",
+            "price": 136.24
+          },
+          {
+            "period": "2024-12-04",
+            "price": 143.99
+          },
+          {
+            "period": "2024-12-11",
+            "price": 130.15
+          },
+          {
+            "period": "2024-12-18",
+            "price": 121.41
+          },
+          {
+            "period": "2024-12-24",
+            "price": 126.29
+          },
+          {
+            "period": "2024-12-31",
+            "price": 120.79
+          },
+          {
+            "period": "2025-01-08",
+            "price": 121.84
+          },
+          {
+            "period": "2025-01-15",
+            "price": 119.96
+          },
+          {
+            "period": "2025-01-22",
+            "price": 123.75
+          },
+          {
+            "period": "2025-01-29",
+            "price": 117.35
+          },
+          {
+            "period": "2025-02-05",
+            "price": 112.01
+          },
+          {
+            "period": "2025-02-12",
+            "price": 111.72
+          },
+          {
+            "period": "2025-02-19",
+            "price": 114.69
+          },
+          {
+            "period": "2025-02-26",
+            "price": 104.74
+          },
+          {
+            "period": "2025-03-05",
+            "price": 101.67
+          },
+          {
+            "period": "2025-03-12",
+            "price": 100.79
+          },
+          {
+            "period": "2025-03-19",
+            "price": 106.23
+          },
+          {
+            "period": "2025-03-26",
+            "price": 110.19
+          },
+          {
+            "period": "2025-04-02",
+            "price": 102.96
+          },
+          {
+            "period": "2025-04-09",
+            "price": 96.84
+          },
+          {
+            "period": "2025-04-16",
+            "price": 88.29
+          },
+          {
+            "period": "2025-04-23",
+            "price": 90.39
+          },
+          {
+            "period": "2025-04-30",
+            "price": 97.35
+          },
+          {
+            "period": "2025-05-07",
+            "price": 100.36
+          },
+          {
+            "period": "2025-05-14",
+            "price": 117.72
+          },
+          {
+            "period": "2025-05-21",
+            "price": 112.06
+          },
+          {
+            "period": "2025-05-28",
+            "price": 112.86
+          },
+          {
+            "period": "2025-06-04",
+            "price": 118.58
+          },
+          {
+            "period": "2025-06-11",
+            "price": 121.14
+          },
+          {
+            "period": "2025-06-18",
+            "price": 126.79
+          },
+          {
+            "period": "2025-06-25",
+            "price": 143.4
+          },
+          {
+            "period": "2025-07-02",
+            "price": 138.52
+          },
+          {
+            "period": "2025-07-09",
+            "price": 138.41
+          },
+          {
+            "period": "2025-07-16",
+            "price": 160.08
+          },
+          {
+            "period": "2025-07-23",
+            "price": 158.65
+          },
+          {
+            "period": "2025-07-30",
+            "price": 179.51
+          },
+          {
+            "period": "2025-08-06",
+            "price": 163.12
+          },
+          {
+            "period": "2025-08-13",
+            "price": 184.42
+          },
+          {
+            "period": "2025-08-20",
+            "price": 165.2
+          },
+          {
+            "period": "2025-08-27",
+            "price": 167.13
+          },
+          {
+            "period": "2025-09-03",
+            "price": 162.13
+          },
+          {
+            "period": "2025-09-10",
+            "price": 159.54
+          },
+          {
+            "period": "2025-09-17",
+            "price": 159.16
+          },
+          {
+            "period": "2025-09-24",
+            "price": 160.88
+          },
+          {
+            "period": "2025-10-01",
+            "price": 164.01
+          },
+          {
+            "period": "2025-10-08",
+            "price": 235.56
+          },
+          {
+            "period": "2025-10-15",
+            "price": 238.6
+          },
+          {
+            "period": "2025-10-22",
+            "price": 230.23
+          },
+          {
+            "period": "2025-10-29",
+            "price": 264.33
+          },
+          {
+            "period": "2025-11-05",
+            "price": 256.33
+          },
+          {
+            "period": "2025-11-12",
+            "price": 258.89
+          },
+          {
+            "period": "2025-11-19",
+            "price": 223.55
+          },
+          {
+            "period": "2025-11-26",
+            "price": 214.24
+          },
+          {
+            "period": "2025-12-03",
+            "price": 217.6
+          },
+          {
+            "period": "2025-12-10",
+            "price": 221.42
+          },
+          {
+            "period": "2025-12-17",
+            "price": 198.11
+          },
+          {
+            "period": "2025-12-24",
+            "price": 215.04
+          },
+          {
+            "period": "2025-12-31",
+            "price": 214.16
+          },
+          {
+            "period": "2026-01-07",
+            "price": 210.02
+          },
+          {
+            "period": "2026-01-14",
+            "price": 223.6
+          },
+          {
+            "period": "2026-01-21",
+            "price": 249.8
+          },
+          {
+            "period": "2026-01-28",
+            "price": 252.74
+          },
+          {
+            "period": "2026-02-04",
+            "price": 200.19
+          },
+          {
+            "period": "2026-02-11",
+            "price": 213.58
+          },
+          {
+            "period": "2026-02-18",
+            "price": 200.12
+          },
+          {
+            "period": "2026-02-25",
+            "price": 210.86
+          },
+          {
+            "period": "2026-03-04",
+            "price": 202.07
+          },
+          {
+            "period": "2026-03-11",
+            "price": 204.83
+          },
+          {
+            "period": "2026-03-18",
+            "price": 199.46
+          },
+          {
+            "period": "2026-03-25",
+            "price": 220.27
+          },
+          {
+            "period": "2026-04-01",
+            "price": 210.21
+          },
+          {
+            "period": "2026-04-08",
+            "price": 231.82
+          },
+          {
+            "period": "2026-04-15",
+            "price": 258.12
+          },
+          {
+            "period": "2026-04-22",
+            "price": 303.46
+          },
+          {
+            "period": "2026-04-29",
+            "price": 337.11
+          },
+          {
+            "period": "2026-05-06",
+            "price": 421.39
+          },
+          {
+            "period": "2026-05-13",
+            "price": 445.5
+          },
+          {
+            "period": "2026-05-20",
+            "price": 447.58
+          },
+          {
+            "period": "2026-05-27",
+            "price": 495.54
+          },
+          {
+            "period": "2026-06-03",
+            "price": 542.52
+          },
+          {
+            "period": "2026-06-10",
+            "price": 452.4
+          },
+          {
+            "period": "2026-06-17",
+            "price": 512.48
+          },
+          {
+            "period": "2026-06-24",
+            "price": 519.74
+          },
+          {
+            "period": "2026-07-01",
+            "price": 540.88
+          },
+          {
+            "period": "2026-07-08",
+            "price": 517.41
+          },
+          {
+            "period": "2026-07-15",
+            "price": 529.14
+          },
+          {
+            "period": "2026-07-22",
+            "price": 552.33
+          },
+          {
+            "period": "2026-07-29",
+            "price": 429.56
+          },
+          {
+            "period": "2026-08-05",
+            "price": 482.05
+          }
+        ],
+        "targetLine": 490.5,
+        "quickFacts": {
+          "currentPrice": 482.05,
+          "currentPriceAsOf": "6 August 2026",
+          "targetPrice": 490.5,
+          "upsidePct": 1.8,
+          "fiftyTwoWeekHigh": 584.73,
+          "fiftyTwoWeekLow": 149.22,
+          "oneYearChangePct": 195.5,
+          "threeYearChangePct": 316.2,
+          "reportDate": "6 August 2026"
+        },
+        "context": "Over the past 24 months, AMD’s share price has been driven largely by expectations for AI infrastructure growth and its role as the primary merchant alternative to Nvidia. The stock saw significant multiple expansion as investors priced in the 6-gigawatt OpenAI deployment agreement and Meta capacity commitments.\n\nAcquisition amortization and weak Embedded end markets currently depress profitability. Investors are nevertheless pricing in a material EBITDA step-up in 2027-2028. The current price assumes near-perfect execution of the AI ramp, leaving only modest 1.8% upside to our USD 490.5 target."
+      },
+      "valuePools": [
+        {
+          "id": "data-center-ai-accelerators",
+          "name": "Data Center – AI Accelerators",
+          "archetype": "scaling_current_business",
+          "revenue": 7500,
+          "revenueShare": 0.21651895262565315,
+          "comparableEbit": 1000,
+          "ebitShare": 0.2707092582566324,
+          "enterpriseValue": 379741,
+          "enterpriseValueShare": 0.48000005056078227,
+          "factSheet": [
+            {
+              "label": "Valuation Basis",
+              "value": "Forward optionality / Peer multiple"
+            },
+            {
+              "label": "Unit Target",
+              "value": "~2.5 million units"
+            },
+            {
+              "label": "ASP Assumption",
+              "value": "$12,500"
+            },
+            {
+              "label": "OpenAI Deal Form",
+              "value": "Definitive agreement and warrant issuance"
+            },
+            {
+              "label": "OpenAI Consideration",
+              "value": "Performance-based warrants for 160m shares"
+            },
+            {
+              "label": "OpenAI Commitment",
+              "value": "6-gigawatt GPU deployment"
+            },
+            {
+              "label": "Next Deal Milestone",
+              "value": "Initial 1GW deployment starting 2H 2026"
+            }
+          ],
+          "deepDive": [
+            "### Why the market values it",
+            "The market assigns nearly half of AMD’s enterprise value to this division because it is the only viable merchant silicon alternative to Nvidia in the AI infrastructure build-out. The valuation is not supported by current recurring cash flow. It reflects growth optionality moving into early monetization. Investors assume AMD can capture a lasting minority share of a rapidly expanding AI hardware market and become an important partner for hyperscalers seeking to diversify silicon supply beyond one dominant provider.",
+            "### Market structure and demand",
+            "The AI accelerator total addressable market is expanding rapidly. AMD management guided in 2024 that the AI accelerator TAM would reach USD 400 billion by 2027, and recently updated this estimate to USD 1.4 trillion by 2030. The market is split between internal custom silicon and merchant silicon. Near-term demand is constrained by advanced packaging (CoWoS) and high-bandwidth memory (HBM) supply, not end-customer budgets. AMD does not need to displace Nvidia; it needs to capture 7% to 12% of the expanded USD 400 billion merchant market.",
+            "### Competitive position and economic moat",
+            "Merchant AI silicon is effectively a duopoly, though the incumbent remains dominant. Nvidia holds roughly 85% of the data center accelerator market. AMD’s position depends on price-performance, open-source software flexibility, and hyperscaler support.",
+            "- Nvidia (H100 / B200): Dominant incumbent with ~85% data center share and $25,000–$40,000 ASP.",
+            "- AMD (MI300X / MI325X): Primary challenger targeting 7%–10% share with $10,000–$15,000 ASP.",
+            "Nvidia has major advantages through its CUDA software ecosystem and proprietary networking, allowing it to charge premium prices. AMD competes on memory capacity and total cost of ownership. Its units are priced between USD 10,000 and USD 15,000, roughly a 30% to 50% discount to Nvidia's flagship products. This pricing has secured commitments from operators seeking to improve inference economics.",
+            "### Unit economics and required scale",
+            "The economics depend on volume, including wafer and HBM allocation, multiplied by ASP and shaped by advanced-packaging gross margins. At an estimated ASP of USD 12,500, every 100,000 units deployed generates USD 1.25 billion in revenue. These complex products use TSMC's advanced nodes, so gross margins are likely in the 50% to 60% range and offer significant operating leverage. The recently announced OpenAI arrangement is a 6-gigawatt deployment, implying millions of GPUs over the contract life and supporting the multi-billion-dollar revenue base required by the valuation.",
+            "### Economics bridge",
+            "The valuation requires a substantial revenue and EBITDA ramp:",
+            "- Required EBITDA: ~12,658 USDm (annual recurring run-rate by 2028)",
+            "- Required Revenue: ~31,645 USDm (assuming a 40% operating margin)",
+            "- Volume Driver: ~2.5 million units annually at a $12,500 ASP",
+            "### Bridge sanity check",
+            "AMD must sell approximately 2.5 million Instinct GPUs annually at USD 12,500 to generate USD 31.6 billion in revenue. In a TAM projected to reach USD 400 billion by 2027, USD 31.6 billion represents less than an 8% market share. Customer commitments support this logic: the OpenAI deal’s initial 1-gigawatt phase, beginning in late 2026, alone represents over USD 12 billion in hardware value.",
+            "### Gap to required economics",
+            "There is no structural shortfall if execution remains on track. AMD must deliver its production ramp, secure enough HBM3e supply from memory partners, and convert the 6-gigawatt OpenAI commitment and other hyperscaler agreements into recognized revenue without significant margin pressure.",
+            "### Milestones and evidence needed",
+            "Over the next 12 to 24 months, AMD must execute the initial 1-gigawatt OpenAI deployment and transition from MI300X to MI325X/MI355X architectures. Volume shortfalls from TSMC CoWoS packaging constraints or HBM supply shortages would weaken the investment case. Over the 3-to-5-year horizon, AMD must show that its ROCm software stack can approach CUDA compatibility.",
+            "### Assessment",
+            "The enterprise value allocation is achievable but demanding. Capturing 8% of a USD 400 billion market at historical semiconductor margins supports the USD 380 billion enterprise value allocation. The risk is execution. The valuation leaves no room for architectural errors, software fragmentation, or major supply-chain yield issues."
+          ],
+          "deepDiveTable": {
+            "columns": [
+              "Competitor / Architecture",
+              "Current Commercial Status",
+              "Scale (Market Share)",
+              "Estimated Cost (ASP)"
+            ],
+            "rows": [
+              [
+                "Nvidia (H100 / B200)",
+                "Dominant incumbent",
+                "~85% share",
+                "$25,000 – $40,000"
+              ],
+              [
+                "AMD (MI300X / MI325X)",
+                "Primary challenger",
+                "7% – 10% target",
+                "$10,000 – $15,000"
+              ]
+            ]
+          },
+          "deepDiveTableTitle": "Competitor Comparison: Merchant AI Accelerators"
+        },
+        {
+          "id": "data-center-server-cpus",
+          "name": "Data Center – Server CPUs (EPYC)",
+          "archetype": "current_profit_engine",
+          "revenue": 9100,
+          "revenueShare": 0.26270966251912586,
+          "comparableEbit": 3100,
+          "ebitShare": 0.8391987005955603,
+          "enterpriseValue": 134492,
+          "enterpriseValueShare": 0.17000051824801835,
+          "factSheet": [
+            {
+              "label": "Valuation Basis",
+              "value": "EBITDA multiple"
+            },
+            {
+              "label": "Market Share (Unit)",
+              "value": "33.2%"
+            },
+            {
+              "label": "Market Share (Rev)",
+              "value": "46.2%"
+            }
+          ],
+          "deepDive": [
+            "### Why the market values it",
+            "While AI accelerators dominate the narrative, EPYC server CPUs provide AMD’s earnings floor. The market values this division as a mature, cash-generative duopoly in which AMD has gained share from Intel. EPYC’s core density, power efficiency, and total cost of ownership have made it a preferred choice for major cloud providers upgrading traditional compute fleets.",
+            "### Market structure and demand",
+            "The data center CPU market is large and distinct from GPUs, although AI demand supports high-performance host CPUs. The server CPU TAM is expected to reach approximately USD 220 billion by 2030. The market is shifting from unit growth toward higher core counts and memory bandwidth, which support premium ASPs. Replacement cycles are fixed, and hyperscalers require reliable, consistent platforms.",
+            "### Competitive position and economic moat",
+            "AMD has changed the server CPU market hierarchy over the last five years. In early 2026, AMD EPYC CPUs reached a record 46.2% revenue share and 33.2% unit share in the x86 server market.",
+            "- AMD (EPYC): 46.2% revenue share and 33.2% unit share, supporting premium ASPs.",
+            "- Intel (Xeon): 53.8% revenue share and 66.8% unit share, defending its legacy enterprise base.",
+            "- Arm (Custom Silicon): A growing hyperscaler threat optimized for specific workloads.",
+            "AMD’s revenue share exceeds its unit share, showing that it captures the premium-ASP end of the market while Intel serves more lower-margin deployments. AMD’s chiplet architecture supports cost-effective core-count scaling. Its use of TSMC also provides a process-node advantage over Intel’s internal foundry challenges.",
+            "### Unit economics and required scale",
+            "Server CPU economics depend on ASP, die yield, and platform attach rates. Higher core counts drive ASPs disproportionately. EPYC gross margins are above the corporate average. AMD’s use of TSMC keeps capital intensity low, allowing high gross margins to convert efficiently into free cash flow.",
+            "### Economics bridge",
+            "The economics bridge fully supports the current valuation:",
+            "- Allocated Enterprise Value: 134,492 USDm (17.0% of group EV)",
+            "- Required EBITDA: ~6,724 USDm (annual recurring run-rate)",
+            "- Required Revenue: ~14,943 USDm (assuming a 45% operating margin)",
+            "### Bridge sanity check",
+            "Current run-rates fully support the valuation. If the server CPU TAM reaches USD 220 billion, the implied revenue requirement of USD 15 billion is less than 7% of the 2030 market. It also requires only that AMD maintain its current absolute revenue in a growing market. The division is already operating at or near this cash-generation level.",
+            "### Gap to required economics",
+            "AMD mainly needs to maintain its current product cadence. The primary risk is not Intel regaining the performance lead, but hyperscalers (AWS, Google, Microsoft) replacing x86 merchant silicon with their own Arm-based processors for general-purpose workloads.",
+            "### Milestones and evidence needed",
+            "Over the next 12 months, investors will watch whether Intel can defend its remaining enterprise base with new Xeon products. AMD must show that its Venice architecture retains its performance-per-watt advantage. A sustained decline in EPYC ASPs would suggest Intel is using price to defend share or that custom Arm silicon is pushing merchant CPUs toward commodity pricing.",
+            "### Assessment",
+            "The enterprise value assigned to Server CPUs is realistic and well supported by current recurring economics. Unlike AI Accelerators, this valuation does not require a major increase in future market size. It assumes AMD retains the share gains achieved over the past five years."
+          ],
+          "deepDiveTable": {
+            "columns": [
+              "Competitor",
+              "Current Commercial Status",
+              "Scale",
+              "Key Competitive Advantage"
+            ],
+            "rows": [
+              [
+                "AMD (EPYC)",
+                "Share-gainer",
+                "46.2% rev share",
+                "Power efficiency per rack"
+              ],
+              [
+                "Intel (Xeon)",
+                "Incumbent defending",
+                "53.8% rev share",
+                "Deep legacy entrenchment"
+              ],
+              [
+                "Arm (Custom)",
+                "Hyperscaler threat",
+                "Growing internal",
+                "Highly optimized workloads"
+              ]
+            ]
+          },
+          "deepDiveTableTitle": "Competitor Comparison: Server CPUs"
+        },
+        {
+          "id": "client-computing",
+          "name": "Client Computing",
+          "archetype": "current_profit_engine",
+          "revenue": 9000,
+          "revenueShare": 0.2598227431507838,
+          "comparableEbit": 1000,
+          "ebitShare": 0.2707092582566324,
+          "enterpriseValue": 118669,
+          "enterpriseValueShare": 0.14999993679902215,
+          "factSheet": [
+            {
+              "label": "Valuation Basis",
+              "value": "EBIT multiple"
+            },
+            {
+              "label": "Market Share",
+              "value": "20% - 25%"
+            },
+            {
+              "label": "Key Refresh Catalyst",
+              "value": "AI-PC cycle"
+            }
+          ],
+          "deepDive": [
+            "### Why the market values it",
+            "The market values Client as a reliable cash flow contributor that absorbs fixed R&D costs and provides scale with TSMC. The valuation assumes a steady-state business recovering from the post-pandemic PC downturn, with a modest ASP benefit from the emerging \"AI PC\" refresh cycle.",
+            "### Market structure and demand",
+            "The global PC market is roughly 300-million-unit annual volume. Historical growth is flat, with value driven by ASP mix toward premium notebooks and gaming PCs. AMD has broken Intel’s former monopoly, gaining roughly 20% to 25% of the client market over the last cycle.",
+            "### Competitive position and unit economics",
+            "AMD’s Ryzen architecture competes well with Intel's Core series, particularly in power-constrained notebooks. Unit economics depend on high shipment volumes to absorb manufacturing costs. Unlike server CPUs, however, the client market is price-sensitive and promotional.",
+            "The division must meet several conditions to support a USD 118 billion EV:",
+            "- Required EBITDA: roughly USD 6 billion at a ~20x multiple.",
+            "- Volume baseline: maintain 20% to 25% of the client market.",
+            "- Margin defense: avoid margin-destroying price wars as Intel struggles with fab utilization.",
+            "The valuation is plausible but remains sensitive to consumer demand and whether the AI-PC product cycle lifts blended pricing."
+          ],
+          "deepDiveTable": null,
+          "deepDiveTableTitle": ""
+        },
+        {
+          "id": "embedded",
+          "name": "Embedded",
+          "archetype": "defensive_or_declining_cash_flow",
+          "revenue": 3500,
+          "revenueShare": 0.10104217789197148,
+          "comparableEbit": 1050,
+          "ebitShare": 0.284244721169464,
+          "enterpriseValue": 102846,
+          "enterpriseValueShare": 0.12999935535002596,
+          "factSheet": [
+            {
+              "label": "Valuation Basis",
+              "value": "Asset/goodwill multiple"
+            },
+            {
+              "label": "Goodwill Backing",
+              "value": "$25.1B"
+            },
+            {
+              "label": "Intangible Backing",
+              "value": "$16.7B"
+            }
+          ],
+          "deepDive": [
+            "### Why the market values it",
+            "The enterprise value allocation is supported largely by assets and goodwill. AMD acquired Xilinx for approximately USD 50 billion in stock, creating a large intangible asset base: the group balance sheet carries USD 25.1 billion in goodwill and USD 16.7 billion in other intangibles. The market values this division for high gross margins and a sticky, long-lifecycle customer base in aerospace, defense, and communications infrastructure.",
+            "### Market structure and unit economics",
+            "Embedded semiconductors have 10-to-15-year lifecycles. Customers design chips into industrial equipment or cellular base stations and rarely replace them because redesign costs are high. The economics are favorable: low volume, high ASPs, and limited ongoing marketing expense.",
+            "The segment is constrained by current macro weakness but supported by strategic assets:",
+            "- Required EBITDA: ~USD 5 billion to support the USD 102 billion EV.",
+            "- Asset backing: USD 25.1 billion in goodwill and USD 16.7 billion in other intangibles from Xilinx.",
+            "- Gross margin profile: historically exceeds 65%, supporting operating leverage.",
+            "Supporting a USD 102 billion EV requires a strong cyclical recovery in telecom and industrial spending. The valuation works on a mid-cycle basis, but depressed current run-rates leave a temporary gap in the earnings bridge."
+          ],
+          "deepDiveTable": null,
+          "deepDiveTableTitle": ""
+        },
+        {
+          "id": "gaming",
+          "name": "Gaming",
+          "archetype": "defensive_or_declining_cash_flow",
+          "revenue": 5539,
+          "revenueShare": 0.1599064638124657,
+          "comparableEbit": 450,
+          "ebitShare": 0.12181916621548457,
+          "enterpriseValue": 55379,
+          "enterpriseValueShare": 0.07000013904215126,
+          "factSheet": [
+            {
+              "label": "Valuation Basis",
+              "value": "Revenue multiple"
+            },
+            {
+              "label": "Current Cycle",
+              "value": "Maturing console phase"
+            },
+            {
+              "label": "Growth Profile",
+              "value": "Structurally declining"
+            }
+          ],
+          "deepDive": [],
+          "deepDiveTable": null,
+          "deepDiveTableTitle": ""
+        }
+      ],
+      "groupTotals": {
+        "revenue": 34639,
+        "comparableEbit": 3694,
+        "enterpriseValue": 791127
+      },
+      "segmentFinancialsPeriod": "FY2025A",
+      "segmentFinancialsSource": "Model estimates; official segment table requires review",
+      "valueBreakdownInterpretation": "The EV allocation is highly forward-looking. Nearly half of the group’s USD 791 billion enterprise value is assigned to Data Center – AI Accelerators, which still represents a minority of group revenue and EBITDA. The market is valuing AMD on projected cash generation in 2027 and 2028, based on a sharp increase in data center profitability from large hyperscaler deployments.",
+      "coreAnalysis": {
+        "executiveMap": [
+          "AMD’s current recurring earnings come mainly from traditional server (EPYC), client (Ryzen), and embedded (adaptive SoC) processors. Its EV allocation, however, is highly forward-looking. Nearly half of the group’s USD 791 billion enterprise value is assigned to Data Center – AI Accelerators, which remains a minority of group revenue and EBITDA despite rapid growth. The market is valuing AMD on projected cash generation in 2027 and 2028, based on a sharp increase in data center profitability.",
+          "Enterprise value bridges to equity market capitalization through a modest net debt position of USD 5,096 million. AMD’s fabless model and strong operating cash flow (estimated at USD 8.5 billion for 2026) mean it does not carry the heavy debt typical of infrastructure or capital-intensive manufacturers. The valuation debate therefore rests on operating assumptions, particularly Instinct GPU volume, pricing, and margin, rather than balance-sheet claims or restructuring discounts.",
+          "AMD’s reported financials require adjustment. GAAP EBIT is reduced by roughly USD 3.0 billion of annual depreciation and amortization, much of it non-cash intangible amortization from the Xilinx and Pensando acquisitions. Reported EBIT is therefore not a reliable measure of recurring operating economics. The valuation relies on EBITDA and operating cash flow as better measures of underlying earnings power. The key areas are AI Accelerators and Server CPUs, which account for 65% of enterprise value and compete directly with Nvidia and Intel."
+        ],
+        "analyticalAnchor": "AMD’s current recurring earnings come mainly from traditional CPUs, but its valuation is forward-looking and heavily dependent on AI accelerator scale-up in 2027-2028.",
+        "groupedPools": [
+          {
+            "heading": "Gaming",
+            "paragraphs": [
+              "Allocated USD 55,379 million (7.0% of EV), Gaming includes semi-custom console SoCs and Radeon discrete GPUs. The market values the division as a mature, defensive cash flow generator. As the console cycle matures and discrete GPU share trails Nvidia, monetization is increasingly dependent on semi-custom royalties.",
+              "The key valuation question is whether this is a structurally declining cash-flow business valued too generously for its maturity. With the console cycle well advanced, the assigned revenue multiple requires the discrete GPU business to stabilize and avoid further cash flow erosion."
+            ]
+          }
+        ],
+        "crossPoolBridge": [
+          "Forward estimates depend on Data Center – AI Accelerators. Server CPUs, Client, and Embedded provide a stable base of roughly USD 10 to USD 12 billion in recurring EBITDA. The increase to USD 26.6 billion in 2027 and nearly USD 40.0 billion in 2028 assumes execution of the OpenAI 6-gigawatt deal and other hyperscaler commitments.",
+          "Reported net earnings and EBIT are currently distorted. In 2026, AMD expects USD 10.3 billion in total depreciation and amortization, much of it non-cash acquisition amortization. By 2027, this drag falls to a modeled USD 121 million. EBIT margins then align more closely with cash generation, rising from 7.9% to 33.4%.",
+          "The FCF bridge is the weakest part of the forecast. Procuring TSMC wafers and HBM3e memory for millions of AI GPUs requires substantial working-capital investment. The model assumes significant cash consumption in 2026 (negative USD 10.5 billion FCF) before the cash cycle normalizes in 2028. If hyperscalers delay GPU deliveries, AMD could be left with costly inventory that depreciates quickly, weakening the cash bridge."
+        ],
+        "bridgeMechanics": "High-margin AI deployments drive EBITDA growth, while working-capital investment weighs heavily on near-term free cash flow.",
+        "valuationRealityCheck": [
+          "The valuation has two parts. Approximately 45% of enterprise value, covering Server CPUs, Client, and Gaming, is supported by current operating cash flow and recurring market share. Another 13%, Embedded, is supported by an asset-value framework that compares assigned EV with the goodwill and strategic IP acquired through Xilinx, assuming the cycle eventually normalizes.",
+          "The remaining 48% assigned to AI Accelerators is the main source of risk. On a 30x EV/EBITDA framework, current EBITDA does not support this allocation. The market assumes the OpenAI 6-gigawatt deployment and similar commitments will proceed on schedule and at historical semiconductor margins.",
+          "The valuation assumes AMD can fund the large working-capital needs for advanced packaging and memory without supplier pressure or customer price renegotiation.",
+          "The valuation can be supported because the AI hardware market is large enough for AMD to generate USD 12 billion to USD 15 billion in EBITDA with only a modest market share. It could fail quickly if Nvidia uses its gross margins to cut merchant pricing, undermining AMD’s unit economics."
+        ],
+        "scenarios": [
+          "The scenario analysis depends on AI Accelerator volume and monetization. In the base case, AMD reaches the USD 40 billion EBITDA consensus by 2028. EV remains unchanged as the multiple falls to a reasonable 20x.",
+          "The downside is significant because the current EV/EBITDA multiple (55.7x on 2026E) offers no valuation floor if growth slows. If Nvidia cuts H100/B200 pricing aggressively, or hyperscalers reduce capital expenditures, AMD’s required 40% margin on the AI business would fall. Lower EBITDA and a multiple contraction to a traditional hardware 15x would erase over half of enterprise value. Net debt would likely rise as the company funds stranded working capital.",
+          "Upside requires the AI merchant market to exceed the base USD 400 billion TAM and move toward management's USD 1.4 trillion estimate, while AMD captures more than 10% share. If the OpenAI deployment becomes a template for other operators, AMD could exceed USD 55 billion in EBITDA and push equity value comfortably above the USD 1.2 trillion mark."
+        ],
+        "bottomLine": "The investment case rests on whether AMD’s position as the main merchant alternative to Nvidia justifies near-perfect expectations for its Data Center AI ramp. The market values its mature x86 CPU and embedded processor businesses at roughly USD 410 billion and its AI GPU business at roughly USD 380 billion. Data Center – AI Accelerators is the critical segment. The valuation is feasible: less than 10% of a conservative USD 400 billion TAM could generate the USD 12.6 billion in EBITDA needed to support the allocation. However, EV depends heavily on future execution. Portfolio managers should focus on 2H 2026 deployment milestones. If the 1-gigawatt OpenAI installation proceeds without yield issues, software incompatibility, or margin degradation, the USD 791 billion enterprise value is supportable."
+      },
+      "reverseValuation": null,
+      "financialBridge": {
+        "netSales": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            22680,
+            25785,
+            34639,
+            49714,
+            79383,
+            108870,
+            116229
+          ],
+          "forecastFromIndex": 3
+        },
+        "ebitdaEbit": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "ebitda": [
+            2073,
+            5077,
+            6698,
+            14194,
+            26613,
+            39971,
+            23565
+          ],
+          "ebit": [
+            401,
+            1900,
+            3694,
+            3934,
+            26492,
+            38225,
+            12740
+          ],
+          "forecastFromIndex": 3
+        },
+        "marginLines": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "ebitMarginPct": [
+            1.8,
+            7.4,
+            10.7,
+            7.9,
+            33.4,
+            35.1,
+            11
+          ],
+          "ebitdaMarginPct": [
+            9.1,
+            19.7,
+            19.3,
+            28.6,
+            33.5,
+            36.7,
+            20.3
+          ],
+          "forecastFromIndex": 3
+        },
+        "freeCashFlow": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            -1419,
+            511,
+            -2088,
+            -10509,
+            -6319,
+            2522,
+            2998
+          ],
+          "forecastFromIndex": 3
+        },
+        "netDebtPerEbitda": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            -0.4,
+            -0.3,
+            -0.2,
+            0.4,
+            0.6,
+            0.4,
+            0.5
+          ],
+          "forecastFromIndex": 3
+        },
+        "keyFinancials": {
+          "periods": [
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                34639,
+                49714,
+                79383,
+                108870,
+                116229
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                6698,
+                14194,
+                26613,
+                39971,
+                23565
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                3694,
+                3934,
+                26492,
+                38225,
+                12740
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                4335,
+                6611,
+                15918,
+                25381,
+                9325
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EPS (USD)",
+              "values": [
+                2.67,
+                4.07,
+                9.8,
+                15.63,
+                5.74
+              ]
+            },
+            {
+              "metric": "DPS (USD)",
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          ]
+        }
+      },
+      "forwardMultiples": {
+        "periods": [
+          "2026"
+        ],
+        "rows": [
+          {
+            "metric": "P/E",
+            "values": [
+              "118.4×"
+            ]
+          },
+          {
+            "metric": "EV/EBITDA",
+            "values": [
+              "55.7×"
+            ]
+          },
+          {
+            "metric": "EV/EBIT",
+            "values": [
+              "201.1×"
+            ]
+          },
+          {
+            "metric": "P/FCF",
+            "values": [
+              "-74.5×"
+            ]
+          },
+          {
+            "metric": "P/BV",
+            "values": [
+              "11.2×"
+            ]
+          },
+          {
+            "metric": "Dividend Yield",
+            "values": [
+              "—"
+            ]
+          },
+          {
+            "metric": "Net Debt / EBITDA",
+            "values": [
+              "0.4×"
+            ]
+          }
+        ]
+      },
+      "sensitivityMatrix": {
+        "rowAxis": {
+          "label": "EBITDA",
+          "deltas": [
+            -0.2,
+            -0.1,
+            0,
+            0.1,
+            0.2
+          ],
+          "absoluteValues": [
+            11355,
+            12775,
+            14194,
+            15613,
+            17033
+          ],
+          "baseIndex": 2
+        },
+        "colAxis": {
+          "label": "EV/EBITDA",
+          "multiples": [
+            15,
+            18,
+            20,
+            22,
+            25
+          ],
+          "baseIndex": 2
+        },
+        "cells": [
+          [
+            {
+              "ev": 170325,
+              "perShare": 105.1
+            },
+            {
+              "ev": 204390,
+              "perShare": 126
+            },
+            {
+              "ev": 227100,
+              "perShare": 139.9
+            },
+            {
+              "ev": 249810,
+              "perShare": 153.9
+            },
+            {
+              "ev": 283875,
+              "perShare": 174.7
+            }
+          ],
+          [
+            {
+              "ev": 191625,
+              "perShare": 118.2
+            },
+            {
+              "ev": 229950,
+              "perShare": 141.7
+            },
+            {
+              "ev": 255500,
+              "perShare": 157.3
+            },
+            {
+              "ev": 281050,
+              "perShare": 173
+            },
+            {
+              "ev": 319375,
+              "perShare": 196.5
+            }
+          ],
+          [
+            {
+              "ev": 212910,
+              "perShare": 131.2
+            },
+            {
+              "ev": 255492,
+              "perShare": 157.3
+            },
+            {
+              "ev": 283880,
+              "perShare": 174.7
+            },
+            {
+              "ev": 312268,
+              "perShare": 192.2
+            },
+            {
+              "ev": 354850,
+              "perShare": 218.3
+            }
+          ],
+          [
+            {
+              "ev": 234195,
+              "perShare": 144.3
+            },
+            {
+              "ev": 281034,
+              "perShare": 173
+            },
+            {
+              "ev": 312260,
+              "perShare": 192.2
+            },
+            {
+              "ev": 343486,
+              "perShare": 211.3
+            },
+            {
+              "ev": 390325,
+              "perShare": 240
+            }
+          ],
+          [
+            {
+              "ev": 255495,
+              "perShare": 157.3
+            },
+            {
+              "ev": 306594,
+              "perShare": 188.7
+            },
+            {
+              "ev": 340660,
+              "perShare": 209.6
+            },
+            {
+              "ev": 374726,
+              "perShare": 230.5
+            },
+            {
+              "ev": 425825,
+              "perShare": 261.8
+            }
+          ]
+        ]
+      },
+      "scenarioValuation": {
+        "rows": [
+          {
+            "scenario": "Bear",
+            "revenue": 75000,
+            "ebitda": 25000,
+            "marginPct": 33.3,
+            "multiple": 15,
+            "ev": 375000,
+            "equity": 376067,
+            "valuePerShare": 230.63,
+            "upsidePct": -52.2
+          },
+          {
+            "scenario": "Base",
+            "revenue": 108870,
+            "ebitda": 39971,
+            "marginPct": 36.7,
+            "multiple": 20,
+            "ev": 799420,
+            "equity": 800487,
+            "valuePerShare": 490.92,
+            "upsidePct": 1.8
+          },
+          {
+            "scenario": "Bull",
+            "revenue": 137500,
+            "ebitda": 55000,
+            "marginPct": 40,
+            "multiple": 22,
+            "ev": 1210000,
+            "equity": 1211067,
+            "valuePerShare": 742.71,
+            "upsidePct": 54.1
+          }
+        ],
+        "keyConditions": "The scenarios depend on AI Accelerator execution and competitive dynamics. The base case requires USD 40 billion in group EBITDA by 2028 and a sustained 20x multiple. The bear case assumes aggressive Nvidia price cuts and multiple contraction to 15x. Upside requires the AI merchant TAM to approach management's USD 1.4 trillion estimate and AMD to capture >10% share.",
+        "thesisBreaker": "If Nvidia cuts H100/B200 prices, AMD’s required 40% AI margin would fail. EBITDA shortfalls and multiple contraction would destroy significant enterprise value."
+      },
+      "catalysts": {
+        "rows": [
+          {
+            "milestone": "OpenAI 1GW Initial Deployment",
+            "timing": "NEAR-TERM",
+            "pool": "Data Center – AI Accelerators",
+            "indicator": "Proves commercial scalability of MI325/355X architecture",
+            "valuationImpact": "Validates the primary volume driver"
+          },
+          {
+            "milestone": "TSMC CoWoS / HBM3e Supply Data",
+            "timing": "NEAR-TERM",
+            "pool": "Data Center – AI Accelerators",
+            "indicator": "Determines physical revenue ceiling",
+            "valuationImpact": "Supply constraints break 2027 revenue bridge"
+          },
+          {
+            "milestone": "Server CPU Unit Share vs Intel",
+            "timing": "MEDIUM-TERM",
+            "pool": "Data Center – Server CPUs (EPYC)",
+            "indicator": "Tests durability of the cash engine",
+            "valuationImpact": "Share drop signals Intel pricing pressure"
+          },
+          {
+            "milestone": "Embedded Segment Inventory",
+            "timing": "MEDIUM-TERM",
+            "pool": "Embedded",
+            "indicator": "Signals cycle turn for Xilinx assets",
+            "valuationImpact": "Supports realizability of $102B EV"
+          }
+        ],
+        "prose": "The key catalyst is execution of the OpenAI 1-gigawatt deployment beginning in 2H 2026. This should be visible in Data Center revenue growth. TSMC packaging data may be misunderstood: investors often view demand as the constraint, but AMD’s revenue capacity is limited by the number of advanced wafers it can secure from Taiwan.\n\nThe monitoring checklist tests the volume assumptions behind AI Accelerator economics. Server unit share against Intel also provides downside protection for AMD’s core cash-generative business."
+      },
+      "risks": {
+        "rows": [
+          {
+            "risk": "Competitive Pricing",
+            "pool": "Data Center – AI Accelerators",
+            "mechanism": "Nvidia uses B200 efficiency to slash merchant pricing, breaking the 40% margin assumption.",
+            "earlyWarning": "Lowered Instinct GPU ASPs",
+            "impact": "HIGH",
+            "type": "THESIS-BREAKER IF COMBINED"
+          },
+          {
+            "risk": "Supply Chain Concentration",
+            "pool": "Data Center – Server CPUs (EPYC)",
+            "mechanism": "Sole reliance on TSMC for fabrication and advanced packaging caps volumes.",
+            "earlyWarning": "CoWoS bottleneck announcements",
+            "impact": "HIGH",
+            "type": "STRUCTURAL"
+          },
+          {
+            "risk": "Customer Concentration",
+            "pool": "Data Center – AI Accelerators",
+            "mechanism": "Heavy reliance on a few hyperscalers leads to sudden order cancellations or delays.",
+            "earlyWarning": "Hyperscaler Capex reductions",
+            "impact": "MEDIUM",
+            "type": "MANAGEABLE"
+          },
+          {
+            "risk": "Custom Silicon Encroachment",
+            "pool": "Data Center – AI Accelerators",
+            "mechanism": "Hyperscalers shift workloads to internal Arm chips, eroding merchant TAMs.",
+            "earlyWarning": "AWS/Google custom silicon milestones",
+            "impact": "MEDIUM",
+            "type": "STRUCTURAL"
+          }
+        ],
+        "prose": "The main risk is competitive pricing by Nvidia. If Nvidia defends its 85% market share by reducing prices, AMD would likely follow, undermining the margin needed to reach USD 26 billion in group EBITDA by 2027. This risk appears underappreciated because the market assumes hardware supply constraints will persist indefinitely.\n\nSupply-chain risk is partly reflected in general awareness of TSMC's geographic exposure, but CoWoS advanced packaging remains a specific operational bottleneck. These risks are correlated across divisions. If a macro shock causes hyperscalers to reduce data center capex, both Server CPUs and AI Accelerators would weaken simultaneously, removing any internal portfolio offset."
+      },
+      "appendix": {
+        "incomeStatement": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                22680,
+                25785,
+                34639,
+                49714,
+                79383,
+                108870
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                2073,
+                5077,
+                6698,
+                14194,
+                26613,
+                39971
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "9.1%",
+                "19.7%",
+                "19.3%",
+                "28.6%",
+                "33.5%",
+                "36.7%"
+              ]
+            },
+            {
+              "metric": "Depreciation",
+              "values": [
+                -1672,
+                -3177,
+                -3004,
+                -10260,
+                -121,
+                -1746
+              ]
+            },
+            {
+              "metric": "Operating Profit (EBIT)",
+              "values": [
+                401,
+                1900,
+                3694,
+                3934,
+                26492,
+                38225
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "1.8%",
+                "7.4%",
+                "10.7%",
+                "7.9%",
+                "33.4%",
+                "35.1%"
+              ]
+            },
+            {
+              "metric": "Net financial items",
+              "values": [
+                107,
+                122,
+                472,
+                6048,
+                -4981,
+                -3927
+              ]
+            },
+            {
+              "metric": "Pre-tax Profit",
+              "values": [
+                508,
+                2022,
+                4166,
+                9982,
+                21511,
+                34298
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                854,
+                1641,
+                4335,
+                6611,
+                15918,
+                25381
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Per share",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.53,
+                1.01,
+                2.67,
+                4.07,
+                9.8,
+                15.63
+              ]
+            },
+            {
+              "metric": "DPS",
+              "values": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "metric": "Payout ratio",
+              "values": [
+                "—",
+                "—",
+                "—",
+                "—",
+                "—",
+                "—"
+              ]
+            }
+          ]
+        },
+        "balanceSheet": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Assets",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Tangible assets",
+              "values": [
+                2222,
+                2425,
+                2312,
+                3793,
+                6057,
+                8307
+              ]
+            },
+            {
+              "metric": "Intangibles",
+              "values": [
+                21363,
+                18930,
+                16705,
+                23975,
+                38283,
+                52504
+              ]
+            },
+            {
+              "metric": "Goodwill",
+              "values": [
+                24262,
+                24839,
+                25126,
+                25126,
+                25126,
+                25126
+              ]
+            },
+            {
+              "metric": "Non-current assets",
+              "values": [
+                50751,
+                49489,
+                49595,
+                58346,
+                74918,
+                91389
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Inventories",
+              "values": [
+                4351,
+                5734,
+                7920,
+                11258,
+                17976,
+                24654
+              ]
+            },
+            {
+              "metric": "Receivables",
+              "values": [
+                8484,
+                9528,
+                13488,
+                17743,
+                24050,
+                30320
+              ]
+            },
+            {
+              "metric": "Cash & equivalents",
+              "values": [
+                3933,
+                3787,
+                5539,
+                7723,
+                12332,
+                16912
+              ]
+            },
+            {
+              "metric": "Current assets",
+              "values": [
+                16768,
+                19049,
+                26947,
+                36723,
+                54358,
+                71886
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total Assets",
+              "values": [
+                67885,
+                69226,
+                76926,
+                95453,
+                129661,
+                163658
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Equity & liabilities",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Equity",
+              "values": [
+                55892,
+                57568,
+                62999,
+                69951,
+                85869,
+                111249
+              ]
+            },
+            {
+              "metric": "Long-term debt",
+              "values": [
+                1717,
+                1721,
+                2973,
+                6023,
+                13249,
+                15673
+              ]
+            },
+            {
+              "metric": "Short-term debt",
+              "values": [
+                751,
+                "—",
+                874,
+                6023,
+                13249,
+                15673
+              ]
+            },
+            {
+              "metric": "Long-term liabilities",
+              "values": [
+                3567,
+                3537,
+                3534,
+                6584,
+                13810,
+                16234
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Current liabilities",
+              "values": [
+                6689,
+                7281,
+                9455,
+                17833,
+                28734,
+                34810
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total liabilities & equity",
+              "values": [
+                67885,
+                69226,
+                76926,
+                95453,
+                129661,
+                163658
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Capital structure & ratios",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Net debt",
+              "values": [
+                -930,
+                -1575,
+                -1067,
+                5096,
+                15102,
+                15485
+              ]
+            },
+            {
+              "metric": "Capital invested",
+              "values": [
+                54427,
+                55502,
+                61307,
+                74275,
+                100035,
+                125683
+              ]
+            },
+            {
+              "metric": "Equity ratio",
+              "values": [
+                "82.3%",
+                "83.2%",
+                "81.9%",
+                "73.3%",
+                "66.2%",
+                "68.0%"
+              ]
+            },
+            {
+              "metric": "Gearing",
+              "values": [
+                "-1.7%",
+                "-2.7%",
+                "-1.7%",
+                "7.3%",
+                "17.6%",
+                "13.9%"
+              ]
+            },
+            {
+              "metric": "Net debt / EBITDA",
+              "values": [
+                "-0.4×",
+                "-0.3×",
+                "-0.2×",
+                "0.4×",
+                "0.6×",
+                "0.4×"
+              ]
+            },
+            {
+              "metric": "Current ratio",
+              "values": [
+                2.51,
+                2.62,
+                2.85,
+                2.06,
+                1.89,
+                2.07
+              ]
+            }
+          ]
+        },
+        "cashFlow": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Operations",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "CF from operations",
+              "values": [
+                -566,
+                3734,
+                2493,
+                12508,
+                6688,
+                17832
+              ]
+            },
+            {
+              "metric": "Operating cash flow",
+              "values": [
+                -1685,
+                2460,
+                2211,
+                8502,
+                10374,
+                20738
+              ]
+            },
+            {
+              "metric": "Change in working capital",
+              "values": [
+                3082,
+                1084,
+                4846,
+                4364,
+                9352,
+                9294
+              ]
+            },
+            {
+              "metric": "Investing & free cash",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Gross capex",
+              "values": [
+                -80,
+                1915,
+                3110,
+                19011,
+                16693,
+                18216
+              ]
+            },
+            {
+              "metric": "Capex (ex. M&A)",
+              "values": [
+                80,
+                -1915,
+                -3110,
+                -19011,
+                -16693,
+                -18216
+              ]
+            },
+            {
+              "metric": "Free Operating Cash Flow",
+              "values": [
+                -1419,
+                511,
+                -2154,
+                -10509,
+                -6319,
+                2522
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Free cash flow to firm",
+              "values": [
+                -1419,
+                511,
+                -2088,
+                -10509,
+                -6319,
+                2522
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Financing",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "CF from financing",
+              "values": [
+                614,
+                -790,
+                2101,
+                8687,
+                14614,
+                4965
+              ]
+            },
+            {
+              "metric": "Dividends paid",
+              "values": [
+                "—",
+                "—",
+                "—",
+                "—",
+                "—",
+                "—"
+              ]
+            },
+            {
+              "metric": "Net change in cash",
+              "values": [
+                128,
+                1029,
+                1484,
+                2184,
+                4609,
+                4581
+              ],
+              "isSubtotal": true
+            }
+          ]
+        },
+        "quarterly": {
+          "periods": [
+            "Q1/24",
+            "Q2/24",
+            "Q3/24",
+            "Q4/24",
+            "Q1/25",
+            "Q2/25",
+            "Q3/25",
+            "Q4/25"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                5473,
+                5835,
+                6819,
+                7658,
+                7438,
+                7685,
+                9246,
+                10270
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                820,
+                1038,
+                1562,
+                1657,
+                1548,
+                623,
+                2024,
+                2503
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "15.0%",
+                "17.8%",
+                "22.9%",
+                "21.6%",
+                "20.8%",
+                "8.1%",
+                "21.9%",
+                "24.4%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                36,
+                269,
+                724,
+                871,
+                806,
+                -134,
+                1270,
+                1752
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "0.7%",
+                "4.6%",
+                "10.6%",
+                "11.4%",
+                "10.8%",
+                "-1.7%",
+                "13.7%",
+                "17.1%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                123,
+                265,
+                771,
+                482,
+                709,
+                872,
+                1243,
+                1511
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.08,
+                0.16,
+                0.48,
+                0.3,
+                0.44,
+                0.54,
+                0.77,
+                0.93
+              ]
+            }
+          ]
+        },
+        "quarterlyCurrent": {
+          "periods": [
+            "Q1/26",
+            "Q2/26",
+            "Q3/26",
+            "Q4/26"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                10253,
+                11536,
+                12400,
+                15525
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                2233,
+                2755,
+                5492,
+                7598
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "21.8%",
+                "23.9%",
+                "44.3%",
+                "48.9%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                1476,
+                1990,
+                1703,
+                2648
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "14.4%",
+                "17.3%",
+                "13.7%",
+                "17.1%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                1383,
+                2297,
+                2306,
+                4512
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.85,
+                1.41,
+                1.42,
+                2.78
+              ]
+            }
+          ]
+        }
+      },
+      "sources": {
+        "rows": [
+          {
+            "dataPoint": "Current share price: $482.05",
+            "value": "482.05",
+            "sourceCategory": "MARKET DATA",
+            "usedIn": "Cover Page & Valuation Check"
+          },
+          {
+            "dataPoint": "Historical Income Statement",
+            "value": "Group Financials",
+            "sourceCategory": "FINANCIAL SNAPSHOT",
+            "usedIn": "Group Totals & Bridge"
+          },
+          {
+            "dataPoint": "Forward EV/EBITDA Multiples",
+            "value": "55.74x 2026E",
+            "sourceCategory": "MODEL OUTPUT",
+            "usedIn": "Valuation Bridge"
+          },
+          {
+            "dataPoint": "2028E EBITDA: $39,971m",
+            "value": "39,971",
+            "sourceCategory": "ANALYST-GENERATED ESTIMATE",
+            "usedIn": "Scenarios & Core Analysis"
+          },
+          {
+            "dataPoint": "2028 Consensus EBITDA: $39,971m",
+            "value": "39,971",
+            "sourceCategory": "CONSENSUS ESTIMATES",
+            "usedIn": "Cross-Pool Bridge"
+          },
+          {
+            "dataPoint": "AI Accelerators EV Allocation: $379,741m",
+            "value": "379,741",
+            "sourceCategory": "COMPANY VALUE MAP",
+            "usedIn": "Value Breakdown & Segment Deep Dives"
+          }
+        ],
+        "disclaimer": "This report is for institutional use only. The financial projections and value allocation models are based on independent analytical methods.",
+        "copyright": "© 2026 Advanced Micro Devices, Inc. research. For institutional use only."
+      },
+      "valuation": {
+        "multiples": {
+          "columns": [
+            "Metric",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026e",
+            "2027e",
+            "2028e",
+            "Norm. avg",
+            "Selected fair multiple"
+          ],
+          "rows": [
+            [
+              "P/E",
+              "43.66x",
+              "56.06x",
+              "76.60x",
+              "278.59x",
+              "123.59x",
+              "80.54x",
+              "118.41x",
+              "49.19x",
+              "30.84x",
+              "76.09x",
+              "35.0x"
+            ],
+            [
+              "P/FCF",
+              "-848.31x",
+              "77.45x",
+              "-2.21x",
+              "-167.65x",
+              "396.89x",
+              "-167.24x",
+              "-74.49x",
+              "-124.39x",
+              "311.67x",
+              "237.17x",
+              ""
+            ],
+            [
+              "P/BV",
+              "18.62x",
+              "23.65x",
+              "1.85x",
+              "4.26x",
+              "3.52x",
+              "5.54x",
+              "11.24x",
+              "9.15x",
+              "7.07x",
+              "3.79x",
+              ""
+            ],
+            [
+              "P/S",
+              "11.13x",
+              "10.79x",
+              "4.28x",
+              "10.49x",
+              "7.87x",
+              "10.08x",
+              "15.75x",
+              "9.90x",
+              "7.22x",
+              "9.11x",
+              ""
+            ],
+            [
+              "EV/Sales",
+              "11.03x",
+              "10.67x",
+              "4.20x",
+              "10.45x",
+              "7.80x",
+              "10.05x",
+              "15.91x",
+              "10.09x",
+              "7.36x",
+              "9.03x",
+              ""
+            ],
+            [
+              "EV/EBITDA",
+              "62.47x",
+              "42.66x",
+              "17.94x",
+              "114.32x",
+              "39.64x",
+              "51.97x",
+              "55.74x",
+              "30.10x",
+              "20.05x",
+              "42.94x",
+              "25.0x"
+            ],
+            [
+              "Dividend yield",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              "n/a",
+              ""
+            ]
+          ]
+        },
+        "peerComparison": {
+          "columns": [
+            "Company",
+            "Country",
+            "Mkt cap",
+            "P/E 2026e",
+            "P/E 2027e",
+            "EV/EBITDA 2026e",
+            "EV/EBITDA 2027e",
+            "P/BV",
+            "EBIT margin",
+            "ROE",
+            "Div yield"
+          ],
+          "rows": [
+            [
+              "NVIDIA Corporation",
+              "United States",
+              "4,071,574 USDm",
+              "38.0x",
+              "19.4x",
+              "34.2x",
+              "15.4x",
+              "29.0x",
+              "60.4%",
+              "101.5%",
+              "0.0%"
+            ],
+            [
+              "Intel Corporation",
+              "United States",
+              "453,345 USDm",
+              "66.7x",
+              "253.0x",
+              "40.5x",
+              "44.2x",
+              "3.8x",
+              "12.3%",
+              "5.6%",
+              "1.2%"
+            ],
+            [
+              "QUALCOMM Incorporated",
+              "United States",
+              "158,090 USDm",
+              "17.8x",
+              "17.2x",
+              "9.2x",
+              "9.7x",
+              "6.0x",
+              "33.1%",
+              "38.0%",
+              "3.2%"
+            ],
+            [
+              "Broadcom Inc.",
+              "United States",
+              "1,536,648 USDm",
+              "60.8x",
+              "48.8x",
+              "32.3x",
+              "27.7x",
+              "13.7x",
+              "65.7%",
+              "25.5%",
+              "n/a"
+            ],
+            [
+              "Marvell Technology, Inc.",
+              "United States",
+              "163,553 USDm",
+              "25.4x",
+              "143.7x",
+              "26.5x",
+              "102.6x",
+              "4.7x",
+              "16.3%",
+              "19.3%",
+              "0.1%"
+            ],
+            [
+              "Microchip Technology Incorporated",
+              "United States",
+              "54,590 USDm",
+              "115.0x",
+              "66.4x",
+              "39.1x",
+              "27.7x",
+              "8.3x",
+              "23.4%",
+              "6.9%",
+              "0.7%"
+            ],
+            [
+              "ON Semiconductor Corporation",
+              "United States",
+              "21,195 USDm",
+              "16.4x",
+              "11.6x",
+              "9.0x",
+              "6.8x",
+              "2.0x",
+              "22.9%",
+              "13.0%",
+              "n/a"
+            ],
+            [
+              "Arm Holdings plc",
+              "United States",
+              "220,529 USDm",
+              "248.7x",
+              "191.7x",
+              "94.0x",
+              "79.0x",
+              "28.6x",
+              "42.5%",
+              "12.0%",
+              "n/a"
+            ],
+            [
+              "Taiwan Semiconductor Manufacturing Company",
+              "Taiwan",
+              "1,176,230 TWDm",
+              "0.8x",
+              "0.7x",
+              "-0.4x",
+              "-0.8x",
+              "0.2x",
+              "43.1%",
+              "24.1%",
+              "n/a"
+            ],
+            [
+              "Peer median",
+              "-",
+              "-",
+              "25.4x",
+              "18.3x",
+              "32.3x",
+              "21.6x",
+              "4.3x",
+              "33.1%",
+              "16.1%",
+              "0.4%"
+            ],
+            [
+              "Peer average",
+              "-",
+              "-",
+              "32.3x",
+              "27.4x",
+              "27.3x",
+              "21.9x",
+              "4.2x",
+              "35.5%",
+              "18.1%",
+              "0.5%"
+            ]
+          ]
+        },
+        "targetBridge": {
+          "columns": [
+            "Method",
+            "Forecast metric",
+            "Metric value",
+            "Selected multiple",
+            "Implied price",
+            "Weight",
+            "Rationale"
+          ],
+          "rows": [
+            [
+              "EV/EBITDA",
+              "2028e EBITDA",
+              "39,971 USDm",
+              "25.0x",
+              "551.9 USD",
+              "54%",
+              "603.2 USD at YE2028, discounted one year at 9.3% cost of equity -> 551.9 USD"
+            ],
+            [
+              "P/E",
+              "2028e EPS",
+              "15.63 USD",
+              "35.0x",
+              "500.5 USD",
+              "36%",
+              "547.1 USD at YE2028, discounted one year at 9.3% cost of equity -> 500.5 USD"
+            ],
+            [
+              "XY scatter (ROE/P/BV)",
+              "Average forecast BVPS",
+              "54.6 USD",
+              "2.2x",
+              "122.8 USD",
+              "10%",
+              "Direct curve-implied valuation based on forecast ROE"
+            ],
+            [
+              "Weighted target price",
+              "",
+              "",
+              "",
+              "490.5 USD",
+              "100%",
+              ""
+            ]
+          ]
+        },
+        "sensitivity": {
+          "columns": [
+            "2028e EBITDA (USDm)",
+            "Multiple 24.0x",
+            "Multiple 25.0x (base)",
+            "Multiple 26.0x"
+          ],
+          "rows": [
+            [
+              "31,977 (-20%)",
+              "421.8",
+              "439.8",
+              "457.7"
+            ],
+            [
+              "35,974 (-10%)",
+              "475.6",
+              "495.8",
+              "516.0"
+            ],
+            [
+              "39,971 (0%)",
+              "529.4",
+              "551.9",
+              "574.3"
+            ],
+            [
+              "43,968 (+10%)",
+              "583.3",
+              "607.9",
+              "632.6"
+            ],
+            [
+              "47,965 (+20%)",
+              "637.1",
+              "664.0",
+              "690.9"
+            ]
+          ]
+        },
+        "methodRationale": "EV/EBITDA was selected as the primary valuation method because it optimally captures AMD's significant near-term cash-generating inflection from its AI accelerator business while bypassing distortions caused by non-cash acquisition amortization. Advanced Micro Devices, Inc. currently trades at roughly 20.1x EV/EBITDA on 2028 estimates, which lies materially below its own normalized historical average of 42.9x, but remains roughly in line with the forward peer median of 24.5x. The selected fair multiple of 25.0x reflects a slight premium to peers, justified by the company's aggressive market share gains in data center GPUs and sustained robust top-line growth, while intentionally applying a discount to its historical peak multiples as the hyper-growth phase begins to mature. The XY scatter model (ROE vs P/BV) implies a standalone valuation of 122.8 USD and is included with a 10% weighting as a secondary valuation cross-check. The primary valuation risk compressing this fair multiple would be a slower-than-expected enterprise adoption curve for non-NVIDIA AI silicon, structurally capping out-year revenue and margin expansion.",
+        "targetPrice": 490.5,
+        "selectedMultiple": "25.0x",
+        "primaryValuationMethod": "EV/EBITDA",
+        "fallbackApplied": false
+      },
+      "multiplesExtended": {
+        "forecastYear": 2026,
+        "evSales": 15.91356359,
+        "pSales": 15.74705717,
+        "peAdj": 118.41253459
+      },
+      "segmentDataQuality": {
+        "status": "degraded",
+        "revenueVerified": false,
+        "profitVerified": false,
+        "requiresReview": true,
+        "sourceDocument": "Advanced Micro Devices, Inc. Annual Report on Form 10-K for the fiscal year ended December 27, 2025",
+        "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000018/amd-20251227.htm",
+        "sourcePages": [],
+        "revenueBasis": "notReported",
+        "profitBasis": "notReported",
+        "revenueReconciliation": 0,
+        "profitReconciliation": 0,
+        "issues": [
+          "AMD's Client and Gaming reportable segments were combined into one 'Client and Gaming' segment effective the first quarter of fiscal year 2025 (i.e., within the fiscal year being reported, not after year-end), with all prior-period segment data retrospectively adjusted. This is the ordinary current segment structure for FY2025, not a post-year-end restatement, so the standard 10-K (not a special restatement PDF) is the correct source per the source-selection rules.",
+          "AMD also filed a 10-K/A on the same date (2026-02-04, accession 0000002488-26-000021) that corrects a narrative transposition error in year-over-year Client ASP/unit-shipment commentary; this correction does not affect the segment revenue/operating income table itself, so the original 10-K's Note 4 Segment Reporting table remains the authoritative full-year segment presentation.",
+          "The filing's primary document on SEC EDGAR is HTML (iXBRL) rather than a native PDF. A dedicated official '-gen.pdf' investor-relations mirror URL could not be confirmed within the available search budget; the SEC EDGAR HTML filing (URL above) is provided as the verified official source and should be treated as the document for the download/extraction stage. If a PDF rendering is required, the AMD IR SEC filings page (ir.amd.com/financial-information/sec-filings) offers a 'Complete Filing PDF' link for this same accession (0000002488-26-000018) that could be used as an equivalent official PDF once confirmed.",
+          "Official document/page/table/row evidence is incomplete",
+          "Independent source review did not approve the facts",
+          "Segment revenue does not reconcile to the official group total",
+          "Segment profit does not reconcile to the official group total",
+          "Retry: Official document/page/table/row evidence is incomplete",
+          "Retry: Independent source review did not approve the facts",
+          "Retry: Segment revenue does not reconcile to the official group total",
+          "Retry: Segment profit does not reconcile to the official group total"
+        ]
+      },
+      "eventSources": [
+        {
+          "title": "AMD and OpenAI Announce Strategic Partnership to Deploy 6 Gigawatts of AMD GPUs",
+          "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312525230895/d28189dex991.htm",
+          "date": "2025-10-06"
+        }
+      ],
+      "xyScatterInterpretation": "Advanced Micro Devices sits well above the market curve, with forecast average ROE of 18.7% and a P/BV of 9.2x. The broader universe typically pays a much lower 2.2x multiple for this level of profitability. This suggests a substantial valuation premium: the curve-implied share price of USD 122.8 indicates potential 75% downside from the current market price of USD 482.1."
+    },
+    "synthesis": {
+      "reportDate": "6 August 2026",
+      "peerCandidates": [
+        {
+          "companyName": "NVIDIA Corporation",
+          "ticker": "NVDA",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "direct_peer",
+          "similarityScore": "high",
+          "whyComparable": "Dominant AI/data-center GPU competitor; primary valuation reference for AMD's Data Center AI Accelerator business division",
+          "mainLimitation": "Far larger scale and dominant market share; higher-margin, more diversified AI software/networking ecosystem"
+        },
+        {
+          "companyName": "Intel Corporation",
+          "ticker": "INTC",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "direct_peer",
+          "similarityScore": "high",
+          "whyComparable": "Direct competitor across server CPU (EPYC vs. Xeon), client CPU and emerging AI GPU markets",
+          "mainLimitation": "Also operates a large in-house foundry/manufacturing business, unlike AMD's fabless model"
+        },
+        {
+          "companyName": "Qualcomm Incorporated",
+          "ticker": "QCOM",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Semiconductor peer with adjacent embedded/compute and licensing exposure",
+          "mainLimitation": "Mobile-handset and licensing revenue mix is very different from AMD's Data Center/Client focus"
+        },
+        {
+          "companyName": "Broadcom Inc.",
+          "ticker": "AVGO",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Custom AI silicon (ASICs) and networking peer relevant to AMD's Data Center/AI infrastructure exposure",
+          "mainLimitation": "Much larger, more diversified across software (VMware) and networking; different business mix"
+        },
+        {
+          "companyName": "Marvell Technology, Inc.",
+          "ticker": "MRVL",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Custom silicon and data-center networking/interconnect peer relevant to AI infrastructure build-out",
+          "mainLimitation": "Smaller scale; more networking/optical-focused than compute-focused"
+        },
+        {
+          "companyName": "Microchip Technology Incorporated",
+          "ticker": "MCHP",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Embedded/industrial semiconductor peer relevant to AMD's Embedded business division",
+          "mainLimitation": "No meaningful data-center or high-performance GPU exposure"
+        },
+        {
+          "companyName": "ON Semiconductor Corporation",
+          "ticker": "ON",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "low",
+          "whyComparable": "Industrial/automotive-focused semiconductor peer relevant to Embedded end-markets",
+          "mainLimitation": "Different product mix (power/analog vs. digital/adaptive SoC); limited overlap with AMD's core compute businesses"
+        },
+        {
+          "companyName": "Arm Holdings plc",
+          "ticker": "ARM",
+          "exchange": "NASDAQ",
+          "country": "United Kingdom / United States (ADR)",
+          "peerType": "valuation_reference",
+          "similarityScore": "low",
+          "whyComparable": "AI-compute-adjacent growth/optionality valuation reference given its licensing exposure to AI and data-center chip design",
+          "mainLimitation": "IP-licensing model is fundamentally different from AMD's chip-manufacturing/sales model"
+        },
+        {
+          "companyName": "Taiwan Semiconductor Manufacturing Company Limited",
+          "ticker": "TSM",
+          "exchange": "NYSE",
+          "country": "Taiwan",
+          "peerType": "valuation_reference",
+          "similarityScore": "low",
+          "whyComparable": "Key foundry partner and AI-infrastructure valuation reference given direct exposure to AI accelerator demand growth",
+          "mainLimitation": "Foundry/manufacturing business model, not a fabless chip designer; different capital intensity and margin structure"
+        }
+      ],
+      "peerValuationPack": "Peer multiples from Valuatum followed models (primary, highest-volume listing per company). Multiples shown as ratios (x), margins/yields/returns as percent, book value per share in local currency. Year columns suffixed \"e\" are forecasts. 9 of 9 suggested peers resolved.\n\n\n\n### NVIDIA Corporation (NVDA, United States)\n- Peer type: direct_peer; similarity: high\n- Why comparable: Dominant AI/data-center GPU competitor; primary valuation reference for AMD's Data Center AI Accelerator business division\n- Main limitation: Far larger scale and dominant market share; higher-margin, more diversified AI software/networking ecosystem\n- Current price: 144.69 USD | Market cap: 4,071,574 USDm | Net debt: -1,336,565 USDm\n\nMetric | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e | 2030e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 50.6x | 48.1x | 38.0x | 19.4x | 15.2x | 12.9x | 6.2x\nP/E adj. | 50.6x | 48.1x | 38.0x | 19.4x | 15.2x | 12.9x | 6.2x\nEV/EBITDA | 43.8x | 42.1x | 34.2x | 15.4x | 11.3x | 8.5x | 9.6x\nEV/EBIT | 45.8x | 43.0x | 35.0x | 16.2x | 11.5x | 9.1x | 9.9x\nEV/Sales | 24.8x | 26.8x | 21.1x | 10.6x | 7.6x | 6.0x | 4.3x\nP/FCF | 115.9x | 96.2x | 135.8x | 23.1x | 16.1x | 13.3x | 18.2x\nP/BV | 35.1x | 44.1x | 29.0x | 11.1x | 6.4x | 4.3x | 2.6x\nP/S | 24.7x | 26.8x | 21.1x | 11.0x | 8.5x | 7.3x | 6.4x\nDividend yield | 0.3% | 0.0% | 0.0% | 0.1% | 0.1% | 0.1% | 0.2%\nEBIT margin | 54.1% | 62.4% | 60.4% | 65.0% | 66.3% | 66.1% | 43.3%\nROE | 91.5% | 119.2% | 101.5% | 80.3% | 53.8% | 40.1% | 51.7%\nROIC | 77.3% | 117.3% | 109.7% | 92.3% | 61.7% | 46.2% | 58.7%\nBook value / share | 1.74 | 3.23 | 6.47 | 15.08 | 26.01 | 38.87 | 65.69\n\n### Intel Corporation (INTC, United States)\n- Peer type: direct_peer; similarity: high\n- Why comparable: Direct competitor across server CPU (EPYC vs. Xeon), client CPU and emerging AI GPU markets\n- Main limitation: Also operates a large in-house foundry/manufacturing business, unlike AMD's fabless model\n- Current price: 90.2 USD | Market cap: 453,345 USDm | Net debt: 38,940 USDm\n\nMetric | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 125.7x | -4.5x | 6761.0x | 66.7x | 253.0x | 115.7x | 73.3x\nP/E adj. | 125.7x | -4.5x | 6761.0x | 66.7x | 253.0x | 115.7x | 73.3x\nEV/EBITDA | 35.7x | -447.1x | 19.4x | 40.5x | 44.2x | 35.8x | 29.7x\nEV/EBIT | 2811.5x | -11.4x | -9856.0x | 72.9x | -635.7x | 279.9x | 112.3x\nEV/Sales | 4.8x | 2.5x | 4.3x | 9.0x | 9.0x | 8.9x | 8.6x\nP/FCF | -13.8x | -6.1x | -13.5x | -83.4x | -447.5x | -916.8x | 766.9x\nP/BV | 2.0x | 0.9x | 1.5x | 3.8x | 3.9x | 3.8x | 3.7x\nP/S | 3.9x | 1.6x | 3.3x | 7.3x | 7.3x | 7.2x | 7.0x\nDividend yield | 1.5% | 1.8% | n/a | 1.2% | 0.3% | 0.7% | 1.1%\nEBIT margin | 0.2% | -22.0% | -0.0% | 12.3% | -1.4% | 3.2% | 7.7%\nROE | 1.6% | -18.8% | 0.0% | 5.6% | 1.5% | 3.2% | 4.9%\nROIC | 1.1% | -6.3% | 1.6% | 6.8% | 2.1% | 3.7% | 5.2%\nBook value / share | 25.20 | 23.19 | 23.53 | 24.04 | 23.34 | 23.82 | 24.41\n\n### QUALCOMM Incorporated (QCOM, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Semiconductor peer with adjacent embedded/compute and licensing exposure\n- Main limitation: Mobile-handset and licensing revenue mix is very different from AMD's Data Center/Client focus\n- Current price: 147.61 USD | Market cap: 158,090 USDm | Net debt: -5,644 USDm\n\nMetric | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 17.2x | 18.7x | 33.5x | 17.8x | 17.2x | 15.3x | 19.2x\nP/E adj. | 17.2x | 18.7x | 33.5x | 17.8x | 17.2x | 15.3x | 19.2x\nEV/EBITDA | 13.7x | 16.8x | 14.0x | 9.2x | 9.7x | 8.9x | 11.7x\nEV/EBIT | 16.9x | 19.6x | 15.8x | 10.9x | 10.5x | 9.8x | 13.7x\nEV/Sales | 3.7x | 5.1x | 4.4x | 3.6x | 3.5x | 3.2x | 3.0x\nP/FCF | 12.7x | 36.4x | 21.4x | 15.4x | 14.5x | 14.6x | 21.1x\nP/BV | 5.7x | 7.2x | 8.7x | 6.0x | 5.1x | 4.4x | 4.1x\nP/S | 3.5x | 4.9x | 4.2x | 3.6x | 3.5x | 3.3x | 3.2x\nDividend yield | 2.8% | 1.9% | 2.4% | 3.2% | 3.3% | 3.7% | 3.0%\nEBIT margin | 21.7% | 25.8% | 27.9% | 33.1% | 32.9% | 32.6% | 22.0%\nROE | 36.5% | 42.4% | 23.3% | 38.0% | 32.8% | 31.6% | 22.5%\nROIC | 22.7% | 27.8% | 34.3% | 41.5% | 41.0% | 41.9% | 29.3%\nBook value / share | 19.32 | 23.54 | 19.35 | 24.70 | 28.74 | 33.73 | 36.07\n\n### Broadcom Inc. (AVGO, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Custom AI silicon (ASICs) and networking peer relevant to AMD's Data Center/AI infrastructure exposure\n- Main limitation: Much larger, more diversified across software (VMware) and networking; different business mix\n- Current price: 249.45 USD | Market cap: 1,536,648 USDm | Net debt: -2,947 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 16.4x | 24.8x | 132.0x | 81.2x | 60.8x | 48.8x | 69.7x\nP/E adj. | 16.4x | 24.8x | 132.0x | 81.2x | 60.8x | 48.8x | 69.7x\nEV/EBITDA | 12.2x | 18.5x | 33.2x | 32.3x | 32.3x | 27.7x | 36.1x\nEV/EBIT | 15.4x | 22.8x | 54.9x | 38.8x | 32.9x | 28.1x | 53.0x\nEV/Sales | 6.6x | 10.5x | 16.2x | 25.3x | 21.6x | 18.7x | 17.3x\nP/FCF | 11.8x | 21.6x | -11.3x | 66.7x | 52.1x | 43.1x | 86.5x\nP/BV | 8.5x | 14.6x | 11.5x | 17.7x | 13.7x | 10.7x | 9.3x\nP/S | 5.8x | 9.8x | 15.1x | 24.5x | 21.1x | 18.6x | 17.3x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 43.0% | 45.9% | 29.6% | 65.3% | 65.7% | 66.8% | 32.6%\nROE | 49.1% | 60.3% | 12.9% | 24.5% | 25.5% | 24.7% | 14.3%\nROIC | 22.5% | 26.9% | 15.7% | 28.2% | 30.2% | 32.4% | 16.2%\nBook value / share | 5.55 | 5.78 | 14.64 | 18.41 | 23.78 | 30.47 | 35.16\n\n### Marvell Technology, Inc. (MRVL, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Custom silicon and data-center networking/interconnect peer relevant to AI infrastructure build-out\n- Main limitation: Smaller scale; more networking/optical-focused than compute-focused\n- Current price: 70.32 USD | Market cap: 163,553 USDm | Net debt: 3,529 USDm\n\nMetric | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e | 2030e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | -62.5x | -110.4x | 25.4x | 143.7x | 180.7x | 138.4x | 114.4x\nP/E adj. | -62.5x | -110.4x | 25.4x | 143.7x | 180.7x | 138.4x | 114.4x\nEV/EBITDA | 74.4x | 158.8x | 26.5x | 102.6x | 65.9x | 51.3x | 43.5x\nEV/EBIT | -108.8x | -140.3x | 52.1x | 482.6x | 248.6x | 171.7x | 133.7x\nEV/Sales | 11.2x | 17.5x | 8.5x | 16.5x | 13.5x | 12.0x | 11.2x\nP/FCF | 120.6x | 130.7x | 36.6x | -180.4x | -195.0x | -643.7x | 513.0x\nP/BV | 3.9x | 7.3x | 4.7x | 10.7x | 10.7x | 10.4x | 10.1x\nP/S | 10.6x | 16.9x | 8.3x | 16.1x | 13.1x | 11.5x | 10.8x\nDividend yield | 0.4% | 0.2% | 0.1% | 0.5% | 0.4% | 0.6% | 0.7%\nEBIT margin | -10.3% | -12.5% | 16.3% | 3.4% | 5.4% | 7.0% | 8.4%\nROE | -6.1% | -6.3% | 19.3% | 7.6% | 5.9% | 7.5% | 8.8%\nROIC | -2.8% | -3.8% | 17.8% | 11.8% | 7.4% | 8.8% | 10.0%\nBook value / share | 17.22 | 15.51 | 16.62 | 17.38 | 17.38 | 17.89 | 18.44\n\n### Microchip Technology Incorporated (MCHP, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Embedded/industrial semiconductor peer relevant to AMD's Embedded business division\n- Main limitation: No meaningful data-center or high-performance GPU exposure\n- Current price: 68.6 USD | Market cap: 54,590 USDm | Net debt: 6,461 USDm\n\nMetric | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 20.6x | 25.5x | -52021.4x | 115.0x | 66.4x | 51.8x | 53.1x\nP/E adj. | 20.6x | 25.5x | -52021.4x | 115.0x | 66.4x | 51.8x | 53.1x\nEV/EBITDA | 15.6x | 15.7x | 29.5x | 39.1x | 27.7x | 24.5x | 18.2x\nEV/EBIT | 16.8x | 21.1x | 104.3x | 54.4x | 32.5x | 26.1x | 26.4x\nEV/Sales | 6.2x | 7.1x | 7.0x | 12.7x | 10.5x | 9.1x | 9.3x\nP/FCF | 13.2x | 18.8x | 44.3x | 85.2x | -352.0x | 328.2x | 37.6x\nP/BV | 7.1x | 7.3x | 3.7x | 8.3x | 7.8x | 7.4x | 7.2x\nP/S | 5.5x | 6.4x | 5.9x | 11.5x | 9.4x | 8.0x | 8.2x\nDividend yield | 1.5% | 1.9% | 3.8% | 0.7% | 1.2% | 1.5% | 1.5%\nEBIT margin | 36.9% | 33.7% | 6.7% | 23.4% | 32.4% | 34.8% | 35.0%\nROE | 36.1% | 29.0% | -0.0% | 6.9% | 12.0% | 14.5% | 13.6%\nROIC | 23.2% | 20.0% | 2.4% | 8.8% | 14.2% | 16.3% | 15.5%\nBook value / share | 11.83 | 12.28 | 13.17 | 12.17 | 12.98 | 13.71 | 14.05\n\n### ON Semiconductor Corporation (ON, United States)\n- Peer type: segment_peer; similarity: low\n- Why comparable: Industrial/automotive-focused semiconductor peer relevant to Embedded end-markets\n- Main limitation: Different product mix (power/analog vs. digital/adaptive SoC); limited overlap with AMD's core compute businesses\n- Current price: 52.57 USD | Market cap: 21,195 USDm | Net debt: -4,822 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 12.8x | 16.5x | 17.1x | 109.6x | 16.4x | 11.6x | 12.6x\nP/E adj. | 12.8x | 16.5x | 17.1x | 109.6x | 16.4x | 11.6x | 12.6x\nEV/EBITDA | 10.4x | 11.7x | 11.5x | 10.1x | 9.0x | 6.8x | 6.7x\nEV/EBIT | 11.6x | 14.5x | 15.7x | 18.1x | 12.8x | 8.7x | 9.0x\nEV/Sales | 3.3x | 4.5x | 3.9x | 3.3x | 2.9x | 2.5x | 2.2x\nP/FCF | 14.0x | 1223.7x | 38.4x | 8.2x | 28.7x | 20.2x | 14.0x\nP/BV | 4.4x | 4.6x | 3.1x | 2.3x | 2.0x | 1.7x | 1.5x\nP/S | 3.2x | 4.4x | 3.8x | 3.6x | 3.3x | 2.9x | 2.9x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 28.3% | 30.8% | 25.0% | 18.5% | 22.9% | 28.5% | 24.9%\nROE | 39.1% | 31.3% | 19.0% | 2.1% | 13.0% | 16.0% | 12.8%\nROIC | 28.7% | 25.6% | 16.3% | 9.9% | 15.6% | 19.4% | 14.8%\nBook value / share | 14.29 | 18.07 | 20.58 | 22.58 | 25.73 | 30.21 | 34.33\n\n### Arm Holdings plc American Depositary Shares (ARM, United Kingdom / United States (ADR))\n- Peer type: valuation_reference; similarity: low\n- Why comparable: AI-compute-adjacent growth/optionality valuation reference given its licensing exposure to AI and data-center chip design\n- Main limitation: IP-licensing model is fundamentally different from AMD's chip-manufacturing/sales model\n- Current price: 138.185 USD | Market cap: 220,529 USDm | Net debt: -5,539 USDm\n\nMetric | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | n/a | 419.7x | 141.6x | 248.7x | 191.7x | 118.1x | 176.0x\nP/E adj. | n/a | 419.7x | 141.6x | 248.7x | 191.7x | 118.1x | 176.0x\nEV/EBITDA | -1.9x | 485.5x | 109.3x | 94.0x | 79.0x | 57.4x | 123.5x\nEV/EBIT | -2.0x | 1280.0x | 133.5x | 104.6x | 85.8x | 60.4x | 156.5x\nEV/Sales | -0.5x | 39.2x | 27.6x | 44.4x | 36.7x | 28.6x | 26.8x\nP/FCF | n/a | -194.7x | -186.2x | 125.1x | 154.7x | 114.8x | 268.5x\nP/BV | n/a | 24.3x | 16.4x | 28.6x | 24.9x | 20.6x | 18.5x\nP/S | n/a | 39.7x | 28.0x | 44.5x | 36.8x | 28.8x | 27.2x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 25.3% | 3.1% | 20.6% | 42.5% | 42.8% | 47.3% | 17.1%\nROE | 13.8% | 6.5% | 13.1% | 12.0% | 13.7% | 18.9% | 10.9%\nROIC | 17.8% | 4.3% | 14.8% | 31.2% | 34.6% | 28.2% | 16.2%\nBook value / share | 3.95 | 5.15 | 6.51 | 7.27 | 8.34 | 10.07 | 11.24\n\n### Taiwan Semiconductor Manufacturing Company Limited (TSM, Taiwan)\n- Peer type: valuation_reference; similarity: low\n- Why comparable: Key foundry partner and AI-infrastructure valuation reference given direct exposure to AI accelerator demand growth\n- Main limitation: Foundry/manufacturing business model, not a fabless chip designer; different capital intensity and margin structure\n- Market cap: 1,176,230 TWDm | Net debt: -4,629,516 TWDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 0.4x | 0.6x | 0.9x | 1.0x | 0.8x | 0.7x | 0.7x\nP/E adj. | 0.4x | 0.6x | 0.9x | 1.0x | 0.8x | 0.7x | 0.7x\nEV/EBITDA | -0.0x | 0.0x | -0.0x | -0.2x | -0.4x | -0.8x | -1.3x\nEV/EBIT | -0.1x | 0.1x | -0.0x | -0.2x | -0.6x | -1.2x | -2.0x\nEV/Sales | -0.0x | 0.0x | -0.0x | -0.1x | -0.3x | -0.5x | -0.8x\nP/FCF | 1.0x | 1.8x | 1.2x | 3.2x | 1.6x | 1.2x | 1.0x\nP/BV | 0.1x | 0.2x | 0.2x | 0.2x | 0.2x | 0.1x | 0.1x\nP/S | 0.2x | 0.2x | 0.4x | 0.4x | 0.3x | 0.3x | 0.3x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 49.5% | 42.6% | 45.7% | 45.3% | 43.1% | 40.9% | 38.7%\nROE | 40.9% | 26.2% | 30.3% | 24.3% | 24.1% | 20.4% | 17.3%\nROIC | 34.1% | 23.8% | 28.8% | 25.2% | 25.1% | 22.9% | 20.0%\nBook value / share | 568.02 | 666.99 | 827.02 | 1055.47 | 1344.82 | 1650.92 | 1963.83\n\n\n\n#### Peer median / average (across 9 resolved peers; cells need ≥2 peers)\nMetric | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | ---\nP/E (median) | 18.7x | 64.6x | 25.4x | 18.3x | 15.2x | 36.2x\nP/E (mean) | 22.6x | 69.2x | 32.3x | 27.4x | 27.5x | 39.6x\nP/E adj. (median) | 18.7x | 64.6x | 25.4x | 18.3x | 15.2x | 36.2x\nP/E adj. (mean) | 22.6x | 69.2x | 32.3x | 27.4x | 27.5x | 39.6x\nEV/EBITDA (median) | 16.8x | 24.5x | 32.3x | 21.6x | 24.5x | 15.0x\nEV/EBITDA (mean) | 24.2x | 24.6x | 27.3x | 21.9x | 25.8x | 17.0x\nEV/EBIT (median) | 21.1x | 28.4x | 35.0x | 16.2x | 18.8x | 20.1x\nEV/EBIT (mean) | 31.4x | 28.9x | 38.7x | 19.2x | 28.3x | 40.4x\nEV/Sales (median) | 6.1x | 4.4x | 9.0x | 10.5x | 8.9x | 8.6x\nEV/Sales (mean) | 7.7x | 7.3x | 11.4x | 10.2x | 8.8x | 7.8x\nP/FCF (median) | 27.6x | 21.4x | 32.7x | 20.2x | 14.3x | 21.1x\nP/FCF (mean) | 23.7x | 28.8x | 36.6x | 20.4x | 11.4x | 24.0x\nP/BV (median) | 3.9x | 3.0x | 4.3x | 6.5x | 5.4x | 4.3x\nP/BV (mean) | 4.9x | 4.0x | 4.2x | 6.4x | 5.5x | 5.9x\nP/S (median) | 4.3x | 3.6x | 5.5x | 8.4x | 7.2x | 7.3x\nP/S (mean) | 4.6x | 3.5x | 5.7x | 8.6x | 6.2x | 7.5x\nDividend yield (median) | 1.8% | 0.2% | 0.4% | 0.3% | 0.4% | 0.8%\nDividend yield (mean) | 1.3% | 0.9% | 0.5% | 0.3% | 0.4% | 0.8%\nEBIT margin (median) | 29.6% | 20.6% | 33.1% | 36.9% | 32.6% | 17.1%\nEBIT margin (mean) | 31.0% | 23.8% | 35.5% | 39.1% | 27.4% | 17.8%\nROE (median) | 24.0% | 18.2% | 16.1% | 13.7% | 14.3% | 10.9%\nROE (mean) | 23.3% | 14.6% | 18.1% | 13.7% | 12.4% | 11.9%\nROIC (median) | 18.1% | 14.8% | 21.4% | 21.2% | 16.2% | 15.5%\nROIC (mean) | 18.8% | 16.6% | 22.1% | 22.3% | 15.2% | 15.0%\nBook value / share (median) | 15.93 | 16.96 | 20.20 | 20.36 | 24.92 | 21.15\nBook value / share (mean) | 14.79 | 15.29 | 17.60 | 20.82 | 24.28 | 23.75",
+      "reverseValuation": "Market-implied (reverse valuation) scenario — the figures that make the model's fair value equal its current market cap (what the market is pricing in).\nMarket cap: 786,031 USDm | Original fair value: 123 USDm | Implied fair value: 482 USDm\nColumns are full estimate years from 2026 plus a terminal (TRM) column. Values shown are the market-implied (post-solve) figures; monetary values in USD millions, percentage variables as shown.\n\n#### base_figures_with_currency\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns | 49,714 | 79,383 | 108,870 | 116,229 | 121,031 | 124,966 | 128,763 | 132,631 | 136,610 | 140,709 | 144,930\nebitda | 26,470 | 50,469 | 72,689 | 58,494 | 62,224 | 65,415 | 68,509 | 71,651 | 74,875 | 77,121 | n/a\nebit | 16,210 | 50,348 | 70,943 | 47,669 | 50,668 | 53,381 | 56,084 | 58,848 | 61,687 | 63,538 | 65,444\ntangible_ass | 3,793 | 6,057 | 8,307 | 8,868 | 9,235 | 9,535 | 9,825 | 10,120 | 10,424 | 10,736 | n/a\nbv | 78,184 | 115,381 | 169,093 | 207,055 | 248,843 | 294,491 | 344,196 | 398,201 | 456,760 | 519,339 | n/a\nliab_ib_total | 4,585 | 935 | 1,052 | 1,123 | 1,154 | 1,188 | 1,224 | 1,261 | 1,299 | 1,337 | n/a\nbs_total_assets | 95,453 | 132,675 | 190,156 | 229,101 | 271,514 | 317,684 | 367,895 | 422,415 | 481,506 | 544,631 | n/a\ngross_cap_expenditure | 19,011 | 16,693 | 18,216 | 14,935 | 14,239 | 14,232 | 14,546 | 14,963 | 15,410 | 15,872 | 16,348\n\n#### key_ratios\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns_growth | 43.5% | 59.7% | 37.1% | 6.8% | 4.1% | 3.3% | 3.0% | 3.0% | 3.0% | 3.0% | 3.0%\nebitda_percent | 53.2% | 63.6% | 66.8% | 50.3% | 51.4% | 52.3% | 53.2% | 54.0% | 54.8% | 54.8% | n/a\nebit_percent | 32.6% | 63.4% | 65.2% | 41.0% | 41.9% | 42.7% | 43.6% | 44.4% | 45.2% | 45.2% | 45.2%\nasset_turnover | 0.67 | 0.79 | 0.87 | 0.88 | 0.89 | 0.90 | 0.90 | 0.91 | 0.91 | 0.92 | n/a\nroi_before_tax_avg_cap | 30.1% | 51.3% | 50.8% | 27.2% | 24.7% | 22.6% | 21.0% | 19.6% | 18.5% | 17.3% | n/a\nroe_percent | 21.0% | 38.4% | 37.8% | 20.2% | 18.3% | 16.8% | 15.6% | 14.5% | 13.7% | 12.8% | n/a\nequity_ratio | 81.9% | 87.0% | 88.9% | 90.4% | 91.6% | 92.7% | 93.6% | 94.3% | 94.9% | 95.4% | n/a\n\n#### Estimate parameters\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\ninv_gross_per_ns | 0.24 | 0.03 | 0.04 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | n/a\ntangible_ass_per_ns | 0.08 | 0.08 | 0.08 | 0.08 | 0.08 | 0.08 | 0.08 | 0.08 | 0.08 | 0.08 | n/a\ninv_gross | 11,741 | 2,385 | 3,996 | 11,386 | 11,923 | 12,334 | 12,715 | 13,098 | 13,491 | 13,895 | n/a\ndep_without_gwa_percent | 443.8% | 3.2% | 28.8% | 130.3% | 130.3% | 130.3% | 130.3% | 130.3% | 130.3% | 130.3% | n/a\ninventories_per_ns | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | n/a\napum_fa_hall | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | n/a\ndefault_zero | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nbs_allocated_share_lt | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | n/a\n\n#### dcf_valuation_with_currency\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nebit | 16,210 | 50,348 | 70,943 | 47,669 | 50,668 | 53,381 | 56,084 | 58,848 | 61,687 | 63,538 | 65,444\ndep_total_nega | 10,260 | 121 | 1,746 | 10,825 | 11,556 | 12,034 | 12,425 | 12,803 | 13,187 | 13,583 | n/a\ntaxes_paid | -7,569 | -13,069 | -18,872 | -13,338 | -14,682 | -16,039 | -17,464 | -18,974 | -20,575 | -21,987 | n/a\ntax_fin_expenses | -72.37 | -210 | -52.64 | -21.87 | -22.38 | -22.70 | -23.04 | -23.40 | -23.77 | -24.14 | n/a\ntax_fin_income | 2,167 | 188 | 479 | 966 | 1,531 | 2,182 | 2,905 | 3,697 | 4,560 | 5,491 | n/a\nchange_in_wc_nega | -4,364 | -9,352 | -9,294 | -2,319 | -1,514 | -1,240 | -1,197 | -1,219 | -1,254 | -1,292 | n/a\noperating_cash_flow | 16,632 | 28,027 | 44,950 | 43,781 | 47,537 | 50,296 | 52,730 | 55,131 | 57,582 | 59,309 | n/a\nchange_in_lt_liab_nib | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\ngross_cap_expenditure_nega | -19,011 | -16,693 | -18,216 | -14,935 | -14,239 | -14,232 | -14,546 | -14,963 | -15,410 | -15,872 | -16,348\nfree_operating_cash_flow | -2,379 | 11,334 | 26,733 | 28,846 | 33,298 | 36,064 | 38,184 | 40,168 | 42,172 | 43,437 | n/a\nother_items_fcf | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nfree_cash_flow_to_firm | -2,379 | 11,334 | 26,733 | 28,846 | 33,298 | 36,064 | 38,184 | 40,168 | 42,172 | 43,437 | 1,110,182\ndisc_fcff | -2,320 | 10,302 | 22,703 | 22,887 | 24,685 | 24,980 | 24,711 | 24,287 | 23,824 | 22,927 | 585,977\ncum_disc_fcff | 784,964 | 787,283 | 776,981 | 754,278 | 731,391 | 706,706 | 681,726 | 657,015 | 632,728 | 608,904 | n/a\nib_debt_nega_prev_year | -4,472 | -4,585 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | -4,472\ncash_prev_year | 5,539 | 7,723 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 5,539\ndcf_dividends | 0.00 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nvalue_of_equity_fcff | 786,031 | 790,421 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 786,031\nno_of_shares_total | 1,631 | 1,631 | 1,631 | 1,631 | 1,631 | 1,631 | 1,631 | 1,631 | 1,631 | 1,631 | n/a\nfair_value_fcff | 482 | 485 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 482\nmarket_value_of_associated | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00\nmarket_value_of_minorities_nega | 0.00 | 0.00 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 0.00",
+      "frozenMarketData": {
+        "sharePrice": {
+          "points": [
+            {
+              "period": "2023-08-09",
+              "price": 110.47
+            },
+            {
+              "period": "2023-08-16",
+              "price": 107.19
+            },
+            {
+              "period": "2023-08-23",
+              "price": 109.43
+            },
+            {
+              "period": "2023-08-30",
+              "price": 106.59
+            },
+            {
+              "period": "2023-09-06",
+              "price": 109.28
+            },
+            {
+              "period": "2023-09-13",
+              "price": 107.71
+            },
+            {
+              "period": "2023-09-20",
+              "price": 100.34
+            },
+            {
+              "period": "2023-09-27",
+              "price": 98.07
+            },
+            {
+              "period": "2023-10-04",
+              "price": 104.07
+            },
+            {
+              "period": "2023-10-11",
+              "price": 108.31
+            },
+            {
+              "period": "2023-10-18",
+              "price": 102.17
+            },
+            {
+              "period": "2023-10-25",
+              "price": 96.06
+            },
+            {
+              "period": "2023-11-01",
+              "price": 108.04
+            },
+            {
+              "period": "2023-11-08",
+              "price": 113.59
+            },
+            {
+              "period": "2023-11-15",
+              "price": 118
+            },
+            {
+              "period": "2023-11-22",
+              "price": 122.51
+            },
+            {
+              "period": "2023-11-29",
+              "price": 123.85
+            },
+            {
+              "period": "2023-12-06",
+              "price": 116.82
+            },
+            {
+              "period": "2023-12-13",
+              "price": 138.19
+            },
+            {
+              "period": "2023-12-20",
+              "price": 135.47
+            },
+            {
+              "period": "2023-12-27",
+              "price": 146.07
+            },
+            {
+              "period": "2024-01-03",
+              "price": 135.32
+            },
+            {
+              "period": "2024-01-10",
+              "price": 148.54
+            },
+            {
+              "period": "2024-01-17",
+              "price": 160.17
+            },
+            {
+              "period": "2024-01-24",
+              "price": 178.29
+            },
+            {
+              "period": "2024-01-31",
+              "price": 167.69
+            },
+            {
+              "period": "2024-02-07",
+              "price": 170.94
+            },
+            {
+              "period": "2024-02-14",
+              "price": 178.7
+            },
+            {
+              "period": "2024-02-21",
+              "price": 164.29
+            },
+            {
+              "period": "2024-02-28",
+              "price": 176.54
+            },
+            {
+              "period": "2024-03-06",
+              "price": 210.63
+            },
+            {
+              "period": "2024-03-13",
+              "price": 194.79
+            },
+            {
+              "period": "2024-03-20",
+              "price": 179.73
+            },
+            {
+              "period": "2024-03-27",
+              "price": 179.59
+            },
+            {
+              "period": "2024-04-03",
+              "price": 180.77
+            },
+            {
+              "period": "2024-04-10",
+              "price": 167.14
+            },
+            {
+              "period": "2024-04-17",
+              "price": 154.02
+            },
+            {
+              "period": "2024-04-24",
+              "price": 151.74
+            },
+            {
+              "period": "2024-05-01",
+              "price": 144.27
+            },
+            {
+              "period": "2024-05-08",
+              "price": 153.62
+            },
+            {
+              "period": "2024-05-15",
+              "price": 159.67
+            },
+            {
+              "period": "2024-05-22",
+              "price": 165.52
+            },
+            {
+              "period": "2024-05-29",
+              "price": 165.14
+            },
+            {
+              "period": "2024-06-05",
+              "price": 166.17
+            },
+            {
+              "period": "2024-06-12",
+              "price": 160.24
+            },
+            {
+              "period": "2024-06-18",
+              "price": 154.63
+            },
+            {
+              "period": "2024-06-26",
+              "price": 157.54
+            },
+            {
+              "period": "2024-07-03",
+              "price": 163.9
+            },
+            {
+              "period": "2024-07-10",
+              "price": 183.96
+            },
+            {
+              "period": "2024-07-17",
+              "price": 159.43
+            },
+            {
+              "period": "2024-07-24",
+              "price": 144.63
+            },
+            {
+              "period": "2024-07-31",
+              "price": 144.48
+            },
+            {
+              "period": "2024-08-07",
+              "price": 128.67
+            },
+            {
+              "period": "2024-08-14",
+              "price": 140.75
+            },
+            {
+              "period": "2024-08-21",
+              "price": 157.81
+            },
+            {
+              "period": "2024-08-28",
+              "price": 146.36
+            },
+            {
+              "period": "2024-09-04",
+              "price": 140.87
+            },
+            {
+              "period": "2024-09-11",
+              "price": 149.86
+            },
+            {
+              "period": "2024-09-18",
+              "price": 148.29
+            },
+            {
+              "period": "2024-09-25",
+              "price": 162.02
+            },
+            {
+              "period": "2024-10-02",
+              "price": 159.78
+            },
+            {
+              "period": "2024-10-09",
+              "price": 171.02
+            },
+            {
+              "period": "2024-10-16",
+              "price": 156.13
+            },
+            {
+              "period": "2024-10-23",
+              "price": 152.91
+            },
+            {
+              "period": "2024-10-30",
+              "price": 148.6
+            },
+            {
+              "period": "2024-11-06",
+              "price": 145.1
+            },
+            {
+              "period": "2024-11-13",
+              "price": 139.3
+            },
+            {
+              "period": "2024-11-20",
+              "price": 137.6
+            },
+            {
+              "period": "2024-11-27",
+              "price": 136.24
+            },
+            {
+              "period": "2024-12-04",
+              "price": 143.99
+            },
+            {
+              "period": "2024-12-11",
+              "price": 130.15
+            },
+            {
+              "period": "2024-12-18",
+              "price": 121.41
+            },
+            {
+              "period": "2024-12-24",
+              "price": 126.29
+            },
+            {
+              "period": "2024-12-31",
+              "price": 120.79
+            },
+            {
+              "period": "2025-01-08",
+              "price": 121.84
+            },
+            {
+              "period": "2025-01-15",
+              "price": 119.96
+            },
+            {
+              "period": "2025-01-22",
+              "price": 123.75
+            },
+            {
+              "period": "2025-01-29",
+              "price": 117.35
+            },
+            {
+              "period": "2025-02-05",
+              "price": 112.01
+            },
+            {
+              "period": "2025-02-12",
+              "price": 111.72
+            },
+            {
+              "period": "2025-02-19",
+              "price": 114.69
+            },
+            {
+              "period": "2025-02-26",
+              "price": 104.74
+            },
+            {
+              "period": "2025-03-05",
+              "price": 101.67
+            },
+            {
+              "period": "2025-03-12",
+              "price": 100.79
+            },
+            {
+              "period": "2025-03-19",
+              "price": 106.23
+            },
+            {
+              "period": "2025-03-26",
+              "price": 110.19
+            },
+            {
+              "period": "2025-04-02",
+              "price": 102.96
+            },
+            {
+              "period": "2025-04-09",
+              "price": 96.84
+            },
+            {
+              "period": "2025-04-16",
+              "price": 88.29
+            },
+            {
+              "period": "2025-04-23",
+              "price": 90.39
+            },
+            {
+              "period": "2025-04-30",
+              "price": 97.35
+            },
+            {
+              "period": "2025-05-07",
+              "price": 100.36
+            },
+            {
+              "period": "2025-05-14",
+              "price": 117.72
+            },
+            {
+              "period": "2025-05-21",
+              "price": 112.06
+            },
+            {
+              "period": "2025-05-28",
+              "price": 112.86
+            },
+            {
+              "period": "2025-06-04",
+              "price": 118.58
+            },
+            {
+              "period": "2025-06-11",
+              "price": 121.14
+            },
+            {
+              "period": "2025-06-18",
+              "price": 126.79
+            },
+            {
+              "period": "2025-06-25",
+              "price": 143.4
+            },
+            {
+              "period": "2025-07-02",
+              "price": 138.52
+            },
+            {
+              "period": "2025-07-09",
+              "price": 138.41
+            },
+            {
+              "period": "2025-07-16",
+              "price": 160.08
+            },
+            {
+              "period": "2025-07-23",
+              "price": 158.65
+            },
+            {
+              "period": "2025-07-30",
+              "price": 179.51
+            },
+            {
+              "period": "2025-08-06",
+              "price": 163.12
+            },
+            {
+              "period": "2025-08-13",
+              "price": 184.42
+            },
+            {
+              "period": "2025-08-20",
+              "price": 165.2
+            },
+            {
+              "period": "2025-08-27",
+              "price": 167.13
+            },
+            {
+              "period": "2025-09-03",
+              "price": 162.13
+            },
+            {
+              "period": "2025-09-10",
+              "price": 159.54
+            },
+            {
+              "period": "2025-09-17",
+              "price": 159.16
+            },
+            {
+              "period": "2025-09-24",
+              "price": 160.88
+            },
+            {
+              "period": "2025-10-01",
+              "price": 164.01
+            },
+            {
+              "period": "2025-10-08",
+              "price": 235.56
+            },
+            {
+              "period": "2025-10-15",
+              "price": 238.6
+            },
+            {
+              "period": "2025-10-22",
+              "price": 230.23
+            },
+            {
+              "period": "2025-10-29",
+              "price": 264.33
+            },
+            {
+              "period": "2025-11-05",
+              "price": 256.33
+            },
+            {
+              "period": "2025-11-12",
+              "price": 258.89
+            },
+            {
+              "period": "2025-11-19",
+              "price": 223.55
+            },
+            {
+              "period": "2025-11-26",
+              "price": 214.24
+            },
+            {
+              "period": "2025-12-03",
+              "price": 217.6
+            },
+            {
+              "period": "2025-12-10",
+              "price": 221.42
+            },
+            {
+              "period": "2025-12-17",
+              "price": 198.11
+            },
+            {
+              "period": "2025-12-24",
+              "price": 215.04
+            },
+            {
+              "period": "2025-12-31",
+              "price": 214.16
+            },
+            {
+              "period": "2026-01-07",
+              "price": 210.02
+            },
+            {
+              "period": "2026-01-14",
+              "price": 223.6
+            },
+            {
+              "period": "2026-01-21",
+              "price": 249.8
+            },
+            {
+              "period": "2026-01-28",
+              "price": 252.74
+            },
+            {
+              "period": "2026-02-04",
+              "price": 200.19
+            },
+            {
+              "period": "2026-02-11",
+              "price": 213.58
+            },
+            {
+              "period": "2026-02-18",
+              "price": 200.12
+            },
+            {
+              "period": "2026-02-25",
+              "price": 210.86
+            },
+            {
+              "period": "2026-03-04",
+              "price": 202.07
+            },
+            {
+              "period": "2026-03-11",
+              "price": 204.83
+            },
+            {
+              "period": "2026-03-18",
+              "price": 199.46
+            },
+            {
+              "period": "2026-03-25",
+              "price": 220.27
+            },
+            {
+              "period": "2026-04-01",
+              "price": 210.21
+            },
+            {
+              "period": "2026-04-08",
+              "price": 231.82
+            },
+            {
+              "period": "2026-04-15",
+              "price": 258.12
+            },
+            {
+              "period": "2026-04-22",
+              "price": 303.46
+            },
+            {
+              "period": "2026-04-29",
+              "price": 337.11
+            },
+            {
+              "period": "2026-05-06",
+              "price": 421.39
+            },
+            {
+              "period": "2026-05-13",
+              "price": 445.5
+            },
+            {
+              "period": "2026-05-20",
+              "price": 447.58
+            },
+            {
+              "period": "2026-05-27",
+              "price": 495.54
+            },
+            {
+              "period": "2026-06-03",
+              "price": 542.52
+            },
+            {
+              "period": "2026-06-10",
+              "price": 452.4
+            },
+            {
+              "period": "2026-06-17",
+              "price": 512.48
+            },
+            {
+              "period": "2026-06-24",
+              "price": 519.74
+            },
+            {
+              "period": "2026-07-01",
+              "price": 540.88
+            },
+            {
+              "period": "2026-07-08",
+              "price": 517.41
+            },
+            {
+              "period": "2026-07-15",
+              "price": 529.14
+            },
+            {
+              "period": "2026-07-22",
+              "price": 552.33
+            },
+            {
+              "period": "2026-07-29",
+              "price": 429.56
+            },
+            {
+              "period": "2026-08-05",
+              "price": 482.05
+            }
+          ],
+          "targetLine": 490.5,
+          "quickFacts": {
+            "currentPrice": 482.05,
+            "currentPriceAsOf": "6 August 2026",
+            "targetPrice": 490.5,
+            "upsidePct": 1.8,
+            "fiftyTwoWeekHigh": 584.73,
+            "fiftyTwoWeekLow": 149.22,
+            "oneYearChangePct": 195.5,
+            "threeYearChangePct": 316.2,
+            "reportDate": "6 August 2026"
+          },
+          "context": "Over the past 24 months, AMD’s share price has been driven largely by expectations for AI infrastructure growth and its role as the primary merchant alternative to Nvidia. The stock saw significant multiple expansion as investors priced in the 6-gigawatt OpenAI deployment agreement and Meta capacity commitments.\n\nAcquisition amortization and weak Embedded end markets currently depress profitability. Investors are nevertheless pricing in a material EBITDA step-up in 2027-2028. The current price assumes near-perfect execution of the AI ramp, leaving only modest 1.8% upside to our USD 490.5 target."
+        },
+        "identityOverrides": {
+          "exchange": "NASDAQ Global Select",
+          "sector": "Semiconductors",
+          "country": "United States",
+          "currency": "USD"
+        }
+      }
+    }
+  }
+}

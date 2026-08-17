@@ -1,7 +1,8 @@
-runs/**/report.pdf
-runs/**/snapshot.json
-runs/**/run.log
+# Everything the dashboard is built from is tracked, including the PDFs and
+# snapshots, so a cloud agent can grade and rebuild from a clone alone.
+# .vercelignore is what keeps the snapshots and logs off the public site.
 index.html
-.DS_Store
-.vercel
+rubric.html
 logs/
+.vercel/
+.DS_Store

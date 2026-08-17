@@ -1,0 +1,229 @@
+
+> @valuatum/report-engine@0.1.0 preview
+> tsx scripts/preview.ts templates/osakeanalyysi.json --company TSLA --lang en --currency USD --country US --cache --refresh --out tesla-sw4.pdf
+
+→ prompt store: local files (PROMPT_STORE=file)
+→ snapshot cache: ON (--refresh: rebuilding)  dir=/Users/laurihynonen/Valuatum/pdf-report-engine/cache
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=TSLA
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] GET https://wisdom.valuatum.com/rest/consensus/estimates?ticker=TSLA
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=TSLA
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"quarterly_ebitda_missing_depreciation","severity":"fatal","period":"20262","message":"20262: reported EBITDA (398) equals EBIT (398) while depreciation is missing, even though the company has material depreciation in another reported period."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"quarterly_forecast_margin_residual","severity":"warning","period":"20264","message":"20264: forecast EBITDA margin 33.1% is an abrupt residual-like jump from 16.4%; the four quarters exactly reconcile to the annual estimate."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2020","message":"2020: P/FCF 1841.9x does not reconcile with market cap 658380.78, cash from operations 4908, and gross capex 5550 (visible CFO-capex implies -1025.5x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2022","message":"2022: P/FCF 9836.0x does not reconcile with market cap 385553.4, cash from operations 8297, and gross capex 9813 (visible CFO-capex implies -254.3x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2023","message":"2023: P/FCF -118.9x does not reconcile with market cap 788551.28, cash from operations 10553, and gross capex 11643 (visible CFO-capex implies -723.4x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2025","message":"2025: P/FCF -3785.3x does not reconcile with market cap 1450347, cash from operations 3691, and gross capex 11201 (visible CFO-capex implies -193.1x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"ev_bridge_unexplained_sign_reversal","severity":"fatal","period":"2026","message":"2026: net debt is -3480.59183044, but EV-market cap is 7268.951489110012; an unexplained 10749.543319550012 adjustment reverses the bridge direction. Publish only after the source system provides and names the debt-like claim or non-operating asset behind the difference."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"17 August 2026","code":"market_cap_share_count_mismatch","severity":"warning","period":"2026","message":"2026: market cap / shares implies 321.55, but the live quote is 339.99."}
+[openrouter] osakeanalyysi.segmentFacts → anthropic/claude-sonnet-5 (web_search:native) (prompt 2949 chars)
+[openrouter] osakeanalyysi.segmentFacts ✓ 26561ms (response 754 chars) · tokens in=40366 out=1064 (reasoning=508) · web_search=3 · $0.121372
+[sw-segments] extractor status=unverified rows=0 source=Tesla, Inc. Annual Report on Form 10-K for the fiscal year ended December 31, 2025
+[gemini] osakeanalyysi.segmentFactsDocument → gemini-3-flash-preview (no grounding) (prompt 2800 chars + 1 attachment(s))
+[gemini] osakeanalyysi.segmentFactsDocument ✓ 24563ms (response 1802 chars) · tokens in=73097 out=634 (thoughts=2493) · ~$0.0459
+[sw-segments] PDF extractor status=verified rows=2
+[gemini] osakeanalyysi.segmentFactsReview → gemini-3-flash-preview (no grounding) (prompt 3444 chars + 1 attachment(s))
+[gemini] osakeanalyysi.segmentFactsReview ✓ 21459ms (response 205 chars) · tokens in=73280 out=97 (thoughts=1489) · ~$0.0414
+[gemini] osakeanalyysi-sw.agenda → gemini-3-flash-preview (no grounding) (prompt 13224 chars)
+[gemini] osakeanalyysi-sw.agenda ✓ 15464ms (response 6333 chars) · tokens in=6970 out=1609 (thoughts=1563) · ~$0.0130
+[sw-agenda] 4 division(s), 6 agenda task(s), 5 peer(s): Core Automotive | FSD & Robotaxi Network | Energy Generation & Storage | Optimus & AI Robotics
+[sw-search] 15 task(s) truncated to 14 — agenda tasks kept, baseline trimmed from the tail
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2722 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2758 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2779 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2681 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2758 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2740 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2764 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2794 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2799 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2782 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2798 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2787 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2826 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2743 chars)
+[gemini] osakeanalyysi-sw.search ✓ 17392ms (response 5065 chars) · tokens in=1437 out=1927 (thoughts=2072) · grounding=6 · ~$0.0127
+[gemini] osakeanalyysi-sw.search ✓ 21711ms (response 4952 chars) · tokens in=1827 out=2175 (thoughts=2030) · grounding=6 · ~$0.0135
+[gemini] osakeanalyysi-sw.search ✓ 22440ms (response 7335 chars) · tokens in=1374 out=3194 (thoughts=1461) · grounding=6 · ~$0.0147
+[gemini] osakeanalyysi-sw.search ✓ 22555ms (response 6185 chars) · tokens in=1443 out=2258 (thoughts=1591) · grounding=15 · ~$0.0123
+[gemini] osakeanalyysi-sw.search ✓ 23045ms (response 4674 chars) · tokens in=2513 out=1600 (thoughts=2606) · grounding=9 · ~$0.0139
+[gemini] osakeanalyysi-sw.search ✓ 23802ms (response 7294 chars) · tokens in=1523 out=2764 (thoughts=2203) · grounding=5 · ~$0.0157
+[gemini] osakeanalyysi-sw.search ✓ 26725ms (response 5235 chars) · tokens in=1881 out=1931 (thoughts=3029) · grounding=5 · ~$0.0158
+[gemini] osakeanalyysi-sw.search ✓ 27478ms (response 7947 chars) · tokens in=1686 out=3453 (thoughts=2192) · grounding=6 · ~$0.0178
+[gemini] osakeanalyysi-sw.search ✓ 27780ms (response 6355 chars) · tokens in=2224 out=2813 (thoughts=2134) · grounding=14 · ~$0.0160
+[gemini] osakeanalyysi-sw.search ✗ parse failed. Raw response:
+{
+  "taskId": "a3",
+  "entries": [
+    {
+      "id": "e1",
+      "claim": "Tesla's Energy Generation and Storage segment accounted for 22.2% of the company's total group gross profit in fiscal year 2025.",
+      "value": "22.2",
+      "unit": "%",
+      "period": "2025",
+      "source": "Valuatum",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHzgaZ2ymGvI22xocZNZyW7nESbc61QD5GRaLYUksJME4-iTAqZY_ZGuUl8QO2TgfOIvvKwRL_AIpzYPCj1a9kK7dB78o_KV47tGT-K-TEadf2Oj1quluGXbE4NiJM17ShNowGJFvAOrkZ6QE4ER1UdKjBN8nQ=",
+      "date": "2026-08-05",
+      "reliability": "estimate",
+      "conflictsWith": null
+    },
+    {
+      "id": "e2",
+      "claim": "The gross margin for Tesla's energy segment declined to 20.4% in Q2 2026, down from a peak of 39.5% in Q1 2026.",
+      "value": "20.4",
+      "unit": "%",
+      "period": "Q2 2026",
+      "source": "Tesla Q2 2026 Update via optimusk.blog",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHgupY48wZx2h5Jq8VH89PeFKH2sYjF5QeyibOY3knYvwcVgb6VVyA6GI_XfJS5Gf7s9KHb_a-2woMTa9Wcy22EEaM6RyMe1-89aGhag1l0iOyv_-0dd1gbT_iLCIEPRFa6tS-oUiA5gXaE6A==",
+      "date": "2026-08-08",
+      "reliability": "primary",
+      "conflictsWith": null
+    },
+    {
+      "id": "e3",
+      "claim": "Tesla Megapack 2 (4hr LFP) pricing for high-volume orders (50+ units) in 2025 is quoted at $220/kWh, excluding 45X tax credits.",
+      "value": "220",
+      "unit": "USD/kWh",
+      "period": "2025",
+      "source": "SDVGuru",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ0lAdaxW5InlSIZVG3qRMo4VdCxVGn4KZ_RWX0hmc9fDGXtDf5CseLClJgp9btIx-iubVK6WI6NNV2EOJ4OmjwZqd2OTCVN_86M40Pk9wL2WhCbD4K90JttIy-gKGSv3zomY4VKHtGQ==",
+      "date": "2025-11-18",
+      "reliability": "news",
+      "conflictsWith": null
+    },
+    {
+      "id": "e4",
+      "claim": "Tesla Megapack 2 XL (2hr) pricing for low-volume orders (1-3 units) in 2025 reached $285/kWh before incentives.",
+      "value": "285",
+      "unit": "USD/kWh",
+      "period": "2025",
+      "source": "SDVGuru",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZ0lAdaxW5InlSIZVG3qRMo4VdCxVGn4KZ_RWX0hmc9fDGXtDf5CseLClJgp9btIx-iubVK6WI6NNV2EOJ4OmjwZqd2OTCVN_86M40Pk9wL2WhCbD4K90JttIy-gKGSv3zomY4VKHtGQ==",
+      "date": "2025-11-18",
+      "reliability": "news",
+      "conflictsWith": null
+    },
+    {
+      "id": "e5",
+      "claim": "BYD overtook Tesla as the world's largest energy storage system integrator in 2025 with a 13% global market share.",
+      "value": "13",
+      "unit": "%",
+      "period": "2025",
+      "source": "Benchmark Mineral Intelligence via EnergyTrend",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSuI8wb5KKFBgi0-b1nYLakSFx09ZxSD7z1DjNJ3LGtfrj62K8AYVkYFEf8Yr-mwDUMl4NkCEb-C0CxSWLRRRdiiLweInMymhTcOpthEQ95naCDQoHjT68UaTA6HRAsi_oX8P5knTF9dU5",
+      "date": "2026-05-19",
+      "reliability": "estimate",
+      "conflictsWith": null
+    },
+    {
+      "id": "e6",
+      "claim": "Tesla's global energy storage system market share stood at 10% in 2025, ranking second behind BYD.",
+      "value": "10",
+      "unit": "%",
+      "period": "2025",
+      "source": "Benchmark Mineral Intelligence via EnergyTrend",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSuI8wb5KKFBgi0-b1nYLakSFx09ZxSD7z1DjNJ3LGtfrj62K8AYVkYFEf8Yr-mwDUMl4NkCEb-C0CxSWLRRRdiiLweInMymhTcOpthEQ95naCDQoHjT68UaTA6HRAsi_oX8P5knTF9dU5",
+      "date": "2026-05-19",
+      "reliability": "estimate",
+      "conflictsWith": null
+    },
+    {
+      "id": "e7",
+      "claim": "Sungrow Power Supply held a 9% global market share in energy storage system integration in 2025.",
+      "value": "9",
+      "unit": "%",
+      "period": "2025",
+      "source": "Benchmark Mineral Intelligence via EnergyTrend",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGSuI8wb5KKFBgi0-b1nYLakSFx09ZxSD7z1DjNJ3LGtfrj62K8AYVkYFEf8Yr-mwDUMl4NkCEb-C0CxSWLRRRdiiLweInMymhTcOpthEQ95naCDQoHjT68UaTA6HRAsi_oX8P5knTF9dU5",
+      "date": "2026-05-19",
+      "reliability": "estimate",
+      "conflictsWith": null
+    },
+    {
+      "id": "e8",
+      "claim": "Utility-grade LFP battery cell prices for international tenders fell to the $55–75/kWh range in 2025-2026.",
+      "value": "55-75",
+      "unit": "USD/kWh",
+      "period": "2025-2026",
+      "source": "Polinovel",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2fS_bx1cjC9eOKj-o8_WgbSnDUAdiWUQ-BfOsZzrbOKStI77wcoyQQejrWzoLTXobseBv4HnqndcNnyP5LqrbVGd9rMRDQ2XMEOrd2eGqbyTJjXTblC2PkRVougVBkiRXrkq93WSibXILPcgibrBUYAj1WR04hNGK_H_BNokNk0fCqIYMRZsmrvuuxVwaobiIWEqIxRQ=",
+      "date": "2026-04-30",
+      "reliability": "news",
+      "conflictsWith": null
+    },
+    {
+      "id": "e9",
+      "claim": "Tesla's 25 GWh multi-year deal with NatPower in Italy and the UK is valued at approximately $5 billion in construction costs.",
+      "value": "5",
+      "unit": "USD bn",
+      "period": "2026-2030",
+      "source": "Electrek",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGBhORLBIg992EXPlXYm8PypygljW5efQiCARiuMVzDM9IiQOQJ0MzArE2I6Mw6kIqDTM1AzwkuQGiwIBD2hyMP5SHj2wBi4PGhdpRR5G50oX-zRD3Hg_T2RgemniMxPk89f_0BF8Xto355HUn-2NveryB-ffM1CkoQYMI=",
+      "date": "2026-06-23",
+      "reliability": "news",
+      "conflictsWith": null
+    },
+    {
+      "id": "e10",
+      "claim": "Installed costs for 4-hour LFP utility-scale BESS in the US range from $230–320/kWh, significantly higher than China's $90–130/kWh.",
+      "value": "230-320",
+      "unit": "USD/kWh",
+      "period": "2025-2026",
+      "source": "Polinovel",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2fS_bx1cjC9eOKj-o8_WgbSnDUAdiWUQ-BfOsZzrbOKStI77wcoyQQejrWzoLTXobseBv4HnqndcNnyP5LqrbVGd9rMRDQ2XMEOrd2eGqbyTJjXTblC2PkRVougVBkiRXrkq93WSibXILPcgibrBUYAj1WR04hNGK_H_BNokNk0fCqIYMRZsmrvuuxVwaobiIWEqIxRQ=",
+      "date": "2026-04-30",
+      "reliability": "news",
+      "conflictsWith": null
+    }
+  ],
+  "gaps": [
+    "Exact regional breakdown of average selling price (ASP) for North America vs EMEA beyond broad project estimates and pricing tiers.",
+    "Specific quarterly market share data for 2026 integrators in EMEA."
+  ]
+}
+
+}
+[gemini] osakeanalyysi-sw.search ✗ 27781ms: Unexpected non-whitespace character after JSON at position 6354 (line 131 column 1)
+[sw-search] task a3 (Utility-Scale Storage Pricing Trends) failed: Unexpected non-whitespace character after JSON at position 6354 (line 131 column 1)
+[gemini] osakeanalyysi-sw.search ✓ 27782ms (response 6318 chars) · tokens in=1910 out=2600 (thoughts=2653) · grounding=5 · ~$0.0167
+[gemini] osakeanalyysi-sw.search ✓ 28753ms (response 6289 chars) · tokens in=2296 out=2521 (thoughts=2902) · grounding=6 · ~$0.0174
+[gemini] osakeanalyysi-sw.search ✓ 34777ms (response 11039 chars) · tokens in=1691 out=5023 (thoughts=2368) · grounding=6 · ~$0.0230
+[gemini] osakeanalyysi-sw.search ✓ 35784ms (response 7657 chars) · tokens in=3220 out=3341 (thoughts=4018) · grounding=8 · ~$0.0237
+[gemini] osakeanalyysi-sw.search ✓ 38922ms (response 7094 chars) · tokens in=1458 out=3199 (thoughts=4930) · grounding=6 · ~$0.0251
+[sw-search] 14 task(s) → 144 register entrie(s), 31 gap(s)
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=BYD+Company+Limited
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=1211
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=Uber+Technologies%2C+Inc.
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=UBER
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=NVIDIA+Corporation
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=NVDA
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=Rivian+Automotive%2C+Inc.
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=RIVN
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[peer-pack] dropped "BYD Company Limited" (1211): no Valuatum issuer matched the candidate
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=Toyota+Motor+Corporation
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=7203
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=RIVN
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=NVDA
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=UBER
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=7203
+[peer-pack] resolved 4/5 peer candidates to Valuatum models
+[valuatum] GET https://wisdom.valuatum.com/rest/reversevaluation/12823
+[reverse-valuation] fid 12823 converged (4 group(s), 11 column(s))
+[openrouter] osakeanalyysi-sw.writer → openai/gpt-5.6-sol (no grounding) (reasoning=medium) (prompt 105454 chars)
+[openrouter] osakeanalyysi-sw.writer ✓ 269812ms (response 87154 chars) · tokens in=41349 out=20655 (reasoning=1351) · $0.878077
+{"event":"SW_MISSING_FACTS","ticker":"TSLA","reportDate":"17 August 2026","count":15,"facts":["Tesla's exact 2026 COGS per vehicle was not available in the source data.","Like-for-like 2025 and 2026 automotive factory utilization rates were not available.","A verified launch price, delivery schedule and bill of materials for the next-generation low-cost vehicle were not available.","California's specific Tesla commercial driverless permit status as of 17 August 2026 was not available.","Confirmation that Tesla's Texas TNC permit was renewed after 6 August 2026 was not available.","Tesla's exact active driverless fleet, paid weekly rides, utilization and net profit per ride were not available.","Global FSD subscription revenue, regional pricing and churn were not available.","Tesla's formal energy-storage backlog and product-level cost breakdown were not available.","A consistent 2026 global BESS integrator share series was not available.","Optimus selling price, production cost, revenue, gross margin and verified mean time between failure were not available.","Third-party validation of a full eight-hour autonomous Optimus factory shift was not available.","Specific European competitor market shares for H1 2026 were not available.","Tesla's exact 2026 global EV market share was not available.","A verified commercial deployment date for Tesla's rare-earth-free motor was not available.","The specific date of Tesla's 2026 annual stockholders meeting was not available."]}
+[valuation] SOTP-only bridge: sensitivity table dropped, no single metric × multiple pair to vary
+[sw-sanitize] repaired 3 structured field(s)
+→ snapshot cached: /Users/laurihynonen/Valuatum/pdf-report-engine/cache/osakeanalyysi__TSLA__en__USD__US.snapshot.json
+→ live REST: https://wisdom.valuatum.com/rest  company=TSLA  lang=en
+→ narrative: Router (Gemini for gemini-* slices, OpenRouter web_search:native otherwise)
+→ langfuse:  disabled (set LANGFUSE_PUBLIC_KEY/SECRET to enable)
+[render] content overflow (clipped in PDF): page-body #40 by 924px
+→ /Users/laurihynonen/Valuatum/pdf-report-engine/out/tesla-sw4.pdf
+→ llm cost:  $1.337983 across 19 call(s)

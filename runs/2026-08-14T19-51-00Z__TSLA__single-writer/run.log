@@ -1,0 +1,100 @@
+
+> @valuatum/report-engine@0.1.0 preview
+> tsx scripts/preview.ts templates/osakeanalyysi.json --company TSLA --lang en --currency USD --country US --cache --refresh --out tesla-sw.pdf
+
+→ prompt store: local files (PROMPT_STORE=file)
+→ snapshot cache: ON (--refresh: rebuilding)  dir=/Users/laurihynonen/Valuatum/pdf-report-engine/cache
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=TSLA
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] GET https://wisdom.valuatum.com/rest/consensus/estimates?ticker=TSLA
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=TSLA
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"quarterly_ebitda_missing_depreciation","severity":"fatal","period":"20262","message":"20262: reported EBITDA (398) equals EBIT (398) while depreciation is missing, even though the company has material depreciation in another reported period."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"quarterly_forecast_margin_residual","severity":"warning","period":"20264","message":"20264: forecast EBITDA margin 33.1% is an abrupt residual-like jump from 16.4%; the four quarters exactly reconcile to the annual estimate."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2020","message":"2020: P/FCF 1841.9x does not reconcile with market cap 658380.78, cash from operations 4908, and gross capex 5550 (visible CFO-capex implies -1025.5x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2022","message":"2022: P/FCF 9836.0x does not reconcile with market cap 385553.4, cash from operations 8297, and gross capex 9813 (visible CFO-capex implies -254.3x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2023","message":"2023: P/FCF -118.9x does not reconcile with market cap 788551.28, cash from operations 10553, and gross capex 11643 (visible CFO-capex implies -723.4x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"cash_flow_multiple_mismatch","severity":"warning","period":"2025","message":"2025: P/FCF -3785.3x does not reconcile with market cap 1450347, cash from operations 3691, and gross capex 11201 (visible CFO-capex implies -193.1x)."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"ev_bridge_unexplained_sign_reversal","severity":"fatal","period":"2026","message":"2026: net debt is -3480.59183044, but EV-market cap is 7268.951489110012; an unexplained 10749.543319550012 adjustment reverses the bridge direction. Publish only after the source system provides and names the debt-like claim or non-operating asset behind the difference."}
+{"event":"FINANCIAL_INTEGRITY_GATE","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","code":"market_cap_share_count_mismatch","severity":"warning","period":"2026","message":"2026: market cap / shares implies 321.55, but the live quote is 339.99."}
+[openrouter] osakeanalyysi.segmentFacts → anthropic/claude-sonnet-5 (web_search:native) (prompt 2949 chars)
+[openrouter] osakeanalyysi.segmentFacts ✓ 19574ms (response 1452 chars) · tokens in=46432 out=1096 (reasoning=311) · web_search=3 · $0.133824
+[sw-segments] extractor status=unverified rows=0 source=Tesla, Inc. Annual Report on Form 10-K for the Fiscal Year Ended December 31, 2025
+[gemini] osakeanalyysi.segmentFactsDocument → gemini-3-flash-preview (no grounding) (prompt 2800 chars + 1 attachment(s))
+[gemini] osakeanalyysi.segmentFactsDocument ✓ 16032ms (response 1633 chars) · tokens in=73097 out=591 (thoughts=1603) · ~$0.0431
+[sw-segments] PDF extractor status=verified rows=2
+[gemini] osakeanalyysi.segmentFactsReview → gemini-3-flash-preview (no grounding) (prompt 3275 chars + 1 attachment(s))
+[gemini] osakeanalyysi.segmentFactsReview ✓ 10005ms (response 223 chars) · tokens in=73237 out=106 (thoughts=1258) · ~$0.0407
+[gemini] osakeanalyysi-sw.agenda → gemini-3-flash-preview (no grounding) (prompt 12794 chars)
+[gemini] osakeanalyysi-sw.agenda ✓ 15639ms (response 5867 chars) · tokens in=6878 out=1470 (thoughts=1640) · ~$0.0128
+[sw-agenda] 4 division(s), 6 agenda task(s), 4 peer(s): Automotive Hardware | Autonomous Mobility (FSD & Robotaxi) | Energy Generation and Storage | AI and Humanoid Robotics (Optimus)
+[sw-search] 15 task(s) truncated to 14 — agenda tasks kept, baseline trimmed from the tail
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2734 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2785 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2681 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2821 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2800 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2764 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2779 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2788 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2770 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2823 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2771 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2775 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2778 chars)
+[gemini] osakeanalyysi-sw.search → gemini-3-flash-preview (prompt 2828 chars)
+[gemini] osakeanalyysi-sw.search ✓ 22843ms (response 6582 chars) · tokens in=2173 out=2255 (thoughts=2981) · grounding=10 · ~$0.0168
+[gemini] osakeanalyysi-sw.search ✓ 24148ms (response 6537 chars) · tokens in=958 out=2826 (thoughts=2366) · grounding=8 · ~$0.0161
+[gemini] osakeanalyysi-sw.search ✓ 25210ms (response 5362 chars) · tokens in=2013 out=1958 (thoughts=2825) · grounding=5 · ~$0.0154
+[gemini] osakeanalyysi-sw.search ✓ 25320ms (response 3927 chars) · tokens in=1323 out=1269 (thoughts=2519) · grounding=6 · ~$0.0120
+[gemini] osakeanalyysi-sw.search ✓ 25567ms (response 6326 chars) · tokens in=1947 out=2355 (thoughts=2766) · grounding=7 · ~$0.0163
+[gemini] osakeanalyysi-sw.search ✓ 25923ms (response 6722 chars) · tokens in=1285 out=3075 (thoughts=2010) · grounding=6 · ~$0.0159
+[gemini] osakeanalyysi-sw.search ✓ 26581ms (response 6218 chars) · tokens in=1919 out=2862 (thoughts=2367) · grounding=7 · ~$0.0166
+[gemini] osakeanalyysi-sw.search ✓ 27735ms (response 5046 chars) · tokens in=2772 out=1778 (thoughts=3331) · grounding=6 · ~$0.0167
+[gemini] osakeanalyysi-sw.search ✓ 29847ms (response 7611 chars) · tokens in=2308 out=2641 (thoughts=2717) · grounding=13 · ~$0.0172
+[gemini] osakeanalyysi-sw.search ✓ 30029ms (response 8518 chars) · tokens in=1857 out=3858 (thoughts=2694) · grounding=7 · ~$0.0206
+[gemini] osakeanalyysi-sw.search ✓ 32182ms (response 5846 chars) · tokens in=2651 out=2019 (thoughts=3430) · grounding=10 · ~$0.0177
+[gemini] osakeanalyysi-sw.search ✓ 34393ms (response 5067 chars) · tokens in=1745 out=1593 (thoughts=3983) · grounding=5 · ~$0.0176
+[gemini] osakeanalyysi-sw.search ✓ 35141ms (response 6879 chars) · tokens in=2509 out=3119 (thoughts=3710) · grounding=11 · ~$0.0217
+[gemini] osakeanalyysi-sw.search ✓ 35267ms (response 6318 chars) · tokens in=3358 out=2246 (thoughts=3985) · grounding=11 · ~$0.0204
+[sw-search] 14 task(s) → 162 register entrie(s), 31 gap(s)
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=BYD+Company+Limited
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=1211
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=NVIDIA+Corporation
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=NVDA
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=Uber+Technologies%2C+Inc.
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=UBER
+[valuatum] GET https://wisdom.valuatum.com/rest/company?name=Toyota+Motor+Corporation
+[valuatum] GET https://wisdom.valuatum.com/rest/company?ticker=7203
+[peer-pack] dropped "BYD Company Limited" (1211): no Valuatum issuer matched the candidate
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] POST https://wisdom.valuatum.com/rest/modeldata
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=NVDA
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=UBER
+[valuatum] GET https://wisdom.valuatum.com/rest/stock-price/quote?ticker=7203
+[peer-pack] resolved 3/4 peer candidates to Valuatum models
+[valuatum] GET https://wisdom.valuatum.com/rest/reversevaluation/12823
+[reverse-valuation] fid 12823 converged (4 group(s), 11 column(s))
+[openrouter] osakeanalyysi-sw.writer → openai/gpt-5.6-sol (no grounding) (reasoning=medium) (prompt 96344 chars)
+[openrouter] osakeanalyysi-sw.writer ✓ 226274ms (response 62815 chars) · tokens in=36544 out=16833 (reasoning=2003) · $0.733386
+{"event":"SW_MISSING_FACTS","ticker":"TSLA","reportDate":"14 August 2026","count":14,"facts":["FSD-specific revenue, gross profit, churn, customer acquisition cost and operating margin are not available in the source data.","Robotaxi-specific revenue, operating margin, trips per vehicle per day, deadhead mileage, insurance cost and achieved cost per mile are not available in the source data.","Evidence of renewal of Tesla Robotaxi LLC's Texas TNC licence after 6 August 2026 is not available in the source data.","Confirmation of a California DMV Driverless Deployment permit for Tesla by 14 August 2026 is not available in the source data.","Standardised comparable miles-per-critical-intervention data for Tesla and geofenced robotaxi operators are not available in the source data.","Optimus external revenue, selling price, unit production cost, uptime, gross margin and contracted customer volume are not available in the source data.","The production start date and achieved scaled cost for Tesla's next-generation compact vehicle are not available in the source data.","Tesla Energy's total 2026 contracted revenue and backlog-conversion schedule are not available in the source data.","Megapack factory utilisation and Tesla's internal manufacturing cost per kWh are not available in the source data.","Exact Q2 2026 utilisation rates for Giga Texas, Giga Berlin, Lathrop and Shanghai are not available in the source data.","Hardware 5 unit cost and a granular next-generation vehicle bill of materials are not available in the source data.","A complete historical share-price series and evidence linking individual price moves to specific events are not available in the source data.","Official 2027 and 2028 capital-expenditure guidance and confirmation of a completed financing agreement are not available in the source data.","Standalone Tesla solar-generation market share is not available in the source data."]}
+{"event":"VALUATION_INTEGRITY_NEEDS_REVIEW","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","issues":["Division-based SOTP: 50% weight cannot be verified deterministically; use a supported EV or equity multiple, or set weight to 0%","EV/EBITDA: weighted row has no parseable forecast year","EV/EBIT: weighted row has no parseable forecast year","No deterministically verifiable target-price method has positive weight"]}
+[sw-sanitize] repaired 5 structured field(s)
+[sw-sanitize] rescaled raw-million figures in 30 prose field(s)
+[sw-writer] correction retry: valuation bridge: Division-based SOTP: 50% weight cannot be verified deterministically; use a supported EV or equity multiple, or set weight to 0% | valuation bridge: EV/EBITDA: weighted row has no parseable forecast year | valuation bridge: EV/EBIT: weighted row has no parseable forecast year | valuation bridge: No deterministically verifiable target-price method has positive weight
+[openrouter] osakeanalyysi-sw.writer → openai/gpt-5.6-sol (no grounding) (reasoning=medium) (prompt 96845 chars)
+[openrouter] osakeanalyysi-sw.writer ✓ 223489ms (response 58060 chars) · tokens in=36652 out=16056 (reasoning=2420) · $0.710751
+{"event":"VALUATION_INTEGRITY_NEEDS_REVIEW","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","issues":["EV/EBITDA: weighted row has no parseable forecast year","EV/EBIT: weighted row has no parseable forecast year","No deterministically verifiable target-price method has positive weight"]}
+[sw-sanitize] scrubbed internal artifacts from 2 prose field(s)
+[sw-sanitize] repaired 2 structured field(s)
+{"event":"VALUE_POOL_COHERENCE_NEEDS_REVIEW","pipeline":"single-writer","ticker":"TSLA","reportDate":"14 August 2026","issues":["Autonomy, FSD and Mobility: top-level value pool enumerates potentially distinct businesses; split or use one economically coherent engine"]}
+[sw-writer] retry kept (3 issue(s) vs 4)
+→ snapshot cached: /Users/laurihynonen/Valuatum/pdf-report-engine/cache/osakeanalyysi__TSLA__en__USD__US.snapshot.json
+→ live REST: https://wisdom.valuatum.com/rest  company=TSLA  lang=en
+→ narrative: Router (Gemini for gemini-* slices, OpenRouter web_search:native otherwise)
+→ langfuse:  disabled (set LANGFUSE_PUBLIC_KEY/SECRET to enable)
+[render] content overflow (clipped in PDF): page-body #31 by 558px
+→ /Users/laurihynonen/Valuatum/pdf-report-engine/out/tesla-sw.pdf
+→ llm cost:  $1.915595 across 20 call(s)
