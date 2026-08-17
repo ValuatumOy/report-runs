@@ -1,7 +1,7 @@
-import { execFileSync } from 'node:child_process'
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { getObject } from './s3.mjs'
 
 /**
  * Imports a worker run (test or production) from its Langfuse trace + the S3
@@ -12,7 +12,9 @@ import { fileURLToPath } from 'node:url'
  *
  * Worker runs are the only ones with server-side prompt versions: the trace is
  * ground truth (see the engine's docs/prompt-environments.md). PDF and
- * snapshot come from S3, so this needs AWS_PROFILE=valuatum-pdf.
+ * snapshot come from S3, so this needs AWS credentials — AWS_PROFILE=valuatum-pdf
+ * locally, or AWS_ACCESS_KEY_ID/AWS_SECRET_ACCESS_KEY in an environment that
+ * has no AWS CLI.
  */
 
 const ROOT = dirname(fileURLToPath(import.meta.url))
@@ -83,19 +85,17 @@ const runId = `${trace.timestamp.replace(/[:.]/g, '-').slice(0, 19)}Z__${meta.co
 const dir = join(ROOT, 'runs', runId)
 mkdirSync(dir, { recursive: true })
 
-const pull = (bucket, key, out) => {
-  try {
-    execFileSync('aws', ['s3', 'cp', `s3://${bucket}/${key}`, out, '--quiet'], { stdio: 'pipe' })
-    return true
-  } catch {
-    return false
-  }
+const pull = async (bucket, key, out) => {
+  const body = await getObject(bucket, key)
+  if (!body) return false
+  writeFileSync(out, body)
+  return true
 }
 let source = 'unknown'
 let gotSnapshot = false
 for (const [name, bucket] of BUCKETS) {
-  const pdf = pull(bucket, `${meta.jobId}.pdf`, join(dir, 'report.pdf'))
-  const snap = pull(bucket, `artifacts/${meta.jobId}.snapshot.json`, join(dir, 'snapshot.json'))
+  const pdf = await pull(bucket, `${meta.jobId}.pdf`, join(dir, 'report.pdf'))
+  const snap = await pull(bucket, `artifacts/${meta.jobId}.snapshot.json`, join(dir, 'snapshot.json'))
   if (pdf || snap) {
     source = name
     gotSnapshot = snap

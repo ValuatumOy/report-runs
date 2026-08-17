@@ -1,7 +1,6 @@
-# Only the built pages and the PDFs are served.
+# Kept out of the deployed site: raw run data, logs and the launchd wrapper.
+# build.mjs must stay — the Vercel build runs it to generate index.html.
 runs/**/snapshot.json
 runs/**/run.log
-*.mjs
-README.md
-RUBRIC.md
-.git
+nightly.sh
+logs/
