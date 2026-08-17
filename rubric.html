@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grading rubric</title>
+<style>
+:root{
+  color-scheme: light dark;
+  --bg:#f6f6f4; --panel:#fff; --panel-2:#faf9f7; --line:#e3e1dc; --line-strong:#d2cfc8;
+  --ink:#1c1b19; --ink-2:#57534c; --ink-3:#8b867c;
+  --accent:#3f5bd9; --accent-soft:#eaeeff;
+  --low:#a33a2c; --low-bg:#fbe9e5; --mid:#7a6a2f; --mid-bg:#f7f0d9; --high:#2c6b45; --high-bg:#e4f2e8;
+  --sw:#2f4fbd; --sw-bg:#e8edfd; --ms:#8a5a1f; --ms-bg:#f7eddc;
+  --shadow:0 1px 2px rgba(28,27,25,.05), 0 8px 24px -12px rgba(28,27,25,.18);
+  --radius:10px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#131311; --panel:#1b1b19; --panel-2:#201f1d; --line:#2c2b28; --line-strong:#3a3935;
+    --ink:#f0eee9; --ink-2:#b3afa6; --ink-3:#807b72;
+    --accent:#93a6ff; --accent-soft:#232744;
+    --low:#f0938a; --low-bg:#3a221f; --mid:#dcc178; --mid-bg:#332c1a; --high:#8ed4a6; --high-bg:#1d3227;
+    --sw:#9db0ff; --sw-bg:#212845; --ms:#e0b070; --ms-bg:#37291a;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 12px 32px -16px rgba(0,0,0,.7);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font:15px/1.5 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+  font-variant-numeric:tabular-nums; padding:40px 28px 96px;
+}
+.wrap{max-width:1400px;margin:0 auto}
+header{margin-bottom:28px}
+h1{font-size:1.5rem;font-weight:640;letter-spacing:-.02em;margin:0 0 6px}
+.lede{color:var(--ink-2);margin:0;max-width:70ch}
+.lede a{color:var(--accent)}
+
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 18px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:12px 16px;min-width:150px;box-shadow:var(--shadow)}
+.stat dt{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin:0 0 4px}
+.stat dd{margin:0;font-size:1.35rem;font-weight:620;letter-spacing:-.02em}
+.stat dd small{font-size:.8rem;font-weight:450;color:var(--ink-2);margin-left:6px}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
+.toolbar .group{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:3px}
+.toolbar button{
+  appearance:none;border:0;background:transparent;color:var(--ink-2);
+  font:inherit;font-size:.85rem;padding:5px 12px;border-radius:999px;cursor:pointer;
+  transition:background .15s ease,color .15s ease;
+}
+.toolbar button:hover{background:var(--panel-2);color:var(--ink)}
+.toolbar button[aria-pressed=true]{background:var(--accent-soft);color:var(--accent)}
+.toolbar button:focus-visible,.disclose:focus-visible,a:focus-visible,th button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+.count{margin-left:auto;color:var(--ink-3);font-size:.85rem}
+
+.table-wrap{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.88rem}
+thead th{
+  position:sticky;top:0;z-index:2;background:var(--panel);
+  text-align:left;font-weight:560;font-size:.7rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);
+  padding:11px 10px;border-bottom:1px solid var(--line-strong);white-space:nowrap;
+}
+thead th.score,thead th.n{text-align:right}
+thead th button{appearance:none;border:0;background:none;font:inherit;color:inherit;cursor:pointer;padding:0;letter-spacing:inherit;text-transform:inherit}
+thead th button:hover{color:var(--ink)}
+thead th[aria-sort] button::after{content:"↓";margin-left:4px;opacity:.9}
+thead th[aria-sort=ascending] button::after{content:"↑"}
+tbody td{padding:9px 10px;border-bottom:1px solid var(--line);white-space:nowrap;vertical-align:middle}
+tr.run:hover td{background:var(--panel-2)}
+tr.run.open td{background:var(--panel-2)}
+tr.run:last-child td,tr.detail:last-child td{border-bottom:0}
+td.n{text-align:right}
+td.n.neg{color:var(--low)}
+td.avg{font-weight:640;font-size:.95rem;border-left:1px solid var(--line)}
+td.score{text-align:right;padding-left:4px;padding-right:4px}
+.dim{color:var(--ink-3)}
+.company{font-weight:580}
+.rating{font-weight:600;letter-spacing:.02em}
+
+.cell-when{padding-left:6px}
+.disclose{display:flex;align-items:center;gap:7px;appearance:none;border:0;background:none;color:var(--ink);font:inherit;cursor:pointer;padding:2px 4px}
+.disclose svg{width:13px;height:13px;fill:none;stroke:var(--ink-3);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;transition:transform .18s cubic-bezier(.2,.7,.3,1)}
+.disclose[aria-expanded=true] svg{transform:rotate(90deg);stroke:var(--accent)}
+
+.tag{display:inline-block;padding:2px 9px;border-radius:999px;font-size:.75rem;font-weight:550;letter-spacing:.01em}
+.tag.sw{background:var(--sw-bg);color:var(--sw)}
+.tag.ms{background:var(--ms-bg);color:var(--ms)}
+.mark{display:inline-flex;align-items:center;justify-content:center;min-width:24px;height:24px;padding:0 6px;border-radius:7px;font-size:.82rem;font-weight:580}
+.mark.low{background:var(--low-bg);color:var(--low)}
+.mark.mid{background:var(--mid-bg);color:var(--mid)}
+.mark.high{background:var(--high-bg);color:var(--high)}
+.mark.na{background:transparent;color:var(--ink-3)}
+
+tr.detail td{padding:0;background:var(--panel-2);white-space:normal}
+.panel{display:grid;grid-template-columns:minmax(230px,1fr) minmax(230px,1fr) minmax(320px,1.6fr);gap:28px;padding:22px 20px 26px;border-bottom:1px solid var(--line);animation:reveal .18s cubic-bezier(.2,.7,.3,1)}
+@keyframes reveal{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion: reduce){.panel{animation:none}.disclose svg{transition:none}}
+.panel h3{margin:0 0 12px;font-size:.72rem;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);font-weight:560}
+.panel h3 .dim{text-transform:none;letter-spacing:0;font-size:.78rem;margin-left:6px}
+.panel h4{margin:16px 0 6px;font-size:.78rem;color:var(--ink-2);font-weight:580}
+
+.facts{margin:0;display:grid;gap:7px}
+.facts div{display:grid;grid-template-columns:96px 1fr;gap:10px;align-items:baseline}
+.facts dt{color:var(--ink-3);font-size:.78rem}
+.facts dd{margin:0;font-size:.85rem;overflow-wrap:anywhere}
+.facts a{color:var(--accent);text-decoration:none;display:inline-flex;align-items:center;gap:3px;white-space:nowrap}
+
+.prompts{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.prompts li{display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:.83rem;padding-bottom:6px;border-bottom:1px dashed var(--line)}
+.prompts li:last-child{border-bottom:0}
+.pname{color:var(--ink-2);overflow-wrap:anywhere}
+.chip{display:inline-flex;align-items:center;gap:4px;background:var(--accent-soft);color:var(--accent);border-radius:6px;padding:2px 7px;font-size:.78rem;font-weight:580;text-decoration:none;white-space:nowrap}
+.chip.local{background:transparent;border:1px solid var(--line-strong);color:var(--ink-2)}
+.chip-note{color:var(--ink-3);font-weight:450;font-size:.7rem}
+.chip svg{width:11px;height:11px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+.summary{margin:0 0 14px;color:var(--ink);font-size:.9rem;max-width:72ch}
+.criteria{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.criteria li{display:grid;grid-template-columns:26px 1fr;gap:10px;align-items:start}
+.criteria b{font-size:.82rem;font-weight:600}
+.criteria p{margin:2px 0 0;color:var(--ink-2);font-size:.85rem;max-width:74ch}
+.issues{margin:0;padding-left:18px;color:var(--ink-2);font-size:.85rem;display:grid;gap:3px}
+.note{color:var(--ink-3);font-size:.82rem;margin:12px 0 0;max-width:72ch}
+.note code{font-size:.95em}
+
+.btn{display:inline-flex;align-items:center;gap:7px;margin-top:14px;padding:7px 13px;border:1px solid var(--line-strong);border-radius:8px;color:var(--ink);text-decoration:none;font-size:.84rem;font-weight:520;background:var(--panel);transition:border-color .15s ease,background .15s ease}
+.btn:hover{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.btn svg{width:14px;height:14px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+
+.cell-pdf{padding-right:14px}
+.pdf{display:inline-flex;align-items:center;gap:5px;color:var(--ink-2);text-decoration:none;font-size:.78rem;font-weight:540;border:1px solid var(--line-strong);border-radius:7px;padding:3px 9px;transition:border-color .15s ease,color .15s ease,background .15s ease}
+.pdf:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.pdf svg{width:12px;height:12px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.empty{padding:56px 20px;text-align:center;color:var(--ink-3)}
+footer{margin-top:20px;color:var(--ink-3);font-size:.8rem}
+/* The detail row lives inside the table's horizontal scroll box, so on narrow
+   screens pin it to the scrollport instead of letting it inherit the (much
+   wider) table width — otherwise the version chips sit off-screen. */
+@media (max-width:900px){
+  body{padding:24px 14px 64px}
+  .panel{grid-template-columns:1fr;gap:22px;position:sticky;left:0;width:calc(100vw - 30px);padding:20px 16px 24px}
+}
+@media (max-width:560px){.facts div{grid-template-columns:1fr;gap:1px}.facts dt{font-size:.74rem}.stat{flex:1 1 140px;min-width:0}}
+
+.doc{max-width:900px;margin:0 auto}
+.doc h1{font-size:1.5rem;margin:0 0 18px}
+.doc h2{font-size:1.05rem;margin:32px 0 10px}
+.doc h3,.doc h4{font-size:.9rem;margin:24px 0 8px}
+.doc p,.doc li{color:var(--ink-2);max-width:74ch}
+.doc li{margin-left:18px}
+.doc table{margin:18px 0}
+.doc td,.doc th{white-space:normal;vertical-align:top;font-size:.85rem}
+.doc pre{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;overflow-x:auto;font-size:.8rem}
+.back{display:inline-block;margin-bottom:22px;color:var(--accent);text-decoration:none;font-size:.85rem}
+</style>
+<body><div class="wrap doc"><a class="back" href="/">← Report generations</a>
+<h1>Report grading rubric — v1</h1>
+
+<p>Every registered run gets a <code>grade.json</code> next to its <code>meta.json</code>. Grading is</p>
+<p>done by the Claude session that generated (or later audits) the run — no API</p>
+<p>cost. The rubric is versioned so scores stay comparable across weeks: **never</p>
+<p>edit v1 in place.** Change the criteria → bump to v2 and say so in the run's</p>
+<p><code>grade.json</code>, because v1 and v2 scores must not be averaged together.</p>
+
+<h2>What to read before scoring</h2>
+
+<p><code>runs/&lt;runId&gt;/snapshot.json</code> → <code>narrativeCache.data</code>. That holds the whole</p>
+<p>report text: <code>coreAnalysis</code>, <code>valuePools[].deepDive</code>, <code>valuation</code>,</p>
+<p><code>scenarioValuation</code>, <code>catalysts</code>, <code>risks</code>, <code>sources</code>, <code>recommendation</code>.</p>
+<p>The PDF adds layout, not content — read it only when judging readability or</p>
+<p>checking that a table actually rendered.</p>
+
+<h2>Criteria (1–5 each, one-line justification each, mandatory)</h2>
+
+<p>CEO priority: **analysis depth, coverage and logic first; the target price is a</p>
+<p>function of the analysis, not a goal of its own.**</p>
+
+<table>
+<tr><th>#</th><th>Criterion</th><th>1</th><th>3</th><th>5</th></tr>
+<tr><td><code>depth</code></td><td>Does each division get real analysis, not a summary?</td><td>Generic paragraphs that would fit any company</td><td>Divisions covered, some go one level below the obvious</td><td>Each division has mechanism-level reasoning: unit economics, capacity, pricing, what has to be true</td></tr>
+<tr><td><code>coverage</code></td><td>Is everything that moves the value covered?</td><td>Major profit engine or optionality missing</td><td>All divisions present, some thin</td><td>Every profit engine and every optionality covered, plus what was deliberately excluded and why</td></tr>
+<tr><td><code>logic</code></td><td>Does the argument hold together?</td><td>Claims contradict each other or the numbers</td><td>Mostly coherent, a few unsupported jumps</td><td>Every conclusion traceable to a stated premise; counter-arguments confronted</td></tr>
+<tr><td><code>evidence</code></td><td>Is it grounded in facts, not vibes?</td><td>Numbers with no source, plausible-sounding invention</td><td>Key numbers sourced, some assertions bare</td><td>Concrete figures with periods and sources; estimates flagged as estimates</td></tr>
+<tr><td><code>valuation</code></td><td>Is the bridge consistent with the text?</td><td>Bridge contradicts the analysis (e.g. optionality valued at zero while the text calls it the main driver)</td><td>Bridge follows the text, some components unexplained</td><td>Bridge, scenarios and market confrontation all use the same grammar, and the gap to the market price is explained</td></tr>
+<tr><td><code>readability</code></td><td>Would a reader trust this document?</td><td>Empty tables, duplicate numbers, broken layout</td><td>Readable, some rough edges</td><td>Clean tables, no unexplained contradictions between numbers on different pages</td></tr>
+</table>
+
+<h2>grade.json shape</h2>
+
+<pre>
+<p>{</p>
+<p>  &quot;rubricVersion&quot;: &quot;v1&quot;,</p>
+<p>  &quot;grader&quot;: &quot;claude-opus-5 (chat session)&quot;,</p>
+<p>  &quot;gradedAt&quot;: &quot;2026-08-17T09:40:00Z&quot;,</p>
+<p>  &quot;scores&quot;: { &quot;depth&quot;: 4, &quot;coverage&quot;: 4, &quot;logic&quot;: 4, &quot;evidence&quot;: 3, &quot;valuation&quot;: 3, &quot;readability&quot;: 2 },</p>
+<p>  &quot;justifications&quot;: {</p>
+<p>    &quot;depth&quot;: &quot;…one line per criterion, naming the concrete evidence in the report…&quot;</p>
+<p>  },</p>
+<p>  &quot;summary&quot;: &quot;2–3 sentences: what this run did better/worse than its neighbours.&quot;,</p>
+<p>  &quot;issues&quot;: [&quot;short, actionable defects worth fixing&quot;]</p>
+<p>}</p>
+</pre>
+
+<h2>Procedure (for the grading agent)</h2>
+
+<li>Read <code>snapshot.json</code> → <code>narrativeCache.data</code> for the run.</li>
+<li>Score all six criteria. Justify each with something specific from *this*</li>
+<p>   report — a number, a sentence, a missing division. No generic praise.</p>
+<li>Compare against the nearest neighbours in the registry (same company,</li>
+<p>   other pipeline / earlier prompt versions). A score is only useful relative</p>
+<p>   to them.</p>
+<li>Write <code>runs/&lt;runId&gt;/grade.json</code>, then <code>npm run runs:build</code>.</li>
+
+</div></body></html>

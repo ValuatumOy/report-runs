@@ -1,0 +1,7 @@
+# Only the built pages and the PDFs are served.
+runs/**/snapshot.json
+runs/**/run.log
+*.mjs
+README.md
+RUBRIC.md
+.git

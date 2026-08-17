@@ -177,12 +177,8 @@ const byPipeline = ['single-writer', 'multi-stage'].map((p) => {
 })
 const companies = [...new Set(runs.map((r) => r.meta.company))].sort()
 
-const html = `<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Report generations</title>
-<style>
+// Shared by index.html and rubric.html.
+const STYLE = `
 :root{
   color-scheme: light dark;
   --bg:#f6f6f4; --panel:#fff; --panel-2:#faf9f7; --line:#e3e1dc; --line-strong:#d2cfc8;
@@ -322,12 +318,19 @@ footer{margin-top:20px;color:var(--ink-3);font-size:.8rem}
   .panel{grid-template-columns:1fr;gap:22px;position:sticky;left:0;width:calc(100vw - 30px);padding:20px 16px 24px}
 }
 @media (max-width:560px){.facts div{grid-template-columns:1fr;gap:1px}.facts dt{font-size:.74rem}.stat{flex:1 1 140px;min-width:0}}
-</style>
+`
+
+const html = `<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Report generations</title>
+<style>${STYLE}</style>
 <body>
 <div class="wrap">
 <header>
   <h1>Report generations</h1>
-  <p class="lede">Every osakeanalyysi run we can trace: which pipeline and prompt versions produced it, and how the analysis scored against <a href="RUBRIC.md">RUBRIC.md</a>. Open a row to see the prompt versions behind it.</p>
+  <p class="lede">Every osakeanalyysi run we can trace: which pipeline and prompt versions produced it, and how the analysis scored against <a href="rubric.html">RUBRIC.md</a>. Open a row to see the prompt versions behind it.</p>
   <dl class="stats">
     <div class="stat"><dt>Runs</dt><dd>${runs.length}<small>${graded.length} graded</small></dd></div>
     ${byPipeline
@@ -446,4 +449,56 @@ apply()
 `
 
 writeFileSync(join(ROOT, 'index.html'), html)
+
+// The rubric is authored as Markdown but has to be readable when the dashboard
+// is served statically, so render a minimal HTML view of it beside index.html.
+const md = readFileSync(join(ROOT, 'RUBRIC.md'), 'utf8')
+const inline = (t) =>
+  esc(t)
+    .replace(/`([^`]+)`/g, '<code>$1</code>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+const out = []
+let inTable = false
+for (const line of md.split('\n')) {
+  const row = line.trim().startsWith('|')
+  if (inTable && !row) { out.push('</table>'); inTable = false }
+  if (row) {
+    const cells = line.trim().slice(1, -1).split('|')
+    if (/^[\s|:-]+$/.test(line)) continue
+    if (!inTable) { out.push('<table>'); inTable = true }
+    const tag = out[out.length - 1] === '<table>' ? 'th' : 'td'
+    out.push('<tr>' + cells.map((c) => `<${tag}>${inline(c.trim())}</${tag}>`).join('') + '</tr>')
+    continue
+  }
+  const h = /^(#{1,4})\s+(.*)$/.exec(line)
+  if (h) { out.push(`<h${h[1].length}>${inline(h[2])}</h${h[1].length}>`); continue }
+  if (/^[-*]\s+/.test(line)) { out.push(`<li>${inline(line.replace(/^[-*]\s+/, ''))}</li>`); continue }
+  if (/^\d+\.\s+/.test(line)) { out.push(`<li>${inline(line.replace(/^\d+\.\s+/, ''))}</li>`); continue }
+  if (line.trim() === '```json' || line.trim() === '```') { out.push(line.trim() === '```json' ? '<pre>' : '</pre>'); continue }
+  out.push(line.trim() ? `<p>${inline(line)}</p>` : '')
+}
+if (inTable) out.push('</table>')
+writeFileSync(
+  join(ROOT, 'rubric.html'),
+  `<!doctype html>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grading rubric</title>
+<style>${STYLE}
+.doc{max-width:900px;margin:0 auto}
+.doc h1{font-size:1.5rem;margin:0 0 18px}
+.doc h2{font-size:1.05rem;margin:32px 0 10px}
+.doc h3,.doc h4{font-size:.9rem;margin:24px 0 8px}
+.doc p,.doc li{color:var(--ink-2);max-width:74ch}
+.doc li{margin-left:18px}
+.doc table{margin:18px 0}
+.doc td,.doc th{white-space:normal;vertical-align:top;font-size:.85rem}
+.doc pre{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px;overflow-x:auto;font-size:.8rem}
+.back{display:inline-block;margin-bottom:22px;color:var(--accent);text-decoration:none;font-size:.85rem}
+</style>
+<body><div class="wrap doc"><a class="back" href="/">\u2190 Report generations</a>
+${out.join('\n')}
+</div></body></html>
+`,
+)
 console.log(`→ index.html  (${runs.length} runs, ${graded.length} graded)`)

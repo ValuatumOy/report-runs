@@ -3,3 +3,4 @@ runs/**/snapshot.json
 runs/**/run.log
 index.html
 .DS_Store
+.vercel
