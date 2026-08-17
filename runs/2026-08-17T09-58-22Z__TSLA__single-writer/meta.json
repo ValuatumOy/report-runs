@@ -1,0 +1,51 @@
+{
+  "runId": "2026-08-17T09-58-22Z__TSLA__single-writer",
+  "createdAt": "2026-08-17T09:58:22.380Z",
+  "source": "local",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "companyName": "Tesla",
+  "lang": "en",
+  "currency": "USD",
+  "country": "US",
+  "pipeline": "single-writer",
+  "promptStore": "file",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "sha:99ee1a9d68d0"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "sha:9bec080875f6"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "sha:8610e366fbf2"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "sha:d388757da04d"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "sha:9c7b71e8e829"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "sha:80e3093b1124"
+    }
+  ],
+  "git": {
+    "sha": "ddfdef0",
+    "branch": "single-writer",
+    "dirty": false
+  },
+  "costUsd": 2.46733225,
+  "llmCalls": 22,
+  "durationSec": 910,
+  "rating": "SELL",
+  "targetPrice": 103.3,
+  "currentPrice": 339.99,
+  "upsidePct": -69.6
+}

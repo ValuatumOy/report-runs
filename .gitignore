@@ -4,3 +4,4 @@ runs/**/run.log
 index.html
 .DS_Store
 .vercel
+logs/

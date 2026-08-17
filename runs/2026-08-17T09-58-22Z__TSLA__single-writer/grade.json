@@ -1,0 +1,28 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-17T10:15:00Z",
+  "basis": "snapshot narrativeCache.data (full read of the bridge, scenarios and pool metrics). No render log was archived, so readability is scored on table content rather than page layout.",
+  "scores": {
+    "depth": 4,
+    "coverage": 5,
+    "logic": 4,
+    "evidence": 5,
+    "valuation": 4,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "About 4990 words of division analysis, with the two businesses that carry the argument — Robotaxi (1650 words) and Automotive Hardware (1723) — reasoning at mechanism level. FSD, Optimus and Energy run shorter at 640, 580 and 400 words, which matches their weight in the call.",
+    "coverage": "Five divisions, and for the first time FSD and Software Services is separated from the Robotaxi Network, so the existing subscription business carries its own revenue (USD 1.76bn) instead of disappearing into a pre-revenue option. Both profit engines, both options and Energy are valued independently.",
+    "logic": "The market-implied requirement is stated as a path, not a slogan — 2026 EBIT of USD 22.6bn rising to USD 45.5bn in 2027 and a 43.2% terminal margin against a maintained forecast reaching 9.6% — and the counter-case is given real weight (Nevada permit, rising attach rate) before being bounded by Tesla's 25 unsupervised vehicles against Waymo's ~500k weekly paid rides.",
+    "evidence": "Every material claim carries a source and a date: FSD subscribers and the 55% attach rate from the Q2 update and call of 22–24 July 2026, the 13.5 GWh deployment from 22 July, the missing California permits from the DMV record of 8 June 2026, Waymo's ride volume via SQ Magazine on 23 July.",
+    "valuation": "The bridge is a probability-weighted sum of the parts with option legs at three success levels for Robotaxi and two for Optimus, each discounted from its modelled year, and the component rows are now presented as indented audit lines rather than as zero-weight methods. The sensitivity grid is populated, and all three scenarios (USD 77.8 / 103.3 / 200.7) are computed in the same grammar as the target. The Base case equals the target exactly, which leaves the scenario table describing the bridge rather than testing it.",
+    "readability": "The bridge reads cleanly and no table is empty, but with no render log archived it cannot be confirmed that the wider bridge fits the page."
+  },
+  "summary": "The most complete division structure in the registry and the first Tesla report whose scenarios, sensitivity and target all speak the same valuation language. Sourcing matches the best of the single-writer series while coverage now exceeds it: five divisions, with today's FSD subscription revenue kept separate from the robotaxi option. Remaining weakness is that the Base scenario restates the target instead of stressing it.",
+  "issues": [
+    "Base scenario equals the target exactly (USD 103.3), so the scenario table adds no test",
+    "No render log archived — page-fit of the widened bridge unverified",
+    "Bull case (USD 200.7) still sits far below spot, so no scenario explains the market price"
+  ]
+}
