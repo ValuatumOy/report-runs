@@ -45,6 +45,6 @@
   "targetPrice": null,
   "currentPrice": null,
   "upsidePct": null,
-  "note": "Ajo 3: council-paketti. Hylätty — optiolegit kaatuivat diskonttaushorisonttiin. PDF ei tallessa.",
+  "note": "Council package. Rejected — the option legs failed on the discount horizon. No PDF archived.",
   "backfilled": true
 }

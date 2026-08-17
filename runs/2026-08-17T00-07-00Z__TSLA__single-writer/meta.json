@@ -45,6 +45,6 @@
   "targetPrice": 122.8,
   "currentPrice": 339.99,
   "upsidePct": -63.9,
-  "note": "Ajo 4: optiolegien diskonttaus korjattu. Kaikki portit läpi ensiyrityksellä.",
+  "note": "Option-leg discounting fixed. All gates passed on the first attempt.",
   "backfilled": true
 }

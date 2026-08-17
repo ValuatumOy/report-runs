@@ -45,6 +45,6 @@
   "targetPrice": 109.5,
   "currentPrice": 339.99,
   "upsidePct": -67.8,
-  "note": "Ajo 1: ensimmäinen single-writer-mittaus. Syvyys jäi 689 sanaan/divisioona.",
+  "note": "First single-writer measurement. Division depth stopped at 689 words.",
   "backfilled": true
 }

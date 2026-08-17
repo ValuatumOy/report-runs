@@ -45,6 +45,6 @@
   "targetPrice": 136.4,
   "currentPrice": 339.99,
   "upsidePct": -59.9,
-  "note": "Ajo 2: rakennekiintiöt promptissa → 2400 sanaa/divisioona. Optioarvo puuttui sillasta.",
+  "note": "Structural depth quotas added to the prompt: 2400 words per division. Option value still missing from the bridge.",
   "backfilled": true
 }

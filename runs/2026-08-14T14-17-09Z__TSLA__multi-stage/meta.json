@@ -85,5 +85,5 @@
   "targetPrice": 230.2,
   "currentPrice": 328.58,
   "upsidePct": -29.9,
-  "note": "Monivaiheisen putken vertailuajo (test-stack, fi)."
+  "note": "Multi-stage comparison run (test stack, fi)."
 }
