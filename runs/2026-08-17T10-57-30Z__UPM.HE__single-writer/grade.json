@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (nightly cloud routine)",
+  "gradedAt": "2026-08-17T11:03:00Z",
+  "basis": "snapshot narrativeCache.data (full read of all five pool deep dives, bridge, sensitivity, scenarios, catalysts, risks, sources and the segment fact gate). report.pdf is well-formed at 50 pages, but pdftotext was unavailable to the grader and no run.log was archived, so page layout is unverified. Scored by the nightly routine; transcribed into the repository by hand because the routine's push was refused.",
+  "scores": {
+    "depth": 5,
+    "coverage": 4,
+    "logic": 4,
+    "evidence": 5,
+    "valuation": 4,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "All five divisions get full deep dives that reason in the unit of the business rather than summarising it: pulp cash cost of USD 280/t at Paso de los Toros against CMPC's USD 254, EUR 10/MWh of captured power price worth about EUR 40m of EBIT, and the Leuna allocation inverted into roughly EUR 636 of EBITDA per nameplate tonne.",
+    "coverage": "Fibres, Energy, Adhesive Materials, Biofuels & Biochemicals and the paper businesses are all valued with their own economics, and the divisions in corporate transition are handled on their announced terms rather than on a generic multiple.",
+    "logic": "Each division states what its allocation requires and what would break it, and the group bridge follows those parts instead of a top-down multiple. The chain weakens where the same asset carries different numbers in different sections.",
+    "evidence": "Dated, attributed figures throughout, including competitor cash costs, Finnish generation volumes and the segment fact gate's own confidence labels — the same sourcing standard as the strongest Tesla single-writer runs.",
+    "valuation": "A parts-based bridge with per-division multiples and a populated sensitivity grid, but the bear case lands only 1.4% below the market price, so the downside scenario carries almost no information.",
+    "readability": "Numeric consistency slips in ways a reader will catch: Leuna appears as EUR 756m/758m warranted against EUR 176m/727m allocated within one section, the sensitivity axis is labelled 2027E while carrying the 2026 EBITDA of EUR 1,846m, and three of the seven risk rows name the wrong division."
+  },
+  "summary": "First single-writer run on a company that is not Tesla, and it lands level with the multi-stage UPM report from 13 August at 4.2 — but by a different route: deeper per-division economics and equally strong sourcing, against weaker numeric hygiene. The pipeline comparison therefore no longer rests on Tesla alone.",
+  "issues": [
+    "Leuna carries two different warranted values and two different allocations inside one section",
+    "Sensitivity axis labelled 2027E but populated with 2026 EBITDA (EUR 1,846m)",
+    "Bear case only 1.4% below the market price",
+    "Three of seven risk rows attributed to the wrong division",
+    "No run.log archived, so page layout could not be checked"
+  ]
+}
