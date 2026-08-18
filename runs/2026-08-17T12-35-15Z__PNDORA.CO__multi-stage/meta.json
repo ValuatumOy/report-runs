@@ -1,0 +1,92 @@
+{
+  "runId": "2026-08-17T12-35-15Z__PNDORA.CO__multi-stage",
+  "createdAt": "2026-08-17T12:35:15.009Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "PNDORA.CO",
+  "lang": "fi",
+  "pipeline": "multi-stage",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "gemini-pro-latest",
+    "openai/gpt-5.6-terra",
+    "x-ai/grok-4.6"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi.companyValue",
+      "version": "v26"
+    },
+    {
+      "name": "osakeanalyysi.coreAnalysis",
+      "version": "v37"
+    },
+    {
+      "name": "osakeanalyysi.currentEvents",
+      "version": "v14"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsDocument",
+      "version": "v4"
+    },
+    {
+      "name": "osakeanalyysi.currentEventsReview",
+      "version": "v14"
+    },
+    {
+      "name": "osakeanalyysi.extract",
+      "version": "v31"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.investmentSummary",
+      "version": "v17"
+    },
+    {
+      "name": "osakeanalyysi.recommendation",
+      "version": "v20"
+    },
+    {
+      "name": "osakeanalyysi.regulatoryCascade",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.signalSweep",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.valuation",
+      "version": "v15"
+    },
+    {
+      "name": "osakeanalyysi.xyScatterInterpretation",
+      "version": "v2"
+    }
+  ],
+  "langfuseTraceId": "f3ddb998-f49f-4374-885d-599839a13363",
+  "jobId": "01M07VAGP9ZZRKVT4F2R8016PR",
+  "costUsd": 1.990167,
+  "llmCalls": 17,
+  "durationSec": 1185,
+  "rating": "SELL",
+  "targetPrice": 676.3,
+  "currentPrice": 829.2,
+  "upsidePct": -18.4
+}

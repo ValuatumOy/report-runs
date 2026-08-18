@@ -1,0 +1,5185 @@
+{
+  "companyCode": "PNDORA.CO",
+  "lang": "fi",
+  "dataLang": "fi",
+  "currency": "DKK",
+  "kind": "equity",
+  "company": {
+    "companyId": 3736,
+    "companyName": "Pandora A/S",
+    "companyCode": "DK0060252690",
+    "ticker": "PNDORA.CO",
+    "industry": "Luxury Goods",
+    "models": [
+      {
+        "followedModelId": 4086,
+        "analystName": "ValuatumDataSources"
+      },
+      {
+        "followedModelId": 20729,
+        "analystName": "Niklas Mäki"
+      }
+    ]
+  },
+  "primaryFid": 4086,
+  "model": {
+    "dataMap": {
+      "2017": {
+        "ns": 0,
+        "pre_tax_profit": 0,
+        "ebit": 0,
+        "extras_in_ebit": 0,
+        "ebitda": 0,
+        "wacc": 0.0643
+      },
+      "2018": {
+        "eps_diluted": 47.04878411,
+        "gross_cap_expenditure": 11724,
+        "cf_change_in_cash": 1976,
+        "operating_cash_flow": 4501.26086296,
+        "ns": 0,
+        "ebit": 0,
+        "ebitda": 0,
+        "change_in_wc": 828,
+        "cf_from_fin_activities": 8494,
+        "change_in_wc_nega": -828,
+        "eva": 4929.26086296,
+        "pre_tax_profit": 0,
+        "free_cash_flow_to_firm": -6771.73913704,
+        "taxes_paid": -2126,
+        "extras_in_ebit": 0,
+        "capex_excl_acq_divest": -11724,
+        "free_operating_cash_flow": -6771.73913704,
+        "gross_cap_expenditure_nega": -11724,
+        "wacc": 0.0643,
+        "cf_from_operations": 5206
+      },
+      "2019": {
+        "eps_diluted": 30.06915917,
+        "goodwill": 4416,
+        "gross_cap_expenditure": 16650,
+        "total_non_cur_ass": 14331,
+        "operating_cash_flow": 6102,
+        "net_debt": 8977,
+        "equity_ratio": 0.24333596,
+        "payout": 0.5943978,
+        "change_in_wc": -1278,
+        "bs_total_assets": 21571,
+        "ebit_without_extras": 3829,
+        "inventories": 2137,
+        "lt_debt": 5158,
+        "free_cash_flow_to_firm": -11281,
+        "capex_excl_acq_divest": -16650,
+        "gross_cap_expenditure_nega": -16650,
+        "net_earnings": 2945,
+        "wacc": 0.0643,
+        "cf_change_in_cash": 1494,
+        "adj_net_earnings": 2945,
+        "ebit": 3829,
+        "eps": 30.28275019,
+        "change_in_wc_nega": 1278,
+        "no_of_shares_total": 97.250084,
+        "fin_income": 186,
+        "dividend_ps": 18,
+        "other_intangible_rights": 3029,
+        "pretax_percent": 0.17509603,
+        "tangible_ass": 6596,
+        "net_earnings_percent": 0.13467167,
+        "cf_from_operations": 6542,
+        "ns": 21868,
+        "current_ratio": 0.83673209,
+        "cf_from_fin_activities": 11602,
+        "eva": 2945,
+        "ebit_percent": 0.17509603,
+        "interest_expenses": -186,
+        "cur_liab_total": 7846,
+        "bv": 5249,
+        "pre_tax_profit": 3829,
+        "ebitda_percent": 0.28114139,
+        "fin_ass_ib": 1054,
+        "costs": -15720,
+        "bs_total_liab": 21571,
+        "lt_liab_total": 4425,
+        "ptp_without_extras": 3829,
+        "ebitda": 6148,
+        "cap_invested": 10410,
+        "dep_total": -2319,
+        "total_cur_ass": 6565,
+        "equity_total": 5249,
+        "taxes_paid": -1324,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -11281,
+        "st_debt": 1057,
+        "gearing_percent": 1.71023052
+      },
+      "2020": {
+        "eps_diluted": 19.89262213,
+        "goodwill": 4247,
+        "gross_cap_expenditure": 232,
+        "total_non_cur_ass": 12248,
+        "operating_cash_flow": 5893.64234162,
+        "roi_after_tax_beg_cap": 0.20034989,
+        "net_fin_items": -190,
+        "net_debt": 3150,
+        "equity_ratio": 0.3697458,
+        "payout": 0.45069087,
+        "roe_percent": 0.3066941,
+        "change_in_wc": -1449,
+        "ebit_gp": -0.29903369,
+        "bs_total_assets": 19984,
+        "total_receivables": 2111,
+        "ebit_without_extras": 2684,
+        "inventories": 1949,
+        "free_cash_flow_to_firm": 5772.64234162,
+        "capex_excl_acq_divest": -232,
+        "gross_cap_expenditure_nega": -232,
+        "net_earnings": 1938,
+        "wacc": 0.0643,
+        "ebitda_gp": -0.18689005,
+        "cf_change_in_cash": 1814,
+        "adj_net_earnings": 1938,
+        "ebit": 2684,
+        "eps": 19.9693416,
+        "change_in_wc_nega": 1449,
+        "no_of_shares_total": 97.048768,
+        "fin_income": 63,
+        "dividend_ps": 9,
+        "other_intangible_rights": 2696,
+        "pretax_percent": 0.13120101,
+        "tangible_ass": 5062,
+        "net_earnings_percent": 0.10195171,
+        "ns_growth": -0.13073898,
+        "cf_from_operations": 5702,
+        "ns": 19009,
+        "current_ratio": 0.71215526,
+        "cf_from_fin_activities": -3656,
+        "eva": 1416.27934162,
+        "ebit_percent": 0.14119628,
+        "interest_expenses": -253,
+        "cur_liab_total": 9790,
+        "bv": 7389,
+        "pre_tax_profit": 2494,
+        "ebitda_percent": 0.26298069,
+        "eps_gp": -0.34057041,
+        "fin_ass_ib": 2912,
+        "costs": -14010,
+        "bs_total_liab": 19984,
+        "lt_liab_total": -622,
+        "ptp_without_extras": 2494,
+        "ebitda": 4999,
+        "cap_invested": 7480,
+        "dep_total": -2315,
+        "total_cur_ass": 6972,
+        "equity_total": 7389,
+        "taxes_paid": -512,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 5772.64234162,
+        "st_debt": 3003,
+        "payment_of_dividend": -1750.501512,
+        "gearing_percent": 0.42630938,
+        "p_per_s": 3.47678526,
+        "p_per_bv": 8.94440533,
+        "pe": 34.10227606,
+        "ev_per_ns": 3.64249624,
+        "enterprise_value": 69240.211008,
+        "dividend_yield": 0.01321586,
+        "market_cap_ye": 66090.211008,
+        "pe_adj_i": 34.10227606,
+        "ev_per_ebitda": 13.85081236,
+        "ev_per_ebit": 25.79739605,
+        "p_per_fcf": 11.44886641
+      },
+      "2021": {
+        "eps_diluted": 41.73578571,
+        "goodwill": 4418,
+        "gross_cap_expenditure": 1329,
+        "total_non_cur_ass": 11663,
+        "operating_cash_flow": 5461.59352919,
+        "roi_after_tax_beg_cap": 0.60382266,
+        "net_fin_items": -461,
+        "net_debt": 3770,
+        "equity_ratio": 0.37757523,
+        "payout": 0.35616327,
+        "roe_percent": 0.57817929,
+        "change_in_wc": 587,
+        "ebit_gp": 1.17548435,
+        "bs_total_assets": 18542,
+        "net_debt_per_ebitda": 0.48626338,
+        "total_receivables": 1954,
+        "ebit_without_extras": 5839,
+        "inventories": 2991,
+        "lt_debt": 1041,
+        "free_cash_flow_to_firm": 4284.59352919,
+        "capex_excl_acq_divest": -1329,
+        "gross_cap_expenditure_nega": -1329,
+        "net_earnings": 4160,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.55091018,
+        "cf_change_in_cash": -1487,
+        "adj_net_earnings": 4160,
+        "ebit": 5839,
+        "eps": 42.11551667,
+        "change_in_wc_nega": -587,
+        "no_of_shares_total": 98.775946,
+        "fin_income": 21,
+        "dividend_ps": 15,
+        "other_intangible_rights": 2676,
+        "pretax_percent": 0.22988801,
+        "tangible_ass": 4348,
+        "net_earnings_percent": 0.17782337,
+        "ns_growth": 0.2306802,
+        "cf_from_operations": 5487,
+        "ns": 23394,
+        "current_ratio": 0.72617026,
+        "cf_from_fin_activities": -5645,
+        "eva": 4035.62952919,
+        "ebit_percent": 0.24959391,
+        "interest_expenses": -211,
+        "cur_liab_total": 8246,
+        "bv": 7001,
+        "pre_tax_profit": 5378,
+        "ebitda_percent": 0.33140976,
+        "eps_gp": 1.10900878,
+        "fin_ass_ib": 1043,
+        "costs": -15641,
+        "bs_total_liab": 18542,
+        "lt_liab_total": 571,
+        "ptp_without_extras": 5378,
+        "ebitda": 7753,
+        "cap_invested": 8160,
+        "dep_total": -1914,
+        "total_cur_ass": 5988,
+        "equity_total": 7001,
+        "taxes_paid": -1600,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 4284.59352919,
+        "st_debt": 1161,
+        "payment_of_dividend": -873.438912,
+        "gearing_percent": 0.5384945,
+        "p_per_s": 3.44284459,
+        "p_per_bv": 11.50434315,
+        "pe": 19.36103518,
+        "ev_per_ns": 3.60399702,
+        "enterprise_value": 84311.9063684,
+        "dividend_yield": 0.01839588,
+        "market_cap_ye": 80541.9063684,
+        "pe_adj_i": 19.36103518,
+        "ev_per_ebitda": 10.87474608,
+        "ev_per_ebit": 14.43944278,
+        "p_per_fcf": 18.79802736
+      },
+      "2022": {
+        "eps_diluted": 53.67335752,
+        "goodwill": 4822,
+        "gross_cap_expenditure": 3331,
+        "total_non_cur_ass": 13021,
+        "operating_cash_flow": 5448.65467626,
+        "roi_after_tax_beg_cap": 0.63610964,
+        "net_fin_items": -210,
+        "net_debt": 6794,
+        "equity_ratio": 0.32558034,
+        "payout": 0.29507749,
+        "roe_percent": 0.70990966,
+        "change_in_wc": 1404,
+        "ebit_gp": 0.15482103,
+        "bs_total_assets": 22013,
+        "net_debt_per_ebitda": 0.779486,
+        "total_receivables": 2726,
+        "ebit_without_extras": 6743,
+        "inventories": 4211,
+        "lt_debt": 1017,
+        "free_cash_flow_to_firm": 2000.65467626,
+        "capex_excl_acq_divest": -3331,
+        "gross_cap_expenditure_nega": -3331,
+        "net_earnings": 5029,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.12420998,
+        "cf_change_in_cash": 62,
+        "adj_net_earnings": 5029,
+        "ebit": 6743,
+        "eps": 54.22304527,
+        "change_in_wc_nega": -1404,
+        "no_of_shares_total": 92.746543,
+        "fin_income": 111,
+        "dividend_ps": 16,
+        "other_intangible_rights": 2746,
+        "pretax_percent": 0.24687299,
+        "tangible_ass": 5203,
+        "net_earnings_percent": 0.19003892,
+        "ns_growth": 0.13118748,
+        "cf_from_operations": 5598,
+        "ns": 26463,
+        "current_ratio": 0.69144084,
+        "cf_from_fin_activities": -2205,
+        "eva": 4665.96667626,
+        "ebit_percent": 0.2548086,
+        "interest_expenses": -321,
+        "cur_liab_total": 11181,
+        "bv": 7167,
+        "pre_tax_profit": 6533,
+        "ebitda_percent": 0.32936553,
+        "eps_gp": 0.2874838,
+        "fin_ass_ib": 794,
+        "costs": -17747,
+        "bs_total_liab": 22013,
+        "lt_liab_total": 430,
+        "ptp_without_extras": 6533,
+        "ebitda": 8716,
+        "cap_invested": 10898,
+        "dep_total": -1973,
+        "total_cur_ass": 7731,
+        "equity_total": 7167,
+        "taxes_paid": -1815,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 2000.65467626,
+        "st_debt": 3508,
+        "payment_of_dividend": -1481.63919,
+        "gearing_percent": 0.94795591,
+        "p_per_s": 1.71067482,
+        "p_per_bv": 6.31639286,
+        "pe": 9.00170762,
+        "ev_per_ns": 1.96741064,
+        "enterprise_value": 52063.5876383,
+        "dividend_yield": 0.03278017,
+        "market_cap_ye": 45269.5876383,
+        "pe_adj_i": 9.00170762,
+        "ev_per_ebitda": 5.97333497,
+        "ev_per_ebit": 7.72113119,
+        "p_per_fcf": 22.62738701
+      },
+      "2023": {
+        "eps_diluted": 55.06476726,
+        "goodwill": 4914,
+        "gross_cap_expenditure": 2599,
+        "total_non_cur_ass": 14540,
+        "operating_cash_flow": 7406.19377607,
+        "roi_after_tax_beg_cap": 0.54415432,
+        "net_fin_items": -805,
+        "net_debt": 9770,
+        "equity_ratio": 0.22501891,
+        "payout": 0.28829889,
+        "roe_percent": 0.75706756,
+        "change_in_wc": -403,
+        "ebit_gp": 0.04389738,
+        "bs_total_assets": 23798,
+        "net_debt_per_ebitda": 1.20335017,
+        "total_receivables": 2435,
+        "ebit_without_extras": 7039,
+        "inventories": 4166,
+        "lt_debt": 6972,
+        "free_cash_flow_to_firm": 4766.19377607,
+        "capex_excl_acq_divest": -2599,
+        "gross_cap_expenditure_nega": -2599,
+        "net_earnings": 4740,
+        "wacc": 0.0643,
+        "ebitda_gp": -0.06849472,
+        "cf_change_in_cash": 1122,
+        "adj_net_earnings": 4740,
+        "ebit": 7039,
+        "eps": 55.49795854,
+        "change_in_wc_nega": 403,
+        "no_of_shares_total": 85.408547,
+        "fin_income": 40,
+        "dividend_ps": 16,
+        "other_intangible_rights": 2886,
+        "pretax_percent": 0.22156668,
+        "tangible_ass": 6525,
+        "net_earnings_percent": 0.16846744,
+        "ns_growth": 0.06322035,
+        "cf_from_operations": 6735,
+        "ns": 28136,
+        "current_ratio": 0.99317025,
+        "cf_from_fin_activities": -3014,
+        "eva": 5229.45237607,
+        "ebit_percent": 0.25017771,
+        "interest_expenses": -716,
+        "cur_liab_total": 8053,
+        "bv": 5355,
+        "pre_tax_profit": 6234,
+        "ebitda_percent": 0.2885627,
+        "eps_gp": 0.02351239,
+        "fin_ass_ib": 1397,
+        "costs": -20017,
+        "bs_total_liab": 23798,
+        "lt_liab_total": 6344,
+        "ptp_without_extras": 6234,
+        "ebitda": 8119,
+        "cap_invested": 11243,
+        "dep_total": -1080,
+        "total_cur_ass": 7998,
+        "equity_total": 5355,
+        "taxes_paid": -989,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 4766.19377607,
+        "st_debt": 313,
+        "payment_of_dividend": -1483.944688,
+        "gearing_percent": 1.82446312,
+        "p_per_s": 2.83278561,
+        "p_per_bv": 14.88389469,
+        "pe": 16.81503292,
+        "ev_per_ns": 3.18002758,
+        "enterprise_value": 89473.2560604,
+        "dividend_yield": 0.01714531,
+        "market_cap_ye": 79703.2560604,
+        "pe_adj_i": 16.81503292,
+        "ev_per_ebitda": 11.02023107,
+        "ev_per_ebit": 12.71107488,
+        "p_per_fcf": 16.72262182
+      },
+      "2024": {
+        "eps_diluted": 64.59865291,
+        "goodwill": 5126,
+        "gross_cap_expenditure": 4816,
+        "total_non_cur_ass": 17002,
+        "operating_cash_flow": 9549.27548368,
+        "roi_after_tax_beg_cap": 0.53529089,
+        "net_fin_items": -1050,
+        "net_debt": 11007,
+        "equity_ratio": 0.19842928,
+        "payout": 0.2775726,
+        "roe_percent": 0.96234926,
+        "change_in_wc": -1509,
+        "ebit_gp": 0.1331155,
+        "bs_total_assets": 27758,
+        "net_debt_per_ebitda": 1.06553727,
+        "total_receivables": 2406,
+        "ebit_without_extras": 7976,
+        "inventories": 4426,
+        "lt_debt": 7831,
+        "free_cash_flow_to_firm": 4628.27548368,
+        "capex_excl_acq_divest": -4816,
+        "gross_cap_expenditure_nega": -4816,
+        "net_earnings": 5227,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.27232418,
+        "cf_change_in_cash": 1328,
+        "adj_net_earnings": 5227,
+        "ebit": 7976,
+        "eps": 64.84789837,
+        "change_in_wc_nega": 1509,
+        "no_of_shares_total": 80.604,
+        "fin_income": 39,
+        "dividend_ps": 18,
+        "other_intangible_rights": 3106,
+        "pretax_percent": 0.21862374,
+        "tangible_ass": 8472,
+        "net_earnings_percent": 0.16499369,
+        "ns_growth": 0.12595962,
+        "cf_from_operations": 9089,
+        "ns": 31680,
+        "current_ratio": 0.9340893,
+        "cf_from_fin_activities": -2945,
+        "eva": 5295.35058368,
+        "ebit_percent": 0.25176768,
+        "interest_expenses": -918,
+        "cur_liab_total": 9877,
+        "bv": 5508,
+        "pre_tax_profit": 6926,
+        "ebitda_percent": 0.32607323,
+        "eps_gp": 0.16847358,
+        "fin_ass_ib": 2394,
+        "costs": -21350,
+        "bs_total_liab": 27758,
+        "lt_liab_total": 7098,
+        "ptp_without_extras": 6926,
+        "ebitda": 10330,
+        "cap_invested": 11342,
+        "dep_total": -2354,
+        "total_cur_ass": 9226,
+        "equity_total": 5508,
+        "taxes_paid": -2032,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 4628.27548368,
+        "st_debt": 397,
+        "payment_of_dividend": -1366.536752,
+        "gearing_percent": 1.99836601,
+        "p_per_s": 3.35086705,
+        "p_per_bv": 19.27296078,
+        "pe": 20.30906218,
+        "ev_per_ns": 3.69831023,
+        "enterprise_value": 117162.468,
+        "dividend_yield": 0.01366743,
+        "market_cap_ye": 106155.468,
+        "pe_adj_i": 20.30906218,
+        "ev_per_ebitda": 11.34196205,
+        "ev_per_ebit": 14.68937663,
+        "p_per_fcf": 22.93628985
+      },
+      "2025": {
+        "eps_diluted": 67.91123087,
+        "goodwill": 5020,
+        "gross_cap_expenditure": 3395,
+        "total_non_cur_ass": 17811,
+        "operating_cash_flow": 6866.57905396,
+        "roi_after_tax_beg_cap": 0.5202415,
+        "net_fin_items": -870,
+        "net_debt": 17912,
+        "equity_ratio": 0.17842786,
+        "payout": 0.29362076,
+        "roe_percent": 0.97164041,
+        "change_in_wc": 1944,
+        "ebit_gp": -0.02419759,
+        "bs_total_assets": 29603,
+        "net_debt_per_ebitda": 1.72745684,
+        "total_receivables": 4038,
+        "ebit_without_extras": 7783,
+        "inventories": 4883,
+        "lt_debt": 11922,
+        "free_cash_flow_to_firm": -778.42094604,
+        "capex_excl_acq_divest": -3395,
+        "gross_cap_expenditure_nega": -3395,
+        "net_earnings": 5242,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.00377541,
+        "cf_change_in_cash": -1414,
+        "adj_net_earnings": 5242,
+        "ebit": 7783,
+        "eps": 68.11507576,
+        "change_in_wc_nega": -1944,
+        "no_of_shares_total": 76.958,
+        "fin_income": 122,
+        "dividend_ps": 20,
+        "other_intangible_rights": 3343,
+        "pretax_percent": 0.21238748,
+        "tangible_ass": 9152,
+        "dcf_dividends": -1450.872,
+        "net_earnings_percent": 0.16104949,
+        "ns_growth": 0.02743056,
+        "cf_from_operations": 5883,
+        "ns": 32549,
+        "current_ratio": 0.90881621,
+        "cf_from_fin_activities": -3902,
+        "eva": 5171.28845396,
+        "ebit_percent": 0.23911641,
+        "interest_expenses": -992,
+        "cur_liab_total": 11252,
+        "bv": 5282,
+        "pre_tax_profit": 6913,
+        "ebitda_percent": 0.31856585,
+        "eps_gp": 0.05038216,
+        "fin_ass_ib": 1305,
+        "costs": -22180,
+        "bs_total_liab": 29603,
+        "lt_liab_total": 6939,
+        "ptp_without_extras": 6913,
+        "ebitda": 10369,
+        "cap_invested": 17526,
+        "dep_total": -2586,
+        "total_cur_ass": 10226,
+        "equity_total": 5282,
+        "taxes_paid": -1348,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -778.42094604,
+        "st_debt": 1627,
+        "payment_of_dividend": -1450.872,
+        "gearing_percent": 3.39113972,
+        "p_per_s": 1.67303084,
+        "p_per_bv": 10.30963287,
+        "pe": 10.38830233,
+        "ev_per_ns": 2.2233396,
+        "enterprise_value": 72367.4808,
+        "dividend_yield": 0.02826456,
+        "market_cap_ye": 54455.4808,
+        "pe_adj_i": 10.38830233,
+        "ev_per_ebitda": 6.97921504,
+        "ev_per_ebit": 9.29814735,
+        "p_per_fcf": -69.95634056
+      },
+      "2026": {
+        "eps_diluted": 64.04628071,
+        "goodwill": 5020,
+        "gross_cap_expenditure": 3471.89746964,
+        "total_non_cur_ass": 17857.89746964,
+        "operating_cash_flow": 9078.60955757,
+        "roi_after_tax_beg_cap": 0.32715122,
+        "net_fin_items": -1020.00015361,
+        "net_debt": 14296.42652987,
+        "equity_ratio": 0.3006449,
+        "payout": 0.28720149,
+        "roe_percent": 0.6890391,
+        "change_in_wc": 80.04273149,
+        "ebit_gp": -0.06629834,
+        "bs_total_assets": 30017.18546975,
+        "net_debt_per_ebitda": 1.33711434,
+        "total_receivables": 4011.79073473,
+        "ebit_without_extras": 7267,
+        "inventories": 4844.16556266,
+        "lt_debt": 4968.6709851,
+        "free_cash_flow_to_firm": 5606.71208794,
+        "capex_excl_acq_divest": -3471.89746964,
+        "gross_cap_expenditure_nega": -3471.89746964,
+        "net_earnings": 4928.87367126,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.03115054,
+        "cf_change_in_cash": 432.33170272,
+        "adj_net_earnings": 4928.87367126,
+        "ebit": 7267,
+        "eps": 64.04628071,
+        "change_in_wc_nega": -80.04273149,
+        "no_of_shares_total": 74.800632,
+        "fin_income": 292.05375697,
+        "dividend_ps": 18.92470489,
+        "other_intangible_rights": 3398.15349166,
+        "pretax_percent": 0.18881097,
+        "tangible_ass": 9143.74397798,
+        "dcf_dividends": -1539.16,
+        "net_earnings_percent": 0.14897158,
+        "ns_growth": 0.0164982,
+        "cf_from_operations": 8273.83093977,
+        "ns": 33086,
+        "current_ratio": 0.73316626,
+        "cf_from_fin_activities": -4369.60176741,
+        "eva": 4606.73048906,
+        "ebit_percent": 0.21963973,
+        "interest_expenses": -1157.85391057,
+        "cur_liab_total": 14448.684551,
+        "bv": 9024.51367126,
+        "pre_tax_profit": 6246.99984639,
+        "ebitda_percent": 0.32315783,
+        "eps_gp": -0.05973413,
+        "cost_of_equity": 0.0825,
+        "fin_ass_ib": 1737.33170272,
+        "costs": -22394,
+        "bs_total_liab": 30017.18546975,
+        "lt_liab_total": -14.3290149,
+        "ptp_without_extras": 6246.99984639,
+        "ebitda": 10692,
+        "cap_invested": 17224.62393874,
+        "dep_total": -3425,
+        "total_cur_ass": 10593.28800011,
+        "equity_total": 9024.51367126,
+        "taxes_paid": -1318.12617513,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 5606.71208794,
+        "st_debt": 4968.7709851,
+        "payment_of_dividend": -1539.16,
+        "gearing_percent": 1.58417695,
+        "adj_no_of_shares_a": 74.800632,
+        "ev_per_ns": 2.3067494,
+        "enterprise_value": 76321.11058427,
+        "market_cap_ye": 62024.6840544,
+        "ev_per_ebitda": 7.13815101,
+        "p_per_s": 1.9287183,
+        "p_per_bv": 6.87291153,
+        "pe": 12.94688764,
+        "mva": 53000.17038314,
+        "dividend_yield": 0.02282285,
+        "pe_adj_i": 12.94688764,
+        "ev_per_ebit": 10.50242336,
+        "p_per_fcf": 11.38163911
+      },
+      "2027": {
+        "eps_diluted": 45.69501038,
+        "goodwill": 5020,
+        "gross_cap_expenditure": 3381.51380423,
+        "total_non_cur_ass": 18243.41127386,
+        "operating_cash_flow": 7050.62971016,
+        "roi_after_tax_beg_cap": 0.24016031,
+        "net_fin_items": -800,
+        "net_debt": 12662.96485126,
+        "equity_ratio": 0.36268119,
+        "payout": 0.28720149,
+        "roe_percent": 0.34904108,
+        "change_in_wc": 82.04123974,
+        "ebit_gp": -0.26558415,
+        "bs_total_assets": 30675.78519842,
+        "net_debt_per_ebitda": 1.51961657,
+        "total_receivables": 4082.57409256,
+        "ebit_without_extras": 5337,
+        "inventories": 4993.06589444,
+        "lt_debt": 4041.97833567,
+        "free_cash_flow_to_firm": 3669.11590593,
+        "capex_excl_acq_divest": -3381.51380423,
+        "gross_cap_expenditure_nega": -3381.51380423,
+        "net_earnings": 3516.59660852,
+        "wacc": 0.0703,
+        "ebitda_gp": -0.22063225,
+        "cf_change_in_cash": 53.40223483,
+        "adj_net_earnings": 3516.59660852,
+        "ebit": 5337,
+        "eps": 45.69501038,
+        "change_in_wc_nega": -82.04123974,
+        "no_of_shares_total": 74.800632,
+        "fin_income": 165.54398962,
+        "dividend_ps": 13.50218274,
+        "other_intangible_rights": 3502.60619374,
+        "pretax_percent": 0.13303815,
+        "tangible_ass": 9424.80508012,
+        "net_earnings_percent": 0.10311693,
+        "ns_growth": 0.03073808,
+        "cf_from_operations": 6430.55536878,
+        "ns": 34103,
+        "current_ratio": 0.79550987,
+        "cf_from_fin_activities": -2995.63932973,
+        "eva": 2925.779887,
+        "ebit_percent": 0.1564965,
+        "interest_expenses": -811.34398962,
+        "cur_liab_total": 13659.63435144,
+        "bv": 11125.53039383,
+        "pre_tax_profit": 4537,
+        "ebitda_percent": 0.244348,
+        "eps_gp": -0.2865314,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 1790.73393755,
+        "costs": -25770,
+        "bs_total_liab": 30675.78519842,
+        "lt_liab_total": -941.02166433,
+        "ptp_without_extras": 4537,
+        "ebitda": 8333,
+        "cap_invested": 17418.85312761,
+        "dep_total": -2996,
+        "total_cur_ass": 10866.37392455,
+        "equity_total": 11125.53039383,
+        "taxes_paid": -1020.40339148,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 3669.11590593,
+        "st_debt": 4042.07833567,
+        "payment_of_dividend": -1415.57988595,
+        "gearing_percent": 1.13818977,
+        "p_per_bv": 5.57498671
+      },
+      "2028": {
+        "eps_diluted": 59.51329432,
+        "goodwill": 5020,
+        "gross_cap_expenditure": 3502.9323487,
+        "total_non_cur_ass": 18784.34362256,
+        "operating_cash_flow": 8126.81713765,
+        "roi_after_tax_beg_cap": 0.303116,
+        "net_fin_items": -903,
+        "net_debt": 9748.96077764,
+        "equity_ratio": 0.4650516,
+        "payout": 0.28720149,
+        "roe_percent": 0.35475032,
+        "change_in_wc": 115.11587916,
+        "ebit_gp": 0.27637249,
+        "bs_total_assets": 31599.89710875,
+        "net_debt_per_ebitda": 0.99743818,
+        "total_receivables": 4181.89351402,
+        "ebit_without_extras": 6812,
+        "inventories": 5201.99487522,
+        "lt_debt": 2502.19356729,
+        "free_cash_flow_to_firm": 4623.88478894,
+        "capex_excl_acq_divest": -3502.9323487,
+        "gross_cap_expenditure_nega": -3502.9323487,
+        "net_earnings": 4580.02410398,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.17292692,
+        "cf_change_in_cash": 74.9311594,
+        "adj_net_earnings": 4580.02410398,
+        "ebit": 6812,
+        "eps": 59.51329432,
+        "change_in_wc_nega": -115.11587916,
+        "no_of_shares_total": 74.800632,
+        "fin_income": 112.03943804,
+        "dividend_ps": 17.58527613,
+        "other_intangible_rights": 3649.16863805,
+        "pretax_percent": 0.16631016,
+        "tangible_ass": 9819.17498451,
+        "net_earnings_percent": 0.12890583,
+        "ns_growth": 0.04184383,
+        "cf_from_operations": 7426.90822482,
+        "ns": 35530,
+        "current_ratio": 0.91363354,
+        "cf_from_fin_activities": -3849.04471672,
+        "eva": 4055.38764193,
+        "ebit_percent": 0.1917253,
+        "interest_expenses": -860.83943804,
+        "cur_liab_total": 12312.98210614,
+        "bv": 14695.58269531,
+        "pre_tax_profit": 5909,
+        "ebitda_percent": 0.27509147,
+        "eps_gp": 0.30240247,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 1865.66509695,
+        "costs": -25756,
+        "bs_total_liab": 31599.89710875,
+        "lt_liab_total": -2480.80643271,
+        "ptp_without_extras": 5909,
+        "ebitda": 9774,
+        "cap_invested": 17834.40473295,
+        "dep_total": -2962,
+        "total_cur_ass": 11249.55348619,
+        "equity_total": 14695.58269531,
+        "taxes_paid": -1328.97589602,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 4623.88478894,
+        "st_debt": 2502.29356729,
+        "payment_of_dividend": -1009.9718025,
+        "gearing_percent": 0.66339396,
+        "p_per_bv": 4.22063455
+      },
+      "2029": {
+        "eps_diluted": 61.56995838,
+        "goodwill": 5020,
+        "gross_cap_expenditure": 3684.8372248,
+        "total_non_cur_ass": 19251.87201584,
+        "operating_cash_flow": 8259.1531159,
+        "roi_after_tax_beg_cap": 0.28828207,
+        "net_fin_items": -519.98694326,
+        "net_debt": 6893.07285703,
+        "equity_ratio": 0.5592368,
+        "payout": 0.28720149,
+        "roe_percent": 0.28879684,
+        "change_in_wc": 99.49477444,
+        "ebit_gp": -0.02624919,
+        "bs_total_assets": 32398.60799687,
+        "net_debt_per_ebitda": 0.69976888,
+        "total_receivables": 4267.7353936,
+        "ebit_without_extras": 6633.19052669,
+        "inventories": 5382.57241125,
+        "lt_debt": 991.90183649,
+        "free_cash_flow_to_firm": 4574.31589109,
+        "capex_excl_acq_divest": -3684.8372248,
+        "gross_cap_expenditure_nega": -3684.8372248,
+        "net_earnings": 4738.3008571,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.00782682,
+        "cf_change_in_cash": 64.76307923,
+        "adj_net_earnings": 4738.3008571,
+        "ebit": 6633.19052669,
+        "eps": 61.56995838,
+        "change_in_wc_nega": -99.49477444,
+        "no_of_shares_total": 74.800632,
+        "fin_income": 178.12038933,
+        "dividend_ps": 18.19298918,
+        "other_intangible_rights": 3775.84271157,
+        "pretax_percent": 0.16628524,
+        "tangible_ass": 10160.02930427,
+        "net_earnings_percent": 0.12888651,
+        "ns_growth": 0.03471313,
+        "cf_from_operations": 7856.11491419,
+        "ns": 36763.35758861,
+        "current_ratio": 1.05571034,
+        "cf_from_fin_activities": -4106.51461016,
+        "eva": 3887.58040608,
+        "ebit_percent": 0.1804294,
+        "interest_expenses": -543.90733259,
+        "cur_liab_total": 10969.61501651,
+        "bv": 18118.49378364,
+        "pre_tax_profit": 6113.20358343,
+        "ebitda_percent": 0.26794341,
+        "eps_gp": 0.03455806,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 1930.42817618,
+        "costs": -26912.8582304,
+        "bs_total_liab": 32398.60799687,
+        "lt_liab_total": -3991.09816351,
+        "ptp_without_extras": 6113.20358343,
+        "ebitda": 9850.49935822,
+        "cap_invested": 18171.96928043,
+        "dep_total": -3217.30883153,
+        "total_cur_ass": 11580.73598103,
+        "equity_total": 18118.49378364,
+        "taxes_paid": -1374.90272632,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 4574.31589109,
+        "st_debt": 992.00183649,
+        "payment_of_dividend": -1315.38976878,
+        "gearing_percent": 0.38044403,
+        "p_per_bv": 3.42328037
+      },
+      "20241": {
+        "eps_diluted": 11.92609529,
+        "costs": -4766,
+        "ns": 6834,
+        "net_fin_items": -229,
+        "ebit": 1507,
+        "eps": 11.97211057,
+        "ebitda": 2068,
+        "dep_total": -561,
+        "history": 1,
+        "ebit_percent": 0.22051507,
+        "pre_tax_profit": 1278,
+        "ebitda_percent": 0.30260462,
+        "net_earnings": 965
+      },
+      "20242": {
+        "eps_diluted": 9.87455972,
+        "costs": -4854,
+        "ns": 6771,
+        "net_fin_items": -280,
+        "ebit": 1338,
+        "eps": 9.91265942,
+        "ebitda": 1917,
+        "dep_total": -579,
+        "history": 1,
+        "ebit_percent": 0.19760744,
+        "pre_tax_profit": 1058,
+        "ebitda_percent": 0.28311918,
+        "net_earnings": 799
+      },
+      "20243": {
+        "eps_diluted": 7.35339554,
+        "costs": -4531,
+        "ns": 6103,
+        "net_fin_items": -193,
+        "ebit": 981,
+        "eps": 7.38176765,
+        "ebitda": 1572,
+        "dep_total": -591,
+        "history": 1,
+        "ebit_percent": 0.16074062,
+        "pre_tax_profit": 788,
+        "ebitda_percent": 0.25757824,
+        "net_earnings": 595,
+        "ns_growth": 0.09529792
+      },
+      "20244": {
+        "eps_diluted": 35.45696101,
+        "costs": -7201,
+        "ns": 11973,
+        "net_fin_items": -346,
+        "ebit": 4149,
+        "eps": 35.59376706,
+        "ebitda": 4772,
+        "dep_total": -623,
+        "history": 1,
+        "ebit_percent": 0.34652969,
+        "pre_tax_profit": 3803,
+        "ebitda_percent": 0.39856343,
+        "net_earnings": 2869,
+        "ns_growth": 0.10656192
+      },
+      "20251": {
+        "eps_diluted": 14.26369042,
+        "costs": -5082,
+        "ns": 7347,
+        "net_fin_items": -238,
+        "ebit": 1641,
+        "eps": 14.30650485,
+        "ebitda": 2265,
+        "dep_total": -624,
+        "history": 1,
+        "ebit_percent": 0.22335647,
+        "pre_tax_profit": 1403,
+        "ebitda_percent": 0.3082891,
+        "net_earnings": 1101,
+        "ns_growth": 0.07506585
+      },
+      "20252": {
+        "eps_diluted": 10.4030367,
+        "costs": -5165,
+        "ns": 7075,
+        "net_fin_items": -223,
+        "ebit": 1287,
+        "eps": 10.43426284,
+        "ebitda": 1910,
+        "dep_total": -623,
+        "history": 1,
+        "ebit_percent": 0.18190813,
+        "pre_tax_profit": 1064,
+        "ebitda_percent": 0.26996466,
+        "net_earnings": 803,
+        "ns_growth": 0.04489736
+      },
+      "20253": {
+        "eps_diluted": 6.33509956,
+        "costs": -4746,
+        "ns": 6269,
+        "net_fin_items": -232,
+        "ebit": 879,
+        "eps": 6.35411523,
+        "ebitda": 1523,
+        "dep_total": -644,
+        "history": 1,
+        "ebit_percent": 0.14021375,
+        "pre_tax_profit": 647,
+        "ebitda_percent": 0.24294146,
+        "net_earnings": 489,
+        "ns_growth": 0.02719974
+      },
+      "20254": {
+        "eps_diluted": 36.90940419,
+        "costs": -7188,
+        "ns": 11858,
+        "net_fin_items": -176,
+        "ebit": 3975,
+        "eps": 37.02019283,
+        "ebitda": 4670,
+        "dep_total": -695,
+        "history": 1,
+        "ebit_percent": 0.33521673,
+        "pre_tax_profit": 3799,
+        "ebitda_percent": 0.39382695,
+        "net_earnings": 2849,
+        "ns_growth": -0.00960494
+      },
+      "20261": {
+        "eps_diluted": 12.24044284,
+        "costs": -4963,
+        "ns": 7109,
+        "net_fin_items": -224,
+        "ebit": 1487,
+        "eps": 12.24044284,
+        "ebitda": 2146,
+        "dep_total": -659,
+        "history": 1,
+        "ebit_percent": 0.20917147,
+        "pre_tax_profit": 1263,
+        "ebitda_percent": 0.30187087,
+        "net_earnings": 942,
+        "ns_growth": -0.03239417
+      },
+      "20262": {
+        "eps_diluted": 11.36983809,
+        "costs": -5065,
+        "ns": 7219,
+        "net_fin_items": -291,
+        "ebit": 1463,
+        "eps": 11.36983809,
+        "ebitda": 2154,
+        "dep_total": -691,
+        "history": 1,
+        "ebit_percent": 0.20265965,
+        "pre_tax_profit": 1172,
+        "ebitda_percent": 0.29837928,
+        "net_earnings": 875,
+        "ns_growth": 0.02035336
+      },
+      "20263": {
+        "eps_diluted": 8.55999454,
+        "costs": -5480.12740291,
+        "ns": 7220,
+        "net_fin_items": -248.46537905,
+        "ebit": 895.53682872,
+        "eps": 8.55999454,
+        "ebitda": 1739.87259709,
+        "dep_total": -844.33576838,
+        "history": 0,
+        "ebit_percent": 0.12403557,
+        "pre_tax_profit": 647.07144967,
+        "ebitda_percent": 0.24097958,
+        "net_earnings": 658.76005997,
+        "ns_growth": 0.15169884
+      },
+      "20264": {
+        "eps_diluted": 31.87600539,
+        "costs": -6885.87259709,
+        "ns": 11538,
+        "net_fin_items": -256.53476308,
+        "ebit": 3421.46317128,
+        "eps": 31.87600539,
+        "ebitda": 4652.12740291,
+        "dep_total": -1230.66423162,
+        "history": 0,
+        "ebit_percent": 0.29653867,
+        "pre_tax_profit": 3164.9284082,
+        "ebitda_percent": 0.4032005,
+        "net_earnings": 2453.11362277,
+        "ns_growth": -0.026986
+      }
+    },
+    "textDataMap": {},
+    "background": {
+      "followedModelId": 4086,
+      "freefloat": 0,
+      "foreignOwner": 0,
+      "dailyVol": 0,
+      "exchangeRate": 0,
+      "reportsPerYear": 4,
+      "secondTitleYearDiff": 0,
+      "dataStartYear": 0,
+      "defaultMultipleFactorOfFigures": 1,
+      "owners": [],
+      "companyType": "NONE"
+    },
+    "costItem": {
+      "cost01": "Costitem 1",
+      "cost02": "Costitem 2",
+      "cost03": "Costitem 3",
+      "cost04": "Costitem 4",
+      "cost05": "Costitem 5",
+      "cost06": "Costitem 6",
+      "cost07": "Costitem 7",
+      "cost08": "Costitem 8"
+    },
+    "financialBulletin": {},
+    "followedModelId": 4086,
+    "companyName": "Pandora A/S",
+    "analystName": "ValuatumDataSources",
+    "companyId": 3736,
+    "companyCode": "DK0060252690",
+    "currency": "DKK",
+    "currentYear": 2026,
+    "orderNo": 1,
+    "recommendation": {
+      "recLevel": 0,
+      "lastUpdated": "2025-06-12T13:21:11.538Z"
+    }
+  },
+  "creditRisk": null,
+  "analysis": {
+    "johto": null,
+    "toiminta": null,
+    "asema": null
+  },
+  "autotext": {},
+  "bankruptcyVizPng": null,
+  "bankruptcyContourArea": null,
+  "bankruptcyRiskModel": "brm_ValuBooster2",
+  "consensus": {
+    "companyName": "Pandora A/S",
+    "ticker": "PNDORA.CO",
+    "updated": "2026-08-17",
+    "consensusData": [
+      {
+        "consensusdataid": 96928,
+        "varname": "pre_tax_profit",
+        "pos": 2026,
+        "value": 6247
+      },
+      {
+        "consensusdataid": 96929,
+        "varname": "pre_tax_profit",
+        "pos": 2027,
+        "value": 4537
+      },
+      {
+        "consensusdataid": 96931,
+        "varname": "ebitda",
+        "pos": 2026,
+        "value": 9997
+      },
+      {
+        "consensusdataid": 96932,
+        "varname": "ebitda",
+        "pos": 2027,
+        "value": 8333
+      },
+      {
+        "consensusdataid": 96934,
+        "varname": "ebit",
+        "pos": 2026,
+        "value": 7267
+      },
+      {
+        "consensusdataid": 96935,
+        "varname": "ebit",
+        "pos": 2027,
+        "value": 5337
+      },
+      {
+        "consensusdataid": 96937,
+        "varname": "ns",
+        "pos": 2026,
+        "value": 33086
+      },
+      {
+        "consensusdataid": 96938,
+        "varname": "ns",
+        "pos": 2027,
+        "value": 34103
+      },
+      {
+        "consensusdataid": 139791,
+        "varname": "pre_tax_profit",
+        "pos": 2028,
+        "value": 5909
+      },
+      {
+        "consensusdataid": 139792,
+        "varname": "ebitda",
+        "pos": 2028,
+        "value": 9774
+      },
+      {
+        "consensusdataid": 139793,
+        "varname": "ebit",
+        "pos": 2028,
+        "value": 6812
+      },
+      {
+        "consensusdataid": 139794,
+        "varname": "ns",
+        "pos": 2028,
+        "value": 35530
+      },
+      {
+        "consensusdataid": 143872,
+        "varname": "ns",
+        "pos": 20263,
+        "value": 7220
+      },
+      {
+        "consensusdataid": 143873,
+        "varname": "eps",
+        "pos": 20263,
+        "value": 8.56
+      }
+    ]
+  },
+  "quote": {
+    "ticker": "PNDORA.CO",
+    "currency": "DKK",
+    "price": 829.2
+  },
+  "actualYears": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "estimateYears": [
+    "2026",
+    "2027",
+    "2028",
+    "2029"
+  ],
+  "narrativeCache": {
+    "data": {
+      "identity": {
+        "companyName": "Pandora A/S",
+        "ticker": "PNDORA.CO",
+        "exchange": "NASDAQ Copenhagen",
+        "sector": "Luxury Goods",
+        "country": "Denmark",
+        "reportDateLong": "17 August 2026",
+        "reportDateShort": "17.08.2026",
+        "currency": "DKK",
+        "companyProfile": "Pandora A/S is a Danish jewellery company and the world's largest jewellery brand by volume. It designs, manufactures and markets hand-finished jewellery through a global network of company-operated and franchised stores. The business combines its mature Core charm-and-bracelet collections with the faster-growing \"Fuel with more\" range, which includes solid gold, new design lines and lab-grown diamonds. Pandora continues to expand its full-jewellery assortment and owned retail footprint."
+      },
+      "recommendation": {
+        "rating": "SELL",
+        "targetPrice": 676.3,
+        "currentPrice": 829.2,
+        "priceAsOf": "Quote as of 17 August 2026",
+        "upsidePct": -18.4,
+        "twelveMonthView": "At DKK 829.2, shares trade above the 676.3 DKK target, presenting roughly 18% downside over 12 months as Core like-for-like sales soften and margins compress.",
+        "mainDriver": "Core LFL contraction to -1% and EBIT margin compression.",
+        "mainRisk": "Re-acceleration of Core charm sales and sustained Fuel outperformance.",
+        "prose": [
+          "SELL. Our 12-month target price is DKK 676.3, implying 18.4% downside from the current price of DKK 829.20.",
+          "Recent results point to weakness in the underlying business. Core like-for-like sales fell to -1% in Q2 2026, from +2% in 2024. Growth in the higher-margin Fuel with More platform also slowed, to +6% in Q2 2026 from 22% in 2024. Softness in the core charm-and-bracelet division threatens the bulk of Pandora's earnings power. We forecast group EBIT margin to fall to 15.6% by 2027e, from 23.9% in FY2025A.",
+          "The main counter-argument is Pandora's partial U.S. tariff refund in Q2 2026 and robust group net store openings, which remain on track for the 2024-2026 plan. These factors support near-term cash flow and sales. However, they are largely non-recurring or capital-intensive and do not address weak like-for-like demand in the mature Core business.",
+          "A sustained return to positive Core like-for-like growth above +2%, alongside margin stabilization over the next 12-24 months, would invalidate this thesis and require a higher valuation multiple. Conversely, consecutive quarters of Core LFL below -2%, combined with further margin compression, would confirm structural fatigue and increase downside toward the bear case."
+        ],
+        "thesisReasons": [
+          {
+            "title": "Core Volume Contraction",
+            "body": "Core like-for-like sales fell to -1% in Q2 2026 from +2% in 2024 as demand for bracelets and charms softened. We forecast group EBIT to trough at DKK 5.3 billion in 2027e.",
+            "fig": "-1% LFL"
+          },
+          {
+            "title": "Fuel Outperformance Slowing",
+            "body": "Fuel with More like-for-like growth slowed to +6% in Q2 2026 from +22% in 2024 as the segment matured against a tougher comparison base. It must sustain 4-7% LFL to support its premium valuation.",
+            "fig": "+6% LFL"
+          },
+          {
+            "title": "Multiple De-rating Required",
+            "body": "Our target price uses 12.5x 2027e EBIT, below Pandora's 14.11x historical average. Persistent Core weakness and margin compression warrant a structurally lower multiple than in prior cycles.",
+            "fig": "12.5x EV/EBIT"
+          }
+        ],
+        "thesisBreaker": "Two consecutive years of Core LFL above +2%, sustained Fuel growth, and EBIT margins recovering above 20% would invalidate the downside thesis."
+      },
+      "multiples": {
+        "forecastYear": 2026,
+        "pe": 12.94688764,
+        "evEbitda": 7.13815101,
+        "fcfYieldPct": 8.8,
+        "divYieldPct": 2.3,
+        "ndEbitda": 1.33711434,
+        "dpsAbs": 18.92
+      },
+      "cover": {
+        "marketCap": 62025,
+        "enterpriseValue": 76321,
+        "netDebt": 14296,
+        "sharesOutstanding": 74.8
+      },
+      "sharePrice": {
+        "points": [
+          {
+            "period": "2023-08-23",
+            "price": 693.4
+          },
+          {
+            "period": "2023-08-30",
+            "price": 715.6
+          },
+          {
+            "period": "2023-09-06",
+            "price": 713.8
+          },
+          {
+            "period": "2023-09-13",
+            "price": 725.6
+          },
+          {
+            "period": "2023-09-20",
+            "price": 718.8
+          },
+          {
+            "period": "2023-09-27",
+            "price": 711.2
+          },
+          {
+            "period": "2023-10-04",
+            "price": 707.2
+          },
+          {
+            "period": "2023-10-11",
+            "price": 820
+          },
+          {
+            "period": "2023-10-18",
+            "price": 822.8
+          },
+          {
+            "period": "2023-10-25",
+            "price": 813.4
+          },
+          {
+            "period": "2023-11-01",
+            "price": 814.2
+          },
+          {
+            "period": "2023-11-08",
+            "price": 880.6
+          },
+          {
+            "period": "2023-11-15",
+            "price": 922
+          },
+          {
+            "period": "2023-11-22",
+            "price": 909
+          },
+          {
+            "period": "2023-11-29",
+            "price": 911.4
+          },
+          {
+            "period": "2023-12-06",
+            "price": 915.8
+          },
+          {
+            "period": "2023-12-13",
+            "price": 932.4
+          },
+          {
+            "period": "2023-12-20",
+            "price": 950.8
+          },
+          {
+            "period": "2023-12-27",
+            "price": 930.6
+          },
+          {
+            "period": "2024-01-03",
+            "price": 921.8
+          },
+          {
+            "period": "2024-01-10",
+            "price": 998.2
+          },
+          {
+            "period": "2024-01-17",
+            "price": 985.2
+          },
+          {
+            "period": "2024-01-24",
+            "price": 989
+          },
+          {
+            "period": "2024-01-31",
+            "price": 1009
+          },
+          {
+            "period": "2024-02-07",
+            "price": 1025.5
+          },
+          {
+            "period": "2024-02-14",
+            "price": 1104
+          },
+          {
+            "period": "2024-02-21",
+            "price": 1133
+          },
+          {
+            "period": "2024-02-28",
+            "price": 1149.5
+          },
+          {
+            "period": "2024-03-06",
+            "price": 1114
+          },
+          {
+            "period": "2024-03-13",
+            "price": 1163
+          },
+          {
+            "period": "2024-03-20",
+            "price": 1143
+          },
+          {
+            "period": "2024-03-27",
+            "price": 1114.5
+          },
+          {
+            "period": "2024-04-03",
+            "price": 1109.5
+          },
+          {
+            "period": "2024-04-10",
+            "price": 1093
+          },
+          {
+            "period": "2024-04-17",
+            "price": 1078.5
+          },
+          {
+            "period": "2024-04-24",
+            "price": 1095
+          },
+          {
+            "period": "2024-05-01",
+            "price": 1082.5
+          },
+          {
+            "period": "2024-05-08",
+            "price": 1131.5
+          },
+          {
+            "period": "2024-05-15",
+            "price": 1147.5
+          },
+          {
+            "period": "2024-05-22",
+            "price": 1113.5
+          },
+          {
+            "period": "2024-05-29",
+            "price": 1116.5
+          },
+          {
+            "period": "2024-06-04",
+            "price": 1098
+          },
+          {
+            "period": "2024-06-12",
+            "price": 1101.5
+          },
+          {
+            "period": "2024-06-19",
+            "price": 1053
+          },
+          {
+            "period": "2024-06-26",
+            "price": 1067.5
+          },
+          {
+            "period": "2024-07-03",
+            "price": 997.4
+          },
+          {
+            "period": "2024-07-10",
+            "price": 1019
+          },
+          {
+            "period": "2024-07-17",
+            "price": 1060.5
+          },
+          {
+            "period": "2024-07-24",
+            "price": 1071
+          },
+          {
+            "period": "2024-07-31",
+            "price": 1081
+          },
+          {
+            "period": "2024-08-07",
+            "price": 1007.5
+          },
+          {
+            "period": "2024-08-14",
+            "price": 1060.5
+          },
+          {
+            "period": "2024-08-21",
+            "price": 1119
+          },
+          {
+            "period": "2024-08-28",
+            "price": 1159
+          },
+          {
+            "period": "2024-09-04",
+            "price": 1173
+          },
+          {
+            "period": "2024-09-11",
+            "price": 1158
+          },
+          {
+            "period": "2024-09-18",
+            "price": 1146
+          },
+          {
+            "period": "2024-09-25",
+            "price": 1119
+          },
+          {
+            "period": "2024-10-02",
+            "price": 1063.5
+          },
+          {
+            "period": "2024-10-09",
+            "price": 1059.5
+          },
+          {
+            "period": "2024-10-16",
+            "price": 1063
+          },
+          {
+            "period": "2024-10-23",
+            "price": 1024.5
+          },
+          {
+            "period": "2024-10-30",
+            "price": 1055.5
+          },
+          {
+            "period": "2024-11-06",
+            "price": 1041.5
+          },
+          {
+            "period": "2024-11-13",
+            "price": 1092
+          },
+          {
+            "period": "2024-11-20",
+            "price": 1080
+          },
+          {
+            "period": "2024-11-27",
+            "price": 1107.5
+          },
+          {
+            "period": "2024-12-04",
+            "price": 1187.5
+          },
+          {
+            "period": "2024-12-11",
+            "price": 1276.5
+          },
+          {
+            "period": "2024-12-18",
+            "price": 1271
+          },
+          {
+            "period": "2024-12-23",
+            "price": 1294.5
+          },
+          {
+            "period": "2024-12-30",
+            "price": 1317
+          },
+          {
+            "period": "2025-01-08",
+            "price": 1311
+          },
+          {
+            "period": "2025-01-15",
+            "price": 1249.5
+          },
+          {
+            "period": "2025-01-22",
+            "price": 1321
+          },
+          {
+            "period": "2025-01-29",
+            "price": 1377.5
+          },
+          {
+            "period": "2025-02-05",
+            "price": 1341.5
+          },
+          {
+            "period": "2025-02-12",
+            "price": 1327.5
+          },
+          {
+            "period": "2025-02-19",
+            "price": 1247
+          },
+          {
+            "period": "2025-02-26",
+            "price": 1268
+          },
+          {
+            "period": "2025-03-05",
+            "price": 1197.5
+          },
+          {
+            "period": "2025-03-12",
+            "price": 1128.5
+          },
+          {
+            "period": "2025-03-19",
+            "price": 1117.5
+          },
+          {
+            "period": "2025-03-26",
+            "price": 1109.5
+          },
+          {
+            "period": "2025-04-02",
+            "price": 1062.5
+          },
+          {
+            "period": "2025-04-09",
+            "price": 883.8
+          },
+          {
+            "period": "2025-04-16",
+            "price": 921.2
+          },
+          {
+            "period": "2025-04-23",
+            "price": 983.2
+          },
+          {
+            "period": "2025-04-30",
+            "price": 972.2
+          },
+          {
+            "period": "2025-05-07",
+            "price": 998.8
+          },
+          {
+            "period": "2025-05-14",
+            "price": 1155
+          },
+          {
+            "period": "2025-05-21",
+            "price": 1212.5
+          },
+          {
+            "period": "2025-05-28",
+            "price": 1196.5
+          },
+          {
+            "period": "2025-06-04",
+            "price": 1219.5
+          },
+          {
+            "period": "2025-06-11",
+            "price": 1194
+          },
+          {
+            "period": "2025-06-18",
+            "price": 1174
+          },
+          {
+            "period": "2025-06-25",
+            "price": 1103
+          },
+          {
+            "period": "2025-07-02",
+            "price": 1106.5
+          },
+          {
+            "period": "2025-07-09",
+            "price": 1076.5
+          },
+          {
+            "period": "2025-07-16",
+            "price": 1037
+          },
+          {
+            "period": "2025-07-23",
+            "price": 1050
+          },
+          {
+            "period": "2025-07-30",
+            "price": 1075
+          },
+          {
+            "period": "2025-08-06",
+            "price": 1036.5
+          },
+          {
+            "period": "2025-08-13",
+            "price": 1037
+          },
+          {
+            "period": "2025-08-20",
+            "price": 896.2
+          },
+          {
+            "period": "2025-08-27",
+            "price": 900.2
+          },
+          {
+            "period": "2025-09-03",
+            "price": 845
+          },
+          {
+            "period": "2025-09-10",
+            "price": 860
+          },
+          {
+            "period": "2025-09-17",
+            "price": 866.4
+          },
+          {
+            "period": "2025-09-24",
+            "price": 833.6
+          },
+          {
+            "period": "2025-10-01",
+            "price": 842.4
+          },
+          {
+            "period": "2025-10-08",
+            "price": 840
+          },
+          {
+            "period": "2025-10-15",
+            "price": 812.6
+          },
+          {
+            "period": "2025-10-22",
+            "price": 864.6
+          },
+          {
+            "period": "2025-10-29",
+            "price": 879.4
+          },
+          {
+            "period": "2025-11-05",
+            "price": 768.4
+          },
+          {
+            "period": "2025-11-12",
+            "price": 800
+          },
+          {
+            "period": "2025-11-19",
+            "price": 753.6
+          },
+          {
+            "period": "2025-11-26",
+            "price": 765.6
+          },
+          {
+            "period": "2025-12-03",
+            "price": 725.6
+          },
+          {
+            "period": "2025-12-10",
+            "price": 706.8
+          },
+          {
+            "period": "2025-12-17",
+            "price": 694.2
+          },
+          {
+            "period": "2025-12-23",
+            "price": 703
+          },
+          {
+            "period": "2025-12-30",
+            "price": 707.6
+          },
+          {
+            "period": "2026-01-07",
+            "price": 662
+          },
+          {
+            "period": "2026-01-14",
+            "price": 555.6
+          },
+          {
+            "period": "2026-01-21",
+            "price": 517.4
+          },
+          {
+            "period": "2026-01-28",
+            "price": 487
+          },
+          {
+            "period": "2026-02-04",
+            "price": 512.6
+          },
+          {
+            "period": "2026-02-11",
+            "price": 534.4
+          },
+          {
+            "period": "2026-02-18",
+            "price": 535.2
+          },
+          {
+            "period": "2026-02-25",
+            "price": 500.4
+          },
+          {
+            "period": "2026-03-04",
+            "price": 485.5
+          },
+          {
+            "period": "2026-03-11",
+            "price": 469.6
+          },
+          {
+            "period": "2026-03-18",
+            "price": 435.9
+          },
+          {
+            "period": "2026-03-25",
+            "price": 459.7
+          },
+          {
+            "period": "2026-04-01",
+            "price": 481.1
+          },
+          {
+            "period": "2026-04-08",
+            "price": 471.4
+          },
+          {
+            "period": "2026-04-15",
+            "price": 497.4
+          },
+          {
+            "period": "2026-04-22",
+            "price": 500.4
+          },
+          {
+            "period": "2026-04-29",
+            "price": 489.1
+          },
+          {
+            "period": "2026-05-06",
+            "price": 568.8
+          },
+          {
+            "period": "2026-05-13",
+            "price": 516.2
+          },
+          {
+            "period": "2026-05-20",
+            "price": 546.8
+          },
+          {
+            "period": "2026-05-27",
+            "price": 590.8
+          },
+          {
+            "period": "2026-06-03",
+            "price": 576.4
+          },
+          {
+            "period": "2026-06-10",
+            "price": 617.6
+          },
+          {
+            "period": "2026-06-17",
+            "price": 637.4
+          },
+          {
+            "period": "2026-06-24",
+            "price": 688.6
+          },
+          {
+            "period": "2026-07-01",
+            "price": 743
+          },
+          {
+            "period": "2026-07-08",
+            "price": 775
+          },
+          {
+            "period": "2026-07-15",
+            "price": 796
+          },
+          {
+            "period": "2026-07-22",
+            "price": 772
+          },
+          {
+            "period": "2026-07-29",
+            "price": 807.4
+          },
+          {
+            "period": "2026-08-05",
+            "price": 836.2
+          },
+          {
+            "period": "2026-08-12",
+            "price": 771.4
+          },
+          {
+            "period": "2026-08-17",
+            "price": 829.2
+          }
+        ],
+        "targetLine": 676.3,
+        "quickFacts": {
+          "currentPrice": 829.2,
+          "currentPriceAsOf": "17 August 2026",
+          "targetPrice": 676.3,
+          "upsidePct": -18.4,
+          "fiftyTwoWeekHigh": 916.4,
+          "fiftyTwoWeekLow": 430,
+          "oneYearChangePct": -2,
+          "threeYearChangePct": 17.7,
+          "reportDate": "17 August 2026"
+        },
+        "context": "Over the past 36 months, the shares have rallied on Fuel with More's 22% like-for-like growth in 2024, establishing a premium valuation. The stock recently traded at 829.2 DKK after Pandora received a partial U.S. tariff refund in Q2 2026 and announced Paulo Garcia as its new CFO. However, the price masks weakness in the Core charm business, where LFL fell to -1% in Q2 2026. This gap between a healthy 10.5x 2026e EV/EBIT multiple and declining volumes in the largest earnings segment supports our 12-month target of 676.3 DKK."
+      },
+      "valuePools": [
+        {
+          "id": "core-charms-bracelets",
+          "name": "Core (Charms & Bracelets)",
+          "archetype": "current_profit_engine",
+          "revenue": 24235,
+          "revenueShare": 0.744569725644413,
+          "comparableEbit": 18867,
+          "ebitShare": 0.7327844020662602,
+          "currentEbitShare": 0.733,
+          "enterpriseValue": 52270,
+          "enterpriseValueShare": 0.684870481256797,
+          "factSheet": [
+            {
+              "label": "Gross margin",
+              "value": "77.9%"
+            },
+            {
+              "label": "Allocated enterprise value",
+              "value": "DKK 52,270m"
+            },
+            {
+              "label": "FY2025A Core external revenue",
+              "value": "DKK 24.2bn"
+            },
+            {
+              "label": "Q2 2026 like-for-like growth",
+              "value": "-1%"
+            },
+            {
+              "label": "Global jewellery market share context",
+              "value": "~1.2-1.3%"
+            },
+            {
+              "label": "Concept store network",
+              "value": "~2,800 stores"
+            },
+            {
+              "label": "Required mid-term performance",
+              "value": "Flat multi-year volume average"
+            }
+          ],
+          "deepDive": [
+            "### Why the market values it",
+            "The DKK 52.3 billion allocation rests on current earnings power, not growth, assets or optionality. At the group 2026e EV/EBIT of 10.5x, Core is valued as a mature, high-gross-margin cash generator with recently stalled like-for-like volumes. Core must continue to generate most group EBIT, roughly 70 percent on a gross-profit proxy, while network expansion offsets further like-for-like weakness. The allocation does not require a return to double-digit like-for-like growth. It requires the franchise to avoid structural decline.",
+            "### Market structure and demand",
+            "The global jewellery market was worth approximately USD 380–400 billion in 2025 and is projected at USD 395–408 billion in 2026. Fashion and affordable jewellery represent a large subset; one estimate put fashion jewellery at nearly USD 168 billion in 2024. Pandora's group revenue of roughly USD 5.0 billion (DKK 32.5 billion) represents about 1.2–1.3 percent of the total jewellery market.",
+            "Core's DKK 24.2 billion revenue is a smaller share of the market. It is concentrated in silver charms, bracelets and related collectible pieces, sold through roughly 2,800 concept stores globally and additional points of sale. Demand comes from gifting, self-purchase and collection-building, with the United States as the largest market. Core LFL fell to minus 1 percent in Q2 2026 after only 2 percent like-for-like in 2024. This coincided with weaker U.S. consumer sentiment and higher silver prices. Over three-to-five years, realistic gains are stable share or low-single-digit organic growth from net store openings, rather than a large increase in global share.",
+            "### Competitive position and economic moat",
+            "Pandora remains the volume leader in affordable branded jewellery. Its owned manufacturing in Thailand, 100 percent recycled silver and gold, and collectible charm system provide customer retention that pure retailers lack. Its moat rests on brand and ecosystem, not unique technology. Competitors include multi-brand specialty retailers, fast-fashion jewellery chains and luxury houses. Pandora must show that charm-bracelet weakness is cyclical rather than structural, and that store productivity can withstand discounting pressure.",
+            "### Unit economics and required scale",
+            "Core is a high-volume, high-gross-margin manufacturer-retailer. Its 77.9 percent gross margin leaves room for retail occupancy, marketing and overhead. Group EBIT margin of 23.9 percent in FY2025A suggests Core likely operates at or above that level after allocated costs. Average selling prices begin at around USD 70 for a silver charm bracelet. The model requires high factory utilization in Thailand and Vietnam, along with disciplined working-capital management as inventories have risen.",
+            "### Economics bridge",
+            "Allocated EV is DKK 52.3 billion. Core revenue is DKK 24.2 billion and gross profit is DKK 18.9 billion. Over the next 3-5 years, Core LFL must average at least flat, group EBIT margin must remain near 20 percent, and free-cash-flow conversion must support the 2026e EV/EBIT of 10.5x. The revenue requirement is feasible at the current scale: Pandora produces tens of millions of pieces annually.",
+            "### Gap to required economics",
+            "The required outcome is stable to low-growth Core EBIT at current margins. The forecast bridge delivers this only if like-for-like sales do not weaken further. The main risk is persistently negative like-for-like sales that network growth cannot offset. Closing any gap would require positive Core like-for-like growth, higher pricing or mix, or a lower market valuation multiple.",
+            "### Milestones and evidence needed",
+            "- Q3/Q4 2026 and FY2026 Core like-for-like prints\n- Net store openings against the 2024–2026 plan\n- Updates on silver hedging, with 90–100 percent of 2027 needs already hedged\n- Evidence that charm collections remain relevant to new cohorts and that Asia store productivity matches Western levels",
+            "### Assessment",
+            "Plausible but demanding. The allocation is supported by current high-margin cash generation, but recent negative like-for-like sales must prove cyclical. Persistent structural weakness would make the 68.5 percent EV weight generous at a 10.5x EBIT multiple."
+          ],
+          "deepDiveTable": {
+            "columns": [
+              "Company",
+              "Revenue (latest FY/TTM)",
+              "Store / concept count (date)",
+              "Comparable / LFL growth (period)"
+            ],
+            "rows": [
+              [
+                "Pandora (Core / group)",
+                "DKK 24.2bn / 32.5bn (FY2025A)",
+                "~2,800 concept stores (2025/26)",
+                "Core LFL -1% (Q2 2026)"
+              ],
+              [
+                "Signet Jewelers",
+                "USD 6.81bn (FY2026)",
+                "2,582 stores (31 Jan 2026)",
+                "SSS +1.3% (FY2026)"
+              ],
+              [
+                "Lovisa Holdings",
+                "AUD 798m (FY2025)",
+                "1,095 (H1 FY26)",
+                "Comp +1.7% (FY2025)"
+              ],
+              [
+                "Swarovski",
+                "EUR 1.97bn (2025)",
+                "n.d.",
+                "Organic +6% (2025)"
+              ]
+            ]
+          },
+          "deepDiveTableTitle": "Core competitive comparison (affordable / specialty jewellery)",
+          "bridgeContribution": 3713,
+          "reportedRevenueFigure": true,
+          "reportedProfitFigure": true,
+          "reportedFigures": true
+        },
+        {
+          "id": "fuel-with-more-ex-lgd",
+          "name": "Fuel with More — Full-Jewellery Growth Platform (ex. LGD)",
+          "archetype": "scaling_current_business",
+          "revenue": 7714,
+          "revenueShare": 0.23699652831116164,
+          "comparableEbit": 6383,
+          "ebitShare": 0.24791237814114267,
+          "currentEbitShare": 0.248,
+          "enterpriseValue": 22101,
+          "enterpriseValueShare": 0.28957953905216127,
+          "factSheet": [
+            {
+              "label": "Reported Fuel gross margin",
+              "value": "82.8%"
+            },
+            {
+              "label": "Q2 2026 like-for-like growth",
+              "value": "+6%"
+            },
+            {
+              "label": "2024 like-for-like growth",
+              "value": "22%"
+            },
+            {
+              "label": "Allocated enterprise value",
+              "value": "DKK 22,101m"
+            },
+            {
+              "label": "Modelled external revenue",
+              "value": "~DKK 7.7bn"
+            },
+            {
+              "label": "Required mid-term organic growth",
+              "value": "4-7% annually"
+            }
+          ],
+          "deepDive": [
+            "### Why the market values it",
+            "The DKK 22.1 billion allocation assumes continued category mix shift and stronger growth. Fuel with more delivered 22 percent like-for-like growth in 2024 and 6 percent in Q2 2026, while Core contracted. The non-lab-grown lines—Garden of Dreams, Timeless, Essence, solid-gold and seasonal collections—must sustain mid-to-high single-digit like-for-like growth as they scale. This would justify a higher multiple than Core.",
+            "### Market structure and demand",
+            "The relevant market is the same ~USD 400 billion global jewellery market, but the addressable category is broader full jewellery, including rings, necklaces, earrings and gold, rather than collectible charms. Pandora's Fuel platform remains a modest share of this market. Demand is more fashion- and trend-driven than Core, with greater exposure to Gen-Z design preferences and everyday wear. Growth depends on converting charm customers into multi-category buyers and attracting new customers through design rather than collectability.",
+            "### Competitive position and economic moat",
+            "The platform shares Pandora's brand, stores and manufacturing, but competes more directly with fashion jewellery specialists and the fashion ranges of Signet and Lovisa. Its moat is weaker than Core's collectible lock-in. Success depends on design freshness and marketing. Signet's fashion jewellery is growing from a lower-margin base. Pandora's design-led lines must prove they can maintain elevated growth without heavy discounting.",
+            "### Unit economics and required scale",
+            "Gross margin is higher than Core's, at 82.8 percent versus 77.9 percent. The platform must sustain like-for-like outperformance and generate higher store productivity from the new assortment. Because the allocation already includes a growth premium, it must deliver mid-single-digit organic growth through 2029 to support its 29 percent EV weight at group multiples.",
+            "### Economics bridge",
+            "Allocated EV is DKK 22.1 billion, against current modelled revenue of ~DKK 7.7 billion at higher margins. Fuel ex-LGD LFL must remain 4–7 percent annually and contribute a growing share of group EBIT. Key drivers are new-collection sell-through, conversion of Core customers, and ASP mix toward gold through 2026–2029.",
+            "### Gap to required economics",
+            "The forecast bridge works only if recent outperformance continues. If growth slows toward Core's rate, the 29 percent EV share would look expensive. Disclosure remains limited: Pandora provides no official split of Fuel with more between lab-grown diamonds and other lines, and does not disclose segment EBIT.",
+            "### Milestones and evidence needed",
+            "- Sequential Fuel like-for-like prints and any collection-level performance disclosure over 12-24 months\n- Evidence that design lines can mature without margin compression over three-to-five years\n- Evidence that Fuel like-for-like growth avoids structural declines below 3 percent",
+            "### Assessment",
+            "Plausible but demanding. Recent results support the growth premium, but it is not yet proven at a larger scale. Fashion jewellery lines can slow once novelty fades, which is the main risk to this allocation."
+          ],
+          "deepDiveTable": {
+            "columns": [
+              "Company",
+              "Revenue (latest)",
+              "Store count (date)",
+              "Gross margin / growth (period)"
+            ],
+            "rows": [
+              [
+                "Pandora Fuel (ex-LGD est.)",
+                "~DKK 7.7bn (FY2025A modelled)",
+                "Same ~2,800 network",
+                "GM 82.8%; LFL +6% (Q2 2026)"
+              ],
+              [
+                "Lovisa Holdings",
+                "AUD 798m (FY2025)",
+                "1,095 (H1 FY26)",
+                "GM ~83%; rev +14% (FY2025)"
+              ],
+              [
+                "Signet (fashion jewellery)",
+                "Part of USD 6.81bn (FY2026)",
+                "2,582 (Jan 2026)",
+                "Positive SSS"
+              ],
+              [
+                "Swarovski",
+                "EUR 1.97bn (2025)",
+                "n.d.",
+                "Organic +6% (2025)"
+              ]
+            ]
+          },
+          "deepDiveTableTitle": "Fuel-with-more competitive comparison (fashion / full jewellery)",
+          "bridgeContribution": 1500,
+          "reportedRevenueFigure": false,
+          "reportedProfitFigure": false,
+          "reportedFigures": false
+        },
+        {
+          "id": "lab-grown-diamonds-material-innovation",
+          "name": "Lab-Grown Diamonds & Material Innovation",
+          "archetype": "emerging_option",
+          "revenue": 600,
+          "revenueShare": 0.01843374604442533,
+          "comparableEbit": 497,
+          "ebitShare": 0.019303219792597196,
+          "currentEbitShare": 0.019,
+          "enterpriseValue": 1950,
+          "enterpriseValueShare": 0.025549979691041783,
+          "factSheet": [
+            {
+              "label": "2026 sales ambition",
+              "value": ">USD 100m"
+            },
+            {
+              "label": "Estimated FY2025A revenue",
+              "value": "~DKK 600m"
+            },
+            {
+              "label": "EV/Sales multiple fallback",
+              "value": "3.25x"
+            },
+            {
+              "label": "Current store distribution",
+              "value": "~700 stores (NA, UK, AUS) + Spain/Italy"
+            },
+            {
+              "label": "Platinum-plated pilot launch",
+              "value": "July 2026 (Netherlands)"
+            },
+            {
+              "label": "Required EU Green Claims clearance",
+              "value": "Late 2026 enforcement gate"
+            },
+            {
+              "label": "Latest event status",
+              "value": "Pilot test of a limited range of platinum-plated jewellery successfully… (2026-08-12)"
+            },
+            {
+              "label": "Pilot launch date",
+              "value": "July 2026"
+            },
+            {
+              "label": "Next milestone",
+              "value": "Broader market testing planned for fourth quarter 2026"
+            }
+          ],
+          "deepDive": [
+            "### Why the market values it & Market demand",
+            "This allocation reflects option value rather than current earnings. The lab-grown diamond jewellery market was estimated at USD 11–12 billion in 2024–2025 and is expected to grow rapidly, with one forecast reaching USD 28 billion by 2034. Pandora's current ~USD 90 million run-rate is a very small share. It could capture a few hundred million dollars of revenue by 2029 if rollout continues and unit economics hold. The valuation does not require market leadership.",
+            "### Competitive position and economic moat",
+            "Pandora is a late but scaled entrant using its existing stores. Brilliant Earth is the digitally native specialist, while Signet has integrated lab-grown diamonds across Kay, Zales and Jared, representing 27 percent of merchandise sales in FY2026. Pandora's advantage is its distribution density. Its challenge is proving that lab-grown fashion jewellery can generate acceptable contribution after marketing, and that sustainability claims around the “5th C” carbon footprint withstand regulatory scrutiny.",
+            "### Unit economics and economics bridge",
+            "Unit economics are undisclosed. The allocation requires the collection to generate several hundred million DKK of revenue at margins no worse than the group average. The DKK 1.95 billion EV on ~DKK 600 million current revenue implies that the market expects growth to ~DKK 1.5–2 billion by 2029 at a modest sales multiple, or values strategic optionality from material innovation such as the platinum-plated pilot.",
+            "### Gap to required economics and milestones",
+            "Current revenue is an order of magnitude below the level needed for 2.6 percent of EV to reflect current earnings. The difference is option value. The next milestone is full EU Empowering Consumers for the Green Transition enforcement, expected late 2026. Approval would harmonize labeling; rejection would fragment it.",
+            "- Q4 2026 broader platinum test\n- Execution of the remaining 2026 lab-grown geographic rollout\n- Disclosure of standalone lab-grown profitability or margins"
+          ],
+          "deepDiveTable": {
+            "columns": [
+              "Company",
+              "LGD / relevant revenue (period)",
+              "Distribution (date)",
+              "Unit / mix metric"
+            ],
+            "rows": [
+              [
+                "Pandora LGD",
+                "~USD 90–100m ambition (2026)",
+                "~700 stores + Spain/Italy (2026)",
+                "Fashion-oriented, accessible price"
+              ],
+              [
+                "Brilliant Earth",
+                "USD 437m group (2025)",
+                "43 showrooms (2026)",
+                "DTC + showroom; higher ASP"
+              ],
+              [
+                "Signet Jewelers",
+                "27% of merch sales LGD (FY2026)",
+                "2,582 stores",
+                "~40% of bridal; fashion rising"
+              ],
+              [
+                "Natural Diamond Council",
+                "Majority of diamond jewellery",
+                "Traditional jewellers",
+                "Price premium in bridal"
+              ]
+            ]
+          },
+          "deepDiveTableTitle": "Lab-grown diamond competitive comparison",
+          "bridgeContribution": 124
+        }
+      ],
+      "groupTotals": {
+        "revenue": 32549,
+        "comparableEbit": 25747,
+        "enterpriseValue": 76321
+      },
+      "segmentFinancialsPeriod": "FY2025A",
+      "segmentFinancialsSource": "Pandora Annual Report 2025, pp. 109",
+      "valueBreakdownInterpretation": "Enterprise value is primarily tied to the mature Core segment, which accounts for 68.5% and reflects current high-margin cash flow rather than growth. Fuel with More represents 29.0% of EV, well above its ~23.7% revenue share. This suggests the market expects continued mix shift and stronger growth. Lab-Grown Diamonds account for a low-confidence 2.6% option-value allocation.",
+      "coreAnalysis": {
+        "executiveMap": [
+          "Pandora generates most of its revenue and disclosed gross profit from Core charm-and-bracelet collections. Group net sales reached DKK 32.5 billion in FY2025A. Core contributed DKK 24.2 billion, or 74.5 percent, while Fuel with more contributed DKK 8.3 billion, or 25.5 percent. Group EBIT was DKK 7.8 billion, representing a 23.9 percent margin. Pandora does not disclose segment EBIT, so gross profit is the only official profit split: Core accounts for 73.3 percent and Fuel with more for 26.7 percent. Our analytical split separates lab-grown diamonds from Fuel with more as an emerging segment.",
+          "Enterprise value of DKK 76.3 billion is allocated 68.5 percent to Core, 29.0 percent to the non-LGD Fuel platform, and 2.6 percent to lab-grown diamonds and material innovation. Reported gross-profit shares provide the main anchor. We then apply modest multiple differences for growth and a revenue-multiple fallback for the small lab-grown segment. Values were normalized by a negligible 0.05 percent to match the fixed DKK 76.3 billion enterprise-value control total.",
+          "The EV-to-equity bridge is straightforward and fully reconciled. Market capitalization of DKK 62 billion plus net debt of DKK 14.3 billion equals enterprise value of DKK 76.3 billion. Core carries a slightly lower EV weight than its sales or gross-profit share because recent like-for-like trends have become flat to negative. Fuel receives a premium to its current sales share, reflecting higher reported like-for-like growth and a modestly better gross margin. This matters because the current share price of DKK 829.2 is supported mainly by Core's existing cash generation at a moderate group multiple of 2026e EV/EBIT 10.50x."
+        ],
+        "analyticalAnchor": "Pandora's enterprise value depends heavily on Core cash generation, leaving valuation exposed if charm fatigue proves structural and network expansion cannot offset it.",
+        "groupedPools": [],
+        "crossPoolBridge": [
+          "The 2026–2029 forecasts assume low-single-digit sales growth, an EBIT-margin decline in 2027 followed by recovery, and steadily lower net debt.",
+          "Current Core cash generation and Fuel mix shift support the 2026 forecasts. The 2027 EBIT step-down is the weakest link and is not fully explained by the available data. Possible factors include silver costs, tariffs or investment timing.",
+          "Lab-grown diamonds and platinum-plated material are too small to materially affect group EBIT during the forecast period. For the forecasts to hold, Core like-for-like must stabilize and Fuel must continue to outgrow the group. The analysis uses recurring economics throughout and treats the 2026 tariff refund as non-recurring."
+        ],
+        "bridgeMechanics": "Group EBIT recovery depends heavily on stabilizing Core volumes. The DKK 5.3 billion trough in 2027 is a key valuation pressure point.",
+        "valuationRealityCheck": [
+          "At 10.5x 2026e EBIT, group EBIT of DKK 7.3 billion supports the full enterprise value. The allocation simply assigns more of that value to Fuel's growth and a small option value.",
+          "Equity value equals market capitalization of DKK 62 billion after deducting the DKK 14.3 billion net-debt claim. Roughly 70 percent of EV is supported by current Core economics. The remainder depends on Fuel delivering its growth premium and the lab-grown option preserving value.",
+          "The most fragile assumption is that weak Core like-for-like sales are cyclical. Valuation can hold if network growth and Fuel mix continue to offset Core trends. It would come under pressure if group EBIT margin settles structurally below 20 percent."
+        ],
+        "scenarios": [
+          "Scenarios differ mainly in Core like-for-like sales and the durability of Fuel's growth premium across the two largest segments. Core volume is the single variable with the greatest impact on 2027 EBIT.",
+          "The downside case combines continued negative like-for-like sales, silver-cost pressure and higher promotional activity. The upside case requires Core stabilization and Fuel to remain a meaningful mix-shift driver.",
+          "Lab-grown diamonds are not material to any scenario at their current scale."
+        ],
+        "bottomLine": "The central question is whether Pandora's Core franchise remains a durable, high-margin cash generator or is a mature category showing early structural fatigue. The answer determines the credibility of 68.5 percent of enterprise value. Fuel with more must sustain a growth and margin premium to justify its 29 percent weight. The lab-grown option is too small to support the case. Core like-for-like must stabilize and Fuel must continue to outperform. Valuation relies mainly on current Core earnings at a moderate multiple, leaving 18% downside to the 676.3 DKK target."
+      },
+      "reverseValuation": null,
+      "financialBridge": {
+        "netSales": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            28136,
+            31680,
+            32549,
+            33086,
+            34103,
+            35530,
+            36763
+          ],
+          "forecastFromIndex": 3
+        },
+        "ebitdaEbit": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "ebitda": [
+            8119,
+            10330,
+            10369,
+            10692,
+            8333,
+            9774,
+            9850
+          ],
+          "ebit": [
+            7039,
+            7976,
+            7783,
+            7267,
+            5337,
+            6812,
+            6633
+          ],
+          "forecastFromIndex": 3
+        },
+        "marginLines": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "ebitMarginPct": [
+            25,
+            25.2,
+            23.9,
+            22,
+            15.6,
+            19.2,
+            18
+          ],
+          "ebitdaMarginPct": [
+            28.9,
+            32.6,
+            31.9,
+            32.3,
+            24.4,
+            27.5,
+            26.8
+          ],
+          "forecastFromIndex": 3
+        },
+        "freeCashFlow": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            4766,
+            4628,
+            -778,
+            5607,
+            3669,
+            4624,
+            4574
+          ],
+          "forecastFromIndex": 3
+        },
+        "netDebtPerEbitda": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "values": [
+            1.2,
+            1.1,
+            1.7,
+            1.3,
+            1.5,
+            1,
+            0.7
+          ],
+          "forecastFromIndex": 3
+        },
+        "keyFinancials": {
+          "periods": [
+            "2025",
+            "2026",
+            "2027",
+            "2028",
+            "2029"
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                32549,
+                33086,
+                34103,
+                35530,
+                36763
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                10369,
+                10692,
+                8333,
+                9774,
+                9850
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                7783,
+                7267,
+                5337,
+                6812,
+                6633
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                5242,
+                4929,
+                3517,
+                4580,
+                4738
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EPS (DKK)",
+              "values": [
+                68.12,
+                64.05,
+                45.7,
+                59.51,
+                61.57
+              ]
+            },
+            {
+              "metric": "DPS (DKK)",
+              "values": [
+                20,
+                18.92,
+                13.5,
+                17.59,
+                18.19
+              ]
+            }
+          ]
+        }
+      },
+      "forwardMultiples": {
+        "periods": [
+          "2026"
+        ],
+        "rows": [
+          {
+            "metric": "P/E",
+            "values": [
+              "12.9×"
+            ]
+          },
+          {
+            "metric": "EV/EBITDA",
+            "values": [
+              "7.1×"
+            ]
+          },
+          {
+            "metric": "EV/EBIT",
+            "values": [
+              "10.5×"
+            ]
+          },
+          {
+            "metric": "P / Valuatum FOCF",
+            "values": [
+              "11.4×"
+            ]
+          },
+          {
+            "metric": "P/BV",
+            "values": [
+              "6.9×"
+            ]
+          },
+          {
+            "metric": "Dividend Yield",
+            "values": [
+              "2.3%"
+            ]
+          },
+          {
+            "metric": "Net Debt / EBITDA",
+            "values": [
+              "1.3×"
+            ]
+          }
+        ]
+      },
+      "sensitivityMatrix": {
+        "rowAxis": {
+          "label": "2027e EBIT",
+          "deltas": [
+            -0.2,
+            -0.1,
+            0,
+            0.1,
+            0.2
+          ],
+          "absoluteValues": [
+            8554,
+            9623,
+            10692,
+            11761,
+            12830
+          ],
+          "baseIndex": 2
+        },
+        "colAxis": {
+          "label": "EV/EBIT",
+          "multiples": [
+            10.5,
+            11.5,
+            12.5,
+            13.5,
+            14.5
+          ],
+          "baseIndex": 2
+        },
+        "cells": [
+          [
+            {
+              "ev": 89817,
+              "perShare": 1009.6
+            },
+            {
+              "ev": 98371,
+              "perShare": 1124
+            },
+            {
+              "ev": 106925,
+              "perShare": 1238.3
+            },
+            {
+              "ev": 115479,
+              "perShare": 1352.7
+            },
+            {
+              "ev": 124033,
+              "perShare": 1467.1
+            }
+          ],
+          [
+            {
+              "ev": 101042,
+              "perShare": 1159.7
+            },
+            {
+              "ev": 110665,
+              "perShare": 1288.3
+            },
+            {
+              "ev": 120288,
+              "perShare": 1417
+            },
+            {
+              "ev": 129911,
+              "perShare": 1545.6
+            },
+            {
+              "ev": 139534,
+              "perShare": 1674.3
+            }
+          ],
+          [
+            {
+              "ev": 112266,
+              "perShare": 1309.7
+            },
+            {
+              "ev": 122958,
+              "perShare": 1452.7
+            },
+            {
+              "ev": 133650,
+              "perShare": 1595.6
+            },
+            {
+              "ev": 144342,
+              "perShare": 1738.6
+            },
+            {
+              "ev": 155034,
+              "perShare": 1881.5
+            }
+          ],
+          [
+            {
+              "ev": 123491,
+              "perShare": 1459.8
+            },
+            {
+              "ev": 135252,
+              "perShare": 1617
+            },
+            {
+              "ev": 147013,
+              "perShare": 1774.3
+            },
+            {
+              "ev": 158774,
+              "perShare": 1931.5
+            },
+            {
+              "ev": 170535,
+              "perShare": 2088.7
+            }
+          ],
+          [
+            {
+              "ev": 134715,
+              "perShare": 1609.9
+            },
+            {
+              "ev": 147545,
+              "perShare": 1781.4
+            },
+            {
+              "ev": 160375,
+              "perShare": 1952.9
+            },
+            {
+              "ev": 173205,
+              "perShare": 2124.4
+            },
+            {
+              "ev": 186035,
+              "perShare": 2296
+            }
+          ]
+        ]
+      },
+      "scenarioValuation": {
+        "rows": [
+          {
+            "scenario": "Bear",
+            "revenue": 34103,
+            "ebitda": 7000,
+            "marginPct": 20.5,
+            "multiple": 9.15,
+            "ev": 64050,
+            "equity": 49754,
+            "valuePerShare": 665.15,
+            "upsidePct": -19.8
+          },
+          {
+            "scenario": "Base",
+            "revenue": 34103,
+            "ebitda": 8333,
+            "marginPct": 24.4,
+            "multiple": 9.15,
+            "ev": 76247,
+            "equity": 61951,
+            "valuePerShare": 828.21,
+            "upsidePct": -0.1
+          },
+          {
+            "scenario": "Bull",
+            "revenue": 34103,
+            "ebitda": 10500,
+            "marginPct": 30.7,
+            "multiple": 9.15,
+            "ev": 96075,
+            "equity": 81779,
+            "valuePerShare": 1093.29,
+            "upsidePct": 31.8
+          }
+        ],
+        "keyConditions": "Scenarios are driven by the Core volume path, with like-for-like ranging from -2% in Bear to +2% in Bull. They also depend on Fuel with More retaining its mix-shift momentum, accelerating to +8% LFL in Bull or slowing in Bear. These scenarios are operating boundary cases, not probability-weighted target-price inputs. The code-verified 12-month target of DKK 676.3 sits between Bear and Base (Bear DKK 665.2, Base DKK 828.2, Bull DKK 1,093.3); its method weights are shown in the Target Price Bridge. ",
+        "thesisBreaker": "Core LFL re-accelerating above +2% while Fuel LFL sustains double-digit growth would invalidate the downside thesis by eliminating the 2027 margin trough."
+      },
+      "catalysts": {
+        "rows": [
+          {
+            "milestone": "Q3/Q4 2026 and FY2026 Core and Fuel like-for-like prints",
+            "timing": "NEAR-TERM",
+            "pool": "Fuel with More — Full-Jewellery Growth Platform (ex. LGD)",
+            "indicator": "LFL % holding above -2%",
+            "valuationImpact": "Multiples hold steady"
+          },
+          {
+            "milestone": "Net store openings vs 2024-26 plan",
+            "timing": "NEAR-TERM",
+            "pool": "Fuel with More — Full-Jewellery Growth Platform (ex. LGD)",
+            "indicator": "Additions on track",
+            "valuationImpact": "Supports revenue stability"
+          },
+          {
+            "milestone": "Platinum-plated broader test results",
+            "timing": "NEAR-TERM",
+            "pool": "Lab-Grown Diamonds & Material Innovation",
+            "indicator": "Test success in Q4 2026",
+            "valuationImpact": "Minor option value boost"
+          },
+          {
+            "milestone": "Remaining U.S. tariff refund",
+            "timing": "NEAR-TERM",
+            "pool": "Core (Charms & Bracelets)",
+            "indicator": "H2 2026 cash receipt",
+            "valuationImpact": "One-off cash / margin padding"
+          },
+          {
+            "milestone": "CFO transition (Paulo Garcia assumes Dec 2026)",
+            "timing": "MEDIUM-TERM",
+            "pool": "Core (Charms & Bracelets)",
+            "indicator": "Capital allocation continuity",
+            "valuationImpact": "Maintains shareholder returns"
+          },
+          {
+            "milestone": "Lab-grown geographic / profitability update",
+            "timing": "MEDIUM-TERM",
+            "pool": "Lab-Grown Diamonds & Material Innovation",
+            "indicator": "Store rollout beyond 700 doors",
+            "valuationImpact": "Validates option value conversion"
+          }
+        ],
+        "prose": "The Core like-for-like print is the most important and most visible near-term catalyst. Investors may misread a single weak quarter as structural, so the trend matters more than one result. The checklist directly tracks the two largest EV segments.\n\nBeyond near-term results, net store openings must offset LFL weakness to avoid material cuts to forward EBIT estimates. Updates on lab-grown profitability will determine whether the emerging option creates real value."
+      },
+      "risks": {
+        "rows": [
+          {
+            "risk": "Structural charm-bracelet demand fatigue",
+            "pool": "Core (Charms & Bracelets)",
+            "mechanism": "A permanent decline in charm popularity reduces the core earnings engine, forcing a severe multiple de-rating.",
+            "earlyWarning": "Consecutive negative LFL prints",
+            "impact": "HIGH",
+            "type": "THESIS-BREAKER IF COMBINED"
+          },
+          {
+            "risk": "Fashion jewellery margin compression",
+            "pool": "Fuel with More — Full-Jewellery Growth Platform (ex. LGD)",
+            "mechanism": "Discounting pressure to maintain growth in design lines compresses the premium 82.8% gross margin.",
+            "earlyWarning": "Elevated promotional intensity",
+            "impact": "MEDIUM",
+            "type": "MANAGEABLE"
+          },
+          {
+            "risk": "Simultaneous trade-down across divisions",
+            "pool": "Fuel with More — Full-Jewellery Growth Platform (ex. LGD)",
+            "mechanism": "Consumers delaying gifting affects both Core and Fuel simultaneously since they share stores and customers.",
+            "earlyWarning": "Declining average selling prices",
+            "impact": "HIGH",
+            "type": "STRUCTURAL"
+          },
+          {
+            "risk": "Silver input cost pressures",
+            "pool": "Core (Charms & Bracelets)",
+            "mechanism": "Higher silver prices pressure margins if not fully offset by pricing, especially post-2027 when hedges expire.",
+            "earlyWarning": "Raw material cost inflation",
+            "impact": "MEDIUM",
+            "type": "MANAGEABLE"
+          },
+          {
+            "risk": "Lab-grown regulatory and labeling setbacks",
+            "pool": "Lab-Grown Diamonds & Material Innovation",
+            "mechanism": "EU Green claims enforcement fragments labeling requirements, stalling the segment's geographic rollout.",
+            "earlyWarning": "France-style terminology restrictions spreading",
+            "impact": "LOW",
+            "type": "MANAGEABLE"
+          }
+        ],
+        "prose": "The main risk to the thesis is structural charm-bracelet fatigue that network growth cannot offset. This would reduce Core EBIT and force a lower multiple on the 68.5 percent segment. Input-cost pressure and promotional intensity are partly reflected in the moderate multiple, but simultaneous pressure across divisions would be a more serious structural threat.\n\nThe interaction between Core and Fuel is underappreciated. If consumers trade down or delay gifting, both segments could weaken because they share stores and customers. Regulatory or labeling setbacks for lab-grown diamonds are secondary at 2.6 percent of EV, but could affect brand perception."
+      },
+      "appendix": {
+        "incomeStatement": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                28136,
+                31680,
+                32549,
+                33086,
+                34103,
+                35530
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                8119,
+                10330,
+                10369,
+                10692,
+                8333,
+                9774
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "28.9%",
+                "32.6%",
+                "31.9%",
+                "32.3%",
+                "24.4%",
+                "27.5%"
+              ]
+            },
+            {
+              "metric": "Depreciation",
+              "values": [
+                -1080,
+                -2354,
+                -2586,
+                -3425,
+                -2996,
+                -2962
+              ]
+            },
+            {
+              "metric": "Operating Profit (EBIT)",
+              "values": [
+                7039,
+                7976,
+                7783,
+                7267,
+                5337,
+                6812
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "25.0%",
+                "25.2%",
+                "23.9%",
+                "22.0%",
+                "15.6%",
+                "19.2%"
+              ]
+            },
+            {
+              "metric": "Net financial items",
+              "values": [
+                -805,
+                -1050,
+                -870,
+                -1020,
+                -800,
+                -903
+              ]
+            },
+            {
+              "metric": "Pre-tax Profit",
+              "values": [
+                6234,
+                6926,
+                6913,
+                6247,
+                4537,
+                5909
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                4740,
+                5227,
+                5242,
+                4929,
+                3517,
+                4580
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Per share",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                55.5,
+                64.85,
+                68.12,
+                64.05,
+                45.7,
+                59.51
+              ]
+            },
+            {
+              "metric": "DPS",
+              "values": [
+                16,
+                18,
+                20,
+                18.92,
+                13.5,
+                17.59
+              ]
+            },
+            {
+              "metric": "Payout ratio",
+              "values": [
+                "28.8%",
+                "27.8%",
+                "29.4%",
+                "28.7%",
+                "28.7%",
+                "28.7%"
+              ]
+            }
+          ]
+        },
+        "balanceSheet": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Assets",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Tangible assets",
+              "values": [
+                6525,
+                8472,
+                9152,
+                9144,
+                9425,
+                9819
+              ]
+            },
+            {
+              "metric": "Intangibles",
+              "values": [
+                2886,
+                3106,
+                3343,
+                3398,
+                3503,
+                3649
+              ]
+            },
+            {
+              "metric": "Goodwill",
+              "values": [
+                4914,
+                5126,
+                5020,
+                5020,
+                5020,
+                5020
+              ]
+            },
+            {
+              "metric": "Non-current assets",
+              "values": [
+                14540,
+                17002,
+                17811,
+                17858,
+                18243,
+                18784
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Inventories",
+              "values": [
+                4166,
+                4426,
+                4883,
+                4844,
+                4993,
+                5202
+              ]
+            },
+            {
+              "metric": "Receivables",
+              "values": [
+                2435,
+                2406,
+                4038,
+                4012,
+                4083,
+                4182
+              ]
+            },
+            {
+              "metric": "Cash & equivalents",
+              "values": [
+                1397,
+                2394,
+                1305,
+                1737,
+                1791,
+                1866
+              ]
+            },
+            {
+              "metric": "Current assets",
+              "values": [
+                7998,
+                9226,
+                10226,
+                10593,
+                10866,
+                11250
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total Assets",
+              "values": [
+                23798,
+                27758,
+                29603,
+                30017,
+                30676,
+                31600
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Equity & liabilities",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Equity",
+              "values": [
+                5355,
+                5508,
+                5282,
+                9025,
+                11126,
+                14696
+              ]
+            },
+            {
+              "metric": "Long-term debt",
+              "values": [
+                6972,
+                7831,
+                11922,
+                4969,
+                4042,
+                2502
+              ]
+            },
+            {
+              "metric": "Short-term debt",
+              "values": [
+                313,
+                397,
+                1627,
+                4969,
+                4042,
+                2502
+              ]
+            },
+            {
+              "metric": "Long-term liabilities",
+              "values": [
+                6344,
+                7098,
+                6939,
+                -14,
+                -941,
+                -2481
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Current liabilities",
+              "values": [
+                8053,
+                9877,
+                11252,
+                14449,
+                13660,
+                12313
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total liabilities & equity",
+              "values": [
+                23798,
+                27758,
+                29603,
+                30017,
+                30676,
+                31600
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Capital structure & ratios",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Net debt",
+              "values": [
+                9770,
+                11007,
+                17912,
+                14296,
+                12663,
+                9749
+              ]
+            },
+            {
+              "metric": "Capital invested",
+              "values": [
+                11243,
+                11342,
+                17526,
+                17225,
+                17419,
+                17834
+              ]
+            },
+            {
+              "metric": "Equity ratio",
+              "values": [
+                "22.5%",
+                "19.8%",
+                "17.8%",
+                "30.1%",
+                "36.3%",
+                "46.5%"
+              ]
+            },
+            {
+              "metric": "Gearing",
+              "values": [
+                "182.4%",
+                "199.8%",
+                "339.1%",
+                "158.4%",
+                "113.8%",
+                "66.3%"
+              ]
+            },
+            {
+              "metric": "Net debt / EBITDA",
+              "values": [
+                "1.2×",
+                "1.1×",
+                "1.7×",
+                "1.3×",
+                "1.5×",
+                "1.0×"
+              ]
+            },
+            {
+              "metric": "Current ratio",
+              "values": [
+                0.99,
+                0.93,
+                0.91,
+                0.73,
+                0.8,
+                0.91
+              ]
+            }
+          ]
+        },
+        "cashFlow": {
+          "periods": [
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Operations",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Cash from operations (model)",
+              "values": [
+                6735,
+                9089,
+                5883,
+                8274,
+                6431,
+                7427
+              ]
+            },
+            {
+              "metric": "Operating cash flow (Valuatum calculation)",
+              "values": [
+                7406,
+                9549,
+                6867,
+                9079,
+                7051,
+                8127
+              ]
+            },
+            {
+              "metric": "Change in working capital",
+              "values": [
+                -403,
+                -1509,
+                1944,
+                80,
+                82,
+                115
+              ]
+            },
+            {
+              "metric": "Investing & free cash",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Gross capex",
+              "values": [
+                2599,
+                4816,
+                3395,
+                3472,
+                3382,
+                3503
+              ]
+            },
+            {
+              "metric": "Capex (ex. M&A)",
+              "values": [
+                -2599,
+                -4816,
+                -3395,
+                -3472,
+                -3382,
+                -3503
+              ]
+            },
+            {
+              "metric": "Cash after capex (CFO - gross capex)",
+              "values": [
+                4136,
+                4273,
+                2488,
+                4802,
+                3049,
+                3924
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Free operating cash flow (Valuatum def.)",
+              "values": [
+                4766,
+                4628,
+                -778,
+                5607,
+                3669,
+                4624
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Free cash flow to firm",
+              "values": [
+                4766,
+                4628,
+                -778,
+                5607,
+                3669,
+                4624
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Financing",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "CF from financing",
+              "values": [
+                -3014,
+                -2945,
+                -3902,
+                -4370,
+                -2996,
+                -3849
+              ]
+            },
+            {
+              "metric": "Dividends paid",
+              "values": [
+                -1484,
+                -1367,
+                -1451,
+                -1539,
+                -1416,
+                -1010
+              ]
+            },
+            {
+              "metric": "Net change in cash",
+              "values": [
+                1122,
+                1328,
+                -1414,
+                432,
+                53,
+                75
+              ],
+              "isSubtotal": true
+            }
+          ]
+        },
+        "quarterly": {
+          "periods": [
+            "Q1/24",
+            "Q2/24",
+            "Q3/24",
+            "Q4/24",
+            "Q1/25",
+            "Q2/25",
+            "Q3/25",
+            "Q4/25"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                6834,
+                6771,
+                6103,
+                11973,
+                7347,
+                7075,
+                6269,
+                11858
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                2068,
+                1917,
+                1572,
+                4772,
+                2265,
+                1910,
+                1523,
+                4670
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "30.3%",
+                "28.3%",
+                "25.8%",
+                "39.9%",
+                "30.8%",
+                "27.0%",
+                "24.3%",
+                "39.4%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                1507,
+                1338,
+                981,
+                4149,
+                1641,
+                1287,
+                879,
+                3975
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "22.1%",
+                "19.8%",
+                "16.1%",
+                "34.7%",
+                "22.3%",
+                "18.2%",
+                "14.0%",
+                "33.5%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                965,
+                799,
+                595,
+                2869,
+                1101,
+                803,
+                489,
+                2849
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                11.97,
+                9.91,
+                7.38,
+                35.59,
+                14.31,
+                10.43,
+                6.35,
+                37.02
+              ]
+            }
+          ]
+        },
+        "quarterlyCurrent": {
+          "periods": [
+            "Q1/26",
+            "Q2/26",
+            "Q3/26",
+            "Q4/26"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                7109,
+                7219,
+                7220,
+                11538
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                2146,
+                2154,
+                1740,
+                4652
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "30.2%",
+                "29.8%",
+                "24.1%",
+                "40.3%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                1487,
+                1463,
+                896,
+                3421
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "20.9%",
+                "20.3%",
+                "12.4%",
+                "29.7%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                942,
+                875,
+                659,
+                2453
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                12.24,
+                11.37,
+                8.56,
+                31.88
+              ]
+            }
+          ]
+        }
+      },
+      "sources": {
+        "rows": [
+          {
+            "dataPoint": "Financial statements and forecast model",
+            "value": "Valuatum Wisdom model 4086, snapshot period 2026",
+            "sourceCategory": "FINANCIAL SNAPSHOT",
+            "usedIn": "Financials, forecasts & valuation"
+          },
+          {
+            "dataPoint": "Share-price history and market profile",
+            "value": "Financial Modeling Prep, PNDORA.CO, https://financialmodelingprep.com/",
+            "sourceCategory": "MARKET DATA",
+            "usedIn": "Price chart & market facts"
+          },
+          {
+            "dataPoint": "Pandora Annual Report 2025",
+            "value": "https://attachment.news.eu.nasdaq.com/ae9488461bacf9232a79d853e46e9d5eb",
+            "sourceCategory": "OFFICIAL SOURCE",
+            "usedIn": "Reported segment table"
+          },
+          {
+            "dataPoint": "Pandora appoints Paulo Garcia as new CFO as Anders Boyer wi…",
+            "value": "https://www.globenewswire.com/news-release/2026/08/06/3339947/0/en/pandora-appoints-paulo-garcia-as-new-cfo-as-anders-boyer-will-retire.html",
+            "sourceCategory": "OFFICIAL SOURCE",
+            "usedIn": "Event status & fact sheet"
+          },
+          {
+            "dataPoint": "Pandora delivers 3% organic growth in Q2 - guidance upgrade…",
+            "value": "https://www.globenewswire.com/news-release/2026/08/12/3343901/0/en/pandora-delivers-3-organic-growth-in-q2-guidance-upgraded.html",
+            "sourceCategory": "OFFICIAL SOURCE",
+            "usedIn": "Event status & fact sheet"
+          },
+          {
+            "dataPoint": "Pandora Q2 2026 Interim Report Company announcement_No_1015",
+            "value": "https://ml-eu.globenewswire.com/Resource/Download/58226d52-7415-4df5-a8b4-f6d440fab11f",
+            "sourceCategory": "OFFICIAL SOURCE",
+            "usedIn": "Event status & fact sheet"
+          },
+          {
+            "dataPoint": "United States — U.S. Customs and Border Protection (CBP) / FTC",
+            "value": "https://za.investing.com/news/stock-market-news/pandora-raises-2026-guidance-on-tariff-refund-q2-growth-93CH-4425064",
+            "sourceCategory": "SIGNAL · NEWS",
+            "usedIn": "Approval map"
+          },
+          {
+            "dataPoint": "European Union — European Commission",
+            "value": "https://commission.europa.eu/document/download/3c257883-bb2a-4dd9-a6dc-501d587bb34f_en?filename=faq-empowerting-consumers-gtd.pdf",
+            "sourceCategory": "SIGNAL · OFFICIAL",
+            "usedIn": "Approval map"
+          },
+          {
+            "dataPoint": "China — State Administration for Market Regulation (SAMR)",
+            "value": "https://research.hktdc.com/en/article/MjM2Njc5NDQ3Nw",
+            "sourceCategory": "SIGNAL · OFFICIAL",
+            "usedIn": "Approval map"
+          },
+          {
+            "dataPoint": "France — DGCCRF",
+            "value": "https://pavelook.com/post/the-5th-c-pandora-s-new-criteria-for-lab-grown-luxury",
+            "sourceCategory": "SIGNAL · NEWS",
+            "usedIn": "Approval map"
+          },
+          {
+            "dataPoint": "Pandora Reports Lower 1Q and a \"5th C\" for Its Lab-Grown Di…",
+            "value": "https://www.jckonline.com/editorial-article/pandora-reports-1q-revenue/",
+            "sourceCategory": "SIGNAL · NEWS",
+            "usedIn": "Signal map"
+          },
+          {
+            "dataPoint": "Pandora confirms ambitious growth journey ahead",
+            "value": "https://www.pandoragroup.com/news/26071",
+            "sourceCategory": "SIGNAL · OFFICIAL",
+            "usedIn": "Signal map"
+          },
+          {
+            "dataPoint": "Pandora shifts to recycled silver and gold",
+            "value": "https://www.pandoragroup.com/media/press-releases/pandora-shifts-to-recycled-silver-and-gold",
+            "sourceCategory": "SIGNAL · OFFICIAL",
+            "usedIn": "Signal map"
+          },
+          {
+            "dataPoint": "Pandora Raises 2026 Outlook After Growth in Second Quarter…",
+            "value": "https://www.jckonline.com/editorial-article/pandora-q2-2026-growth/",
+            "sourceCategory": "SIGNAL · NEWS",
+            "usedIn": "Signal map"
+          },
+          {
+            "dataPoint": "Pandora CEO: New Jewellery Collections Drive Growth Amid Ma…",
+            "value": "https://www.globalbankingandfinance.com/pandora-ceo-new-jewellery-collections-driving-growth/",
+            "sourceCategory": "SIGNAL · NEWS",
+            "usedIn": "Signal map"
+          },
+          {
+            "dataPoint": "NDC Publicly Criticizes Pandora Over 'Misleading' Natural D…",
+            "value": "https://nationaljeweler.com/articles/14954-ndc-publicly-criticizes-pandora-over-misleading-natural-diamond-claims",
+            "sourceCategory": "SIGNAL · NEWS",
+            "usedIn": "Signal map"
+          }
+        ],
+        "disclaimer": "This report is provided for informational purposes only and does not constitute investment advice. Estimates are based on analyst assumptions and publicly available information.",
+        "copyright": "© 2026 Pandora A/S research. For institutional use only."
+      },
+      "valuation": {
+        "multiples": {
+          "columns": [
+            "Metric",
+            "2020",
+            "2021",
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026e",
+            "2027e",
+            "2028e",
+            "Norm. avg",
+            "Selected fair multiple"
+          ],
+          "rows": [
+            [
+              "P/E",
+              "34.10x",
+              "19.36x",
+              "9.00x",
+              "16.82x",
+              "20.31x",
+              "10.39x",
+              "12.95x",
+              "18.14x",
+              "13.93x",
+              "18.33x",
+              "14.0x"
+            ],
+            [
+              "P / Valuatum FOCF",
+              "11.45x",
+              "18.80x",
+              "22.63x",
+              "16.72x",
+              "22.94x",
+              "-69.96x",
+              "11.38x",
+              "16.91x",
+              "13.41x",
+              "18.51x",
+              ""
+            ],
+            [
+              "P/BV",
+              "8.94x",
+              "11.50x",
+              "6.32x",
+              "14.88x",
+              "19.27x",
+              "10.31x",
+              "6.87x",
+              "5.59x",
+              "4.23x",
+              "11.87x",
+              ""
+            ],
+            [
+              "P/S",
+              "3.48x",
+              "3.44x",
+              "1.71x",
+              "2.83x",
+              "3.35x",
+              "1.67x",
+              "1.93x",
+              "1.82x",
+              "1.75x",
+              "2.75x",
+              ""
+            ],
+            [
+              "EV/Sales",
+              "3.64x",
+              "3.60x",
+              "1.97x",
+              "3.18x",
+              "3.70x",
+              "2.22x",
+              "2.31x",
+              "2.24x",
+              "2.15x",
+              "3.05x",
+              ""
+            ],
+            [
+              "EV/EBITDA",
+              "13.85x",
+              "10.87x",
+              "5.97x",
+              "11.02x",
+              "11.34x",
+              "6.98x",
+              "7.14x",
+              "9.16x",
+              "7.81x",
+              "10.01x",
+              ""
+            ],
+            [
+              "EV/EBIT",
+              "25.80x",
+              "14.44x",
+              "7.72x",
+              "12.71x",
+              "14.69x",
+              "9.30x",
+              "10.50x",
+              "14.30x",
+              "11.20x",
+              "14.11x",
+              "12.5x"
+            ],
+            [
+              "Dividend yield",
+              "1.3%",
+              "1.8%",
+              "3.3%",
+              "1.7%",
+              "1.4%",
+              "2.8%",
+              "2.3%",
+              "1.6%",
+              "2.1%",
+              "2.1%",
+              ""
+            ]
+          ]
+        },
+        "peerComparison": null,
+        "targetBridge": {
+          "columns": [
+            "Method",
+            "Forecast metric",
+            "Metric value",
+            "Selected multiple",
+            "Implied price (12m disc.)",
+            "Weight"
+          ],
+          "rows": [
+            [
+              "EV/EBIT",
+              "2027e EBIT",
+              "5,337",
+              "12.5x",
+              "700.7 DKK",
+              "60%"
+            ],
+            [
+              "P/E",
+              "2027e EPS",
+              "45.7",
+              "14.0x",
+              "639.8 DKK",
+              "40%"
+            ],
+            [
+              "Reverse valuation (diagnostic)",
+              "2026e Market-implied FCFF fair value",
+              "829",
+              "n/a",
+              "829.0 DKK",
+              "0%"
+            ],
+            [
+              "Weighted target price",
+              "",
+              "",
+              "",
+              "676.3 DKK",
+              "100%"
+            ]
+          ]
+        },
+        "sensitivity": {
+          "columns": [
+            "2027e EBIT (DKKm)",
+            "Multiple 11.5x",
+            "Multiple 12.5x (base)",
+            "Multiple 13.5x"
+          ],
+          "rows": [
+            [
+              "4,269.6 (-20%)",
+              "465.3",
+              "522.4",
+              "579.4"
+            ],
+            [
+              "4,803.3 (-10%)",
+              "547.3",
+              "611.6",
+              "675.8"
+            ],
+            [
+              "5,337 (Base)",
+              "629.4",
+              "700.7",
+              "772.1"
+            ],
+            [
+              "5,870.7 (+10%)",
+              "711.4",
+              "789.9",
+              "868.4"
+            ],
+            [
+              "6,404.4 (+20%)",
+              "793.5",
+              "879.1",
+              "964.7"
+            ]
+          ]
+        },
+        "methodRationale": "### 1. Historical and Forecast Multiples Table\n\n### 2. Peer Comparison Table\n\nPeer comparison not shown - fewer than 3 usable peers available.\n\n### 3. Valuation Method Rationale\n\nEV/EBIT is the primary method because Pandora is a branded consumer retailer whose value is principally tied to operating-profit durability; P/E provides an equity-side cross-check. Pandora trades at 14.30x 2027e EV/EBIT versus its 14.11x normalized historical average, while its 18.14x 2027e P/E is close to its 18.33x normalized historical average. Only two peers have usable 2027e EV/EBIT data, with an indicative 8.0x median and 6.1x–9.9x range, so Pandora’s own valuation history remains the primary reference. History and the limited peer evidence support an 11.5x–14.0x EV/EBIT band and a 13.0x–15.0x P/E band; the selected multiples are 12.5x EV/EBIT and 14.0x P/E, respectively. The selections sit in the lower half of their bands because Core like-for-like sales were negative in Q2/26 and 2027e EBIT margin falls to 15.6%, partly offset by Fuel with More like-for-like growth and still-superior profitability versus peers. The ROE/P/BV scatter is excluded from target-price math because its recommended weight is 0%; the principal multiple risk is sustained Core demand weakness that causes a structurally lower group EBIT margin.\n\n### 4. Target Price Bridge Table\n\n### 5. Sensitivity Table",
+        "targetPrice": 676.3,
+        "selectedMultiple": "12.5x EV/EBIT",
+        "primaryValuationMethod": "EV/EBIT",
+        "fallbackApplied": true
+      },
+      "multiplesExtended": {
+        "forecastYear": 2026,
+        "evSales": 2.3067494,
+        "pSales": 1.9287183,
+        "peAdj": 12.94688764
+      },
+      "reportedSegments": [
+        {
+          "name": "Core",
+          "revenue": 24235,
+          "profit": 18867
+        },
+        {
+          "name": "Fuel with more",
+          "revenue": 8314,
+          "profit": 6880
+        }
+      ],
+      "segmentDataQuality": {
+        "status": "verified",
+        "revenueVerified": true,
+        "profitVerified": true,
+        "requiresReview": false,
+        "sourceDocument": "Pandora Annual Report 2025",
+        "sourceUrl": "https://attachment.news.eu.nasdaq.com/ae9488461bacf9232a79d853e46e9d5eb",
+        "sourcePages": [
+          "109"
+        ],
+        "revenueBasis": "externalSales",
+        "profitBasis": "grossProfit",
+        "revenueReconciliation": 0,
+        "profitReconciliation": 0,
+        "issues": [
+          "Operating profit (EBIT) is not reported by segment; segments are evaluated at the Gross Profit level. Reconciliation for reportedEbit represents unallocated Group operating expenses."
+        ]
+      },
+      "eventSources": [
+        {
+          "title": "Pandora appoints Paulo Garcia as new CFO as Anders Boyer will retire - GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/08/06/3339947/0/en/pandora-appoints-paulo-garcia-as-new-cfo-as-anders-boyer-will-retire.html",
+          "date": "2026-08-06"
+        },
+        {
+          "title": "Pandora delivers 3% organic growth in Q2 - guidance upgraded - GlobeNewswire",
+          "url": "https://www.globenewswire.com/news-release/2026/08/12/3343901/0/en/pandora-delivers-3-organic-growth-in-q2-guidance-upgraded.html",
+          "date": "2026-08-12"
+        },
+        {
+          "title": "Pandora Q2 2026 Interim Report Company announcement_No_1015",
+          "url": "https://ml-eu.globenewswire.com/Resource/Download/58226d52-7415-4df5-a8b4-f6d440fab11f",
+          "date": "2026-08-12"
+        }
+      ],
+      "xyScatterInterpretation": "Pandora appears undervalued relative to the Wisdom universe. Its forecast average ROE of 46.4% is valued at 5.6x P/BV, below the 8.2x multiple typically paid for that level of profitability. This implies a share price of DKK 1,279.7, or +54% upside from the current share price of DKK 829.2. Pandora sits below the universe curve, indicating that the market discounts its strong returns relative to the broader relationship between profitability and valuation."
+    },
+    "synthesis": {
+      "reportDate": "17 August 2026",
+      "peerCandidates": [
+        {
+          "companyName": "Signet Jewelers Limited",
+          "ticker": "SIG",
+          "exchange": "NYSE",
+          "country": "United States/Bermuda",
+          "peerType": "direct_peer",
+          "similarityScore": "high",
+          "whyComparable": "Largest specialty jewellery retailer in the US, comparable affordable-to-mid-market jewellery positioning and heavy reliance on physical store network.",
+          "mainLimitation": "More diversified brand portfolio (Kay, Zales, Jared) and different vertical integration/manufacturing model than Pandora."
+        },
+        {
+          "companyName": "Lovisa Holdings Limited",
+          "ticker": "LOV",
+          "exchange": "ASX",
+          "country": "Australia",
+          "peerType": "direct_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Affordable fashion jewellery retailer with a global store-rollout growth model comparable to Pandora's network expansion strategy.",
+          "mainLimitation": "Much smaller scale, faster-growing pure-rollout model, less brand equity and no owned manufacturing base."
+        },
+        {
+          "companyName": "Brilliant Earth Group, Inc.",
+          "ticker": "BRLT",
+          "exchange": "NASDAQ",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Specializes in lab-grown diamond jewellery, directly relevant as a valuation reference for Pandora's Lab-Grown Diamonds & Material Innovation division.",
+          "mainLimitation": "Digitally-native, direct-to-consumer model with far smaller scale and no comparable mass-market charm/bracelet business."
+        },
+        {
+          "companyName": "Chow Tai Fook Jewellery Group Limited",
+          "ticker": "1929",
+          "exchange": "HKEX",
+          "country": "Hong Kong/China",
+          "peerType": "direct_peer",
+          "similarityScore": "medium",
+          "whyComparable": "Large global jewellery retailer and manufacturer spanning mass-market to premium price points, comparable vertically-integrated model.",
+          "mainLimitation": "Greater exposure to gold/fine jewellery pricing dynamics and Greater China market concentration versus Pandora's more diversified geography."
+        },
+        {
+          "companyName": "Compagnie Financière Richemont SA",
+          "ticker": "CFR",
+          "exchange": "SWX",
+          "country": "Switzerland",
+          "peerType": "regional_peer",
+          "similarityScore": "low",
+          "whyComparable": "Owns leading jewellery and watch maisons (Cartier, Van Cleef & Arpels), useful as a premium jewellery multiple reference.",
+          "mainLimitation": "Operates at the high end of luxury, far larger scale and different customer/price positioning than Pandora's affordable-luxury model."
+        },
+        {
+          "companyName": "LVMH Moët Hennessy Louis Vuitton SE",
+          "ticker": "MC",
+          "exchange": "Euronext Paris",
+          "country": "France",
+          "peerType": "valuation_reference",
+          "similarityScore": "low",
+          "whyComparable": "Diversified luxury conglomerate with jewellery exposure (Tiffany, Bulgari) useful as a broad luxury/jewellery valuation multiple reference.",
+          "mainLimitation": "Vastly larger and more diversified across fashion, wines/spirits, and other luxury categories; not a focused jewellery comparable."
+        },
+        {
+          "companyName": "The Swatch Group AG",
+          "ticker": "UHR",
+          "exchange": "SWX",
+          "country": "Switzerland",
+          "peerType": "valuation_reference",
+          "similarityScore": "low",
+          "whyComparable": "Accessible-luxury accessories manufacturer/retailer with comparable branded, mass-premium positioning logic to Pandora.",
+          "mainLimitation": "Primarily watches rather than jewellery, with different product cycle, manufacturing intensity and margin structure."
+        },
+        {
+          "companyName": "Movado Group, Inc.",
+          "ticker": "MOV",
+          "exchange": "NYSE",
+          "country": "United States",
+          "peerType": "segment_peer",
+          "similarityScore": "low",
+          "whyComparable": "Accessible fashion accessories brand (watches/jewellery-adjacent) with a comparable licensing/branded retail model.",
+          "mainLimitation": "Much smaller scale, watch-centric rather than jewellery-centric, and weaker brand pricing power than Pandora."
+        }
+      ],
+      "peerValuationPack": "Peer multiples from Valuatum followed models (primary, highest-volume listing per company). Multiples shown as ratios (x), margins/yields/returns as percent, book value per share in local currency. Year columns suffixed \"e\" are forecasts. 3 of 8 suggested peers resolved.\n\n\n\n### Signet Jewelers Limited (SIG, United States/Bermuda)\n- Peer type: direct_peer; similarity: high\n- Why comparable: Largest specialty jewellery retailer in the US, comparable affordable-to-mid-market jewellery positioning and heavy reliance on physical store network.\n- Main limitation: More diversified brand portfolio (Kay, Zales, Jared) and different vertical integration/manufacturing model than Pandora.\n- Current price: 80.48 USD | Market cap: 3,146 USDm | Net debt: 830 USDm\n\nMetric | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e | 2030e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 5.6x | 42.7x | 12.9x | 7.5x | 12.9x | 11.2x | 10.1x\nP/E adj. | 5.6x | 42.7x | 12.9x | 7.5x | 12.9x | 11.2x | 10.1x\nEV/EBITDA | 6.4x | 12.3x | 6.2x | 6.0x | 6.9x | 11.2x | 9.7x\nEV/EBIT | 8.1x | 28.8x | 7.9x | 9.9x | 9.3x | 8.1x | 7.2x\nEV/Sales | 0.7x | 0.5x | 0.6x | 0.7x | 0.6x | 0.6x | 0.6x\nP / Valuatum FOCF | 9.1x | 2.7x | 7.5x | -3.3x | 9.1x | 8.2x | 7.7x\nP/BV | 1.6x | 1.4x | 1.9x | 1.3x | 1.3x | 1.2x | 1.1x\nP/S | 0.6x | 0.4x | 0.6x | 0.5x | 0.5x | 0.5x | 0.5x\nDividend yield | 0.9% | 2.0% | 1.6% | 6.1% | 3.5% | 4.1% | 4.5%\nEBIT margin | 8.7% | 1.7% | 7.7% | 6.6% | 6.8% | 7.4% | 7.8%\nROE | 32.1% | 2.6% | 15.4% | 19.8% | 10.3% | 11.3% | 11.7%\nROIC | 14.3% | 3.2% | 17.0% | 19.4% | 10.7% | 11.7% | 12.6%\nBook value / share | 62.85 | 41.99 | 47.61 | 60.19 | 61.69 | 66.13 | 70.95\n\n### Brilliant Earth Group, Inc. (BRLT, United States)\n- Peer type: segment_peer; similarity: medium\n- Why comparable: Specializes in lab-grown diamond jewellery, directly relevant as a valuation reference for Pandora's Lab-Grown Diamonds & Material Innovation division.\n- Main limitation: Digitally-native, direct-to-consumer model with far smaller scale and no comparable mass-market charm/bracelet business.\n- DATA QUALITY FLAG: this peer's market cap and every multiple derived from it (Mkt cap, P/E, P/E adj., EV/EBITDA, EV/EBIT, EV/Sales, P/FCF, P/BV, P/S, Dividend yield) failed an internal consistency check and render as \"n/a\" below. Margin/return figures are unaffected and still real. This peer is eligible for the web-search exception in the prompt instructions — do not guess these values yourself.\n- Current price: 1.39 USD | Net debt: -63 USDm\n\nMetric | 2022 | 2023 | 2024 | 2025 | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP/E adj. | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEV/EBITDA | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEV/EBIT | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEV/Sales | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP / Valuatum FOCF | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP/BV | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP/S | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 5.3% | 1.0% | 0.8% | 2.7% | 3.0% | 3.4% | 3.8%\nROE | 196.8% | 40.4% | 28.7% | 41.8% | 16.6% | 24.2% | 29.3%\nROIC | 14.1% | 4.9% | 4.5% | 5.3% | 7.8% | 8.7% | 9.5%\nBook value / share | 1.02 | 1.05 | 1.15 | 0.37 | 0.29 | 0.31 | 0.33\n\n### Movado Group, Inc. (MOV, United States)\n- Peer type: segment_peer; similarity: low\n- Why comparable: Accessible fashion accessories brand (watches/jewellery-adjacent) with a comparable licensing/branded retail model.\n- Main limitation: Much smaller scale, watch-centric rather than jewellery-centric, and weaker brand pricing power than Pandora.\n- Current price: 15.25 USD | Market cap: 429 USDm | Net debt: -189 USDm\n\nMetric | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e | 2030e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 12.9x | 23.2x | 19.2x | 16.7x | 14.6x | 15.0x | 13.8x\nP/E adj. | 12.9x | 23.2x | 19.2x | 16.7x | 14.6x | 15.0x | 13.8x\nEV/EBITDA | 6.9x | 10.7x | 8.8x | 5.0x | 4.0x | 4.1x | 3.8x\nEV/EBIT | 8.1x | 15.7x | 11.6x | 6.1x | 4.7x | 4.9x | 4.5x\nEV/Sales | 0.7x | 0.5x | 0.5x | 0.4x | 0.4x | 0.3x | 0.3x\nP / Valuatum FOCF | 4.7x | -58.5x | 9.3x | 17.6x | 18.7x | 21.2x | 19.7x\nP/BV | 1.2x | 0.9x | 1.0x | 0.8x | 0.8x | 0.8x | 0.8x\nP/S | 0.9x | 0.7x | 0.8x | 0.9x | 0.9x | 0.9x | 0.9x\nDividend yield | 8.7% | 7.3% | 5.1% | 6.9% | 7.9% | 7.7% | 8.4%\nEBIT margin | 8.1% | 3.1% | 4.4% | 6.1% | 7.5% | 7.1% | 7.5%\nROE | 9.3% | 3.7% | 5.4% | 7.3% | 8.2% | 7.8% | 8.3%\nROIC | 9.3% | 4.6% | 6.1% | 8.1% | 9.9% | 9.4% | 10.0%\nBook value / share | 23.26 | 21.62 | 22.56 | 33.02 | 33.84 | 34.30 | 35.07\n\n\n\n#### Peer median / average (across 3 resolved peers; cells need ≥2 peers)\nMetric | 2024 | 2025 | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | ---\nP/E (median) | 9.2x | 32.9x | 16.1x | 12.1x | 13.7x | 13.1x\nP/E (mean) | 9.2x | 32.9x | 16.1x | 12.1x | 13.7x | 13.1x\nP/E adj. (median) | 9.2x | 32.9x | 16.1x | 12.1x | 13.7x | 13.1x\nP/E adj. (mean) | 9.2x | 32.9x | 16.1x | 12.1x | 13.7x | 13.1x\nEV/EBITDA (median) | 6.7x | 11.5x | 7.5x | 5.5x | 5.5x | 7.7x\nEV/EBITDA (mean) | 6.7x | 11.5x | 7.5x | 5.5x | 5.5x | 7.7x\nEV/EBIT (median) | 8.1x | 22.2x | 9.7x | 8.0x | 7.0x | 6.5x\nEV/EBIT (mean) | 8.1x | 22.2x | 9.7x | 8.0x | 7.0x | 6.5x\nEV/Sales (median) | 0.7x | 0.5x | 0.6x | 0.5x | 0.5x | 0.5x\nEV/Sales (mean) | 0.7x | 0.5x | 0.6x | 0.5x | 0.5x | 0.5x\nP / Valuatum FOCF (median) | 6.9x | 2.7x | 8.4x | 17.6x | 13.9x | 14.7x\nP / Valuatum FOCF (mean) | 6.9x | 2.7x | 8.4x | 17.6x | 13.9x | 14.7x\nP/BV (median) | 1.4x | 1.1x | 1.5x | 1.1x | 1.0x | 1.0x\nP/BV (mean) | 1.4x | 1.1x | 1.5x | 1.1x | 1.0x | 1.0x\nP/S (median) | 0.8x | 0.5x | 0.7x | 0.7x | 0.7x | 0.7x\nP/S (mean) | 0.8x | 0.5x | 0.7x | 0.7x | 0.7x | 0.7x\nDividend yield (median) | 4.8% | 4.6% | 3.4% | 6.5% | 5.7% | 5.9%\nDividend yield (mean) | 4.8% | 4.6% | 3.4% | 6.5% | 5.7% | 5.9%\nEBIT margin (median) | 8.1% | 2.7% | 4.4% | 6.1% | 6.8% | 7.2%\nEBIT margin (mean) | 5.9% | 2.5% | 5.1% | 5.4% | 6.0% | 7.2%\nROE (median) | 28.7% | 3.1% | 15.4% | 19.8% | 9.2% | 9.5%\nROE (mean) | 23.3% | 3.1% | 12.5% | 17.1% | 9.2% | 9.5%\nROIC (median) | 9.3% | 4.6% | 6.9% | 8.4% | 9.9% | 10.6%\nROIC (mean) | 9.4% | 4.4% | 6.9% | 8.4% | 10.0% | 10.6%\nBook value / share (median) | 12.20 | 21.62 | 11.43 | 33.02 | 33.84 | 50.21\nBook value / share (mean) | 12.20 | 21.32 | 11.43 | 31.17 | 31.95 | 50.21",
+      "reverseValuation": "Market-implied (reverse valuation) scenario — the figures that make the model's fair value equal its current market cap (what the market is pricing in).\nMarket cap: 62,025 DKKm | Original fair value: 645 DKKm | Implied fair value: 829 DKKm\nColumns are full estimate years from 2026 plus a terminal (TRM) column. Values shown are the market-implied (post-solve) figures; monetary values in DKK millions, percentage variables as shown.\n\n#### base_figures_with_currency\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns | 33,086 | 34,103 | 35,530 | 36,763 | 37,918 | 39,068 | 40,242 | 41,449 | 42,693 | 43,974 | 45,293\nebitda | 10,892 | 8,697 | 10,153 | 10,243 | 10,067 | 9,848 | 9,597 | 9,316 | 9,004 | 9,274 | n/a\nebit | 7,467 | 5,701 | 7,191 | 7,025 | 6,738 | 6,415 | 6,059 | 5,672 | 5,251 | 5,408 | 5,570\ntangible_ass | 9,144 | 9,425 | 9,819 | 10,160 | 10,479 | 10,797 | 11,121 | 11,455 | 11,799 | 12,153 | n/a\nbv | 9,187 | 11,535 | 15,341 | 19,008 | 22,563 | 26,094 | 29,585 | 33,009 | 36,342 | 40,051 | n/a\nliab_ib_total | 15,872 | 14,044 | 10,969 | 7,934 | 7,055 | 7,268 | 7,487 | 7,711 | 7,943 | 8,181 | n/a\nbs_total_assets | 30,017 | 30,676 | 31,600 | 32,399 | 35,231 | 39,131 | 42,999 | 46,811 | 50,544 | 54,665 | n/a\ngross_cap_expenditure | 3,472 | 3,382 | 3,503 | 3,685 | 3,767 | 3,869 | 3,983 | 4,102 | 4,225 | 4,351 | 4,482\n\n#### key_ratios\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns_growth | 1.6% | 3.1% | 4.2% | 3.5% | 3.1% | 3.0% | 3.0% | 3.0% | 3.0% | 3.0% | 3.0%\nebitda_percent | 32.9% | 25.5% | 28.6% | 27.9% | 26.5% | 25.2% | 23.8% | 22.5% | 21.1% | 21.1% | n/a\nebit_percent | 22.6% | 16.7% | 20.2% | 19.1% | 17.8% | 16.4% | 15.1% | 13.7% | 12.3% | 12.3% | 12.3%\nasset_turnover | 1.92 | 1.96 | 1.99 | 2.02 | 2.05 | 2.08 | 2.10 | 2.13 | 2.16 | 2.18 | n/a\nroi_before_tax_avg_cap | 31.3% | 23.2% | 28.1% | 27.1% | 24.8% | 22.1% | 19.6% | 17.5% | 15.7% | 15.4% | n/a\nroe_percent | 70.4% | 36.8% | 36.5% | 29.5% | 24.1% | 20.4% | 17.7% | 15.5% | 13.6% | 13.3% | n/a\nequity_ratio | 30.6% | 37.6% | 48.5% | 58.7% | 64.0% | 66.7% | 68.8% | 70.5% | 71.9% | 73.3% | n/a\n\n#### Estimate parameters\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\ninv_gross_per_ns | 0.10 | 0.10 | 0.09 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | 0.10 | n/a\ntangible_ass_per_ns | 0.28 | 0.28 | 0.28 | 0.28 | 0.28 | 0.28 | 0.28 | 0.28 | 0.28 | 0.28 | n/a\ninv_gross | 3,417 | 3,277 | 3,356 | 3,558 | 3,648 | 3,751 | 3,862 | 3,978 | 4,097 | 4,220 | n/a\ndep_without_gwa_percent | 37.4% | 32.8% | 31.4% | 32.8% | 32.8% | 32.8% | 32.8% | 32.8% | 32.8% | 32.8% | n/a\ninventories_per_ns | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | 0.15 | n/a\napum_fa_hall | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | n/a\ndefault_zero | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nbs_allocated_share_lt | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | n/a\n\n#### dcf_valuation_with_currency\nVariable | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | 2035e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nebit | 7,467 | 5,701 | 7,191 | 7,025 | 6,738 | 6,415 | 6,059 | 5,672 | 5,251 | 5,408 | 5,570\ndep_total_nega | 3,425 | 2,996 | 2,962 | 3,217 | 3,329 | 3,434 | 3,538 | 3,644 | 3,753 | 3,866 | n/a\ntaxes_paid | -1,361 | -1,106 | -1,422 | -1,472 | -1,454 | -1,442 | -1,427 | -1,403 | -1,370 | -1,470 | n/a\ntax_fin_expenses | -276 | -214 | -220 | -148 | -124 | -120 | -123 | -126 | -128 | -131 | n/a\ntax_fin_income | 61.62 | 37.23 | 25.20 | 40.06 | 63.38 | 120 | 187 | 253 | 318 | 385 | n/a\nchange_in_wc_nega | -80.04 | -82.04 | -115 | -99.49 | -93.18 | -92.73 | -94.70 | -97.40 | -100 | -103 | n/a\noperating_cash_flow | 9,237 | 7,333 | 8,421 | 8,563 | 8,459 | 8,313 | 8,140 | 7,943 | 7,723 | 7,954 | n/a\nchange_in_lt_liab_nib | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\ngross_cap_expenditure_nega | -3,472 | -3,382 | -3,503 | -3,685 | -3,767 | -3,869 | -3,983 | -4,102 | -4,225 | -4,351 | -4,482\nfree_operating_cash_flow | 5,765 | 3,951 | 4,918 | 4,878 | 4,692 | 4,444 | 4,157 | 3,841 | 3,498 | 3,603 | n/a\nother_items_fcf | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nfree_cash_flow_to_firm | 5,765 | 3,951 | 4,918 | 4,878 | 4,692 | 4,444 | 4,157 | 3,841 | 3,498 | 3,603 | 92,086\ndisc_fcff | 5,631 | 3,599 | 4,185 | 3,879 | 3,485 | 3,084 | 2,696 | 2,327 | 1,980 | 1,906 | 48,704\ncum_disc_fcff | 81,476 | 75,845 | 72,246 | 68,061 | 64,182 | 60,697 | 57,613 | 54,917 | 52,590 | 50,610 | n/a\nib_debt_nega_prev_year | -19,217 | -15,872 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | -19,217\ncash_prev_year | 1,305 | 1,737 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 1,305\ndcf_dividends | -1,539 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nvalue_of_equity_fcff | 62,025 | 61,710 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 62,025\nno_of_shares_total | 74.80 | 74.80 | 74.80 | 74.80 | 74.80 | 74.80 | 74.80 | 74.80 | 74.80 | 74.80 | n/a\nfair_value_fcff | 829 | 825 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 829\nmarket_value_of_associated | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00\nmarket_value_of_minorities_nega | 0.00 | 0.00 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 0.00",
+      "factGates": {
+        "segmentAssessment": {
+          "facts": {
+            "status": "verified",
+            "period": "FY2025A",
+            "currency": "DKK",
+            "source": {
+              "documentTitle": "Pandora Annual Report 2025",
+              "documentUrl": "https://attachment.news.eu.nasdaq.com/ae9488461bacf9232a79d853e46e9d5eb",
+              "publicationDate": "2026-02-04",
+              "officialCompanySource": true
+            },
+            "revenueBasis": "externalSales",
+            "profitBasis": "grossProfit",
+            "rows": [
+              {
+                "name": "Core",
+                "externalSales": 24235,
+                "totalSales": 24235,
+                "comparableEbit": null,
+                "reportedEbit": null,
+                "grossProfit": 18867,
+                "comparableEbitda": null,
+                "sourcePage": "109",
+                "sourceTable": "INCOME STATEMENT BY SEGMENTS",
+                "sourceRow": "Revenue 24,235 | Cost of sales -5,368 | Gross profit 18,867"
+              },
+              {
+                "name": "Fuel with more",
+                "externalSales": 8314,
+                "totalSales": 8314,
+                "comparableEbit": null,
+                "reportedEbit": null,
+                "grossProfit": 6880,
+                "comparableEbitda": null,
+                "sourcePage": "109",
+                "sourceTable": "INCOME STATEMENT BY SEGMENTS",
+                "sourceRow": "Revenue 8,314 | Cost of sales -1,434 | Gross profit 6,880"
+              }
+            ],
+            "reconciliation": {
+              "externalSales": 0,
+              "totalSales": 0,
+              "comparableEbit": null,
+              "reportedEbit": -17964,
+              "grossProfit": 0
+            },
+            "groupTotals": {
+              "revenue": 32549,
+              "comparableEbit": null,
+              "reportedEbit": 7783,
+              "grossProfit": 25747
+            },
+            "issues": [
+              "Operating profit (EBIT) is not reported by segment; segments are evaluated at the Gross Profit level. Reconciliation for reportedEbit represents unallocated Group operating expenses."
+            ]
+          },
+          "quality": {
+            "status": "verified",
+            "revenueVerified": true,
+            "profitVerified": true,
+            "requiresReview": false,
+            "sourceDocument": "Pandora Annual Report 2025",
+            "sourceUrl": "https://attachment.news.eu.nasdaq.com/ae9488461bacf9232a79d853e46e9d5eb",
+            "sourcePages": [
+              "109"
+            ],
+            "revenueBasis": "externalSales",
+            "profitBasis": "grossProfit",
+            "revenueReconciliation": 0,
+            "profitReconciliation": 0,
+            "issues": [
+              "Operating profit (EBIT) is not reported by segment; segments are evaluated at the Gross Profit level. Reconciliation for reportedEbit represents unallocated Group operating expenses."
+            ]
+          }
+        },
+        "currentEvents": {
+          "raw": "{\"status\":\"verified\",\"events\":[{\"eventName\":\"CFO Succession and Appointment\",\"eventType\":\"governance\",\"affectedSegments\":[],\"latestStatus\":\"Paulo Garcia appointed to succeed retiring CFO Anders Boyer\",\"announcementDate\":\"2026-08-06\",\"transactionForm\":\"regulatory\",\"components\":[],\"nextMilestone\":\"Paulo Garcia to join 1 October 2026 and assume role 1 December 2026\",\"officialSourceTitle\":\"Pandora appoints Paulo Garcia as new CFO as Anders Boyer will retire - GlobeNewswire\",\"officialSourceUrl\":\"https://www.globenewswire.com/news-release/2026/08/06/3339947/0/en/pandora-appoints-paulo-garcia-as-new-cfo-as-anders-boyer-will-retire.html\",\"alternateSourceUrls\":[\"https://www.globenewswire.com/news-release/2026/08/17/3345830/0/en/trading-in-pandora-a-s-shares-by-board-members-executives-and-associated-persons.html\"],\"supersededClaims\":[]},{\"eventName\":\"U.S. IEEPA Tariff Claim Refund\",\"eventType\":\"regulatory\",\"affectedSegments\":[\"North America\"],\"latestStatus\":\"Partial refund of U.S. tariff claims received in Q2 2026\",\"announcementDate\":\"2026-08-12\",\"transactionForm\":\"regulatory\",\"components\":[{\"label\":\"Tariff refund income\",\"kind\":\"other\",\"displayValue\":\"230 basis point boost to Q2 2026 gross margin\"}],\"nextMilestone\":\"Remaining one-off income expected during the second half of 2026\",\"officialSourceTitle\":\"Pandora delivers 3% organic growth in Q2 - guidance upgraded - GlobeNewswire\",\"officialSourceUrl\":\"https://www.globenewswire.com/news-release/2026/08/12/3343901/0/en/pandora-delivers-3-organic-growth-in-q2-guidance-upgraded.html\",\"alternateSourceUrls\":[\"https://ml-eu.globenewswire.com/Resource/Download/58226d52-7415-4df5-a8b4-f6d440fab11f\"],\"supersededClaims\":[\"strategic review of tariff structures superseded by partial refund receipt\"]},{\"eventName\":\"Platinum-Plated Jewellery Material Transition Pilot\",\"eventType\":\"product\",\"affectedSegments\":[\"Core\",\"EMEA\"],\"latestStatus\":\"Pilot test of a limited range of platinum-plated jewellery successfully initiated across stores and online in the Netherlands\",\"announcementDate\":\"2026-08-12\",\"transactionForm\":\"other\",\"components\":[{\"label\":\"Pilot launch date\",\"kind\":\"date\",\"displayValue\":\"July 2026\"}],\"nextMilestone\":\"Broader market testing planned for fourth quarter 2026\",\"officialSourceTitle\":\"Pandora Q2 2026 Interim Report Company announcement_No_1015\",\"officialSourceUrl\":\"https://ml-eu.globenewswire.com/Resource/Download/58226d52-7415-4df5-a8b4-f6d440fab11f\",\"alternateSourceUrls\":[\"https://www.globenewswire.com/news-release/2026/08/12/3343901/0/en/pandora-delivers-3-organic-growth-in-q2-guidance-upgraded.html\"],\"supersededClaims\":[]}],\"issues\":[\"Lab-Grown Diamond Expansion to Spain and Italy: fails validation (official source URL is missing, not HTTPS, or not an issuer, exchange or regulator host)\",\"Share Capital Reduction and Treasury Share Cancellation: fails validation (official source URL is missing, not HTTPS, or not an issuer, exchange or regulator host)\"]}",
+          "facts": {
+            "status": "verified",
+            "events": [
+              {
+                "eventName": "CFO Succession and Appointment",
+                "eventType": "governance",
+                "affectedSegments": [],
+                "latestStatus": "Paulo Garcia appointed to succeed retiring CFO Anders Boyer",
+                "announcementDate": "2026-08-06",
+                "transactionForm": "regulatory",
+                "components": [],
+                "nextMilestone": "Paulo Garcia to join 1 October 2026 and assume role 1 December 2026",
+                "officialSourceTitle": "Pandora appoints Paulo Garcia as new CFO as Anders Boyer will retire - GlobeNewswire",
+                "officialSourceUrl": "https://www.globenewswire.com/news-release/2026/08/06/3339947/0/en/pandora-appoints-paulo-garcia-as-new-cfo-as-anders-boyer-will-retire.html",
+                "alternateSourceUrls": [
+                  "https://www.globenewswire.com/news-release/2026/08/17/3345830/0/en/trading-in-pandora-a-s-shares-by-board-members-executives-and-associated-persons.html"
+                ],
+                "supersededClaims": []
+              },
+              {
+                "eventName": "U.S. IEEPA Tariff Claim Refund",
+                "eventType": "regulatory",
+                "affectedSegments": [
+                  "North America"
+                ],
+                "latestStatus": "Partial refund of U.S. tariff claims received in Q2 2026",
+                "announcementDate": "2026-08-12",
+                "transactionForm": "regulatory",
+                "components": [
+                  {
+                    "label": "Tariff refund income",
+                    "kind": "other",
+                    "displayValue": "230 basis point boost to Q2 2026 gross margin"
+                  }
+                ],
+                "nextMilestone": "Remaining one-off income expected during the second half of 2026",
+                "officialSourceTitle": "Pandora delivers 3% organic growth in Q2 - guidance upgraded - GlobeNewswire",
+                "officialSourceUrl": "https://www.globenewswire.com/news-release/2026/08/12/3343901/0/en/pandora-delivers-3-organic-growth-in-q2-guidance-upgraded.html",
+                "alternateSourceUrls": [
+                  "https://ml-eu.globenewswire.com/Resource/Download/58226d52-7415-4df5-a8b4-f6d440fab11f"
+                ],
+                "supersededClaims": [
+                  "strategic review of tariff structures superseded by partial refund receipt"
+                ]
+              },
+              {
+                "eventName": "Platinum-Plated Jewellery Material Transition Pilot",
+                "eventType": "product",
+                "affectedSegments": [
+                  "Core",
+                  "EMEA"
+                ],
+                "latestStatus": "Pilot test of a limited range of platinum-plated jewellery successfully initiated across stores and online in the Netherlands",
+                "announcementDate": "2026-08-12",
+                "transactionForm": "other",
+                "components": [
+                  {
+                    "label": "Pilot launch date",
+                    "kind": "date",
+                    "displayValue": "July 2026"
+                  }
+                ],
+                "nextMilestone": "Broader market testing planned for fourth quarter 2026",
+                "officialSourceTitle": "Pandora Q2 2026 Interim Report Company announcement_No_1015",
+                "officialSourceUrl": "https://ml-eu.globenewswire.com/Resource/Download/58226d52-7415-4df5-a8b4-f6d440fab11f",
+                "alternateSourceUrls": [
+                  "https://www.globenewswire.com/news-release/2026/08/12/3343901/0/en/pandora-delivers-3-organic-growth-in-q2-guidance-upgraded.html"
+                ],
+                "supersededClaims": []
+              }
+            ],
+            "issues": [
+              "Lab-Grown Diamond Expansion to Spain and Italy: fails validation (official source URL is missing, not HTTPS, or not an issuer, exchange or regulator host)",
+              "Share Capital Reduction and Treasury Share Cancellation: fails validation (official source URL is missing, not HTTPS, or not an issuer, exchange or regulator host)"
+            ]
+          }
+        },
+        "signalSweep": {
+          "signals": [
+            {
+              "claim": "Pandora raised its 2026 organic growth guidance to 0% to +3% (from -1% to +2%) following stronger-than-expected Q2 sales and a one-time U.S. tariff refund.",
+              "date": "2026-08-12",
+              "jurisdiction": "Global",
+              "theme": "Commercial Traction",
+              "sourceTitle": "Pandora Raises 2026 Outlook After Growth in Second Quarter - JCK Online",
+              "sourceUrl": "https://www.jckonline.com/editorial-article/pandora-q2-2026-growth/",
+              "sourceType": "news",
+              "corroboration": 2,
+              "direction": "supports"
+            },
+            {
+              "claim": "Pandora is transitioning half of its relevant products to a platinum-plated alloy named 'Evershine' by 2027 to reduce silver dependence from 100% to 25%.",
+              "date": "2026-02-06",
+              "jurisdiction": "Global",
+              "theme": "Commercial Traction",
+              "sourceTitle": "When the Sky Is Not Blue: Pandora's Desperate Bet : r/PandoraCollectors - Reddit",
+              "sourceUrl": "https://www.reddit.com/r/PandoraCollectors/comments/1qx7msz/when_the_sky_is_not_blue_pandoras_desperate_bet/",
+              "sourceType": "social",
+              "corroboration": 1,
+              "direction": "neutral"
+            },
+            {
+              "claim": "The company has hedged 90–100% of its 2027 silver requirements at approximately $65/oz to mitigate volatile precious metal costs.",
+              "date": "2026-08-14",
+              "jurisdiction": "Global",
+              "theme": "Commercial Traction",
+              "sourceTitle": "Pandora Shares Rise 55% as Jeweller Advances Shift from Silver to Platinum",
+              "sourceUrl": "https://news.metal.com/newscontent/104061315-pandora-shares-rise-55-as-jeweller-advances-shift-from-silver-to-platinum",
+              "sourceType": "news",
+              "corroboration": 1,
+              "direction": "supports"
+            },
+            {
+              "claim": "Pandora launched 'Pandora Wonders,' a new branding initiative featuring pearl and gold charms, in July 2026 to diversify beyond its core silver business.",
+              "date": "2026-07-01",
+              "jurisdiction": "France | Global",
+              "theme": "Commercial Traction",
+              "sourceTitle": "Pandora CEO: New Jewellery Collections Drive Growth Amid Market Shifts",
+              "sourceUrl": "https://www.globalbankingandfinance.com/pandora-ceo-new-jewellery-collections-driving-growth/",
+              "sourceType": "news",
+              "corroboration": 2,
+              "direction": "supports"
+            },
+            {
+              "claim": "Pandora expanded its lab-grown diamond collections into Spain and Italy, supported by new flagship store openings in Barcelona and Milan.",
+              "date": "2026-06-25",
+              "jurisdiction": "Spain | Italy",
+              "theme": "Commercial Traction",
+              "sourceTitle": "Pandora introduces lab-grown diamond collections in Spain and Italy",
+              "sourceUrl": "https://www.pandoragroup.com/media/press-releases/pandora-introduces-lab-grown-diamonds-in-spain-and-italy",
+              "sourceType": "official",
+              "corroboration": 1,
+              "direction": "supports"
+            },
+            {
+              "claim": "Pandora introduced 'carbon footprint' as a '5th C' for its lab-grown diamonds, reporting 12.58 kg CO2e for a one-carat stone.",
+              "date": "2026-05-06",
+              "jurisdiction": "EU",
+              "theme": "Regulatory Landscape",
+              "sourceTitle": "Pandora Reports Lower 1Q and a \"5th C\" for Its Lab-Grown Diamonds - JCK Online",
+              "sourceUrl": "https://www.jckonline.com/editorial-article/pandora-reports-1q-revenue/",
+              "sourceType": "news",
+              "corroboration": 3,
+              "direction": "supports"
+            },
+            {
+              "claim": "Lab-grown diamond sales fell 15% year-over-year in Q1 2026, representing only about 1% of total group sales despite significant marketing efforts.",
+              "date": "2026-05-08",
+              "jurisdiction": "Global",
+              "theme": "Commercial Traction",
+              "sourceTitle": "NDC Publicly Criticizes Pandora Over 'Misleading' Natural Diamond Claims",
+              "sourceUrl": "https://nationaljeweler.com/articles/14954-ndc-publicly-criticizes-pandora-over-misleading-natural-diamond-claims",
+              "sourceType": "news",
+              "corroboration": 2,
+              "direction": "challenges"
+            },
+            {
+              "claim": "The Natural Diamond Council (NDC) publicly criticized Pandora's sustainability claims for lab-grown diamonds, labeling them as 'misleading PR stunts.'",
+              "date": "2026-05-08",
+              "jurisdiction": "Global",
+              "theme": "Regulatory Landscape",
+              "sourceTitle": "NDC Publicly Criticizes Pandora Over 'Misleading' Natural Diamond Claims",
+              "sourceUrl": "https://nationaljeweler.com/articles/14954-ndc-publicly-criticizes-pandora-over-misleading-natural-diamond-claims",
+              "sourceType": "news",
+              "corroboration": 2,
+              "direction": "challenges"
+            },
+            {
+              "claim": "Pandora is exploring a brand licensing model in China following an 80% revenue decline in that market since 2019 and ongoing restructuring through 2025.",
+              "date": "2025-07-14",
+              "jurisdiction": "China",
+              "theme": "Commercial Traction",
+              "sourceTitle": "Pandora considers restructuring strategy in China as sales decline - Scandasia",
+              "sourceUrl": "https://scandasia.com/pandora-considers-restructuring-strategy-in-china-as-sales-decline/",
+              "sourceType": "news",
+              "corroboration": 1,
+              "direction": "challenges"
+            },
+            {
+              "claim": "Pandora's 'Phoenix' strategy targets a store network expansion of around 3% annually through 2026, with entries into South Korea, Japan, and India.",
+              "date": "2023-10-05",
+              "jurisdiction": "Asia",
+              "theme": "Commercial Traction",
+              "sourceTitle": "Pandora confirms ambitious growth journey ahead",
+              "sourceUrl": "https://www.pandoragroup.com/news/26071",
+              "sourceType": "official",
+              "corroboration": 3,
+              "direction": "supports"
+            },
+            {
+              "claim": "Pandora achieved its transition to 100% recycled silver and gold in August 2024, one year ahead of its original 2025 target.",
+              "date": "2024-08-01",
+              "jurisdiction": "Global",
+              "theme": "Safety / Quality / Incident Record",
+              "sourceTitle": "Pandora shifts to recycled silver and gold",
+              "sourceUrl": "https://www.pandoragroup.com/media/press-releases/pandora-shifts-to-recycled-silver-and-gold",
+              "sourceType": "official",
+              "corroboration": 3,
+              "direction": "supports"
+            },
+            {
+              "claim": "Pandora's preliminary 2025 results showed 6% organic growth and an EBIT margin of 23.9%, slightly below the original 7-8% growth guidance.",
+              "date": "2026-02-04",
+              "jurisdiction": "Global",
+              "theme": "Commercial Traction",
+              "sourceTitle": "Pandora delivers 6% organic growth in 2025",
+              "sourceUrl": "https://www.pandoragroup.com/news/27811",
+              "sourceType": "news",
+              "corroboration": 2,
+              "direction": "neutral"
+            },
+            {
+              "claim": "Multiple consumer reports in mid-2026 allege a decline in Pandora bracelet quality, specifically citing snake chain bracelets breaking within three months of purchase.",
+              "date": "2026-06-10",
+              "jurisdiction": "Global",
+              "theme": "Safety / Quality / Incident Record",
+              "sourceTitle": "Pandora quality : r/PandoraCollectors - Reddit",
+              "sourceUrl": "https://www.reddit.com/r/PandoraCollectors/comments/1u24m7u/pandora_quality/",
+              "sourceType": "social",
+              "corroboration": 2,
+              "direction": "challenges"
+            },
+            {
+              "claim": "Competitive pressure in the U.S. lab-grown diamond market is increasing as Signet Jewelers integrates LGD into its Kay and Zales portfolios (as of 2025).",
+              "date": "2025-10-16",
+              "jurisdiction": "USA",
+              "theme": "Competitor Moves",
+              "sourceTitle": "Lab-Grown Diamonds in the U.S. Luxury Market 2025 Trends - Crispidea",
+              "sourceUrl": "https://www.crispidea.com/lab-grown-diamonds-in-the-us-luxury-market/",
+              "sourceType": "news",
+              "corroboration": 1,
+              "direction": "challenges"
+            }
+          ],
+          "issues": [
+            "Could not find exact updated 2026 store counts for the Indian market expansion beyond initial entry announcements.",
+            "Specific regulatory decision dates for lab-grown diamond labeling in individual EU countries (e.g., France, Germany) were not enumerated beyond the June 2026 Spain/Italy launch.",
+            "Weekly subscriber or My Pandora loyalty member transaction volume as of Q3 2026 was not explicitly reported in search results."
+          ]
+        },
+        "regulatoryCascade": {
+          "gate": "Global Marketing and Labeling Authorization for Lab-Grown Diamonds (LGD) and Sustainability Claims",
+          "jurisdictions": [
+            {
+              "jurisdiction": "United States",
+              "status": "approved",
+              "date": "2026-08-12",
+              "authority": "U.S. Customs and Border Protection (CBP) / FTC",
+              "permits": "Allows the sale of lab-grown stones as 'diamonds' (compliant with 2018 FTC guidelines). The August 2026 decision specifically relates to the restitution of International Emergency Economic Powers Act (IEEPA) tariffs following a 2026 Supreme Court ruling, permitting the recovery of DKK 1.2 billion in annual trade costs.",
+              "sourceTitle": "Pandora raises 2026 guidance on tariff refund, Q2 growth - Investing.com ZA",
+              "sourceUrl": "https://za.investing.com/news/stock-market-news/pandora-raises-2026-guidance-on-tariff-refund-q2-growth-93CH-4425064",
+              "sourceType": "news"
+            },
+            {
+              "jurisdiction": "European Union",
+              "status": "approved",
+              "date": "2026-03-27",
+              "authority": "European Commission",
+              "permits": "The Directive (EU) 2024/825 (ECGT) transposes rules permitting the use of sustainability labels and 'carbon footprint' claims (the '5th C') provided they are third-party verified. It prohibits generic greenwashing claims ('eco-friendly') without specific evidence.",
+              "sourceTitle": "EU's Empowering Consumers for the Green Transition Directive - European Commission",
+              "sourceUrl": "https://commission.europa.eu/document/download/3c257883-bb2a-4dd9-a6dc-501d587bb34f_en?filename=faq-empowerting-consumers-gtd.pdf",
+              "sourceType": "official"
+            },
+            {
+              "jurisdiction": "China",
+              "status": "pending",
+              "date": "2026-03-01",
+              "authority": "State Administration for Market Regulation (SAMR)",
+              "permits": "Standard GB 28480-2026 'Jewelry safety technical requirements' establishes mandatory safety and labeling criteria for the Chinese market. It is published but does not reach full mandatory enforcement until April 1, 2027.",
+              "sourceTitle": "China Updates Mandatory National Standard for Jewelry - HKTDC Research",
+              "sourceUrl": "https://research.hktdc.com/en/article/MjM2Njc5NDQ3Nw",
+              "sourceType": "official"
+            },
+            {
+              "jurisdiction": "France",
+              "status": "restricted",
+              "date": "2026-07-01",
+              "authority": "DGCCRF",
+              "permits": "Allows sale of LGD but strictly mandates the terms 'synthétique' or 'laboratoire' under Decree 2002-65. It still does not permit the standalone term 'diamant' (diamond) for non-mined stones, despite Pandora's high-profile 'Pandora Wonders' launch in Paris in July 2026.",
+              "sourceTitle": "The 5th C: Pandora's New Criteria for Lab-grown Luxury-On This Day - PAVE Look",
+              "sourceUrl": "https://pavelook.com/post/the-5th-c-pandora-s-new-criteria-for-lab-grown-luxury",
+              "sourceType": "news"
+            },
+            {
+              "jurisdiction": "Vietnam",
+              "status": "approved",
+              "date": "2024-05-16",
+              "authority": "Binh Duong People's Committee",
+              "permits": "Construction license and operating permit for a new $150 million LEED Gold crafting facility in VSIP III. Permits an annual production capacity of 60 million pieces, supporting a 50% increase in total group volume starting early 2026.",
+              "sourceTitle": "Pandora breaks ground on new crafting facility in Vietnam",
+              "sourceUrl": "https://www.pandoragroup.com/media/press-releases/pandora-breaks-ground-on-new-crafting-facility-in-vietnam",
+              "sourceType": "official"
+            },
+            {
+              "jurisdiction": "United Kingdom",
+              "status": "approved",
+              "date": "2021-05-04",
+              "authority": "Advertising Standards Authority (ASA)",
+              "permits": "Permits marketing of LGD as 'diamonds' with appropriate qualifiers ('lab-grown'). This was Pandora's lead market for the transition away from mined stones.",
+              "sourceTitle": "Pandora's pledge to use lab-grown diamonds paves way for other jewellers to follow",
+              "sourceUrl": "https://jewelleryoutlook.com/pandoras-pledge-to-use-lab-grown-diamonds-paves-way-for-other-jewellers-to-follow/",
+              "sourceType": "news"
+            },
+            {
+              "jurisdiction": "Italy",
+              "status": "approved",
+              "date": "2026-06-26",
+              "authority": "Ministry of Enterprises and Made in Italy",
+              "permits": "Authorizes the launch of LGD collections in the Milan flagship and 40 nationwide stores. The approval permits marketing identical physical/chemical properties as natural diamonds.",
+              "sourceTitle": "Pandora introduces lab-grown diamond collections in Spain and Italy",
+              "sourceUrl": "https://www.pandoragroup.com/media/press-releases/pandora-introduces-lab-grown-diamonds-in-spain-and-italy",
+              "sourceType": "news"
+            },
+            {
+              "jurisdiction": "Spain",
+              "status": "approved",
+              "date": "2026-06-12",
+              "authority": "Directorate-General for Consumption",
+              "permits": "Allows the exclusive sale of LGD at the Barcelona flagship store. Permits the use of 'recycled' gold and silver claims under local consumer protection laws.",
+              "sourceTitle": "Pandora introduces lab-grown diamond collections in Spain and Italy",
+              "sourceUrl": "https://www.pandoragroup.com/media/press-releases/pandora-introduces-lab-grown-diamonds-in-spain-and-italy",
+              "sourceType": "news"
+            },
+            {
+              "jurisdiction": "Australia",
+              "status": "approved",
+              "date": "2023-08-31",
+              "authority": "ACCC",
+              "permits": "Allows the sale of 'Diamonds for All' collections. Following a 2019 undertaking regarding consumer rights, Pandora is authorized to market sustainability benefits provided they meet Australian Consumer Law standards for 'acceptable quality.'",
+              "sourceTitle": "Pandora unveils three new lab-grown diamond collections and campaign declaring “Diamonds for All”",
+              "sourceUrl": "https://www.pandoragroup.com/media/press-releases/pandora-unveils-three-new-lab-grown-diamond-collections-and-campaign-declaring-diamonds-for-all",
+              "sourceType": "news"
+            },
+            {
+              "jurisdiction": "Thailand",
+              "status": "approved",
+              "date": "2024-01-01",
+              "authority": "Ministry of Industry",
+              "permits": "Permits operation of the primary crafting facilities in Bangkok and Lamphun. As of 2024, the authority permits 100% recycled silver/gold processing and is the first to certify the company to ISO standards for testing and calibration of jewelry safety.",
+              "sourceTitle": "Official Pandora™ | Handcrafted Jewelry 2024",
+              "sourceUrl": "https://uk.pandora.net/en/blog/sustainability-1/",
+              "sourceType": "official"
+            }
+          ],
+          "nextGate": {
+            "description": "Full Enforcement of the EU Empowering Consumers for the Green Transition (ECGT) Directive",
+            "expected": "2026-09-27",
+            "ifApproved": "Pandora's '5th C' (Carbon Footprint) labeling becomes a legally validated marketing standard across all 27 EU member states, enabling a harmonized rollout of sustainability-led pricing.",
+            "ifRejected": "Failure to meet transposition standards in specific member states (already under infringement warning as of May 2026) would force Pandora to maintain fragmented labeling by country, risking fines of up to 4% of annual turnover for non-compliant 'green' claims."
+          },
+          "issues": [
+            "Specific local authority naming for the '5th C' carbon labels in Non-EU markets like China and Mexico remains unestablished.",
+            "The exact amount of the remaining DKK 900 million in potential US tariff impacts for 2026 depends on pending appeals of the IEEPA ruling by the US Administration."
+          ]
+        }
+      },
+      "frozenMarketData": {
+        "sharePrice": {
+          "points": [
+            {
+              "period": "2023-08-23",
+              "price": 693.4
+            },
+            {
+              "period": "2023-08-30",
+              "price": 715.6
+            },
+            {
+              "period": "2023-09-06",
+              "price": 713.8
+            },
+            {
+              "period": "2023-09-13",
+              "price": 725.6
+            },
+            {
+              "period": "2023-09-20",
+              "price": 718.8
+            },
+            {
+              "period": "2023-09-27",
+              "price": 711.2
+            },
+            {
+              "period": "2023-10-04",
+              "price": 707.2
+            },
+            {
+              "period": "2023-10-11",
+              "price": 820
+            },
+            {
+              "period": "2023-10-18",
+              "price": 822.8
+            },
+            {
+              "period": "2023-10-25",
+              "price": 813.4
+            },
+            {
+              "period": "2023-11-01",
+              "price": 814.2
+            },
+            {
+              "period": "2023-11-08",
+              "price": 880.6
+            },
+            {
+              "period": "2023-11-15",
+              "price": 922
+            },
+            {
+              "period": "2023-11-22",
+              "price": 909
+            },
+            {
+              "period": "2023-11-29",
+              "price": 911.4
+            },
+            {
+              "period": "2023-12-06",
+              "price": 915.8
+            },
+            {
+              "period": "2023-12-13",
+              "price": 932.4
+            },
+            {
+              "period": "2023-12-20",
+              "price": 950.8
+            },
+            {
+              "period": "2023-12-27",
+              "price": 930.6
+            },
+            {
+              "period": "2024-01-03",
+              "price": 921.8
+            },
+            {
+              "period": "2024-01-10",
+              "price": 998.2
+            },
+            {
+              "period": "2024-01-17",
+              "price": 985.2
+            },
+            {
+              "period": "2024-01-24",
+              "price": 989
+            },
+            {
+              "period": "2024-01-31",
+              "price": 1009
+            },
+            {
+              "period": "2024-02-07",
+              "price": 1025.5
+            },
+            {
+              "period": "2024-02-14",
+              "price": 1104
+            },
+            {
+              "period": "2024-02-21",
+              "price": 1133
+            },
+            {
+              "period": "2024-02-28",
+              "price": 1149.5
+            },
+            {
+              "period": "2024-03-06",
+              "price": 1114
+            },
+            {
+              "period": "2024-03-13",
+              "price": 1163
+            },
+            {
+              "period": "2024-03-20",
+              "price": 1143
+            },
+            {
+              "period": "2024-03-27",
+              "price": 1114.5
+            },
+            {
+              "period": "2024-04-03",
+              "price": 1109.5
+            },
+            {
+              "period": "2024-04-10",
+              "price": 1093
+            },
+            {
+              "period": "2024-04-17",
+              "price": 1078.5
+            },
+            {
+              "period": "2024-04-24",
+              "price": 1095
+            },
+            {
+              "period": "2024-05-01",
+              "price": 1082.5
+            },
+            {
+              "period": "2024-05-08",
+              "price": 1131.5
+            },
+            {
+              "period": "2024-05-15",
+              "price": 1147.5
+            },
+            {
+              "period": "2024-05-22",
+              "price": 1113.5
+            },
+            {
+              "period": "2024-05-29",
+              "price": 1116.5
+            },
+            {
+              "period": "2024-06-04",
+              "price": 1098
+            },
+            {
+              "period": "2024-06-12",
+              "price": 1101.5
+            },
+            {
+              "period": "2024-06-19",
+              "price": 1053
+            },
+            {
+              "period": "2024-06-26",
+              "price": 1067.5
+            },
+            {
+              "period": "2024-07-03",
+              "price": 997.4
+            },
+            {
+              "period": "2024-07-10",
+              "price": 1019
+            },
+            {
+              "period": "2024-07-17",
+              "price": 1060.5
+            },
+            {
+              "period": "2024-07-24",
+              "price": 1071
+            },
+            {
+              "period": "2024-07-31",
+              "price": 1081
+            },
+            {
+              "period": "2024-08-07",
+              "price": 1007.5
+            },
+            {
+              "period": "2024-08-14",
+              "price": 1060.5
+            },
+            {
+              "period": "2024-08-21",
+              "price": 1119
+            },
+            {
+              "period": "2024-08-28",
+              "price": 1159
+            },
+            {
+              "period": "2024-09-04",
+              "price": 1173
+            },
+            {
+              "period": "2024-09-11",
+              "price": 1158
+            },
+            {
+              "period": "2024-09-18",
+              "price": 1146
+            },
+            {
+              "period": "2024-09-25",
+              "price": 1119
+            },
+            {
+              "period": "2024-10-02",
+              "price": 1063.5
+            },
+            {
+              "period": "2024-10-09",
+              "price": 1059.5
+            },
+            {
+              "period": "2024-10-16",
+              "price": 1063
+            },
+            {
+              "period": "2024-10-23",
+              "price": 1024.5
+            },
+            {
+              "period": "2024-10-30",
+              "price": 1055.5
+            },
+            {
+              "period": "2024-11-06",
+              "price": 1041.5
+            },
+            {
+              "period": "2024-11-13",
+              "price": 1092
+            },
+            {
+              "period": "2024-11-20",
+              "price": 1080
+            },
+            {
+              "period": "2024-11-27",
+              "price": 1107.5
+            },
+            {
+              "period": "2024-12-04",
+              "price": 1187.5
+            },
+            {
+              "period": "2024-12-11",
+              "price": 1276.5
+            },
+            {
+              "period": "2024-12-18",
+              "price": 1271
+            },
+            {
+              "period": "2024-12-23",
+              "price": 1294.5
+            },
+            {
+              "period": "2024-12-30",
+              "price": 1317
+            },
+            {
+              "period": "2025-01-08",
+              "price": 1311
+            },
+            {
+              "period": "2025-01-15",
+              "price": 1249.5
+            },
+            {
+              "period": "2025-01-22",
+              "price": 1321
+            },
+            {
+              "period": "2025-01-29",
+              "price": 1377.5
+            },
+            {
+              "period": "2025-02-05",
+              "price": 1341.5
+            },
+            {
+              "period": "2025-02-12",
+              "price": 1327.5
+            },
+            {
+              "period": "2025-02-19",
+              "price": 1247
+            },
+            {
+              "period": "2025-02-26",
+              "price": 1268
+            },
+            {
+              "period": "2025-03-05",
+              "price": 1197.5
+            },
+            {
+              "period": "2025-03-12",
+              "price": 1128.5
+            },
+            {
+              "period": "2025-03-19",
+              "price": 1117.5
+            },
+            {
+              "period": "2025-03-26",
+              "price": 1109.5
+            },
+            {
+              "period": "2025-04-02",
+              "price": 1062.5
+            },
+            {
+              "period": "2025-04-09",
+              "price": 883.8
+            },
+            {
+              "period": "2025-04-16",
+              "price": 921.2
+            },
+            {
+              "period": "2025-04-23",
+              "price": 983.2
+            },
+            {
+              "period": "2025-04-30",
+              "price": 972.2
+            },
+            {
+              "period": "2025-05-07",
+              "price": 998.8
+            },
+            {
+              "period": "2025-05-14",
+              "price": 1155
+            },
+            {
+              "period": "2025-05-21",
+              "price": 1212.5
+            },
+            {
+              "period": "2025-05-28",
+              "price": 1196.5
+            },
+            {
+              "period": "2025-06-04",
+              "price": 1219.5
+            },
+            {
+              "period": "2025-06-11",
+              "price": 1194
+            },
+            {
+              "period": "2025-06-18",
+              "price": 1174
+            },
+            {
+              "period": "2025-06-25",
+              "price": 1103
+            },
+            {
+              "period": "2025-07-02",
+              "price": 1106.5
+            },
+            {
+              "period": "2025-07-09",
+              "price": 1076.5
+            },
+            {
+              "period": "2025-07-16",
+              "price": 1037
+            },
+            {
+              "period": "2025-07-23",
+              "price": 1050
+            },
+            {
+              "period": "2025-07-30",
+              "price": 1075
+            },
+            {
+              "period": "2025-08-06",
+              "price": 1036.5
+            },
+            {
+              "period": "2025-08-13",
+              "price": 1037
+            },
+            {
+              "period": "2025-08-20",
+              "price": 896.2
+            },
+            {
+              "period": "2025-08-27",
+              "price": 900.2
+            },
+            {
+              "period": "2025-09-03",
+              "price": 845
+            },
+            {
+              "period": "2025-09-10",
+              "price": 860
+            },
+            {
+              "period": "2025-09-17",
+              "price": 866.4
+            },
+            {
+              "period": "2025-09-24",
+              "price": 833.6
+            },
+            {
+              "period": "2025-10-01",
+              "price": 842.4
+            },
+            {
+              "period": "2025-10-08",
+              "price": 840
+            },
+            {
+              "period": "2025-10-15",
+              "price": 812.6
+            },
+            {
+              "period": "2025-10-22",
+              "price": 864.6
+            },
+            {
+              "period": "2025-10-29",
+              "price": 879.4
+            },
+            {
+              "period": "2025-11-05",
+              "price": 768.4
+            },
+            {
+              "period": "2025-11-12",
+              "price": 800
+            },
+            {
+              "period": "2025-11-19",
+              "price": 753.6
+            },
+            {
+              "period": "2025-11-26",
+              "price": 765.6
+            },
+            {
+              "period": "2025-12-03",
+              "price": 725.6
+            },
+            {
+              "period": "2025-12-10",
+              "price": 706.8
+            },
+            {
+              "period": "2025-12-17",
+              "price": 694.2
+            },
+            {
+              "period": "2025-12-23",
+              "price": 703
+            },
+            {
+              "period": "2025-12-30",
+              "price": 707.6
+            },
+            {
+              "period": "2026-01-07",
+              "price": 662
+            },
+            {
+              "period": "2026-01-14",
+              "price": 555.6
+            },
+            {
+              "period": "2026-01-21",
+              "price": 517.4
+            },
+            {
+              "period": "2026-01-28",
+              "price": 487
+            },
+            {
+              "period": "2026-02-04",
+              "price": 512.6
+            },
+            {
+              "period": "2026-02-11",
+              "price": 534.4
+            },
+            {
+              "period": "2026-02-18",
+              "price": 535.2
+            },
+            {
+              "period": "2026-02-25",
+              "price": 500.4
+            },
+            {
+              "period": "2026-03-04",
+              "price": 485.5
+            },
+            {
+              "period": "2026-03-11",
+              "price": 469.6
+            },
+            {
+              "period": "2026-03-18",
+              "price": 435.9
+            },
+            {
+              "period": "2026-03-25",
+              "price": 459.7
+            },
+            {
+              "period": "2026-04-01",
+              "price": 481.1
+            },
+            {
+              "period": "2026-04-08",
+              "price": 471.4
+            },
+            {
+              "period": "2026-04-15",
+              "price": 497.4
+            },
+            {
+              "period": "2026-04-22",
+              "price": 500.4
+            },
+            {
+              "period": "2026-04-29",
+              "price": 489.1
+            },
+            {
+              "period": "2026-05-06",
+              "price": 568.8
+            },
+            {
+              "period": "2026-05-13",
+              "price": 516.2
+            },
+            {
+              "period": "2026-05-20",
+              "price": 546.8
+            },
+            {
+              "period": "2026-05-27",
+              "price": 590.8
+            },
+            {
+              "period": "2026-06-03",
+              "price": 576.4
+            },
+            {
+              "period": "2026-06-10",
+              "price": 617.6
+            },
+            {
+              "period": "2026-06-17",
+              "price": 637.4
+            },
+            {
+              "period": "2026-06-24",
+              "price": 688.6
+            },
+            {
+              "period": "2026-07-01",
+              "price": 743
+            },
+            {
+              "period": "2026-07-08",
+              "price": 775
+            },
+            {
+              "period": "2026-07-15",
+              "price": 796
+            },
+            {
+              "period": "2026-07-22",
+              "price": 772
+            },
+            {
+              "period": "2026-07-29",
+              "price": 807.4
+            },
+            {
+              "period": "2026-08-05",
+              "price": 836.2
+            },
+            {
+              "period": "2026-08-12",
+              "price": 771.4
+            },
+            {
+              "period": "2026-08-17",
+              "price": 829.2
+            }
+          ],
+          "targetLine": 676.3,
+          "quickFacts": {
+            "currentPrice": 829.2,
+            "currentPriceAsOf": "17 August 2026",
+            "targetPrice": 676.3,
+            "upsidePct": -18.4,
+            "fiftyTwoWeekHigh": 916.4,
+            "fiftyTwoWeekLow": 430,
+            "oneYearChangePct": -2,
+            "threeYearChangePct": 17.7,
+            "reportDate": "17 August 2026"
+          },
+          "context": "Over the past 36 months, the shares have rallied on Fuel with More's 22% like-for-like growth in 2024, establishing a premium valuation. The stock recently traded at 829.2 DKK after Pandora received a partial U.S. tariff refund in Q2 2026 and announced Paulo Garcia as its new CFO. However, the price masks weakness in the Core charm business, where LFL fell to -1% in Q2 2026. This gap between a healthy 10.5x 2026e EV/EBIT multiple and declining volumes in the largest earnings segment supports our 12-month target of 676.3 DKK."
+        },
+        "identityOverrides": {
+          "exchange": "NASDAQ Copenhagen",
+          "sector": "Luxury Goods",
+          "country": "Denmark",
+          "currency": "DKK"
+        }
+      }
+    }
+  }
+}
