@@ -1,0 +1,55 @@
+{
+  "runId": "2026-08-18T12-06-08Z__STERV.HE__single-writer",
+  "createdAt": "2026-08-18T12:06:08.647Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "STERV.HE",
+  "lang": "fi",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    }
+  ],
+  "langfuseTraceId": "5b64c4ad-5939-481c-ac79-de8b78148d70",
+  "jobId": "01M0AC1W5KYB5JS48CQMH5QFXW",
+  "costUsd": 1.952819,
+  "llmCalls": 24,
+  "durationSec": 1186,
+  "rating": "BUY",
+  "targetPrice": 15.8,
+  "currentPrice": 9.44,
+  "upsidePct": 67.4
+}
