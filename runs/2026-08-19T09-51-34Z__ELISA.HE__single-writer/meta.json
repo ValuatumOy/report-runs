@@ -1,0 +1,55 @@
+{
+  "runId": "2026-08-19T09-51-34Z__ELISA.HE__single-writer",
+  "createdAt": "2026-08-19T09:51:34.951Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "ELISA.HE",
+  "lang": "fi",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    }
+  ],
+  "langfuseTraceId": "bcc8ba49-804d-4f70-a7fe-bc436d3ce31c",
+  "jobId": "01M0CMVZV4JHGZBFDC0WZCDB2H",
+  "costUsd": 1.481441,
+  "llmCalls": 21,
+  "durationSec": 665,
+  "rating": "HOLD",
+  "targetPrice": 37.4,
+  "currentPrice": 39.38,
+  "upsidePct": -5
+}
