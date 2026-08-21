@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T13:05:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, six pools, SOTP bridge, sensitivity, scenarios, sources.",
+  "scores": {
+    "depth": 5,
+    "coverage": 5,
+    "logic": 5,
+    "evidence": 4,
+    "valuation": 5,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "The largest divisional body in the registry — 2,627 words on autonomy and 2,451 on automotive — and it stays concrete: 82,357 Supercharger stalls, 13.5 GWh of Q2 storage deployments, the Nevada authorisation capped at ten vehicles, 380,000 cumulative driverless miles against Waymo providing more than 500,000 paid rides a week by July 2026.",
+    "coverage": "Six pools, and the distinction that earlier Tesla runs blurred is finally clean: current autonomy software and pilot mobility is carried as a revenue-generating profit engine at 3.9% of EV, separately from the scaled unsupervised platform held as an option at 39.1%. Optimus is stated as a training-data programme with zero material revenue rather than given a placeholder.",
+    "logic": "The market confrontation ends in a reductio rather than an opinion: the four profit engines are worth USD 254.5bn and the two options USD 224.4bn, so the USD 1.28 trillion EV leaves about USD 1.02 trillion for options — 4.56x the report's option value — which at fixed option economics would require success probabilities above 100%. That is a claim the reader can check and the report does not soften it.",
+    "evidence": "Every operating claim is dated and attributed in the prose, and the two sides are given honestly — Netherlands FSD activation and the Nevada permit as real regulatory progress against a 1.4% group operating margin. The sources table still holds only seven entries, so most of that evidence is not registered anywhere the reader can follow.",
+    "valuation": "The best option pricing yet: each option is built from three capture tiers rather than two — 1%, 5% and 10% of the addressable market at 20%, 10% and 5% probability, with 2035 scale EBITDA, its multiple, and the discount from scale value to present shown for each leg. The scenarios then discriminate properly, running from USD 57.1 to USD 597.5 rather than collapsing into a narrow band.",
+    "readability": "The peer table shows six comparables whose figures cannot produce the stated 5.8x median, because the median is taken over a wider set the table does not display; the bridge parts sum to USD 110.5 against a USD 108.6 total; and the bull row carries an implied 61.5x group EV/EBITDA that needs its footnote to make sense."
+  },
+  "summary": "The strongest Tesla report in the registry and the clearest statement of the whole thesis: the market's price is not a different probability, it is an impossible one. Three-tier capture legs give the option value a shape earlier runs did not have, and the scenario range finally spans something. What remains weak is provenance — seven registered sources behind an argument built on two dozen dated external facts.",
+  "issues": [
+    "Sources table has seven entries; the autonomy, regulatory and competitor evidence the argument rests on is not registered",
+    "Peer median of 5.8x is not derivable from the six peers displayed",
+    "Bridge parts sum to USD 110.5 against a USD 108.6 total",
+    "Bull row shows an implied 61.5x group EV/EBITDA that reads as a selected multiple without its footnote",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T13:15:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, seven pools, SOTP bridge, sensitivity, scenarios, sources. Compared directly against the 12:26 run the same day on the same quote.",
+  "scores": {
+    "depth": 4,
+    "coverage": 4,
+    "logic": 4,
+    "evidence": 4,
+    "valuation": 4,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "Real facts throughout — 480,126 Q2 deliveries, 1.48m active FSD Supervised users, 13.5 GWh of storage, Cox Automotive putting Tesla's US EV share at 55% in July — but the autonomy pool runs 1,486 words against 2,627 in the run two hours earlier, and two pools are stubs: ownership services at 316 words for 2% of EV and solar at 295 for 1%.",
+    "coverage": "Seven pools with a finer split than any earlier Tesla report — solar separated from storage, ownership services and insurance from automotive hardware — but every profit engine carries an EBIT share of zero, so the table cannot show a reader where the company earns money today.",
+    "logic": "The framework holds and the counter-case is granted properly: the installed base, driving data, charging network and storage scale are stated as reasons the options should not be valued at zero. Two things do not follow — the reverse valuation is said to reach 'roughly USD 322 per share' against a USD 348.52 quote with no explanation of the gap, and the closing paragraph calls the target USD 115.8 when it is USD 96.0.",
+    "evidence": "Eight registered sources and dated, attributed operating figures in the prose, with the followed model's negative FCFF through 2027 stated rather than skipped. The external evidence carrying the autonomy case is again not registered in the source table.",
+    "valuation": "Each pool carries its own metric year, multiple and twelve-month discount, the two options are probability-weighted at 25% and 10% with the scale-value-to-present step shown, and the scenarios genuinely discriminate — USD 38.5 to USD 308.0. It sits below the 12:26 run because the options carry two legs instead of three, and because the normalisation years jump from 2028E to 2035E across pools with no stated reason.",
+    "readability": "The last paragraph names a target 21% above the document's own, the pool table shows a zero EBIT share for every profit engine, and the stated 13.7x peer median cannot be derived from the six peers displayed."
+  },
+  "summary": "A capable Tesla report that lands below the one produced two hours earlier on the same quote: the target moved from USD 108.6 to USD 96.0 while the divisional analysis shrank by about 18%, the segment EBIT split disappeared entirely, and the option legs went from three capture tiers to two. Presentation is the weakest part — a closing paragraph that names a target 21% off the real one.",
+  "issues": [
+    "Closing text names USD 115.8 as the target; the target is USD 96.0",
+    "Every profit-engine pool carries an EBIT share of zero",
+    "Reverse valuation stated to reach roughly USD 322 against a USD 348.52 quote, unexplained",
+    "Pool normalisation years range from 2028E to 2035E with no stated rationale",
+    "Peer median of 13.7x is not derivable from the six peers displayed",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}
