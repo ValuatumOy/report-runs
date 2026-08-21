@@ -1,0 +1,31 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T13:30:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, eight pools, target bridge, sensitivity, scenarios, sources. Compared against the 6 August multi-stage AMD run.",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 2,
+    "evidence": 4,
+    "valuation": 2,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "Two pools are properly worked — accelerators at 1,743 words with benchmark and share evidence, adaptive and embedded at 1,751 — but four of the eight run under 350 words, and Client Compute, which is 30.6% of revenue, gets 298. The depth is allocated by enterprise value rather than by how much there is to explain.",
+    "coverage": "All eight compute lines are present with their own revenue, EBIT and EV shares, including the AI infrastructure integration business carried at a negative EBIT share rather than folded into accelerators, and export restrictions are named as a limit on the addressable set.",
+    "logic": "The SELL does not follow from the report's own primary method. The sum of the parts lands at USD 514.4 against a quote of USD 514.39, and the downside only appears once that result is given 40% weight and blended with a 22.0x group EV/EBITDA at USD 355.9 and a 30.0x P/E at USD 294.0. The document argues the market is wrong using a model that agrees with the market to the cent.",
+    "evidence": "The accelerator case is evidenced rather than asserted: MI355X at 119% of B200 on one MLPerf Llama 2 70B comparison, a Meta commitment sized as a multi-year deployment of up to 6GW, Q2 data-centre revenue of USD 6.7bn, and external share estimates given as a 5–7% to roughly 10% range instead of a single number, with the multi-GPU scaling weakness stated against the report's own case.",
+    "valuation": "The base scenario prints USD 514.58 with 0.0% upside against a USD 514.39 quote — the parts have been solved to spot, and the 40.3x accelerator multiple is the variable that does it, well outside every other multiple in the bridge (15.0x to 25.0x). The sensitivity table is populated and honest, which is what keeps this off the floor.",
+    "readability": "The peer table carries the string '31.71x current EV' inside a numeric 2027E column. Otherwise the tables render, the target reconciles to its own weighted rows, and the closing paragraph names the correct figure — the one hygiene point the other runs this week keep dropping."
+  },
+  "summary": "The accelerator analysis is the best part of any AMD report in the registry, and it is undone by the valuation: a sum-of-the-parts that reproduces the market price to the cent, then gets weighted down against two cheaper group multiples to manufacture a SELL. It lands below the 6 August multi-stage AMD run for that reason — the earlier report's bridge was crude, this one's is circular.",
+  "issues": [
+    "Sum-of-the-parts row equals USD 514.4 against a USD 514.39 quote and carries 40% of the target weight",
+    "Base scenario value per share USD 514.58, 0.0% upside — solved to market",
+    "Accelerator multiple of 40.3x sits far outside the 15.0x–25.0x range used for every other pool",
+    "Client Compute at 30.6% of revenue gets 298 words; four of eight pools are under 350",
+    "Peer table renders '31.71x current EV' as a value in a numeric column",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

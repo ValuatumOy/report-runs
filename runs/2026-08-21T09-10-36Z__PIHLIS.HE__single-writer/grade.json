@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T13:55:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, three pools, SOTP bridge, sensitivity, scenarios, sources.",
+  "scores": {
+    "depth": 5,
+    "coverage": 4,
+    "logic": 4,
+    "evidence": 5,
+    "valuation": 1,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "Each of the three divisions runs past 1,270 words and the regulatory economics are quantified rather than mentioned: Kela reimbursement for an ordinary private doctor appointment falling from EUR 30 to about EUR 8, selected occupational services becoming VAT-taxable, and occupational coverage rising to 284,000 individuals by H1 2026 — the demand, price and coverage variables that actually set the revenue line.",
+    "coverage": "All three reported divisions are present with their revenue, EBIT and EV shares, and public-sector outsourcing is kept separate on cash-conversion and buyer-concentration grounds rather than merged into healthcare. Nothing states what was left out or why.",
+    "logic": "The report catches the conflict between the followed model's EUR 621m of 2026 revenue and the company's 22 July guidance of EUR 550–570m, says plainly that the two definitions are not identical but that the model sits above the reported range, and moves the valuation onto 2027 divisional EBITDA instead — the same discipline the Elisa run showed. The conclusion still travels through a bridge fitted to the market's own enterprise value.",
+    "evidence": "Ninety-five registered sources, guidance cited to its date, and a peer table that grades each comparable by relevance — Terveystalo as direct, Attendo, Ambea and Humana as adjacent — so the reader can see which multiples are meant to bind and which are context.",
+    "valuation": "The method rationale states the construction outright: the parts 'carry 100% weight and sum to the locked EUR 512 million EV'. Summing to the market's own enterprise value guarantees the answer, and it arrives — a EUR 10.5 target against a EUR 10.50 quote, with the base scenario at EUR 10.56. The three divisional multiples are defensible on their own; the total cannot disagree with the price it is meant to judge.",
+    "readability": "The sensitivity table renders as headers with no rows while the method rationale describes what it shows, and the bridge parts sum to EUR 22.8 per share against a EUR 10.5 total because the EUR 276m of net debt and other claims has no row."
+  },
+  "summary": "Strong divisional work on a company whose economics are set by reimbursement policy, and the second report this week to catch a bad number in its own input and re-anchor rather than use it. The valuation undoes it: the parts are summed to the market's enterprise value by construction, so the target lands on the quote and the HOLD is arithmetic rather than a judgement about price.",
+  "issues": [
+    "Parts summed to the locked EUR 512m market EV; target EUR 10.5 equals the EUR 10.50 quote and the base scenario is EUR 10.56",
+    "Sensitivity table renders with columns and zero rows",
+    "Bridge parts sum to EUR 22.8/share against a EUR 10.5 total; the EUR 276m deduction has no row",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}
