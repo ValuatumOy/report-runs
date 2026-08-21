@@ -13,7 +13,7 @@
   },
   "justifications": {
     "depth": "The two pools run 1,722 and 1,688 words against 607 for the same Core business in the 17 August report, and the extra length buys real work: Q2 organic growth of 3% is decomposed into 1% like-for-like and 2% network expansion, and the gross margin is restated down 110 basis points once the tariff refund is stripped out — the number the thesis actually turns on.",
-    "coverage": "Only two pools. The lab-grown diamond option that the 17 August run separated out at 2.6% of enterprise value has been folded back into Fuel, so an optionality the registry had already identified is no longer visible, and nothing states that the choice was made or why.",
+    "coverage": "Only two pools. The 17 August Pandora report separated lab-grown diamonds as an emerging option at 2.6% of enterprise value, but that was the multi-stage pipeline; this single-writer run carries the same business inside Fuel with more. As a coverage judgement on its own terms, an option the registry has already shown can be isolated is not visible here.",
     "logic": "The reasoning inside each pool is sound and the counter-case is engaged — the return profile that would justify a higher multiple is stated before being declined — but the central conclusion is circular. The report establishes that the market pays 9.16x FY2027E EBITDA and then constructs a target that pays 9.16x FY2027E EBITDA.",
     "evidence": "Eighty-nine registered sources, an order of magnitude beyond any earlier run, with the operating evidence cleaned before use and the peer weakness disclosed rather than papered over — two comparables are stated to have failed valuation-multiple quality checks, which is why the peer set is thin.",
     "valuation": "The target of DKK 829.2 equals the quote of DKK 829.20, because the pool multiples were fitted to reconcile to the market's DKK 76.3bn enterprise value: Core is set at 8.5x and Fuel takes the residual, carried in the method rationale as 10.7563x. The base scenario then prints DKK 829.32. A target produced this way cannot disagree with the market, so it carries no information about whether the price is right.",
@@ -23,7 +23,7 @@
   "issues": [
     "Target DKK 829.2 equals the quote DKK 829.20; base scenario DKK 829.32 — the SOTP is fitted to the market EV",
     "Fuel multiple carried as the residual to four decimals (10.7563x)",
-    "Lab-grown diamond optionality, separated as its own pool on 17 August, is folded back into Fuel with no note",
+    "Lab-grown diamonds sit inside Fuel; the 17 August multi-stage run isolated them as a 2.6%-of-EV option",
     "Sensitivity table renders with columns and zero rows",
     "Peer median row is 'n/a' in both multiple columns; the company's own cell reads '9.16x implied'",
     "coreAnalysis.groupedPools is empty"
