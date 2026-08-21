@@ -1,0 +1,55 @@
+{
+  "runId": "2026-08-20T14-31-14Z__TSLA__single-writer",
+  "createdAt": "2026-08-20T14:31:14.999Z",
+  "source": "prod",
+  "reportId": "osakeanalyysi",
+  "company": "TSLA",
+  "lang": "en",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:production",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v11"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v9"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v7"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v7"
+    }
+  ],
+  "langfuseTraceId": "0fa2e4bf-afbe-40f2-a3f4-a62228459173",
+  "jobId": "01M0FS4PRHWZ4CVPFC852GD2PG",
+  "costUsd": 2.126838,
+  "llmCalls": 26,
+  "durationSec": 1231,
+  "rating": "SELL",
+  "targetPrice": 96,
+  "currentPrice": 348.52,
+  "upsidePct": -72.5
+}

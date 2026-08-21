@@ -1,0 +1,59 @@
+{
+  "runId": "2026-08-20T13-09-41Z__AMD__single-writer",
+  "createdAt": "2026-08-20T13:09:41.353Z",
+  "source": "prod",
+  "reportId": "osakeanalyysi",
+  "company": "AMD",
+  "lang": "en",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:production",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi-sw.patch",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v3"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v11"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v9"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v7"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v7"
+    }
+  ],
+  "langfuseTraceId": "bd94b049-06fd-4cbe-925d-379940a5e237",
+  "jobId": "01M0FMN92C7MGPHCFGFVS3FQVD",
+  "costUsd": 2.28015,
+  "llmCalls": 25,
+  "durationSec": 1177,
+  "rating": "SELL",
+  "targetPrice": 403.8,
+  "currentPrice": 514.39,
+  "upsidePct": -21.5
+}

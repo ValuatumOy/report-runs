@@ -1,0 +1,55 @@
+{
+  "runId": "2026-08-20T11-25-27Z__AIR.DE__single-writer",
+  "createdAt": "2026-08-20T11:25:27.202Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "AIR.DE",
+  "lang": "fi",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    }
+  ],
+  "langfuseTraceId": "15a7ed92-7713-4bca-a1e0-f5058ac65a0c",
+  "jobId": "01M0FEPC5CS70N9ED4XYA9FCQF",
+  "costUsd": 2.073573,
+  "llmCalls": 26,
+  "durationSec": 1309,
+  "rating": "HOLD",
+  "targetPrice": 179.3,
+  "currentPrice": 193.62,
+  "upsidePct": -7.4
+}
