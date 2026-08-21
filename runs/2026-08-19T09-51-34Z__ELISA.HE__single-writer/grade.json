@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T11:40:00Z",
+  "basis": "snapshot narrativeCache.data — compact read plus a full read of the Consumer deep dive: recommendation, coreAnalysis, four pools, SOTP bridge, scenarios, sources. This job registered twice from two traces; it is graded once.",
+  "scores": {
+    "depth": 5,
+    "coverage": 4,
+    "logic": 5,
+    "evidence": 5,
+    "valuation": 4,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "Consumer is reasoned as an equation rather than described: subscriptions times ARPU less acquisition, retention and network cost, with EUR 24.0 monthly ARPU annualised to EUR 288 per retained relationship and a stated sensitivity that one euro per month across a million subscriptions moves revenue by EUR 12m — which is why the section then argues about churn rather than about subscriber additions.",
+    "coverage": "All four divisions are present with their EV shares, and the two software pools are sized honestly at 3.4% of EV with 706 and 893 words rather than inflated to match their strategic billing. Estonia appears inside the domestic pools with its own Q2 numbers rather than as a separate claim.",
+    "logic": "The best single analytical judgement in the registry: the report notices that the followed model's EUR 982m 2026 EBITDA cannot be reconciled with EUR 395m of reported first-half EBITDA or with EUR 815–845m of company guidance, declines to value on it, and re-anchors everything to 2027 where the model and consensus agree — then keeps that choice consistent through every multiple and the reverse-DCF confrontation.",
+    "evidence": "Competitor evidence is dated and specific — Telia's Q2 service-revenue growth of 0.1%, DNA at EUR 19.6 ARPU and a 4% fixed-ARPU decline to EUR 16.7 — with an explicit note that the ARPU comparison is not fully like-for-like, and a third-party 4.33% market CAGR is named and then declined as too generous.",
+    "valuation": "Each pool carries a multiple placed against named peers (Consumer at 9.5x, near Tele2 and below Elisa's own 11.94x history; the software pools against Enghouse and Dassault Systèmes), and the EUR 311m gap to the market is expressed both as a multiple (10.04x rather than 9.5x on Consumer) and as EBITDA (about EUR 35m more in 2027). It loses a point because the bridge rows sum to EUR 47.6 per share against a EUR 37.4 total, with the EUR 1.6bn EV-to-equity deduction named in the text but given no row.",
+    "readability": "The sensitivity table renders as headers with no rows while the method rationale describes what it supposedly tests across 7.5–10.5x, the bridge does not add up to its own total, and the scenario note places the target 'between Bear and Base' when it is the base case."
+  },
+  "summary": "The most disciplined non-Tesla analysis so far: it catches a bad number in its own input data, says why it is bad, and rebuilds the valuation on a year where two independent sources agree — then holds that line consistently instead of quietly using the higher figure where it would help. Presentation carries the same two defects as the Stora Enso run the day before: an empty sensitivity table and a sum-of-parts that does not reconcile to its total on the page.",
+  "issues": [
+    "Sensitivity table renders with columns and zero rows, though the method rationale describes its contents",
+    "Target bridge parts sum to EUR 47.6/share against a EUR 37.4 total; the EUR 1.6bn deduction has no row",
+    "Scenario note says the target sits between Bear and Base; it equals the Base case",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}
