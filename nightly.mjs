@@ -42,7 +42,13 @@ const dirs = () =>
     .filter((e) => e.isDirectory() && existsSync(join(RUNS, e.name, 'meta.json')))
     .map((e) => ({ dir: e.name, meta: JSON.parse(readFileSync(join(RUNS, e.name, 'meta.json'), 'utf8')) }))
 
-const known = new Set(dirs().map((r) => r.meta.langfuseTraceId).filter(Boolean))
+const registered = dirs()
+const known = new Set(registered.map((r) => r.meta.langfuseTraceId).filter(Boolean))
+// One job can emit more than one trace. Keying only on the trace id imported the
+// same S3 artifact twice under two run ids, so the job id gates as well — both
+// against what is already on disk and within this batch, because meta.json for
+// the first import is written after this filter has run.
+const knownJobs = new Set(registered.map((r) => r.meta.jobId).filter(Boolean))
 const since = new Date(Date.now() - HOURS * 3600 * 1000).toISOString()
 
 const res = await fetch(
@@ -50,7 +56,16 @@ const res = await fetch(
   { headers: { Authorization: AUTH } },
 )
 if (!res.ok) throw new Error(`langfuse traces: ${res.status} ${await res.text()}`)
-const traces = (await res.json()).data.filter((t) => t.metadata?.jobId && !known.has(t.id))
+const seenJobs = new Set()
+// Langfuse returns newest first, so the first trace kept for a job is its latest.
+const traces = (await res.json()).data.filter(
+  (t) =>
+    t.metadata?.jobId &&
+    !known.has(t.id) &&
+    !knownJobs.has(t.metadata.jobId) &&
+    !seenJobs.has(t.metadata.jobId) &&
+    (seenJobs.add(t.metadata.jobId), true),
+)
 
 console.log(`window: last ${HOURS}h · ${traces.length} new worker run(s) found`)
 for (const t of traces.slice(0, MAX)) {

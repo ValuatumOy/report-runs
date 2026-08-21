@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T11:15:00Z",
+  "basis": "snapshot narrativeCache.data — compact read plus a full read of the Forest and Land Assets deep dive: recommendation, coreAnalysis, five pools, SOTP bridge, scenarios, sources.",
+  "scores": {
+    "depth": 5,
+    "coverage": 5,
+    "logic": 4,
+    "evidence": 5,
+    "valuation": 4,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "The forest pool is valued twice and reconciled: the September 2025 sale of ~175,000 hectares for SEK 9.8bn implies about EUR 5,143 per hectare, which applied to the remaining 1.2m hectares gives EUR 6.17bn against a reported EUR 5.6bn — and the report names why the two differ (location, age class, productivity, encumbrances) instead of picking one. It also refuses a single price per hectare across Nordic land, the 41%-held Tornator stake and the South American plantations.",
+    "coverage": "Five divisions with their own archetypes, including Wood Products carried at a negative EBIT share rather than hidden, the Tornator and Veracel/Montes del Plata holdings brought inside the forest perimeter, and Lignode deliberately excluded from every scenario because no auditable scale economics exist.",
+    "logic": "The BUY does not need an appraisal uplift — it needs the discount to narrow, and the report says so explicitly. The three forest figures (EUR 8.5bn group fair value, EUR 5.6bn remaining Swedish estate, EUR 7.2bn carried) are each defined where they appear. Two slips: the closing text calls the target EUR 15.50 when it is EUR 15.8, and the parts in the bridge sum to EUR 20.1 per share with no visible row for the EUR 3.5bn of net debt that brings it to 15.8.",
+    "evidence": "Company sources with dates throughout — the Q1 2026 forest update and demerger materials of 7 May 2026, Oulu full-capacity guidance of 23 July 2026, the Q4 ramp that cost EUR 31m of adjusted EBIT — and the peer table carries nine named comparables with the median stated rather than asserted.",
+    "valuation": "Each division gets a multiple inside a stated band (6.0–8.0x industrial against a 9.3x peer median and 7.90x own history, 12.0x for forests with the appraisal as cross-check), and the gap to the market is read from both ends: hold the industrials at base and the market pays 37.9% of reported forest fair value; hold the forests at base and all four industrial divisions are worth 57.5% of theirs. It loses a point because the bridge table cannot be reconciled to its own total without the unshown senior-claim deduction.",
+    "readability": "The sensitivity table has column headers and no rows at all — an empty table on the page — the bridge does not add up to its stated total, and a multiple leaks into the prose as '8.033x'."
+  },
+  "summary": "The best asset-backed analysis in the registry and the first single-writer BUY: two independent routes to the forest value, reconciled against each other, with the industrial case carried on Oulu utilization bands rather than on hope. Presentation is where it loses ground — an empty sensitivity table and a sum-of-parts that silently drops EUR 3.5bn of net debt between the rows and the total.",
+  "issues": [
+    "Sensitivity table renders with columns and zero rows",
+    "Target bridge parts sum to EUR 20.1/share against a EUR 15.8 total; the net-debt deduction has no row",
+    "Closing text names EUR 15.50 as the target; the target is EUR 15.8",
+    "Multiple written as '8.033x' in the method rationale",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}
