@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T12:10:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, two pools, SOTP bridge, scenarios, segmentDataQuality, sources.",
+  "scores": {
+    "depth": 4,
+    "coverage": 4,
+    "logic": 5,
+    "evidence": 4,
+    "valuation": 4,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "The store case is carried by a payback calculation rather than a growth adjective — EUR 1.8m per opening, profitable in the first full month, cumulative EBITDA payback near 19 months, and eight openings costed at EUR 14.4m that is mostly inventory rather than capex, which is why it competes with online for working capital. Cannibalisation is defined in two dimensions, geographic and channel. What keeps it out of the top band is allocation: the online pool gets 1,660 words for 1.5% of EV against 1,679 for the 98.5%.",
+    "coverage": "Both channels are present and the report discloses that the company is a single reportable segment, so profit is not split and the pools carry a zero EBIT share honestly rather than an invented one. Private label at 23.6% of FY2025 sales, the Swedish launch and the target of more than 100 stores by FY2030 are all argued inside the store pool rather than given separate value treatment.",
+    "logic": "The thesis is one testable proposition — new stores must add catchment profit at roughly two-year cash payback rather than move sales between existing stores — and everything follows from it: the premium multiple is granted on the strength of 17.1% modelled EBIT margin against a 6.2% peer median, then bounded by refusing the reverse valuation's 21.8% and 21.9%. The conditions that would flip the call to HOLD are stated as measurable thresholds.",
+    "evidence": "Q1 FY2026 sales up 16.3% with adjusted EBITA up 50.2%, guidance of EUR 480–510m and EUR 80–90m, 56 stores at 31 January 2026, and the segment limitation cited to page 20 of the February 2026 financial statements release. It stops short of the top band because the new-store economics that carry the whole thesis rest on management's own disclosure with no independent cross-check, and the source list runs to five entries.",
+    "valuation": "Store and online carry separate multiples (10.3x and 7.0x) placed explicitly above the 9.33x own history and 8.4x peer median, with the premium tied to specific superiority — 45.2% modelled ROE against 19.7% for peers. The point comes off for the bridge: the two parts sum to EUR 13.4 per share against a EUR 12.0 total, and the EUR 118m net-debt deduction that closes the gap has no row.",
+    "readability": "The sensitivity table renders as headers with no rows while the method rationale describes what it centres on, and the target bridge cannot be reconciled to its own total on the page."
+  },
+  "summary": "The cleanest argument of the week on a simple company: one proposition, tested, with the quality premium granted and then bounded instead of asserted. It is held back by the two presentation defects now recurring across the single-writer runs — an empty sensitivity table and a sum-of-parts that drops its net-debt deduction between the rows and the total — and by spending as many words on 1.5% of enterprise value as on the other 98.5%.",
+  "issues": [
+    "Sensitivity table renders with columns and zero rows",
+    "Target bridge parts sum to EUR 13.4/share against a EUR 12.0 total; the EUR 118m deduction has no row",
+    "Online pool carries 1,660 words for 1.5% of EV, near-equal to the store pool's 1,679",
+    "Sweden and the rollout to 100+ stores are treated inside the store pool rather than as separate optionality",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

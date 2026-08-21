@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T11:55:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, seven pools, SOTP bridge, sensitivity, scenarios, segmentDataQuality, sources.",
+  "scores": {
+    "depth": 4,
+    "coverage": 4,
+    "logic": 1,
+    "evidence": 4,
+    "valuation": 1,
+    "readability": 1
+  },
+  "justifications": {
+    "depth": "The operating work is real: Q2 2026 renewable comparable sales margin of USD 1,223 per ton against 75% utilisation versus an 80% target, SAF volume of 145,000 tons, Rotterdam at EUR 2.5bn, a nine-week Porvoo turnaround costing more than EUR 400m, and uncommissioned capacity split into three legs at 20%, 35% and 15% probability. It stops short of the top band because every EV figure those sections argue against is denominated in a broken total.",
+    "coverage": "Seven pools, the most complete structure yet for a refiner: conventional refining, the renewable road-fuel and SAF installed bases held apart from the uncommissioned capacity option, polymers, retail, and a shared cost centre carried at negative EUR 496m rather than netted away silently.",
+    "logic": "The report notices that the market EV of EUR 842m is below its own EUR 4.5bn value for conventional refining alone — and concludes the market is pricing a severe lasting impairment, rather than that the input is wrong. Every conclusion in the document is built on that inversion.",
+    "evidence": "Operating facts are dated and attributed and the segment table reconciles to the 2025 financial statements page 168, with the EUR 1m rounding difference disclosed rather than smoothed. What is never checked is the financial model itself.",
+    "valuation": "The bridge names its own defect in a table row: equity value of EUR 15,353m divided by '1m locked shares' gives a target of EUR 15,353 per share against a EUR 27.97 quote, a stated 54,791% upside. The multiples table inherits it — EV/EBITDA of 0.51x, P/BV and P/S of 0.00x — and the sensitivity grid runs from EUR 12,928 to EUR 16,881 per share.",
+    "readability": "Unpublishable as it stands: a BUY with a five-figure target on a EUR 28 share, scenario upsides of 27,783% to 91,995%, a peer table listing the company at 0.51x against a 6.7x median with no remark, and P/E cells reading '0.00x' and 'n/m' across the forecast years."
+  },
+  "summary": "The clearest failure case in the registry, and a useful one: a share count of one million instead of the real count turned a competent seven-division refiner analysis into a EUR 15,353 target. What separates this from the Elisa run the same morning is not the data quality — Elisa's input was also wrong — but the response to it. Elisa refused its bad number and re-anchored; this report built a thesis explaining why the market must be wrong.",
+  "issues": [
+    "Share count in the equity bridge is 1,000,000 against an actual count near 769m — the whole target inherits it",
+    "Multiples table renders 0.51x EV/EBITDA and 0.00x P/BV and P/S without any flag",
+    "Scenario upsides printed as 27,783% to 91,995%",
+    "The absurd EV is rationalised into the investment thesis instead of stopping the run",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}
