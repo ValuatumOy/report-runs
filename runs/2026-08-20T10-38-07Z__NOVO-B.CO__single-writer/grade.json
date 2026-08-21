@@ -1,0 +1,31 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T12:25:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, six pools, SOTP bridge, sensitivity, scenarios, segmentDataQuality, sources.",
+  "scores": {
+    "depth": 5,
+    "coverage": 5,
+    "logic": 5,
+    "evidence": 4,
+    "valuation": 5,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "The competitive position is argued in the four variables that actually decide it: weekly U.S. branded obesity share of 39.9% against 60.1%, the CagriSema non-inferiority failure against tirzepatide, retatrutide at 28.7% Phase 3 weight loss, and the price path — a 2027 U.S. list price of USD 675 alongside a USD 274 Medicare negotiated price — set against 4.1 million obesity-care patients and roughly 90% of the U.S. oral segment.",
+    "coverage": "Six pools with the three marketed franchises separated from three distinct option pools, each option carrying its own probability legs, and the report states what the case does not require — Novo regaining U.S. prescription leadership — rather than leaving the boundary implicit.",
+    "logic": "The reverse DCF is named as the debate rather than as an answer: it reaches the market price only with EBIT margin falling from 42.1% to 24.5% terminally, which the report calls coherent if competition structurally halves the franchise. Both peer extremes are rejected with reasons — Lilly's 43.7x as a group benchmark, Sanofi's 8.1x as understating the pipeline — and the next-generation obesity option is carried with a stated 55% failure weight.",
+    "evidence": "The prose attributes its competitive facts properly, but the sources table holds four entries — the model, the price feed, the segment source and a leadership note — so the IQVIA share data, the CagriSema readout, the retatrutide result and the Medicare price all sit outside the registered source list. The segment table itself reconciles to page 33 of the 2025 financial report with a zero gap.",
+    "valuation": "Each marketed franchise carries its own multiple against its own metric (obesity at 10.5x EBITDA, diabetes at 8.0x, rare disease at 12.0x EBIT), each option leg shows probability, scale year and the discount from scale value to present (324.1 → 31.2 DKK at 15%), sensitivity runs on next-generation success probability from 22.5% to 67.5%, and the scenarios use the same framework with options at zero, weighted, and certain.",
+    "readability": "The reality-check paragraph calls the target DKK 408.6 when it is DKK 404.5, the peer table renders Roche and Viking Therapeutics as rows of 'n/a', one option pool's deep-dive table has no rows, and the bridge parts sum to DKK 409.2 against the 404.5 total with no row for the net-debt deduction."
+  },
+  "summary": "Level with the strongest Tesla run and reached by the same route: a bridge where every leg shows its probability, scale year and discount, and a market-implied case set out as a coherent alternative rather than dismissed. The gap between this and a clean five across the board is entirely bookkeeping — a stale target figure, two empty peer rows, and a source table that does not contain the competitive evidence the argument runs on.",
+  "issues": [
+    "Reality-check text names DKK 408.6 as the target; the target is DKK 404.5",
+    "Sources table has four entries; the IQVIA share, CagriSema, retatrutide and Medicare-price evidence is not registered",
+    "Peer table renders Roche and Viking Therapeutics as all-'n/a' rows",
+    "Rare-Disease Pipeline Optionality deep-dive table has zero rows",
+    "Bridge parts sum to DKK 409.2 against a DKK 404.5 total; the net-debt deduction has no row",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

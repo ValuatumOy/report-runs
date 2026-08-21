@@ -1,0 +1,31 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T12:50:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, six pools, SOTP bridge, sensitivity, scenarios, segmentDataQuality, sources. Compared directly against the 11:25 run on the older prompt set the same day. This job registered twice from two traces; it is graded once.",
+  "scores": {
+    "depth": 3,
+    "coverage": 3,
+    "logic": 4,
+    "evidence": 4,
+    "valuation": 2,
+    "readability": 2
+  },
+  "justifications": {
+    "depth": "About 5,070 words of divisional analysis against nearly 8,950 in the run 70 minutes earlier, and the shortfall lands where it matters: narrowbody, widebody and services are merged into one 'Commercial Aircraft and Services' pool carrying 78.4% of enterprise value in 1,577 words, so aircraft economics and aftermarket economics are argued as one thing. Connected Intelligence gets 454 words and Space Systems 507.",
+    "coverage": "Six pools that follow Airbus's reported division names, with the A350F option and a loss-making Space unit both present, but the pool that carries three-quarters of the value is a merger of three businesses with different margins, cycles and customers rather than a division that is actually analysed.",
+    "logic": "The market-implied case is stated precisely — a 9.7% 2029 EBIT margin against 11.5% in the maintained model on revenue rising to EUR 108.1bn — and the constraint is named rather than gestured at: a formal contractual dispute with Pratt & Whitney, CFM declining incremental 2026 volumes, cabin equipment limiting A350 output. The closing paragraph then calls the target EUR 232 when it is EUR 211.4.",
+    "evidence": "Concrete and dated where it counts — 9,222 aircraft in backlog, 351 delivered in H1 against a target near 870, 75 A320-family per month by end-2027, 12 A350s per month in 2028, inventory of EUR 41.7bn — reconciled to page 22 of the FY2025 statements, though a EUR 65m profit reconciliation gap is carried with an empty issues list.",
+    "valuation": "Neither the scenarios nor the sensitivity separates outcomes. Bear to bull runs EUR 208.9 to EUR 216.5, a 3.6% spread, while the same rows carry revenue from EUR 95bn to EUR 108bn and EBITDA from EUR 12.4bn to EUR 17.7bn — the implied multiple falls from 13.5x to 9.7x and absorbs all of it. The sensitivity grid then varies the A350F success probability from 27.5% to 68.8% and moves the target by EUR 2.4 in total, because that option is 1.4% of enterprise value.",
+    "readability": "The closing paragraph names a EUR 232 target against the document's own EUR 211.4 — a ten percent discrepancy in the last thing a reader sees — and the scenario multiple column again reads as a selection when it is a back-solve."
+  },
+  "summary": "Run on the newer production prompt set against the same company 70 minutes after the staging run, and weaker on every structural measure: 43% less divisional analysis, and the three commercial businesses that drive the value collapsed into one pool. The evidence and the market-implied confrontation hold up; what is lost is the decomposition that made the earlier report worth reading, and the scenario range is too narrow to inform anything.",
+  "issues": [
+    "Closing text names a EUR 232 target; the target is EUR 211.4",
+    "Commercial narrowbody, widebody and services merged into one pool at 78.4% of EV",
+    "Bear-to-bull value range is 3.6% while the underlying EBITDA range is 43%",
+    "Sensitivity varies an option worth 1.4% of EV; the whole grid spans EUR 2.4",
+    "Segment profit reconciliation of EUR -65m carried with an empty issues list",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

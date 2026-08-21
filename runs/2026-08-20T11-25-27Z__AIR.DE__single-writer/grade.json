@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T12:45:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, seven pools, SOTP bridge, sensitivity, scenarios, sources. Compared directly against the 12:37 run on the newer prompt set the same day.",
+  "scores": {
+    "depth": 5,
+    "coverage": 5,
+    "logic": 4,
+    "evidence": 4,
+    "valuation": 3,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "Nearly 8,950 words of divisional analysis, and the split earns it: narrowbody, widebody and services are held apart because their economics differ, with services alone at 2,242 words. The industrial argument is specific — 519 aircraft must be delivered in H2 after 351 in H1, inventory stood at EUR 46.9bn at Q1, and Pratt & Whitney availability is named as binding through 2028.",
+    "coverage": "Seven pools including Space Systems and Intelligence carried at a negative EBIT share as a turnaround rather than dropped, Military Air Systems separated from commercial, and the A350 Freighter treated as a pre-revenue option with its own probability legs.",
+    "logic": "The reverse valuation is confronted with a specific path — revenue from EUR 75.1bn in 2025 to EUR 93.7bn in 2027 with margin from 6.8% to 8.1% and eventually 11.8% — and the report says which half of that it doubts. The closing paragraph then calls the SOTP EUR 197.9 against a EUR 179.3 target.",
+    "evidence": "H1 2026 revenue of EUR 33.2bn up 12%, negative EUR 1.2bn free cash flow before customer financing, roughly 59% of commercial deliveries as of May 2026, 51% of civil and parapublic helicopter bookings, and EUR 9.3bn of H1 defence orders — dated and attributable throughout, across eight registered sources.",
+    "valuation": "The bridge itself is sound: each division on its own 2027E EBITDA and multiple with the discount shown, and the A350F built from probability legs. The apparatus around it does not discriminate — bear-to-bull revenue moves from EUR 84bn to EUR 102bn and EBITDA by 57%, yet value per share moves from EUR 170.4 to EUR 184.8, because the implied multiple falls from 13.0x to 9.0x and absorbs the operating range. The sensitivity grid then varies the A350F option, which is 5% of EV.",
+    "readability": "Tables render and the multiple history is complete, but the closing paragraph names a EUR 197.9 SOTP where the target is EUR 179.3, and the scenario table's multiple column swings 13.0x to 9.0x as a back-solved figure a reader will take for a chosen one."
+  },
+  "summary": "The stronger of the two Airbus runs from 20 August by a clear margin, and the difference is structural: this one decomposes the commercial business into narrowbody, widebody and services instead of valuing them as a single 78%-of-EV block. Its weakness is the scenario and sensitivity apparatus, which cannot separate a good year from a bad one because the implied multiple moves the other way.",
+  "issues": [
+    "Closing text names a EUR 197.9 SOTP; the target is EUR 179.3",
+    "Bear-to-bull value range is EUR 170.4–184.8 while the underlying EBITDA range is 57% — the implied multiple cancels the operating spread",
+    "Sensitivity is taken on the A350F option at 5% of EV, so the grid spans only EUR 173.5–184.8",
+    "Recorded quote of EUR 193.62 differs from the EUR 207.30 recorded 70 minutes later on the same day",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}
