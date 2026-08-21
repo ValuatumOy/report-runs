@@ -1,0 +1,55 @@
+{
+  "runId": "2026-08-19T11-22-35Z__NESTE.HE__single-writer",
+  "createdAt": "2026-08-19T11:22:35.936Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "NESTE.HE",
+  "lang": "fi",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    }
+  ],
+  "langfuseTraceId": "12357e51-6d20-4246-85af-926cc39de3bd",
+  "jobId": "01M0CVX7RAWB7HPYCD7NTB1613",
+  "costUsd": 2.019273,
+  "llmCalls": 23,
+  "durationSec": 1071,
+  "rating": "BUY",
+  "targetPrice": 15353,
+  "currentPrice": 27.97,
+  "upsidePct": 54791
+}

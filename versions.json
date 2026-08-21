@@ -14,6 +14,11 @@
       "hash": "99ee1a9d68d0",
       "firstSeen": "2026-08-17T09:58:22.380Z",
       "version": 3
+    },
+    {
+      "hash": "4516c3916b76",
+      "firstSeen": "2026-08-17T14:11:03.992Z",
+      "version": 4
     }
   ],
   "osakeanalyysi-sw.search": [
@@ -21,6 +26,11 @@
       "hash": "9bec080875f6",
       "firstSeen": "2026-08-14T19:51:00Z",
       "version": 1
+    },
+    {
+      "hash": "1d71145271ff",
+      "firstSeen": "2026-08-17T14:11:03.992Z",
+      "version": 2
     }
   ],
   "osakeanalyysi-sw.writer": [
@@ -48,6 +58,11 @@
       "hash": "805795abbd26",
       "firstSeen": "2026-08-17T10:57:30.801Z",
       "version": 5
+    },
+    {
+      "hash": "0ba8c32ed7d7",
+      "firstSeen": "2026-08-17T14:11:03.992Z",
+      "version": 6
     }
   ],
   "osakeanalyysi.segmentFacts": [
@@ -68,6 +83,13 @@
     {
       "hash": "80e3093b1124",
       "firstSeen": "2026-08-17T09:58:22.380Z",
+      "version": 1
+    }
+  ],
+  "osakeanalyysi.humanize": [
+    {
+      "hash": "87e9dfbc8162",
+      "firstSeen": "2026-08-17T14:11:03.992Z",
       "version": 1
     }
   ]

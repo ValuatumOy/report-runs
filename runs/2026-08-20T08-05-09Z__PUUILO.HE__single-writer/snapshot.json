@@ -1,0 +1,4611 @@
+{
+  "companyCode": "PUUILO.HE",
+  "lang": "fi",
+  "dataLang": "fi",
+  "currency": "EUR",
+  "kind": "equity",
+  "company": {
+    "companyId": 10923,
+    "companyName": "Puuilo Oyj",
+    "companyCode": "FI4000507124",
+    "ticker": "PUUILO.HE",
+    "industry": "Department Stores",
+    "models": [
+      {
+        "followedModelId": 11310,
+        "analystName": "ValuatumDataSources"
+      }
+    ]
+  },
+  "primaryFid": 11310,
+  "model": {
+    "dataMap": {
+      "2017": {
+        "ns": 0,
+        "pre_tax_profit": 0,
+        "ebit": 0,
+        "extras_in_ebit": 0,
+        "ebitda": 0,
+        "wacc": 0.0643
+      },
+      "2018": {
+        "eps_diluted": 0.15343599,
+        "goodwill": 33.54,
+        "gross_cap_expenditure": 96.354,
+        "total_non_cur_ass": 89.413,
+        "operating_cash_flow": -4.99886894,
+        "net_fin_items": -2.471,
+        "net_debt": 96.106,
+        "equity_ratio": 0.27808015,
+        "change_in_wc": 29.875,
+        "bs_total_assets": 144.595,
+        "ebit_without_extras": 17.869,
+        "inventories": 46.67,
+        "free_cash_flow_to_firm": -122.03186894,
+        "capex_excl_acq_divest": -96.354,
+        "gross_cap_expenditure_nega": -96.354,
+        "net_earnings": 12.308,
+        "wacc": 0.0643,
+        "cf_change_in_cash": 1.133,
+        "adj_net_earnings": 12.308,
+        "ebit": 17.869,
+        "eps": 0.15343599,
+        "change_in_wc_nega": -29.875,
+        "no_of_shares_total": 80.21586,
+        "fin_income": 0.012,
+        "dividend_ps": 0,
+        "other_intangible_rights": 20.014,
+        "pretax_percent": 0.11303109,
+        "tangible_ass": 35.859,
+        "net_earnings_percent": 0.09034853,
+        "cf_from_operations": -10.626,
+        "ns": 136.228,
+        "current_ratio": 0.76500626,
+        "cf_from_fin_activities": 108.113,
+        "eva": 14.28313106,
+        "ebit_percent": 0.1311698,
+        "interest_expenses": -2.483,
+        "cur_liab_total": 71.87,
+        "bv": 40.209,
+        "pre_tax_profit": 15.398,
+        "ebitda_percent": 0.18212115,
+        "fin_ass_ib": 4.785,
+        "costs": -111.418,
+        "bs_total_liab": 144.595,
+        "lt_liab_total": -4.467,
+        "ptp_without_extras": 15.398,
+        "ebitda": 24.81,
+        "cap_invested": 103.185,
+        "dep_total": -6.941,
+        "total_cur_ass": 54.981,
+        "equity_total": 40.209,
+        "taxes_paid": 0.562,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -122.03186894,
+        "st_debt": 51.549,
+        "gearing_percent": 2.39016141
+      },
+      "2019": {
+        "eps_diluted": 0.1899375,
+        "goodwill": 33.54,
+        "gross_cap_expenditure": 11.811,
+        "total_non_cur_ass": 92.251,
+        "operating_cash_flow": 28.16230848,
+        "roi_after_tax_beg_cap": 0.17789706,
+        "net_fin_items": -3.901,
+        "net_debt": 92.737,
+        "equity_ratio": 0.19432995,
+        "roe_percent": 0.4326504,
+        "change_in_wc": -1.186,
+        "ebit_gp": 0.28429123,
+        "bs_total_assets": 155.519,
+        "ebit_without_extras": 22.949,
+        "inventories": 50.205,
+        "free_cash_flow_to_firm": 31.71230848,
+        "capex_excl_acq_divest": -11.811,
+        "gross_cap_expenditure_nega": -11.811,
+        "net_earnings": 15.236,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.28665861,
+        "cf_change_in_cash": 5.246,
+        "adj_net_earnings": 15.236,
+        "ebit": 22.949,
+        "eps": 0.1899375,
+        "change_in_wc_nega": 1.186,
+        "no_of_shares_total": 80.21586,
+        "fin_income": 0.016,
+        "dividend_ps": 0,
+        "other_intangible_rights": 18.99,
+        "pretax_percent": 0.11172962,
+        "tangible_ass": 39.721,
+        "net_earnings_percent": 0.08936961,
+        "ns_growth": 0.25145345,
+        "cf_from_operations": 25.395,
+        "ns": 170.483,
+        "current_ratio": 0.7000912,
+        "cf_from_fin_activities": -8.338,
+        "eva": 11.72151298,
+        "ebit_percent": 0.13461166,
+        "interest_expenses": -3.917,
+        "cur_liab_total": 89.914,
+        "bv": 30.222,
+        "pre_tax_profit": 19.048,
+        "ebitda_percent": 0.18724448,
+        "eps_gp": 0.23789405,
+        "fin_ass_ib": 9.678,
+        "costs": -138.561,
+        "bs_total_liab": 155.519,
+        "lt_liab_total": -5.318,
+        "ptp_without_extras": 19.048,
+        "ebitda": 31.922,
+        "cap_invested": 85.877,
+        "dep_total": -8.973,
+        "total_cur_ass": 62.948,
+        "equity_total": 30.222,
+        "taxes_paid": -4.165,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 31.71230848,
+        "st_debt": 65.333,
+        "gearing_percent": 3.06852624,
+        "ev_per_ns": 0.54396626,
+        "enterprise_value": 92.737,
+        "ev_per_ebitda": 2.90511246,
+        "ev_per_ebit": 4.04100397
+      },
+      "2020": {
+        "eps_diluted": 0.33953803,
+        "goodwill": 33.54,
+        "gross_cap_expenditure": 15.353,
+        "total_non_cur_ass": 97.904,
+        "operating_cash_flow": 44.13870778,
+        "roi_after_tax_beg_cap": 0.38675906,
+        "net_fin_items": -5.534,
+        "net_debt": 121.746,
+        "equity_ratio": 0.03983878,
+        "roe_percent": 1.55045649,
+        "change_in_wc": -1.541,
+        "ebit_gp": 0.80848839,
+        "bs_total_assets": 173.424,
+        "total_receivables": 5.228,
+        "inventories": 58.514,
+        "lt_debt": 79.9,
+        "free_cash_flow_to_firm": 27.51770778,
+        "capex_excl_acq_divest": -15.353,
+        "gross_cap_expenditure_nega": -15.353,
+        "net_earnings": 28.785,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.60400351,
+        "cf_change_in_cash": 1.792,
+        "adj_net_earnings": 28.785,
+        "ebit": 41.503,
+        "eps": 0.33953803,
+        "change_in_wc_nega": 1.541,
+        "no_of_shares_total": 84.776953,
+        "dividend_ps": 0,
+        "other_intangible_rights": 18.23,
+        "pretax_percent": 0.1506738,
+        "tangible_ass": 46.135,
+        "net_earnings_percent": 0.12058009,
+        "ns_growth": 0.40026278,
+        "cf_from_operations": 40.026,
+        "ns": 238.721,
+        "current_ratio": 1.60741726,
+        "cf_from_fin_activities": -22.881,
+        "eva": 27.69181668,
+        "ebit_percent": 0.17385567,
+        "interest_expenses": -5.5,
+        "cur_liab_total": 46.594,
+        "bv": 6.909,
+        "pre_tax_profit": 35.969,
+        "ebitda_percent": 0.21448888,
+        "eps_gp": 0.78763031,
+        "fin_ass_ib": 11.154,
+        "costs": -187.518,
+        "bs_total_liab": 173.424,
+        "lt_liab_total": 73.314,
+        "ebitda": 51.203,
+        "cap_invested": 85.655,
+        "dep_total": -9.7,
+        "total_cur_ass": 74.896,
+        "equity_total": 6.909,
+        "taxes_paid": -7.5,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 27.51770778,
+        "st_debt": 10,
+        "gearing_percent": 17.62136344,
+        "ev_per_ns": 0.50999284,
+        "enterprise_value": 121.746,
+        "ev_per_ebitda": 2.37771224,
+        "ev_per_ebit": 2.9334265
+      },
+      "2021": {
+        "eps_diluted": 0.37628151,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 13.296,
+        "total_non_cur_ass": 99.7,
+        "operating_cash_flow": 16.94269424,
+        "roi_after_tax_beg_cap": 0.41536039,
+        "net_fin_items": -4.6,
+        "net_debt": 93.5,
+        "equity_ratio": 0.31637891,
+        "roe_percent": 0.85398011,
+        "change_in_wc": 29.852,
+        "ebit_gp": 0.07221165,
+        "bs_total_assets": 214.3,
+        "net_debt_per_ebitda": 1.66964286,
+        "total_receivables": 5.4,
+        "ebit_without_extras": 44.5,
+        "inventories": 92.2,
+        "lt_debt": 69.8,
+        "free_cash_flow_to_firm": 2.93269424,
+        "capex_excl_acq_divest": -13.296,
+        "gross_cap_expenditure_nega": -13.296,
+        "net_earnings": 31.9,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.09368592,
+        "cf_change_in_cash": 5.629,
+        "adj_net_earnings": 31.9,
+        "ebit": 44.5,
+        "eps": 0.37628151,
+        "change_in_wc_nega": -29.852,
+        "no_of_shares_total": 84.776953,
+        "dividend_ps": 0,
+        "other_intangible_rights": 19.2,
+        "pretax_percent": 0.14772307,
+        "tangible_ass": 46.8,
+        "net_earnings_percent": 0.11810441,
+        "ns_growth": 0.13144633,
+        "cf_from_operations": 13.548,
+        "ns": 270.1,
+        "current_ratio": 3.1260274,
+        "cf_from_fin_activities": 5.377,
+        "eva": 30.07007774,
+        "ebit_percent": 0.16475379,
+        "interest_expenses": -4.5,
+        "cur_liab_total": 36.5,
+        "bv": 67.8,
+        "pre_tax_profit": 39.9,
+        "ebitda_percent": 0.20733062,
+        "eps_gp": 0.10821608,
+        "fin_ass_ib": 16.5,
+        "costs": -214.1,
+        "bs_total_liab": 214.3,
+        "lt_liab_total": 62.5,
+        "ptp_without_extras": 39.9,
+        "ebitda": 56,
+        "cap_invested": 117,
+        "dep_total": -11.5,
+        "total_cur_ass": 114.1,
+        "equity_total": 67.8,
+        "taxes_paid": -8.283,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 2.93269424,
+        "st_debt": -4.1,
+        "gearing_percent": 1.37905605,
+        "p_per_s": 2.507841,
+        "p_per_bv": 9.99067632,
+        "pe": 21.23410202,
+        "ev_per_ns": 2.85400909,
+        "enterprise_value": 770.86785447,
+        "market_cap_ye": 677.36785447,
+        "pe_adj_i": 21.23410202,
+        "ev_per_ebitda": 13.7654974,
+        "ev_per_ebit": 17.32287313,
+        "p_per_fcf": 230.97118215
+      },
+      "2022": {
+        "eps_diluted": 0.41495811,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 15.25,
+        "total_non_cur_ass": 106.5,
+        "operating_cash_flow": 47.52334852,
+        "roi_after_tax_beg_cap": 0.33994315,
+        "net_fin_items": -3.1,
+        "net_debt": 141.6,
+        "equity_ratio": 0.32900994,
+        "payout": 0.72296454,
+        "roe_percent": 0.48783878,
+        "change_in_wc": 0.3,
+        "ebit_gp": 0.05617978,
+        "bs_total_assets": 231.3,
+        "net_debt_per_ebitda": 2.55365194,
+        "total_receivables": 5.4,
+        "ebit_without_extras": 47,
+        "inventories": 89.9,
+        "lt_debt": 69.9,
+        "free_cash_flow_to_firm": -16.62665148,
+        "capex_excl_acq_divest": -15.25,
+        "gross_cap_expenditure_nega": -15.25,
+        "net_earnings": 35.1,
+        "wacc": 0.0643,
+        "ebitda_gp": -0.00982143,
+        "cf_change_in_cash": 14.75,
+        "adj_net_earnings": 35.1,
+        "ebit": 47,
+        "eps": 0.41495811,
+        "change_in_wc_nega": -0.3,
+        "no_of_shares_total": 84.586851,
+        "fin_income": 2.6,
+        "dividend_ps": 0.3,
+        "other_intangible_rights": 17.3,
+        "pretax_percent": 0.14811066,
+        "tangible_ass": 55.7,
+        "net_earnings_percent": 0.11842105,
+        "ns_growth": 0.09737134,
+        "cf_from_operations": 45.3,
+        "ns": 296.4,
+        "current_ratio": 3.26578947,
+        "cf_from_fin_activities": -15.3,
+        "eva": 32.25024852,
+        "ebit_percent": 0.1585695,
+        "interest_expenses": -2.6,
+        "cur_liab_total": 38,
+        "bv": 76.1,
+        "pre_tax_profit": 43.9,
+        "ebitda_percent": 0.18707827,
+        "eps_gp": 0.10278634,
+        "fin_ass_ib": 28.8,
+        "costs": -240.95,
+        "bs_total_liab": 231.3,
+        "lt_liab_total": 60.8,
+        "ptp_without_extras": 43.9,
+        "ebitda": 55.45,
+        "cap_invested": 164.3,
+        "dep_total": -8.45,
+        "total_cur_ass": 124.1,
+        "equity_total": 76.1,
+        "taxes_paid": -7.15,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": -16.62665148,
+        "gearing_percent": 1.86070959,
+        "p_per_s": 1.80360627,
+        "p_per_bv": 7.02482127,
+        "pe": 15.23045294,
+        "ev_per_ns": 2.28133906,
+        "enterprise_value": 676.18889832,
+        "dividend_yield": 0.04746835,
+        "market_cap_ye": 534.58889832,
+        "pe_adj_i": 15.23045294,
+        "ev_per_ebitda": 12.19456985,
+        "ev_per_ebit": 14.38699784,
+        "p_per_fcf": -32.15252927
+      },
+      "2023": {
+        "eps_diluted": 0.45900036,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 36.325,
+        "total_non_cur_ass": 125.8,
+        "operating_cash_flow": 63.625,
+        "roi_after_tax_beg_cap": 0.23371881,
+        "net_fin_items": -4.4,
+        "net_debt": 101.3,
+        "equity_ratio": 0.34205231,
+        "payout": 0.73913044,
+        "roe_percent": 0.48044693,
+        "change_in_wc": -8.8,
+        "ebit_gp": 0.12340426,
+        "bs_total_assets": 248.5,
+        "net_debt_per_ebitda": 1.45076978,
+        "total_receivables": 7.2,
+        "ebit_without_extras": 52.8,
+        "inventories": 93,
+        "lt_debt": 50,
+        "free_cash_flow_to_firm": 69.8,
+        "capex_excl_acq_divest": -36.325,
+        "gross_cap_expenditure_nega": -36.325,
+        "net_earnings": 38.7,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.25924256,
+        "cf_change_in_cash": -10.2,
+        "adj_net_earnings": 38.7,
+        "ebit": 52.8,
+        "eps": 0.46,
+        "change_in_wc_nega": 8.8,
+        "no_of_shares_total": 84.130435,
+        "fin_income": 0.9,
+        "dividend_ps": 0.34,
+        "other_intangible_rights": 16.4,
+        "pretax_percent": 0.143026,
+        "tangible_ass": 75.9,
+        "net_earnings_percent": 0.1143617,
+        "ns_growth": 0.1417004,
+        "cf_from_operations": 61.025,
+        "ns": 338.4,
+        "current_ratio": 2.35396518,
+        "cf_from_fin_activities": -34.9,
+        "eva": 27.83551,
+        "ebit_percent": 0.15602837,
+        "interest_expenses": -5.3,
+        "cur_liab_total": 51.7,
+        "bv": 85,
+        "pre_tax_profit": 48.4,
+        "ebitda_percent": 0.20633865,
+        "eps_gp": 0.10854562,
+        "fin_ass_ib": 21.5,
+        "costs": -268.575,
+        "bs_total_liab": 248.5,
+        "lt_liab_total": 36.3,
+        "ptp_without_extras": 48.4,
+        "ebitda": 69.825,
+        "cap_invested": 113.5,
+        "dep_total": -17.025,
+        "total_cur_ass": 121.7,
+        "equity_total": 85,
+        "taxes_paid": -13.8,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 69.8,
+        "payment_of_dividend": -25.3760553,
+        "gearing_percent": 1.19176471,
+        "p_per_s": 2.21762258,
+        "p_per_bv": 8.82874683,
+        "pe": 19.3913044,
+        "ev_per_ns": 2.51697246,
+        "enterprise_value": 851.7434802,
+        "dividend_yield": 0.03811659,
+        "market_cap_ye": 750.4434802,
+        "pe_adj_i": 19.3913044,
+        "ev_per_ebitda": 12.19825965,
+        "ev_per_ebit": 16.13150531,
+        "p_per_fcf": 10.75133926
+      },
+      "2024": {
+        "eps_diluted": 0.56873533,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 24.6,
+        "total_non_cur_ass": 137.5,
+        "operating_cash_flow": 43.34348915,
+        "roi_after_tax_beg_cap": 0.42945805,
+        "net_fin_items": -5.2,
+        "net_debt": 114.8,
+        "equity_ratio": 0.36253561,
+        "payout": 0.66814911,
+        "roe_percent": 0.51284797,
+        "change_in_wc": 17.8,
+        "ebit_gp": 0.23295455,
+        "bs_total_assets": 280.8,
+        "net_debt_per_ebitda": 1.47179487,
+        "total_receivables": 8.2,
+        "ebit_without_extras": 65.1,
+        "inventories": 115.5,
+        "lt_debt": 50,
+        "free_cash_flow_to_firm": 18.44348915,
+        "capex_excl_acq_divest": -24.6,
+        "gross_cap_expenditure_nega": -24.6,
+        "net_earnings": 47.9,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.11707841,
+        "cf_change_in_cash": -5.75,
+        "adj_net_earnings": 47.9,
+        "ebit": 65.1,
+        "eps": 0.56873533,
+        "change_in_wc_nega": -17.8,
+        "no_of_shares_total": 84.221953,
+        "fin_income": 0.6,
+        "dividend_ps": 0.38,
+        "other_intangible_rights": 16,
+        "pretax_percent": 0.15619296,
+        "tangible_ass": 88,
+        "net_earnings_percent": 0.12490222,
+        "ns_growth": 0.13327423,
+        "cf_from_operations": 39.95,
+        "ns": 383.5,
+        "current_ratio": 2.4738676,
+        "cf_from_fin_activities": -21.1,
+        "eva": 41.44543915,
+        "ebit_percent": 0.16975228,
+        "interest_expenses": -5.8,
+        "cur_liab_total": 57.4,
+        "bv": 101.8,
+        "pre_tax_profit": 59.9,
+        "ebitda_percent": 0.20338983,
+        "eps_gp": 0.23638115,
+        "fin_ass_ib": 18.3,
+        "costs": -305.5,
+        "bs_total_liab": 280.8,
+        "lt_liab_total": 36,
+        "ptp_without_extras": 59.9,
+        "ebitda": 78,
+        "cap_invested": 133.5,
+        "dep_total": -12.9,
+        "total_cur_ass": 142,
+        "equity_total": 101.8,
+        "taxes_paid": -15.55,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 18.44348915,
+        "payment_of_dividend": -28.6043479,
+        "gearing_percent": 1.12770138,
+        "p_per_s": 2.24665079,
+        "p_per_bv": 8.46356168,
+        "pe": 17.98727723,
+        "ev_per_ns": 2.5459989,
+        "enterprise_value": 976.39057919,
+        "dividend_yield": 0.03714565,
+        "market_cap_ye": 861.59057919,
+        "pe_adj_i": 17.98727723,
+        "ev_per_ebitda": 12.51782794,
+        "ev_per_ebit": 14.99831919,
+        "p_per_fcf": 46.71516177
+      },
+      "2025": {
+        "eps_diluted": 0.64244283,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 46.4220723,
+        "total_non_cur_ass": 152.0520723,
+        "operating_cash_flow": 80.18062837,
+        "roi_after_tax_beg_cap": 0.43939535,
+        "net_fin_items": -5.8,
+        "net_debt": 117.59727525,
+        "equity_ratio": 0.39410734,
+        "payout": 0.69654164,
+        "roe_percent": 0.47945913,
+        "change_in_wc": 10.34865033,
+        "ebit_gp": 0.14823349,
+        "bs_total_assets": 314.39010431,
+        "net_debt_per_ebitda": 1.102957,
+        "total_receivables": 9.1134867,
+        "ebit_without_extras": 74.75,
+        "inventories": 128.48748332,
+        "lt_debt": 70.46716862,
+        "free_cash_flow_to_firm": 33.75855607,
+        "capex_excl_acq_divest": -46.4220723,
+        "gross_cap_expenditure_nega": -46.4220723,
+        "net_earnings": 54.10778952,
+        "wacc": 0.0643,
+        "ebitda_gp": 0.36692308,
+        "cf_change_in_cash": 5.13706198,
+        "adj_net_earnings": 54.10778952,
+        "ebit": 74.75,
+        "eps": 0.64244283,
+        "change_in_wc_nega": -10.34865033,
+        "no_of_shares_total": 84.325396,
+        "fin_income": 1.89612181,
+        "dividend_ps": 0.44693924,
+        "other_intangible_rights": 18.36140808,
+        "pretax_percent": 0.15666894,
+        "tangible_ass": 100.19066422,
+        "dcf_dividends": -32.00434214,
+        "net_earnings_percent": 0.12294431,
+        "ns_growth": 0.14758801,
+        "cf_from_operations": 75.62913919,
+        "ns": 440.1,
+        "current_ratio": 1.22444236,
+        "cf_from_fin_activities": -24.07000491,
+        "eva": 50.07522871,
+        "ebit_percent": 0.16984776,
+        "interest_expenses": -7.69612181,
+        "cur_liab_total": 131.51948831,
+        "bv": 123.90344738,
+        "pre_tax_profit": 68.95,
+        "ebitda_percent": 0.24226312,
+        "eps_gp": 0.12959895,
+        "cost_of_equity": 0.0825,
+        "fin_ass_ib": 23.43706198,
+        "costs": -333.48,
+        "bs_total_liab": 314.39010431,
+        "lt_liab_total": 56.46716862,
+        "ptp_without_extras": 68.95,
+        "ebitda": 106.62,
+        "cap_invested": 241.50072263,
+        "dep_total": -31.87,
+        "total_cur_ass": 161.03803201,
+        "equity_total": 123.90344738,
+        "taxes_paid": -14.84221048,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 33.75855607,
+        "st_debt": 70.56716862,
+        "payment_of_dividend": -32.00434214,
+        "gearing_percent": 0.94910414,
+        "adj_no_of_shares_a": 84.325396,
+        "ev_per_ns": 2.94967694,
+        "enterprise_value": 1298.15281925,
+        "market_cap_ye": 1180.555544,
+        "ev_per_ebitda": 12.17550947,
+        "p_per_s": 2.67918051,
+        "p_per_bv": 9.52802823,
+        "pe": 21.79182244,
+        "mva": 1056.65209662,
+        "dividend_yield": 0.03192423,
+        "pe_adj_i": 21.79182244,
+        "ev_per_ebit": 17.3665929,
+        "p_per_fcf": 34.92765921
+      },
+      "2026": {
+        "eps_diluted": 0.72861846,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 41.63883121,
+        "total_non_cur_ass": 168.51090352,
+        "operating_cash_flow": 75.88122317,
+        "roi_after_tax_beg_cap": 0.27188404,
+        "net_fin_items": -5.6,
+        "net_debt": 125.33773487,
+        "equity_ratio": 0.41820992,
+        "payout": 0.69654164,
+        "roe_percent": 0.45207538,
+        "change_in_wc": 14.95896963,
+        "ebit_gp": 0.14541806,
+        "bs_total_assets": 352.88686725,
+        "net_debt_per_ebitda": 1.13120699,
+        "total_receivables": 10.05941726,
+        "ebit_without_extras": 85.62,
+        "inventories": 146.32566835,
+        "lt_debt": 75.9643065,
+        "free_cash_flow_to_firm": 34.24239195,
+        "capex_excl_acq_divest": -41.63883121,
+        "gross_cap_expenditure_nega": -41.63883121,
+        "net_earnings": 61.36566956,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.03920465,
+        "cf_change_in_cash": 3.25381615,
+        "adj_net_earnings": 61.36566956,
+        "ebit": 85.62,
+        "eps": 0.72861846,
+        "change_in_wc_nega": -14.95896963,
+        "no_of_shares_total": 84.325396,
+        "fin_income": 8.84714098,
+        "dividend_ps": 0.50689052,
+        "other_intangible_rights": 20.91056063,
+        "pretax_percent": 0.15965682,
+        "tangible_ass": 114.10034289,
+        "net_earnings_percent": 0.12243749,
+        "ns_growth": 0.13883208,
+        "cf_from_operations": 71.58669993,
+        "ns": 501.2,
+        "current_ratio": 1.29986978,
+        "cf_from_fin_activities": -26.69405256,
+        "eva": 48.682692,
+        "ebit_percent": 0.17083001,
+        "interest_expenses": -12.63285526,
+        "cur_liab_total": 140.84177214,
+        "bv": 147.58078861,
+        "pre_tax_profit": 80.02,
+        "ebitda_percent": 0.22106943,
+        "eps_gp": 0.13413743,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 26.69087813,
+        "costs": -390.4,
+        "bs_total_liab": 352.88686725,
+        "lt_liab_total": 61.9643065,
+        "ptp_without_extras": 80.02,
+        "ebitda": 110.8,
+        "cap_invested": 272.91852348,
+        "dep_total": -25.18,
+        "total_cur_ass": 183.07596374,
+        "equity_total": 147.58078861,
+        "taxes_paid": -18.65433044,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 34.24239195,
+        "st_debt": 76.0643065,
+        "payment_of_dividend": -37.68832833,
+        "gearing_percent": 0.84928219,
+        "p_per_bv": 7.99938498
+      },
+      "2027": {
+        "eps_diluted": 0.8276858,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 45.12126899,
+        "total_non_cur_ass": 185.21217251,
+        "operating_cash_flow": 87.30587376,
+        "roi_after_tax_beg_cap": 0.27138205,
+        "net_fin_items": -5.68,
+        "net_debt": 130.25274765,
+        "equity_ratio": 0.44532735,
+        "payout": 0.69654164,
+        "roe_percent": 0.43280621,
+        "change_in_wc": 15.17931452,
+        "ebit_gp": 0.12800747,
+        "bs_total_assets": 391.95068563,
+        "net_debt_per_ebitda": 1.04202198,
+        "total_receivables": 11.01928132,
+        "ebit_without_extras": 96.58,
+        "inventories": 164.42660897,
+        "lt_debt": 80.07268524,
+        "free_cash_flow_to_firm": 42.18460477,
+        "capex_excl_acq_divest": -45.12126899,
+        "gross_cap_expenditure_nega": -45.12126899,
+        "net_earnings": 69.70931471,
+        "wacc": 0.0703,
+        "ebitda_gp": 0.12815884,
+        "cf_change_in_cash": 3.3017447,
+        "adj_net_earnings": 69.70931471,
+        "ebit": 96.58,
+        "eps": 0.8276858,
+        "change_in_wc_nega": -15.17931452,
+        "no_of_shares_total": 84.325396,
+        "fin_income": 9.37717295,
+        "dividend_ps": 0.5758104,
+        "other_intangible_rights": 23.49726206,
+        "pretax_percent": 0.16139915,
+        "tangible_ass": 128.21491045,
+        "net_earnings_percent": 0.12377364,
+        "ns_growth": 0.12370311,
+        "cf_from_operations": 82.95000019,
+        "ns": 563.2,
+        "current_ratio": 1.38034165,
+        "cf_from_fin_activities": -34.5269865,
+        "eva": 54.87901608,
+        "ebit_percent": 0.17148438,
+        "interest_expenses": -13.24288723,
+        "cur_liab_total": 148.83164105,
+        "bv": 174.54635934,
+        "pre_tax_profit": 90.9,
+        "ebitda_percent": 0.22194602,
+        "eps_gp": 0.13596601,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 29.99262283,
+        "costs": -438.2,
+        "bs_total_liab": 391.95068563,
+        "lt_liab_total": 66.07268524,
+        "ptp_without_extras": 90.9,
+        "ebitda": 125,
+        "cap_invested": 304.79910699,
+        "dep_total": -28.42,
+        "total_cur_ass": 205.43851312,
+        "equity_total": 174.54635934,
+        "taxes_paid": -21.19068529,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 42.18460477,
+        "st_debt": 80.17268524,
+        "payment_of_dividend": -42.74374398,
+        "gearing_percent": 0.74623583,
+        "p_per_bv": 6.76356441
+      },
+      "2028": {
+        "eps_diluted": 0.66328567,
+        "goodwill": 33.5,
+        "gross_cap_expenditure": 29.15915403,
+        "total_non_cur_ass": 192.08860133,
+        "operating_cash_flow": 77.16223754,
+        "roi_after_tax_beg_cap": 0.20055605,
+        "net_fin_items": -6.86691141,
+        "net_debt": 136.07119556,
+        "equity_ratio": 0.44568326,
+        "payout": 0.69654164,
+        "roe_percent": 0.31348562,
+        "change_in_wc": 6.24979311,
+        "ebit_gp": -0.17465537,
+        "bs_total_assets": 408.03446745,
+        "net_debt_per_ebitda": 1.33410314,
+        "total_receivables": 11.41448704,
+        "ebit_without_extras": 79.7117844,
+        "inventories": 171.87932587,
+        "lt_debt": 83.66162439,
+        "free_cash_flow_to_firm": 48.00308351,
+        "capex_excl_acq_divest": -29.15915403,
+        "gross_cap_expenditure_nega": -29.15915403,
+        "net_earnings": 55.86321426,
+        "wacc": 0.0703,
+        "ebitda_gp": -0.18404392,
+        "cf_change_in_cash": 1.35943038,
+        "adj_net_earnings": 55.86321426,
+        "ebit": 79.7117844,
+        "eps": 0.66328567,
+        "change_in_wc_nega": -6.24979311,
+        "no_of_shares_total": 84.325396,
+        "fin_income": 1.84776635,
+        "dividend_ps": 0.46143934,
+        "other_intangible_rights": 24.56228702,
+        "pretax_percent": 0.12373279,
+        "tangible_ass": 134.02631431,
+        "net_earnings_percent": 0.0948881,
+        "ns_growth": 0.04532549,
+        "cf_from_operations": 71.89614636,
+        "ns": 588.72731695,
+        "current_ratio": 1.39363501,
+        "cf_from_fin_activities": -41.37756195,
+        "eva": 39.70192822,
+        "ebit_percent": 0.13539678,
+        "interest_expenses": -6.90039204,
+        "cur_liab_total": 154.0187097,
+        "bv": 181.85413336,
+        "pre_tax_profit": 72.84487299,
+        "ebitda_percent": 0.17324576,
+        "eps_gp": -0.19862626,
+        "cost_of_equity": 0.0925,
+        "fin_ass_ib": 31.35205321,
+        "costs": -486.73280734,
+        "bs_total_liab": 408.03446745,
+        "lt_liab_total": 69.66162439,
+        "ptp_without_extras": 72.84487299,
+        "ebitda": 101.99450961,
+        "cap_invested": 317.92532892,
+        "dep_total": -22.28272521,
+        "total_cur_ass": 214.64586612,
+        "equity_total": 181.85413336,
+        "taxes_paid": -16.98165873,
+        "extras_in_ebit": 0,
+        "free_operating_cash_flow": 48.00308351,
+        "st_debt": 83.76162439,
+        "payment_of_dividend": -48.55544024,
+        "gearing_percent": 0.74824362,
+        "p_per_bv": 6.49177185
+      },
+      "20231": {
+        "costs": -57.075,
+        "ebit_percent": 0.10769231,
+        "ns": 65,
+        "pre_tax_profit": 6,
+        "ebitda_percent": 0.12192308,
+        "net_fin_items": -1,
+        "ebit": 7,
+        "eps": 0.05705426,
+        "ebitda": 7.925,
+        "dep_total": -0.925,
+        "history": 1,
+        "net_earnings": 4.8
+      },
+      "20232": {
+        "costs": -134.5,
+        "ebit_percent": 0.16302422,
+        "ns": 169.3,
+        "pre_tax_profit": 25.3,
+        "ebitda_percent": 0.20555227,
+        "net_fin_items": -2.3,
+        "ebit": 27.6,
+        "eps": 0.24010336,
+        "ebitda": 34.8,
+        "dep_total": -7.2,
+        "history": 1,
+        "net_earnings": 20.2
+      },
+      "20233": {
+        "costs": -71.05,
+        "ns": 84.55,
+        "net_fin_items": -1.05,
+        "ebit": 12.6,
+        "eps": 0.10994832,
+        "ebitda": 13.5,
+        "dep_total": -0.9,
+        "history": 1,
+        "ebit_percent": 0.14902425,
+        "pre_tax_profit": 11.55,
+        "ebitda_percent": 0.15966884,
+        "net_earnings": 9.25,
+        "ns_growth": 0.14025624
+      },
+      "20234": {
+        "costs": -135.9,
+        "ns": 169.1,
+        "net_fin_items": -2.1,
+        "ebit": 25.2,
+        "eps": 0.21989664,
+        "ebitda": 33.2,
+        "dep_total": -8,
+        "history": 1,
+        "ebit_percent": 0.14902425,
+        "pre_tax_profit": 23.1,
+        "ebitda_percent": 0.19633353,
+        "net_earnings": 18.5,
+        "ns_growth": 0.14025624
+      },
+      "20241": {
+        "eps_diluted": 0.13891865,
+        "costs": -80.6,
+        "ns": 97.7,
+        "net_fin_items": -1.35,
+        "ebit": 16,
+        "eps": 0.13891865,
+        "ebitda": 17.1,
+        "dep_total": -1.1,
+        "history": 1,
+        "ebit_percent": 0.16376663,
+        "pre_tax_profit": 14.65,
+        "ebitda_percent": 0.17502559,
+        "net_earnings": 11.7,
+        "ns_growth": 0.50307692
+      },
+      "20242": {
+        "eps_diluted": 0.13891865,
+        "costs": -80.6,
+        "ns": 97.7,
+        "net_fin_items": -1.35,
+        "ebit": 16,
+        "eps": 0.13891865,
+        "ebitda": 17.1,
+        "dep_total": -1.1,
+        "history": 1,
+        "ebit_percent": 0.16376663,
+        "pre_tax_profit": 14.65,
+        "ebitda_percent": 0.17502559,
+        "net_earnings": 11.7,
+        "ns_growth": -0.4229179
+      },
+      "20243": {
+        "eps_diluted": 0.14544901,
+        "costs": -76.45,
+        "ns": 94,
+        "net_fin_items": -1.25,
+        "ebit": 16.55,
+        "eps": 0.14544901,
+        "ebitda": 17.55,
+        "dep_total": -1,
+        "history": 1,
+        "ebit_percent": 0.17606383,
+        "pre_tax_profit": 15.3,
+        "ebitda_percent": 0.18670213,
+        "net_earnings": 12.25,
+        "ns_growth": 0.11176818
+      },
+      "20244": {
+        "eps_diluted": 0.29089803,
+        "costs": -145.3,
+        "ns": 188,
+        "net_fin_items": -2.4,
+        "ebit": 33,
+        "eps": 0.29089803,
+        "ebitda": 42.7,
+        "dep_total": -9.7,
+        "history": 1,
+        "ebit_percent": 0.17553191,
+        "pre_tax_profit": 30.6,
+        "ebitda_percent": 0.22712766,
+        "net_earnings": 24.5,
+        "ns_growth": 0.11176818
+      },
+      "20251": {
+        "eps_diluted": 0.17958756,
+        "costs": -92.5,
+        "ns": 112.5,
+        "net_fin_items": 0.00249993,
+        "ebit": 18.85,
+        "eps": 0.17958756,
+        "ebitda": 20,
+        "dep_total": -1.15,
+        "history": 1,
+        "ebit_percent": 0.16755556,
+        "pre_tax_profit": 18.85249993,
+        "ebitda_percent": 0.17777778,
+        "net_earnings": 15.12521484,
+        "ns_growth": 0.15148414
+      },
+      "20252": {
+        "eps_diluted": 0.17958756,
+        "costs": -92.5,
+        "ns": 112.5,
+        "net_fin_items": 0.00249993,
+        "ebit": 18.85,
+        "eps": 0.17958756,
+        "ebitda": 20,
+        "dep_total": -1.15,
+        "history": 1,
+        "ebit_percent": 0.16755556,
+        "pre_tax_profit": 18.85249993,
+        "ebitda_percent": 0.17777778,
+        "net_earnings": 15.12521484,
+        "ns_growth": 0.15148414
+      },
+      "20253": {
+        "eps_diluted": 0.08706144,
+        "costs": -48.46795966,
+        "ns": 65.68021093,
+        "net_fin_items": -1.77545105,
+        "ebit": 11.33691081,
+        "eps": 0.08706144,
+        "ebitda": 17.21225127,
+        "dep_total": -5.87534046,
+        "history": 0,
+        "ebit_percent": 0.17260771,
+        "pre_tax_profit": 9.56145976,
+        "ebitda_percent": 0.26206145,
+        "net_earnings": 7.33248413,
+        "ns_growth": -0.30127435
+      },
+      "20254": {
+        "eps_diluted": 0.19743849,
+        "costs": -100.01204034,
+        "ns": 149.41978907,
+        "net_fin_items": -4.02954881,
+        "ebit": 25.71308919,
+        "eps": 0.19743849,
+        "ebitda": 49.40774873,
+        "dep_total": -23.69465954,
+        "history": 0,
+        "ebit_percent": 0.17208624,
+        "pre_tax_profit": 21.68354038,
+        "ebitda_percent": 0.33066402,
+        "net_earnings": 16.62865501,
+        "ns_growth": -0.20521389
+      }
+    },
+    "textDataMap": {},
+    "costItem": {
+      "cost01": "Costitem 1",
+      "cost02": "Costitem 2",
+      "cost03": "Costitem 3",
+      "cost04": "Costitem 4",
+      "cost05": "Costitem 5",
+      "cost06": "Costitem 6",
+      "cost07": "Costitem 7",
+      "cost08": "Costitem 8"
+    },
+    "financialBulletin": {},
+    "followedModelId": 11310,
+    "companyName": "Puuilo Oyj",
+    "analystName": "ValuatumDataSources",
+    "companyId": 10923,
+    "companyCode": "FI4000507124",
+    "currency": "EUR",
+    "currentYear": 2025,
+    "orderNo": 1,
+    "recommendation": {
+      "recLevel": 0,
+      "lastUpdated": "2025-06-17T13:54:50.455Z"
+    }
+  },
+  "creditRisk": null,
+  "analysis": {
+    "johto": null,
+    "toiminta": null,
+    "asema": null
+  },
+  "autotext": {},
+  "bankruptcyVizPng": null,
+  "bankruptcyContourArea": null,
+  "bankruptcyRiskModel": "brm_ValuBooster2",
+  "consensus": {
+    "companyName": "Puuilo Oyj",
+    "ticker": "PUUILO.HE",
+    "updated": "2025-12-16",
+    "consensusData": [
+      {
+        "consensusdataid": 97490,
+        "varname": "pre_tax_profit",
+        "pos": 2025,
+        "value": 68.95
+      },
+      {
+        "consensusdataid": 97491,
+        "varname": "pre_tax_profit",
+        "pos": 2026,
+        "value": 80.02
+      },
+      {
+        "consensusdataid": 97492,
+        "varname": "pre_tax_profit",
+        "pos": 2027,
+        "value": 90.9
+      },
+      {
+        "consensusdataid": 97493,
+        "varname": "ebitda",
+        "pos": 2025,
+        "value": 96.92
+      },
+      {
+        "consensusdataid": 97494,
+        "varname": "ebitda",
+        "pos": 2026,
+        "value": 110.8
+      },
+      {
+        "consensusdataid": 97495,
+        "varname": "ebitda",
+        "pos": 2027,
+        "value": 125
+      },
+      {
+        "consensusdataid": 97496,
+        "varname": "ebit",
+        "pos": 2025,
+        "value": 74.75
+      },
+      {
+        "consensusdataid": 97497,
+        "varname": "ebit",
+        "pos": 2026,
+        "value": 85.62
+      },
+      {
+        "consensusdataid": 97498,
+        "varname": "ebit",
+        "pos": 2027,
+        "value": 96.58
+      },
+      {
+        "consensusdataid": 97499,
+        "varname": "ns",
+        "pos": 2025,
+        "value": 440.1
+      },
+      {
+        "consensusdataid": 97500,
+        "varname": "ns",
+        "pos": 2026,
+        "value": 501.2
+      },
+      {
+        "consensusdataid": 97501,
+        "varname": "ns",
+        "pos": 2027,
+        "value": 563.2
+      }
+    ]
+  },
+  "quote": {
+    "ticker": "PUUILO.HE",
+    "currency": "EUR",
+    "price": 14
+  },
+  "actualYears": [
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "estimateYears": [
+    "2025",
+    "2026",
+    "2027",
+    "2028"
+  ],
+  "narrativeCache": {
+    "data": {
+      "identity": {
+        "companyName": "Puuilo Oyj",
+        "ticker": "PUUILO.HE",
+        "exchange": "NASDAQ Helsinki",
+        "sector": "Department Stores",
+        "country": "Finland",
+        "reportDateLong": "20 August 2026",
+        "reportDateShort": "20.08.2026",
+        "currency": "EUR",
+        "companyProfile": "Puuilo is a Finnish discount retailer selling tools, automotive products, building and maintenance supplies, pet products, household goods and seasonal merchandise. It operates mainly physical stores, supported by centralized sourcing and supply chain operations, private-label products and an online store. Its strategy combines comparable-store growth with continued expansion in Finland and an initial move into Sweden."
+      },
+      "recommendation": {
+        "rating": "SELL",
+        "targetPrice": 12,
+        "currentPrice": 14,
+        "priceAsOf": "Quote as of 20 August 2026",
+        "upsidePct": -14.3,
+        "twelveMonthView": "Operational momentum is strong, but the current valuation already discounts exceptional execution.",
+        "mainDriver": "Profitable store rollout without material cannibalization",
+        "mainRisk": "Market-implied margins exceed a prudent normalized level",
+        "prose": [
+          "SELL. The 12-month target price is EUR 12.0, implying 14.3% downside from the current EUR 14.00 share price.",
+          "The current EUR 1.3 billion EV values Puuilo at 12.18x modeled 2025 EBITDA and 17.37x EBIT. The reverse valuation is more demanding, requiring EBIT margins of 21.8% in 2026 and 21.9% in 2027 before fading to 13.6%. This is well above the authoritative model's 17.1% EBIT margin in both years and Puuilo's already strong 17.5% adjusted EBITA margin in FY2025.",
+          "The evidence does not support a simplistic short thesis. Q1 FY2026 sales rose 16.3%, while adjusted EBITA increased 50.2%. The company guided to FY2026 sales of EUR 480–510 million and adjusted EBITA of EUR 80–90 million. New-store economics are attractive: management reports approximately EUR 1.8 million of initial investment, profitability in the first full month and cumulative EBITDA payback in roughly 19 months. These figures support a premium multiple and explain why the target remains above the peer median.",
+          "The strongest challenge to SELL is that the model may understate the duration of store growth and the gross-margin benefit of private label. Puuilo targets more than 100 stores by FY2030, versus 56 at 31 January 2026. Private label reached 23.6% of FY2025 sales. If eight or more annual openings remain non-cannibalizing and group EBIT margin stays near 18% despite Swedish launch costs, the shares could grow into today's valuation rather than derate.",
+          "The view would move to HOLD or BUY if Finnish openings continue to repay within two years, like-for-like growth remains above 4%, and Sweden achieves store-level profitability without weakening free cash flow. It would become more negative if established-store growth turns negative, gross margin falls toward 37%, inventories grow faster than sales, or the September half-year report points to FY2026 adjusted EBITA near the bottom of guidance."
+        ],
+        "thesisReasons": [
+          {
+            "title": "The premium already capitalizes rollout success",
+            "body": "Puuilo's store economics justify an above-peer valuation, but the current EV leaves little room for cannibalization, wage inflation, sourcing volatility or slower maturation as the Finnish network becomes denser.",
+            "fig": "12.18x 2025E EV/EBITDA"
+          },
+          {
+            "title": "Reverse valuation requires peak-like margins",
+            "body": "The market-implied model requires EBIT margins above 21% in 2026–2027, versus 17.1% in the authoritative forward model. Strong Q1 trading narrows the gap but does not close it.",
+            "fig": "21.9% implied 2027 EBIT margin"
+          },
+          {
+            "title": "Online is useful but not a second earnings engine",
+            "body": "The online store generated only 2.2% of FY2025 revenue. Its strategic value is in product discovery and store pickup, while standalone economics are undisclosed and cannot support a material valuation premium.",
+            "fig": "2.2% of FY2025 revenue"
+          }
+        ],
+        "thesisBreaker": "Sustained high-single-digit like-for-like growth, an EBIT margin above 18% and sub-two-year new-store payback would invalidate the SELL thesis."
+      },
+      "multiples": {
+        "forecastYear": 2025,
+        "pe": 21.79182244,
+        "evEbitda": 12.17550947,
+        "fcfYieldPct": 2.9,
+        "divYieldPct": 3.2,
+        "ndEbitda": 1.102957,
+        "dpsAbs": 0.45
+      },
+      "cover": {
+        "marketCap": 1181,
+        "enterpriseValue": 1298,
+        "netDebt": 118,
+        "sharesOutstanding": 84.3
+      },
+      "sharePrice": {
+        "points": [
+          {
+            "period": "2023-08-23",
+            "price": 6.92
+          },
+          {
+            "period": "2023-08-30",
+            "price": 7.27
+          },
+          {
+            "period": "2023-09-06",
+            "price": 7.42
+          },
+          {
+            "period": "2023-09-13",
+            "price": 7.63
+          },
+          {
+            "period": "2023-09-20",
+            "price": 7.93
+          },
+          {
+            "period": "2023-09-27",
+            "price": 7.92
+          },
+          {
+            "period": "2023-10-04",
+            "price": 7.83
+          },
+          {
+            "period": "2023-10-11",
+            "price": 8.12
+          },
+          {
+            "period": "2023-10-18",
+            "price": 7.8
+          },
+          {
+            "period": "2023-10-25",
+            "price": 7.78
+          },
+          {
+            "period": "2023-11-01",
+            "price": 7.8
+          },
+          {
+            "period": "2023-11-08",
+            "price": 8.07
+          },
+          {
+            "period": "2023-11-15",
+            "price": 8.5
+          },
+          {
+            "period": "2023-11-22",
+            "price": 8.3
+          },
+          {
+            "period": "2023-11-29",
+            "price": 8.54
+          },
+          {
+            "period": "2023-12-05",
+            "price": 8.73
+          },
+          {
+            "period": "2023-12-13",
+            "price": 8.41
+          },
+          {
+            "period": "2023-12-20",
+            "price": 8.7
+          },
+          {
+            "period": "2023-12-27",
+            "price": 8.99
+          },
+          {
+            "period": "2024-01-03",
+            "price": 8.76
+          },
+          {
+            "period": "2024-01-10",
+            "price": 8.95
+          },
+          {
+            "period": "2024-01-17",
+            "price": 8.29
+          },
+          {
+            "period": "2024-01-24",
+            "price": 8.7
+          },
+          {
+            "period": "2024-01-31",
+            "price": 8.92
+          },
+          {
+            "period": "2024-02-07",
+            "price": 8.78
+          },
+          {
+            "period": "2024-02-14",
+            "price": 9.29
+          },
+          {
+            "period": "2024-02-21",
+            "price": 9.37
+          },
+          {
+            "period": "2024-02-28",
+            "price": 9.43
+          },
+          {
+            "period": "2024-03-06",
+            "price": 8.81
+          },
+          {
+            "period": "2024-03-13",
+            "price": 9.2
+          },
+          {
+            "period": "2024-03-20",
+            "price": 9.26
+          },
+          {
+            "period": "2024-03-27",
+            "price": 9.18
+          },
+          {
+            "period": "2024-04-03",
+            "price": 9.46
+          },
+          {
+            "period": "2024-04-10",
+            "price": 9.36
+          },
+          {
+            "period": "2024-04-17",
+            "price": 9.48
+          },
+          {
+            "period": "2024-04-24",
+            "price": 10.07
+          },
+          {
+            "period": "2024-04-30",
+            "price": 10.22
+          },
+          {
+            "period": "2024-05-08",
+            "price": 10.48
+          },
+          {
+            "period": "2024-05-15",
+            "price": 10.8
+          },
+          {
+            "period": "2024-05-22",
+            "price": 10.34
+          },
+          {
+            "period": "2024-05-29",
+            "price": 10.27
+          },
+          {
+            "period": "2024-06-05",
+            "price": 10.41
+          },
+          {
+            "period": "2024-06-12",
+            "price": 10.31
+          },
+          {
+            "period": "2024-06-19",
+            "price": 10.28
+          },
+          {
+            "period": "2024-06-26",
+            "price": 10.18
+          },
+          {
+            "period": "2024-07-03",
+            "price": 9.83
+          },
+          {
+            "period": "2024-07-10",
+            "price": 10.04
+          },
+          {
+            "period": "2024-07-17",
+            "price": 10.28
+          },
+          {
+            "period": "2024-07-24",
+            "price": 9.86
+          },
+          {
+            "period": "2024-07-31",
+            "price": 10.15
+          },
+          {
+            "period": "2024-08-07",
+            "price": 9.82
+          },
+          {
+            "period": "2024-08-14",
+            "price": 9.86
+          },
+          {
+            "period": "2024-08-21",
+            "price": 10.26
+          },
+          {
+            "period": "2024-08-28",
+            "price": 10.25
+          },
+          {
+            "period": "2024-09-04",
+            "price": 9.69
+          },
+          {
+            "period": "2024-09-11",
+            "price": 9.78
+          },
+          {
+            "period": "2024-09-18",
+            "price": 9.66
+          },
+          {
+            "period": "2024-09-25",
+            "price": 9.54
+          },
+          {
+            "period": "2024-10-02",
+            "price": 9.48
+          },
+          {
+            "period": "2024-10-09",
+            "price": 9.58
+          },
+          {
+            "period": "2024-10-16",
+            "price": 9.55
+          },
+          {
+            "period": "2024-10-23",
+            "price": 9.34
+          },
+          {
+            "period": "2024-10-30",
+            "price": 9.3
+          },
+          {
+            "period": "2024-11-06",
+            "price": 9.01
+          },
+          {
+            "period": "2024-11-13",
+            "price": 8.95
+          },
+          {
+            "period": "2024-11-20",
+            "price": 8.98
+          },
+          {
+            "period": "2024-11-27",
+            "price": 9.07
+          },
+          {
+            "period": "2024-12-04",
+            "price": 9.16
+          },
+          {
+            "period": "2024-12-11",
+            "price": 10.07
+          },
+          {
+            "period": "2024-12-18",
+            "price": 10.26
+          },
+          {
+            "period": "2024-12-23",
+            "price": 10.02
+          },
+          {
+            "period": "2024-12-30",
+            "price": 10.22
+          },
+          {
+            "period": "2025-01-08",
+            "price": 9.82
+          },
+          {
+            "period": "2025-01-15",
+            "price": 9.75
+          },
+          {
+            "period": "2025-01-22",
+            "price": 10.28
+          },
+          {
+            "period": "2025-01-29",
+            "price": 10.37
+          },
+          {
+            "period": "2025-02-05",
+            "price": 10
+          },
+          {
+            "period": "2025-02-12",
+            "price": 9.88
+          },
+          {
+            "period": "2025-02-19",
+            "price": 10.02
+          },
+          {
+            "period": "2025-02-26",
+            "price": 10.08
+          },
+          {
+            "period": "2025-03-05",
+            "price": 10.22
+          },
+          {
+            "period": "2025-03-12",
+            "price": 11.08
+          },
+          {
+            "period": "2025-03-19",
+            "price": 11.52
+          },
+          {
+            "period": "2025-03-26",
+            "price": 11.72
+          },
+          {
+            "period": "2025-04-02",
+            "price": 11.22
+          },
+          {
+            "period": "2025-04-09",
+            "price": 10.73
+          },
+          {
+            "period": "2025-04-16",
+            "price": 11.99
+          },
+          {
+            "period": "2025-04-23",
+            "price": 12.22
+          },
+          {
+            "period": "2025-04-30",
+            "price": 12.54
+          },
+          {
+            "period": "2025-05-07",
+            "price": 12.85
+          },
+          {
+            "period": "2025-05-14",
+            "price": 13.26
+          },
+          {
+            "period": "2025-05-21",
+            "price": 13.26
+          },
+          {
+            "period": "2025-05-28",
+            "price": 12.76
+          },
+          {
+            "period": "2025-06-04",
+            "price": 13.1
+          },
+          {
+            "period": "2025-06-11",
+            "price": 13.16
+          },
+          {
+            "period": "2025-06-18",
+            "price": 12.93
+          },
+          {
+            "period": "2025-06-25",
+            "price": 12.76
+          },
+          {
+            "period": "2025-07-02",
+            "price": 12.91
+          },
+          {
+            "period": "2025-07-09",
+            "price": 13.39
+          },
+          {
+            "period": "2025-07-16",
+            "price": 13.36
+          },
+          {
+            "period": "2025-07-23",
+            "price": 13.44
+          },
+          {
+            "period": "2025-07-30",
+            "price": 13.72
+          },
+          {
+            "period": "2025-08-06",
+            "price": 13.49
+          },
+          {
+            "period": "2025-08-13",
+            "price": 13.44
+          },
+          {
+            "period": "2025-08-20",
+            "price": 13.52
+          },
+          {
+            "period": "2025-08-27",
+            "price": 13.32
+          },
+          {
+            "period": "2025-09-03",
+            "price": 13.12
+          },
+          {
+            "period": "2025-09-10",
+            "price": 13.45
+          },
+          {
+            "period": "2025-09-17",
+            "price": 15.1
+          },
+          {
+            "period": "2025-09-24",
+            "price": 14.86
+          },
+          {
+            "period": "2025-10-01",
+            "price": 14.59
+          },
+          {
+            "period": "2025-10-08",
+            "price": 14.17
+          },
+          {
+            "period": "2025-10-15",
+            "price": 14.01
+          },
+          {
+            "period": "2025-10-22",
+            "price": 14.48
+          },
+          {
+            "period": "2025-10-29",
+            "price": 14.4
+          },
+          {
+            "period": "2025-11-05",
+            "price": 13.99
+          },
+          {
+            "period": "2025-11-12",
+            "price": 14.53
+          },
+          {
+            "period": "2025-11-19",
+            "price": 14.41
+          },
+          {
+            "period": "2025-11-26",
+            "price": 14.65
+          },
+          {
+            "period": "2025-12-03",
+            "price": 14.74
+          },
+          {
+            "period": "2025-12-10",
+            "price": 13.15
+          },
+          {
+            "period": "2025-12-17",
+            "price": 12.4
+          },
+          {
+            "period": "2025-12-23",
+            "price": 12.52
+          },
+          {
+            "period": "2025-12-30",
+            "price": 12.68
+          },
+          {
+            "period": "2026-01-07",
+            "price": 12.58
+          },
+          {
+            "period": "2026-01-14",
+            "price": 12.34
+          },
+          {
+            "period": "2026-01-21",
+            "price": 12.13
+          },
+          {
+            "period": "2026-01-28",
+            "price": 12.41
+          },
+          {
+            "period": "2026-02-04",
+            "price": 12.42
+          },
+          {
+            "period": "2026-02-11",
+            "price": 12.17
+          },
+          {
+            "period": "2026-02-18",
+            "price": 12.09
+          },
+          {
+            "period": "2026-02-25",
+            "price": 12.08
+          },
+          {
+            "period": "2026-03-04",
+            "price": 11.92
+          },
+          {
+            "period": "2026-03-11",
+            "price": 11.88
+          },
+          {
+            "period": "2026-03-18",
+            "price": 12.01
+          },
+          {
+            "period": "2026-03-25",
+            "price": 12.65
+          },
+          {
+            "period": "2026-04-01",
+            "price": 12.87
+          },
+          {
+            "period": "2026-04-08",
+            "price": 13.16
+          },
+          {
+            "period": "2026-04-15",
+            "price": 13.14
+          },
+          {
+            "period": "2026-04-22",
+            "price": 13.48
+          },
+          {
+            "period": "2026-04-29",
+            "price": 12.94
+          },
+          {
+            "period": "2026-05-06",
+            "price": 13
+          },
+          {
+            "period": "2026-05-13",
+            "price": 12.8
+          },
+          {
+            "period": "2026-05-20",
+            "price": 12.94
+          },
+          {
+            "period": "2026-05-27",
+            "price": 13.18
+          },
+          {
+            "period": "2026-06-03",
+            "price": 13.1
+          },
+          {
+            "period": "2026-06-10",
+            "price": 13.96
+          },
+          {
+            "period": "2026-06-17",
+            "price": 17.04
+          },
+          {
+            "period": "2026-06-24",
+            "price": 17.28
+          },
+          {
+            "period": "2026-07-01",
+            "price": 17.78
+          },
+          {
+            "period": "2026-07-08",
+            "price": 17.04
+          },
+          {
+            "period": "2026-07-15",
+            "price": 17.1
+          },
+          {
+            "period": "2026-07-22",
+            "price": 17.22
+          },
+          {
+            "period": "2026-07-29",
+            "price": 17.08
+          },
+          {
+            "period": "2026-08-05",
+            "price": 17.08
+          },
+          {
+            "period": "2026-08-12",
+            "price": 17.06
+          },
+          {
+            "period": "2026-08-19",
+            "price": 16.7
+          },
+          {
+            "period": "2026-08-20",
+            "price": 14
+          }
+        ],
+        "targetLine": 12,
+        "quickFacts": {
+          "currentPrice": 14,
+          "currentPriceAsOf": "20 August 2026",
+          "targetPrice": 12,
+          "upsidePct": -14.3,
+          "fiftyTwoWeekHigh": 18.1,
+          "fiftyTwoWeekLow": 11.3,
+          "oneYearChangePct": 23.2,
+          "threeYearChangePct": 141.4,
+          "reportDate": "20 August 2026"
+        },
+        "context": "Puuilo's valuation reflects double-digit sales growth, resilient margins and confidence in rapid-payback store rollout. Q1 FY2026 reinforced this view: sales rose 16.3% and adjusted EBITA increased 50.2%. The Swedish launch adds a further growth option. The evidence does not explain every near-term share-price move. At EUR 14, however, the share price exceeds the EUR 12 target and already reflects strong execution."
+      },
+      "valuePools": [
+        {
+          "id": "physical-stores",
+          "name": "Stores",
+          "archetype": "current_profit_engine",
+          "revenue": 432.7,
+          "revenueShare": 0.9782952747004295,
+          "comparableEbit": 0,
+          "ebitShare": 0,
+          "currentEbitShare": 0.98,
+          "enterpriseValue": 1279,
+          "enterpriseValueShare": 0.985362095531587,
+          "factSheet": [
+            {
+              "label": "FY2025 external sales",
+              "value": "EUR 432.7m; 97.8% of group"
+            },
+            {
+              "label": "Store network",
+              "value": "56 at 31 Jan 2026"
+            },
+            {
+              "label": "Long-term network target",
+              "value": ">100 stores by FY2030"
+            },
+            {
+              "label": "New-store investment",
+              "value": "About EUR 1.8m including inventory"
+            },
+            {
+              "label": "New-store payback",
+              "value": "About 19 months to cumulative EBITDA"
+            },
+            {
+              "label": "Finnish discount-retail share",
+              "value": "About 12.1% in 2025"
+            },
+            {
+              "label": "Modelled current EBIT share",
+              "value": "98%; this report's estimate"
+            },
+            {
+              "label": "Assessed target multiple",
+              "value": "10.3x modelled FY2026 EBITDA"
+            }
+          ],
+          "deepDive": [
+            "### The opportunity is broad consumer-maintenance spending, not a narrow discount-retail category",
+            "Finland's total retail market was estimated by Euromonitor at EUR 43.1 billion in 2025. The Finnish Grocery Trade Association reported EUR 24.1 billion of grocery retail sales. Neither figure maps directly to Puuilo's assortment, but both show the broad consumer wallet from which discount generalists can take share. More relevant categories include EUR 4.8 billion spent by Finnish dwelling owners on renovations in 2025, a EUR 7.6 billion home-and-garden retail market, an EUR 858 million pet-care market projected for 2026, and an automotive cluster exceeding EUR 25 billion across parts, vehicles and services. The report does not add these overlapping categories into a false total addressable market. It uses EUR 43.1 billion as the ceiling for displaced retail spend and the category figures to show that Puuilo can find local demand beyond a narrow discount sector.",
+            "The near-term valuation impact is smaller and more concrete than the headline market. FY2025 physical-store external sales were EUR 432.7 million, or 97.8% of group revenue. Each percentage point of group-store growth therefore represents roughly EUR 4.3 million of annual revenue before new openings. The company reported about 12.1% of Finnish discount retail in 2025, up from 7.9% in 2021, but the evidence does not provide an independently measured size for that exact segment. The valuation therefore does not apply a desired share to a speculative discount-market total. It values the existing estate's earnings capacity and a rollout path that can be tracked through store count, opening pace, investment and payback.",
+            "### Store density can create value only if new sites do not transfer existing sales",
+            "Puuilo had 56 stores at 31 January 2026 and targets more than 100 locations by FY2030, including international expansion. Management's stated cadence is seven to ten stores annually, with at least eight openings planned in FY2026 after seven in FY2025. Moving from 56 stores to more than 100 over five years requires roughly nine net additions a year, near the upper half of that range. This appears operationally feasible. The key issue is whether each new location adds catchment revenue rather than shifting sales from established Puuilo stores.",
+            "FY2025 store revenue divided by 56 year-end stores was approximately EUR 7.7 million per store. This is not a mature-store productivity measure because stores opened during the year and the denominator is a closing count. If 95 Finnish stores eventually averaged EUR 6.5 million each, physical-store revenue would reach about EUR 618 million. At EUR 7.5 million each, it would reach approximately EUR 713 million. The authoritative model forecasts EUR 589 million of group sales in 2028, so it does not require each new site to match the current crude average immediately. The target assumes rollout productivity declines moderately as density rises, rather than remaining constant.",
+            "### Store economics are strong, but cash investment differs from accounting capex",
+            "Management reports average initial investment of EUR 1.8 million per new store, including roughly EUR 0.3 million of capex and EUR 1.5 million of inventory. It also reports profitability in the first full month and approximately 19 months until cumulative store EBITDA matches the initial investment. Dividing EUR 1.8 million by 19 months implies average cumulative EBITDA of about EUR 95,000 per month during payback, or EUR 1.14 million annualized. This is the report's estimate, not a disclosed store EBITDA run rate. The result is directionally useful but should not be overread, as ramp profiles, seasonality and working-capital recovery vary by location.",
+            "At eight annual openings, initial cash deployment is roughly EUR 14.4 million before central infrastructure and Sweden costs. Under the reported mix, only about EUR 2.4 million is store-specific capex, while approximately EUR 12 million is inventory. Statutory capex therefore understates expansion funding, making inventory control central to the investment case. Puuilo reported FY2025 operating free cash flow of EUR 72.6 million and capex of EUR 5.8 million, providing ample capacity, but inventories were EUR 123.2 million at year-end. If payback extended from 19 to 30 months, implied annualized EBITDA on initial investment would fall from about EUR 1.14 million to EUR 0.72 million. This would materially reduce incremental returns and the multiple warranted for rollout.",
+            "### Competition supports share gains but limits the available white space",
+            "- Puuilo: 56 stores at 31 January 2026, EUR 432.7m FY2025 physical-store external sales and about 12.1% of Finnish discount retail.\n- Tokmanni: 206 Finnish stores at the end of 2025 and EUR 1.7 billion of group sales, making it a scale benchmark rather than a direct format clone.\n- Motonet: at least 40 Finnish stores by 2022 and claimed leadership in car and motorcycle parts, tools and leisure equipment.\n- Biltema: 17 Finnish stores in 2026, providing a direct warehouse-format comparison across tools, automotive and household categories.",
+            "Competition is fragmented by category. Tokmanni is described as Finland's variety-discount leader, while Motonet claims leadership in automotive parts, tools and leisure. Grocery is dominated by S Group at 49.0%, K Group at 33.7% and Lidl at 9.5%. In DIY, ECDB identifies K-Rauta as the top retailer, while IBISWorld names Bauhaus as the hardware and home-improvement leader. These claims conflict because they use different market definitions and methods. The report therefore does not treat either as a universal DIY-share measure. Puuilo competes with both specialists and generalists, limiting the value of a single market-share denominator.",
+            "Puuilo's network remains much thinner than Tokmanni's, and management identifies Southern Finland and the capital region as underpenetrated. This supports further openings, but a thin network does not mean empty competitive space. A new Puuilo can overlap with Tokmanni in household and seasonal goods, Motonet in automotive and tools, Biltema in warehouse-style general merchandise, and K-Rauta or Bauhaus in maintenance purchases. The valuation gives credit for continued openings but requires stable established-store economics. Store-count growth without like-for-like resilience would show transfer rather than value creation.",
+            "### Gross margin is the second earnings driver, supported by mix and purchasing",
+            "Puuilo's FY2025 gross margin was 38.2% in the financial-statements release, while another company presentation entry states 38.8%. The report uses the audited financial-statements figure of 38.2% because it is the clearer accounting source. It treats 38.8% as a conflicting presentation figure that may use a different definition. Both point to improving margins, and Q1 FY2026 reached 39.0%. Private-label products represented 23.6% of FY2025 revenue, while Q1 private-label sales grew 28%, giving management greater control over pricing and sourcing.",
+            "Volume growth also improves purchasing leverage, and management cites commercial terms and favorable product mix as support for margins. However, not all gross-margin gains may be structural. About 20% of purchases have historically come directly from the Far East, exposing costs mainly to the US dollar. The Shanghai-Rotterdam spot container rate was around USD 3,460 per FEU in May 2026. Finnish retail wages increased 2.5% from 1 August 2026. A 100-basis-point gross-margin decline on EUR 501 million of modeled 2026 sales would reduce gross profit by about EUR 5 million before mitigation, equal to approximately 6% of modeled EBIT.",
+            "### Current evidence is strong, but one quarter cannot validate the full market-implied path",
+            "Q1 FY2026 net sales rose 16.3% to EUR 103.8 million. Adjusted EBITA increased 50.2% to EUR 16.3 million, and the margin reached 15.7%. Like-for-like growth was estimated at 7.7%, versus 3.7% in FY2025, while gross margin improved to 39.0% from 37.1%. These results indicate that new stores are adding sales, established demand remains healthy, and mix is lifting profit faster than revenue. Management retained guidance for FY2026 sales of EUR 480–510 million and adjusted EBITA of EUR 80–90 million.",
+            "The evidence remains incomplete because Q2 results will not be published until 10 September 2026. Seasonality, wage increases, freight and the opening schedule make the half-year report more informative than Q1 alone. The authoritative model forecasts EUR 501 million of 2026 sales and EUR 86 million of EBIT, both near guidance midpoints. The operating forecast is therefore not the aggressive part of this report. The current valuation is, as the reverse model requires EBIT margins above 21% in 2026–2027.",
+            "### Sweden is a controlled test, not yet a separately valued growth option",
+            "Puuilo will open its first Swedish store in Marieberg, Örebro, in late 2026 and a second in Birsta, Sundsvall, in early 2027. The FY2026 international-expansion budget is approximately EUR 1 million. These commitments are small relative to group cash generation, making the test financially manageable. They are strategically relevant because the more-than-100-store target cannot rely only on Finnish infill. Swedish acceptance will determine whether the format can expand beyond its home market.",
+            "The report assigns no separate option premium to Sweden because no Swedish store revenue, margin or payback has been reported. Instead, the physical-store multiple gives modest credit for successful replication. The required evidence is clear: investment near the Finnish EUR 1.8 million benchmark, positive store EBITDA in the first full months, stable gross margin after local pricing, and plausible payback below three years. Failure would not threaten the Finnish business, but it would shorten the growth runway and weaken the case for paying above historical average multiples.",
+            "### What it is worth and what breaks the value",
+            "The physical-store valuation uses EUR 108 million of modelled FY2026 EBITDA and a 10.3x multiple, producing EUR 1.1 billion of target EV. The EBITDA allocation is this report's estimate because Puuilo does not report division profit. It assigns almost all group EBITDA to stores while retaining a small positive online contribution. The 10.3x multiple exceeds the 2026 peer median of 8.4x and the normalized historical EV/EBITDA average of 9.33x, reflecting stronger margin, returns and rollout economics. It remains below the 12.18x current-year market multiple because the assessed value includes cannibalization and normalization risk.",
+            "Value would break through a combination of factors rather than one weak quarter. The clearest failure path is negative established-store growth, new-store payback beyond 30 months, gross margin returning toward 37%, and inventories growing faster than sales. The report would be too conservative if Puuilo sustains more than 4% like-for-like growth, opens at least eight stores annually, keeps payback near 19 months and maintains an EBIT margin at or above 18% after Sweden costs. These indicators allow a portfolio manager to reject the EUR 12 target while retaining a testable operating framework."
+          ],
+          "deepDiveTable": {
+            "columns": [
+              "Operator",
+              "Network or scale",
+              "Position",
+              "Profitability evidence"
+            ],
+            "rows": [
+              [
+                "Puuilo",
+                "56 stores (31 Jan 2026)",
+                "12.1% discount share (2025)",
+                "17.5% adj. EBITA margin FY2025"
+              ],
+              [
+                "Tokmanni",
+                "206 Finland stores (2025)",
+                "Variety-discount leader",
+                "EUR 84.8m comp. EBIT FY2025"
+              ],
+              [
+                "Motonet",
+                "40th Finland store (2022)",
+                "Auto/tools category leader",
+                "Margin not in evidence"
+              ],
+              [
+                "Biltema",
+                "17 Finland stores (2026)",
+                "Warehouse-format competitor",
+                "Margin not in evidence"
+              ],
+              [
+                "Rusta",
+                "Nordic value retailer",
+                "Home/seasonal/DIY overlap",
+                "7.7% EBIT margin 2026E"
+              ]
+            ]
+          },
+          "deepDiveTableTitle": "Physical-store competitive position and operating evidence",
+          "bridgeContribution": 108,
+          "reportedRevenueFigure": true,
+          "reportedProfitFigure": false,
+          "reportedFigures": false
+        },
+        {
+          "id": "online-store",
+          "name": "Online store",
+          "archetype": "current_profit_engine",
+          "revenue": 9.6,
+          "revenueShare": 0.021704725299570425,
+          "comparableEbit": 0,
+          "ebitShare": 0,
+          "currentEbitShare": 0.02,
+          "enterpriseValue": 19,
+          "enterpriseValueShare": 0.014637904468412942,
+          "factSheet": [
+            {
+              "label": "FY2025 external sales",
+              "value": "EUR 9.6m; 2.2% of group"
+            },
+            {
+              "label": "FY2025 online growth",
+              "value": "5.6%"
+            },
+            {
+              "label": "Q1 FY2026 online growth",
+              "value": "17.6%"
+            },
+            {
+              "label": "Assortment breadth",
+              "value": "About 30,000 titles"
+            },
+            {
+              "label": "Click-and-collect fee",
+              "value": "Free"
+            },
+            {
+              "label": "Pickup readiness",
+              "value": "2–4 hours during store hours"
+            },
+            {
+              "label": "Modelled current EBIT share",
+              "value": "2%; this report's estimate"
+            },
+            {
+              "label": "Assessed target multiple",
+              "value": "7.0x modelled FY2026 EBITDA"
+            }
+          ],
+          "deepDive": [
+            "### The opportunity is Finland's digital retail wallet, but DIY and maintenance orders are most relevant",
+            "Research and Markets estimated Finland's total B2C e-commerce market at USD 10.55 billion in 2025. ECDB estimated Finnish DIY and home-improvement e-commerce at USD 644 million. The first figure captures the broad spending pool that can shift from stores, while the second better fits Puuilo's tools, repair, automotive and household range. The figures differ by more than an order of magnitude because Puuilo does not compete for travel, fashion or every other online category. The valuation does not use either figure mechanically as a revenue forecast. It uses the USD 644 million category estimate to frame competition and values the online store using its reported EUR 9.6 million revenue and modelled contribution.",
+            "The immediate share implication cannot be calculated precisely. The market estimate is in US dollars, and the evidence provides no period-consistent exchange rate to convert the 2025 category total into euros at relevant transaction dates. Even without conversion, Puuilo is clearly small: K-Rauta's estimated online revenue was USD 239 million and Motonet's was USD 129 million, compared with Puuilo's EUR 9.6 million. Online valuation should therefore rest on profitable support for the store network, not on an assumption that Puuilo becomes a leading national pure-play. The key question is whether each digital sale is incremental or shifts a store purchase into a channel with picking, payment and delivery costs.",
+            "### Online share depends on convenience and product visibility, not a pure-play logistics race",
+            "Puuilo offers approximately 30,000 titles across the same store and online range. Click-and-collect is free, and selected stores can prepare orders within two to four hours during opening hours. This supports a practical customer proposition: customers can search a broad maintenance range online, check availability and collect without delivery charges. Because the store estate already holds inventory and provides customer access, digital sales can improve convenience without building the infrastructure of a nationwide parcel-led e-commerce specialist.",
+            "The limitations are clear. The identical assortment does not expand the product range, and free pickup still requires store labor. Home-delivery charges are calculated at checkout, but no universal free-shipping threshold was disclosed. Puuilo also does not report online average order value, conversion, order count, picking cost, delivery subsidy or return rate. Without these unit metrics, growth alone cannot demonstrate contribution. The valuation therefore assumes positive but modest online EBITDA rather than applying a technology or high-growth sales multiple.",
+            "### The revenue requirement is credible, but profitability remains unproven",
+            "FY2025 online external sales were EUR 9.6 million, or 2.2% of group revenue. Online growth was 5.6%, after 1.7% in FY2024, and accelerated to 17.6% in Q1 FY2026. If the quarterly rate continued for a full year, online revenue would approach EUR 11.3 million. This is the report's simple estimate of EUR 9.6 million multiplied by 1.176, not formal guidance. A more conservative 10% annual rate would produce approximately EUR 14.1 million by FY2029. Both paths leave online small relative to stores.",
+            "The missing operational bridge can be illustrated using an assumed EUR 80 average order value, solely as a scenario input. EUR 9.6 million of sales would represent approximately 120,000 annual orders, while EUR 14.1 million would represent about 176,000. At an assumed EUR 5 incremental picking and payment cost per order, costs would be EUR 0.6–0.9 million before delivery subsidies and returns. At EUR 10 per order, they would be EUR 1.2–1.8 million. These are not reported economics, but they show why order density and pickup mix determine whether 10–18% online growth creates or destroys value.",
+            "### Online can be material, but comparable business models matter",
+            "- K-Rauta: estimated USD 239m online revenue in Finnish DIY during 2025 and identified by ECDB as the leading DIY e-commerce retailer.\n- Motonet: estimated USD 129m online revenue in 2025 and ranked third in Finnish DIY e-commerce by ECDB.\n- Kärkkäinen: identified as the second-largest Finnish DIY online retailer, although exact 2025 revenue was unavailable.\n- Clas Ohlson: e-commerce represented 24% of group sales in Q4 2025/26, showing a much more digital omnichannel mix than Puuilo.\n- Verkkokauppa.com: online represented 72.1% of Q4 2025 revenue, but its electronics-led model is not comparable on margin or fulfillment.",
+            "These comparisons set boundaries rather than a direct multiple. K-Rauta and Motonet have stronger category positions and much larger estimated online sales. Clas Ohlson shows that Nordic household and repair products can support a substantial digital share. Verkkokauppa.com's 72.1% online mix confirms that Finnish consumers transact online, but says little about bulky, low-price maintenance goods. Puuilo's 2.2% annual share is low, but low penetration does not automatically create valuable white space. Some products are urgent, tactile, low-ticket or uneconomic to ship, making store collection the more likely winning model.",
+            "Tokmanni is also investing in digital capabilities, supported by EUR 1.7 billion of FY2025 group revenue. The evidence does not disclose Tokmanni's online-only revenue, so this report does not create a comparison. The competitive risk remains credible because a larger store network offers more collection points and greater customer awareness. Puuilo's defense is its approximately 30,000-title assortment, rapid collection and relevance in tools and maintenance. These advantages must translate into repeat orders and contribution, neither of which is currently reported.",
+            "### Online and stores share inventory, but their economics can differ",
+            "Puuilo uses centralized logistics, with a central warehouse supporting inventory management and store replenishment. Shared procurement and assortment allow online volume to improve supplier terms and use the same product organization as stores. Click-and-collect can also bring customers into stores and create add-on purchases not recorded in online revenue. In this case, the reported EUR 9.6 million understates the digital channel's influence because the website supports product discovery before an offline transaction.",
+            "The adverse case is channel substitution. A customer who would have selected goods from a shelf may instead require staff to pick and stage the same basket without paying a pickup fee. If the basket does not grow and no new customer is acquired, revenue is unchanged but labor costs rise. The company does not report the share of online orders collected in store, new-customer share, or incremental store purchases at pickup. This prevents a definitive contribution analysis and supports the online division's lower 7.0x EBITDA multiple.",
+            "### Group margin stability is encouraging, but it does not prove online profitability",
+            "FY2025 adjusted EBITA margin remained 17.5% while online sales grew 5.6%. In Q1 FY2026, group profitability improved as online growth accelerated to 17.6%. This shows that online expansion has not been large enough to cause visible group dilution. It does not prove that online earns the group margin because stores account for 97.8% of revenue and can outweigh a small online loss. The independently verified segment table reports no comparable EBIT by division for either stores or online.",
+            "For valuation, this report estimates that online contributes approximately 2% of current group EBIT, broadly in line with its revenue share. This is a neutral estimate, not a claim of reported profitability. It would be too high if fulfillment costs generate a loss, and too low if pickup orders drive meaningful store add-ons. The most useful disclosure would be contribution after picking, payment, delivery and returns, or at least order volume, average order value and pickup mix.",
+            "### Growth is improving, but online remains too small to change the group case alone",
+            "Online revenue growth improved from 1.7% in FY2024 to 5.6% in FY2025 and 17.6% in Q1 FY2026. This suggests the proposition is gaining traction, perhaps through better availability, product discovery or a larger store network. Yet online represented only 1.8% of group sales in Q4 FY2025, below the 2.3% reported in Q3 FY2024 and 2.0% in Q4 FY2024. Period mix and seasonality may explain part of the variation, but online has not shown a steadily rising share of group revenue.",
+            "An effective online channel need not become large. It can still support the store business by improving conversion, reducing lost sales from unavailable local stock and helping customers plan complex baskets. Alternatively, low penetration may reflect the shipping disadvantages of low-priced or bulky products. The valuation takes a middle view: positive contribution and continued growth, but no strategic premium until disclosure can distinguish incremental demand from channel migration.",
+            "### What it is worth and what would break the value",
+            "The online valuation uses EUR 2.5 million of modelled FY2026 EBITDA and a 7.0x multiple, producing EUR 17.5 million of target EV. This EBITDA is the report's estimate, not a reported segment result. It implies a high margin against current EUR 9.6 million revenue because the 2026 metric includes expected growth and allocated omnichannel benefits. The assumption is tested through a low multiple relative to Puuilo's stores. The current-market allocation is EUR 19.5 million, only 1.5% of the locked EUR 1.3 billion group EV.",
+            "Online value would fall near zero if disclosed fulfillment economics show negative contribution, growth simply replaces store baskets, or free pickup adds material labor cost without add-on sales. It could exceed the assessed amount if online revenue compounds above 15%, pickup remains the main fulfillment mode and management demonstrates contribution margins comparable with stores. Even doubling online value would change group value by only about EUR 0.2 per share. The channel matters strategically but cannot rescue an overvalued physical-store business.",
+            "### The investment conclusion depends on better measurement, not a heroic forecast",
+            "Online should be assessed through four measures: order growth relative to revenue growth, average order value, pickup share and contribution after fulfillment. A fifth useful measure is the share of orders from areas without a nearby Puuilo store, which would show geographic incrementality. None of these figures is available in the evidence. Until they are disclosed, revenue growth is a signal rather than proof of unit economics.",
+            "This asymmetry matters for portfolio construction. Weak online results have limited direct value impact because only 1.5% of current EV is allocated to the division. A successful omnichannel model could indirectly strengthen the much larger store business through higher conversion, better inventory visibility and broader catchment reach. Online should not be ignored, but investors should not pay for digital economics that Puuilo has yet to demonstrate."
+          ],
+          "deepDiveTable": {
+            "columns": [
+              "Operator",
+              "Online scale or mix",
+              "Market position",
+              "Key limitation"
+            ],
+            "rows": [
+              [
+                "Puuilo",
+                "EUR 9.6m FY2025",
+                "2.2% of group sales",
+                "Contribution not disclosed"
+              ],
+              [
+                "K-Rauta",
+                "USD 239m est. (2025)",
+                "DIY online leader estimate",
+                "Different category breadth"
+              ],
+              [
+                "Kärkkäinen",
+                "Revenue unavailable",
+                "No. 2 DIY online estimate",
+                "Exact sales not disclosed"
+              ],
+              [
+                "Motonet",
+                "USD 129m est. (2025)",
+                "No. 3 DIY online estimate",
+                "Automotive-heavy mix"
+              ],
+              [
+                "Clas Ohlson",
+                "24% online mix Q4 2025/26",
+                "Nordic omnichannel peer",
+                "Different format and locations"
+              ],
+              [
+                "Verkkokauppa.com",
+                "72.1% online Q4 2025",
+                "Digital-led Finnish retailer",
+                "Electronics model differs"
+              ]
+            ]
+          },
+          "deepDiveTableTitle": "Online scale and channel-position comparison",
+          "bridgeContribution": 2.5,
+          "reportedRevenueFigure": true,
+          "reportedProfitFigure": false,
+          "reportedFigures": false
+        }
+      ],
+      "groupTotals": {
+        "revenue": 442.3,
+        "comparableEbit": 65,
+        "enterpriseValue": 1298
+      },
+      "segmentFinancialsPeriod": "FY2025A",
+      "segmentFinancialsSource": "Partly verified from Puuilo Plc Financial Statements Release, February 2025 – January 2026 (Q4 2025); remaining figures are estimates",
+      "valueBreakdownInterpretation": "Physical stores generate 97.8% of reported revenue and an estimated 98% of current EBIT. Almost all EV therefore depends on store rollout, established-store resilience and gross-margin control. Comparable EBIT by business division was not reported; the numeric zero fields are presentation placeholders, not claims of zero profit. The EUR 1.3 billion current-EV allocation assigns EUR 1.3 billion to stores and EUR 19.5 million to online.",
+      "xyScatterInterpretation": "Puuilo's average 2025–2027 forecast ROE of 45.5% supports a high P/BV. Across 4,632 consensus companies, the fitted relationship implies 7.9x P/BV and EUR 13.9 per share, using average forecast book value of EUR 1.76. This is almost equal to the EUR 14 share price. The scatter suggests the market price is consistent with high returns; the risk is whether those returns persist as the estate matures.",
+      "coreAnalysis": {
+        "executiveMap": [
+          "Physical stores account for almost all EV. The division generated EUR 432.7 million of FY2025 external sales, and this report estimates it contributes 98% of current EBIT. The key metric is approximately 19-month payback on EUR 1.8 million of new-store investment. If this holds as store density rises, Puuilo can continue to earn premium returns on capital. If it extends beyond 30 months, the premium multiple should fall.",
+          "Online generated EUR 9.6 million of FY2025 revenue, or 2.2% of group sales. The key metric is contribution after fulfillment, which is undisclosed. Free two-to-four-hour click-and-collect can support the store estate, but online represents only 1.5% of the current EV allocation and cannot independently determine the investment outcome.",
+          "The authoritative model forecasts EUR 501 million of 2026 revenue, EUR 111 million of EBITDA and EUR 86 million of EBIT. The current share price is not mainly debating these near-term figures. It reflects how long Puuilo can sustain premium returns and whether margins can approach the reverse valuation's 21%–22% range."
+        ],
+        "analyticalAnchor": "The thesis rests on a testable proposition: new stores must generate incremental catchment profit with approximately two-year cash payback, rather than simply redistribute existing Puuilo sales.",
+        "groupedPools": [],
+        "crossPoolBridge": [
+          "The website and stores share assortment, procurement and centralized logistics. Online search and stock visibility can lift store conversion, while free pickup can drive add-on purchases. But the model can also increase labor cost when staff pick baskets that customers would otherwise select themselves.",
+          "Physical-store cash flow funds both store rollout and digital capability. Eight openings require about EUR 14.4 million of initial investment, based on management's EUR 1.8 million benchmark. Most of this is inventory rather than capex. Online therefore competes with new stores for working capital even when reported capex remains low.",
+          "Cannibalization must be measured by both geography and channel. A new store can take sales from another store, while a pickup order can replace a shelf purchase. Group growth matters only if established-store sales, inventory turns and cash conversion confirm it is incremental."
+        ],
+        "bridgeMechanics": "The target uses a division SOTP because stores and online have different evidence quality and fulfillment economics. Net debt is deducted once at group level through the locked EUR 118 million bridge.",
+        "valuationRealityCheck": [
+          "At EUR 14, Puuilo's locked EV is EUR 1.3 billion. This equals 12.18x modeled 2025 EBITDA, above the 9.33x normalized historical average and the 8.4x 2026 peer median.",
+          "The premium is partly justified. Puuilo's modeled 17.1% 2026 EBIT margin is well above the peer median of 6.2%, while modeled ROE of 45.2% exceeds the peer median of 19.7%. A peer-median multiple would understate the business quality.",
+          "The reverse valuation requires more than a quality premium. It requires EBIT of EUR 109 million in 2026 and EUR 123 million in 2027, versus authoritative-model EBIT of EUR 86 million and EUR 97 million. It also requires margins above 21% in both years.",
+          "The EUR 12 target applies 10.3x to store EBITDA and 7.0x to online EBITDA. The resulting group multiple is about 10.2x 2026 EBITDA. This remains above historical and peer reference points, but below the current rating."
+        ],
+        "scenarios": [
+          "Bear assumes EUR 450 million of revenue and EUR 82 million of EBITDA, implying an 18.2% margin. It combines weaker established-store demand, slower openings, gross-margin normalization and working-capital absorption. It does not assume financial distress. Net debt remains manageable, but the equity loses its premium-growth rating.",
+          "Base uses the authoritative 2026 model: EUR 501 million of revenue, EUR 111 million of EBITDA and a 22.1% EBITDA margin. It assumes delivery at the midpoint of guidance, profitable Finnish openings and modest Swedish dilution. The SOTP applies different multiples to online and stores.",
+          "Bull assumes EUR 545 million of revenue and EUR 130 million of EBITDA, implying a 23.9% margin. It reflects the strong end of the range: high-single-digit like-for-like growth, at least eight successful openings, continued private-label gains and no material cannibalization. Higher cash generation reduces effective net debt rather than mechanically retaining the base bridge.",
+          "The scenarios are paths, not single-period forecasts. The most useful indicators are like-for-like growth, gross margin, inventory growth versus sales, new-store payback and the first evidence from Sweden."
+        ],
+        "bottomLine": "Puuilo is a high-quality retailer with attractive disclosed store economics, but quality and valuation are different questions. The EUR 14 share price discounts a longer and more profitable rollout than the authoritative model. Online is too small and opaque to provide a separate valuation cushion. The EUR 12 target retains a premium multiple but rejects reverse-valuation margins above 21%."
+      },
+      "reverseValuation": null,
+      "financialBridge": {
+        "netSales": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "values": [
+            296,
+            338,
+            384,
+            440,
+            501,
+            563,
+            589
+          ],
+          "forecastFromIndex": 3
+        },
+        "ebitdaEbit": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "ebitda": [
+            55,
+            70,
+            78,
+            107,
+            111,
+            125,
+            102
+          ],
+          "ebit": [
+            47,
+            53,
+            65,
+            75,
+            86,
+            97,
+            80
+          ],
+          "forecastFromIndex": 3
+        },
+        "marginLines": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "ebitMarginPct": [
+            15.9,
+            15.6,
+            17,
+            17,
+            17.1,
+            17.1,
+            13.5
+          ],
+          "ebitdaMarginPct": [
+            18.7,
+            20.6,
+            20.3,
+            24.2,
+            22.1,
+            22.2,
+            17.3
+          ],
+          "forecastFromIndex": 3
+        },
+        "freeCashFlow": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "values": [
+            -17,
+            70,
+            18,
+            34,
+            34,
+            42,
+            48
+          ],
+          "forecastFromIndex": 3
+        },
+        "netDebtPerEbitda": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "values": [
+            2.6,
+            1.5,
+            1.5,
+            1.1,
+            1.1,
+            1,
+            1.3
+          ],
+          "forecastFromIndex": 3
+        },
+        "keyFinancials": {
+          "periods": [
+            "2024",
+            "2025",
+            "2026",
+            "2027",
+            "2028"
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                384,
+                440,
+                501,
+                563,
+                589
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                78,
+                107,
+                111,
+                125,
+                102
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                65,
+                75,
+                86,
+                97,
+                80
+              ],
+              "isSubtotal": false
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                48,
+                54,
+                61,
+                70,
+                56
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EPS (EUR)",
+              "values": [
+                0.57,
+                0.64,
+                0.73,
+                0.83,
+                0.66
+              ]
+            },
+            {
+              "metric": "DPS (EUR)",
+              "values": [
+                0.38,
+                0.45,
+                0.51,
+                0.58,
+                0.46
+              ]
+            }
+          ]
+        }
+      },
+      "forwardMultiples": {
+        "periods": [
+          "2025"
+        ],
+        "rows": [
+          {
+            "metric": "P/E",
+            "values": [
+              "21.8×"
+            ]
+          },
+          {
+            "metric": "EV/EBITDA",
+            "values": [
+              "12.2×"
+            ]
+          },
+          {
+            "metric": "EV/EBIT",
+            "values": [
+              "17.4×"
+            ]
+          },
+          {
+            "metric": "P / Valuatum FOCF",
+            "values": [
+              "34.9×"
+            ]
+          },
+          {
+            "metric": "P/BV",
+            "values": [
+              "9.5×"
+            ]
+          },
+          {
+            "metric": "Dividend Yield",
+            "values": [
+              "3.2%"
+            ]
+          },
+          {
+            "metric": "Net Debt / EBITDA",
+            "values": [
+              "1.1×"
+            ]
+          }
+        ]
+      },
+      "sensitivityMatrix": {
+        "rowAxis": {
+          "label": "FY2026E EBITDA (EURm)",
+          "deltas": [
+            -0.2,
+            -0.1,
+            0,
+            0.1,
+            0.2
+          ],
+          "absoluteValues": [
+            85,
+            96,
+            107,
+            117,
+            128
+          ],
+          "baseIndex": 2
+        },
+        "colAxis": {
+          "label": "EV/EBITDA",
+          "multiples": [
+            8,
+            9,
+            10.18,
+            11,
+            12
+          ],
+          "baseIndex": 2
+        },
+        "cells": [
+          [
+            {
+              "ev": 680,
+              "perShare": 6.7
+            },
+            {
+              "ev": 765,
+              "perShare": 7.7
+            },
+            {
+              "ev": 865,
+              "perShare": 8.9
+            },
+            {
+              "ev": 935,
+              "perShare": 9.7
+            },
+            {
+              "ev": 1020,
+              "perShare": 10.7
+            }
+          ],
+          [
+            {
+              "ev": 768,
+              "perShare": 7.7
+            },
+            {
+              "ev": 864,
+              "perShare": 8.9
+            },
+            {
+              "ev": 977,
+              "perShare": 10.2
+            },
+            {
+              "ev": 1056,
+              "perShare": 11.1
+            },
+            {
+              "ev": 1152,
+              "perShare": 12.3
+            }
+          ],
+          [
+            {
+              "ev": 856,
+              "perShare": 8.8
+            },
+            {
+              "ev": 963,
+              "perShare": 10
+            },
+            {
+              "ev": 1089,
+              "perShare": 11.5
+            },
+            {
+              "ev": 1177,
+              "perShare": 12.6
+            },
+            {
+              "ev": 1284,
+              "perShare": 13.8
+            }
+          ],
+          [
+            {
+              "ev": 936,
+              "perShare": 9.7
+            },
+            {
+              "ev": 1053,
+              "perShare": 11.1
+            },
+            {
+              "ev": 1191,
+              "perShare": 12.7
+            },
+            {
+              "ev": 1287,
+              "perShare": 13.9
+            },
+            {
+              "ev": 1404,
+              "perShare": 15.3
+            }
+          ],
+          [
+            {
+              "ev": 1024,
+              "perShare": 10.7
+            },
+            {
+              "ev": 1152,
+              "perShare": 12.3
+            },
+            {
+              "ev": 1303,
+              "perShare": 14.1
+            },
+            {
+              "ev": 1408,
+              "perShare": 15.3
+            },
+            {
+              "ev": 1536,
+              "perShare": 16.8
+            }
+          ]
+        ]
+      },
+      "scenarioValuation": {
+        "rows": [
+          {
+            "scenario": "Bear",
+            "revenue": 450,
+            "ebitda": 82,
+            "marginPct": 18.2,
+            "multiple": 8.5,
+            "ev": 697,
+            "equity": 579,
+            "valuePerShare": 6.87,
+            "upsidePct": -50.9
+          },
+          {
+            "scenario": "Base",
+            "revenue": 501,
+            "ebitda": 111,
+            "marginPct": 22.1,
+            "multiple": 10.18,
+            "ev": 1130,
+            "equity": 1012,
+            "valuePerShare": 12.01,
+            "upsidePct": -14.2
+          },
+          {
+            "scenario": "Bull",
+            "revenue": 545,
+            "ebitda": 130,
+            "marginPct": 23.9,
+            "multiple": 11.5,
+            "ev": 1495,
+            "equity": 1377,
+            "valuePerShare": 16.33,
+            "upsidePct": 16.7
+          }
+        ],
+        "keyConditions": "Bear requires store saturation and gross-margin reversal. Base requires guidance delivery and continued sub-three-year store payback. Bull requires strong operating outcomes, including high-single-digit like-for-like growth, at least eight productive annual openings, stable inventory efficiency and early Swedish evidence. Bull cash generation should reduce effective net debt, while Bear working-capital absorption can leave leverage higher. These are operating boundary cases, not probability-weighted target-price inputs. The code-verified 12-month target of EUR 12.0 sits between Bear and Base: Bear EUR 6.9, Base EUR 12.0, Bull EUR 16.3. Its method weights appear in the Target Price Bridge. ",
+        "thesisBreaker": "The SELL thesis breaks if established-store growth exceeds 4% and EBIT margin remains above 18% through the Swedish launch."
+      },
+      "catalysts": {
+        "rows": [
+          {
+            "milestone": "H1 FY2026 report tests Q1 momentum and guidance",
+            "timing": "NEAR-TERM",
+            "pool": "Stores",
+            "indicator": "Sales, LFL growth, gross margin and EBITA",
+            "valuationImpact": "Confirms or challenges premium multiple"
+          },
+          {
+            "milestone": "Execution of at least eight FY2026 openings",
+            "timing": "NEAR-TERM",
+            "pool": "Stores",
+            "indicator": "Opening cadence and first-month profitability",
+            "valuationImpact": "Supports store-duration assumption"
+          },
+          {
+            "milestone": "First Swedish store opens in Örebro",
+            "timing": "NEAR-TERM",
+            "pool": "Stores",
+            "indicator": "Opening cost, sales ramp and local gross margin",
+            "valuationImpact": "Begins testing international replication"
+          },
+          {
+            "milestone": "Second Swedish store opens in Sundsvall",
+            "timing": "MEDIUM-TERM",
+            "pool": "Stores",
+            "indicator": "Repeatability across a second catchment",
+            "valuationImpact": "Could extend or shorten growth duration"
+          },
+          {
+            "milestone": "Private-label sales continue outgrowing group sales",
+            "timing": "MEDIUM-TERM",
+            "pool": "Stores",
+            "indicator": "Private-label share and group gross margin",
+            "valuationImpact": "Determines structural margin premium"
+          },
+          {
+            "milestone": "Online growth converts into disclosed contribution",
+            "timing": "MEDIUM-TERM",
+            "pool": "Online store",
+            "indicator": "Orders, pickup mix, AOV and fulfillment cost",
+            "valuationImpact": "Validates positive online value"
+          },
+          {
+            "milestone": "Network advances toward more than 100 stores",
+            "timing": "LONG-TERM",
+            "pool": "Stores",
+            "indicator": "Store count, LFL growth and 19-month payback",
+            "valuationImpact": "Tests the terminal growth runway"
+          }
+        ],
+        "prose": "Store openings and Sweden are longer-term catalysts. The first Swedish store is a low-cost test, but Finnish-style payback would extend the rollout opportunity. Better online disclosure would help, but is unlikely to drive valuation unless the channel becomes materially larger."
+      },
+      "risks": {
+        "rows": [
+          {
+            "risk": "New-store cannibalization",
+            "pool": "Stores",
+            "mechanism": "New locations transfer sales rather than add catchment profit",
+            "earlyWarning": "Store count rises while LFL growth turns negative",
+            "impact": "HIGH",
+            "type": "THESIS-BREAKER IF COMBINED"
+          },
+          {
+            "risk": "Gross-margin normalization",
+            "pool": "Online store",
+            "mechanism": "FX, freight, competition or mix reverse purchasing gains",
+            "earlyWarning": "Gross margin trends back toward 37%",
+            "impact": "HIGH",
+            "type": "THESIS-BREAKER IF COMBINED"
+          },
+          {
+            "risk": "Inventory absorbs rollout cash",
+            "pool": "Online store",
+            "mechanism": "New stores and assortment growth outpace inventory turns",
+            "earlyWarning": "Inventory growth persistently exceeds sales growth",
+            "impact": "HIGH",
+            "type": "MANAGEABLE"
+          },
+          {
+            "risk": "Swedish format does not transfer",
+            "pool": "Stores",
+            "mechanism": "Local pricing, awareness and competition weaken payback",
+            "earlyWarning": "Slow ramp or opening investment above Finland",
+            "impact": "MEDIUM",
+            "type": "MANAGEABLE"
+          },
+          {
+            "risk": "Online channel substitution",
+            "pool": "Stores",
+            "mechanism": "Free pickup adds picking cost without incremental demand",
+            "earlyWarning": "Online mix rises while group margin or LFL weakens",
+            "impact": "MEDIUM",
+            "type": "MANAGEABLE"
+          },
+          {
+            "risk": "USD and Asian sourcing pressure",
+            "pool": "Online store",
+            "mechanism": "Dollar strength and freight raise landed product costs",
+            "earlyWarning": "Purchasing margin falls despite private-label growth",
+            "impact": "MEDIUM",
+            "type": "MANAGEABLE"
+          },
+          {
+            "risk": "Valuation multiple contraction",
+            "pool": "Online store",
+            "mechanism": "Small forecast misses reset premium expectations",
+            "earlyWarning": "Guidance drifts toward its lower bound",
+            "impact": "HIGH",
+            "type": "STRUCTURAL"
+          }
+        ],
+        "prose": "Valuation amplifies operating risk. Puuilo trades above peer and historical reference multiples, while the reverse model requires margins well above the authoritative forecast. The balance sheet is not the main risk at roughly 1.1x modeled 2025 net debt/EBITDA. The greater risk is lower expectations."
+      },
+      "appendix": {
+        "incomeStatement": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                296,
+                338,
+                384,
+                440,
+                501,
+                563
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                55,
+                70,
+                78,
+                107,
+                111,
+                125
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "18.7%",
+                "20.6%",
+                "20.3%",
+                "24.2%",
+                "22.1%",
+                "22.2%"
+              ]
+            },
+            {
+              "metric": "Depreciation",
+              "values": [
+                -8,
+                -17,
+                -13,
+                -32,
+                -25,
+                -28
+              ]
+            },
+            {
+              "metric": "Operating Profit (EBIT)",
+              "values": [
+                47,
+                53,
+                65,
+                75,
+                86,
+                97
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "15.9%",
+                "15.6%",
+                "17.0%",
+                "17.0%",
+                "17.1%",
+                "17.1%"
+              ]
+            },
+            {
+              "metric": "Net financial items",
+              "values": [
+                -3,
+                -4,
+                -5,
+                -6,
+                -6,
+                -6
+              ]
+            },
+            {
+              "metric": "Pre-tax Profit",
+              "values": [
+                44,
+                48,
+                60,
+                69,
+                80,
+                91
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                35,
+                39,
+                48,
+                54,
+                61,
+                70
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Per share",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.41,
+                0.46,
+                0.57,
+                0.64,
+                0.73,
+                0.83
+              ]
+            },
+            {
+              "metric": "DPS",
+              "values": [
+                0.3,
+                0.34,
+                0.38,
+                0.45,
+                0.51,
+                0.58
+              ]
+            },
+            {
+              "metric": "Payout ratio",
+              "values": [
+                "72.3%",
+                "73.9%",
+                "66.8%",
+                "69.7%",
+                "69.7%",
+                "69.7%"
+              ]
+            }
+          ]
+        },
+        "balanceSheet": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Assets",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Tangible assets",
+              "values": [
+                56,
+                76,
+                88,
+                100,
+                114,
+                128
+              ]
+            },
+            {
+              "metric": "Intangibles",
+              "values": [
+                17,
+                16,
+                16,
+                18,
+                21,
+                23
+              ]
+            },
+            {
+              "metric": "Goodwill",
+              "values": [
+                34,
+                34,
+                34,
+                34,
+                34,
+                34
+              ]
+            },
+            {
+              "metric": "Non-current assets",
+              "values": [
+                107,
+                126,
+                138,
+                152,
+                169,
+                185
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Inventories",
+              "values": [
+                90,
+                93,
+                116,
+                128,
+                146,
+                164
+              ]
+            },
+            {
+              "metric": "Receivables",
+              "values": [
+                5,
+                7,
+                8,
+                9,
+                10,
+                11
+              ]
+            },
+            {
+              "metric": "Cash & equivalents",
+              "values": [
+                29,
+                22,
+                18,
+                23,
+                27,
+                30
+              ]
+            },
+            {
+              "metric": "Current assets",
+              "values": [
+                124,
+                122,
+                142,
+                161,
+                183,
+                205
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total Assets",
+              "values": [
+                231,
+                249,
+                281,
+                314,
+                353,
+                392
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Equity & liabilities",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Equity",
+              "values": [
+                76,
+                85,
+                102,
+                124,
+                148,
+                175
+              ]
+            },
+            {
+              "metric": "Long-term debt",
+              "values": [
+                70,
+                50,
+                50,
+                70,
+                76,
+                80
+              ]
+            },
+            {
+              "metric": "Short-term debt",
+              "values": [
+                "—",
+                "—",
+                "—",
+                71,
+                76,
+                80
+              ]
+            },
+            {
+              "metric": "Long-term liabilities",
+              "values": [
+                61,
+                36,
+                36,
+                56,
+                62,
+                66
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Current liabilities",
+              "values": [
+                38,
+                52,
+                57,
+                132,
+                141,
+                149
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Total liabilities & equity",
+              "values": [
+                231,
+                249,
+                281,
+                314,
+                353,
+                392
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Capital structure & ratios",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Net debt",
+              "values": [
+                142,
+                101,
+                115,
+                118,
+                125,
+                130
+              ]
+            },
+            {
+              "metric": "Capital invested",
+              "values": [
+                164,
+                114,
+                134,
+                242,
+                273,
+                305
+              ]
+            },
+            {
+              "metric": "Equity ratio",
+              "values": [
+                "32.9%",
+                "34.2%",
+                "36.3%",
+                "39.4%",
+                "41.8%",
+                "44.5%"
+              ]
+            },
+            {
+              "metric": "Gearing",
+              "values": [
+                "186.1%",
+                "119.2%",
+                "112.8%",
+                "94.9%",
+                "84.9%",
+                "74.6%"
+              ]
+            },
+            {
+              "metric": "Net debt / EBITDA",
+              "values": [
+                "2.6×",
+                "1.5×",
+                "1.5×",
+                "1.1×",
+                "1.1×",
+                "1.0×"
+              ]
+            },
+            {
+              "metric": "Current ratio",
+              "values": [
+                3.27,
+                2.35,
+                2.47,
+                1.22,
+                1.3,
+                1.38
+              ]
+            }
+          ]
+        },
+        "cashFlow": {
+          "periods": [
+            "2022",
+            "2023",
+            "2024",
+            "2025",
+            "2026",
+            "2027"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            true,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Operations",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Cash from operations (model)",
+              "values": [
+                45,
+                61,
+                40,
+                76,
+                72,
+                83
+              ]
+            },
+            {
+              "metric": "Operating cash flow (Valuatum calculation)",
+              "values": [
+                48,
+                64,
+                43,
+                80,
+                76,
+                87
+              ]
+            },
+            {
+              "metric": "Change in working capital",
+              "values": [
+                0,
+                -9,
+                18,
+                10,
+                15,
+                15
+              ]
+            },
+            {
+              "metric": "Investing & free cash",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "Gross capex",
+              "values": [
+                15,
+                36,
+                25,
+                46,
+                42,
+                45
+              ]
+            },
+            {
+              "metric": "Capex (ex. M&A)",
+              "values": [
+                -15,
+                -36,
+                -25,
+                -46,
+                -42,
+                -45
+              ]
+            },
+            {
+              "metric": "Cash after capex (CFO - gross capex)",
+              "values": [
+                30,
+                25,
+                15,
+                29,
+                30,
+                38
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Free operating cash flow (Valuatum def.)",
+              "values": [
+                -17,
+                70,
+                18,
+                34,
+                34,
+                42
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Free cash flow to firm",
+              "values": [
+                -17,
+                70,
+                18,
+                34,
+                34,
+                42
+              ],
+              "isSubtotal": true
+            },
+            {
+              "metric": "Financing",
+              "values": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+              ],
+              "isGroupHeader": true
+            },
+            {
+              "metric": "CF from financing",
+              "values": [
+                -15,
+                -35,
+                -21,
+                -24,
+                -27,
+                -35
+              ]
+            },
+            {
+              "metric": "Dividends paid",
+              "values": [
+                "—",
+                -25,
+                -29,
+                -32,
+                -38,
+                -43
+              ]
+            },
+            {
+              "metric": "Net change in cash",
+              "values": [
+                15,
+                -10,
+                -6,
+                5,
+                3,
+                3
+              ],
+              "isSubtotal": true
+            }
+          ]
+        },
+        "quarterly": {
+          "periods": [
+            "Q1/23",
+            "Q2/23",
+            "Q3/23",
+            "Q4/23",
+            "Q1/24",
+            "Q2/24",
+            "Q3/24",
+            "Q4/24"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                65,
+                169,
+                85,
+                169,
+                98,
+                98,
+                94,
+                188
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                8,
+                35,
+                14,
+                33,
+                17,
+                17,
+                18,
+                43
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "12.2%",
+                "20.6%",
+                "16.0%",
+                "19.6%",
+                "17.5%",
+                "17.5%",
+                "18.7%",
+                "22.7%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                7,
+                28,
+                13,
+                25,
+                16,
+                16,
+                17,
+                33
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "10.8%",
+                "16.3%",
+                "14.9%",
+                "14.9%",
+                "16.4%",
+                "16.4%",
+                "17.6%",
+                "17.6%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                5,
+                20,
+                9,
+                19,
+                12,
+                12,
+                12,
+                25
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.06,
+                0.24,
+                0.11,
+                0.22,
+                0.14,
+                0.14,
+                0.15,
+                0.29
+              ]
+            }
+          ]
+        },
+        "quarterlyCurrent": {
+          "periods": [
+            "Q1/25",
+            "Q2/25",
+            "Q3/25",
+            "Q4/25"
+          ],
+          "columnIsEstimate": [
+            false,
+            false,
+            true,
+            true
+          ],
+          "rows": [
+            {
+              "metric": "Net Sales",
+              "values": [
+                113,
+                113,
+                66,
+                149
+              ]
+            },
+            {
+              "metric": "EBITDA",
+              "values": [
+                20,
+                20,
+                17,
+                49
+              ]
+            },
+            {
+              "metric": "EBITDA margin",
+              "values": [
+                "17.8%",
+                "17.8%",
+                "26.2%",
+                "33.1%"
+              ]
+            },
+            {
+              "metric": "Comparable EBIT",
+              "values": [
+                19,
+                19,
+                11,
+                26
+              ]
+            },
+            {
+              "metric": "EBIT margin",
+              "values": [
+                "16.8%",
+                "16.8%",
+                "17.3%",
+                "17.2%"
+              ]
+            },
+            {
+              "metric": "Net Earnings",
+              "values": [
+                15,
+                15,
+                7,
+                17
+              ]
+            },
+            {
+              "metric": "EPS",
+              "values": [
+                0.18,
+                0.18,
+                0.09,
+                0.2
+              ]
+            }
+          ]
+        }
+      },
+      "sources": {
+        "rows": [
+          {
+            "dataPoint": "Financial statements and forecast model",
+            "value": "Valuatum Wisdom model 11310, snapshot period 2025",
+            "sourceCategory": "FINANCIAL SNAPSHOT",
+            "usedIn": "Financials, forecasts & valuation"
+          },
+          {
+            "dataPoint": "Share-price history and market profile",
+            "value": "Financial Modeling Prep, PUUILO.HE, https://financialmodelingprep.com/",
+            "sourceCategory": "MARKET DATA",
+            "usedIn": "Price chart & market facts"
+          },
+          {
+            "dataPoint": "Puuilo Plc Financial Statements Release, February 2025 – Ja…",
+            "value": "https://ir-cdn.inderes.com/assets/puuilo/calendar-event-attachments/1ab5df64-1207-43c4-ae36-d1cfe9fa9eb0/puuilo-plc-2025-financial-statements-release.pdf",
+            "sourceCategory": "OFFICIAL SOURCE",
+            "usedIn": "Reported segment table"
+          },
+          {
+            "dataPoint": "Puuilo Oyj reported a 16.3% increase in net sales for the f…",
+            "value": "https://investors.puuilo.fi/en/investors/reports_and_presentations",
+            "sourceCategory": "OFFICIAL SOURCE",
+            "usedIn": "Puuilo Plc"
+          },
+          {
+            "dataPoint": "Puuilo Oyj announced it will open its first store in Sweden…",
+            "value": "https://investors.puuilo.fi/en/investors/releases",
+            "sourceCategory": "OFFICIAL SOURCE",
+            "usedIn": "Puuilo Plc"
+          }
+        ],
+        "disclaimer": "This report is based solely on the supplied company disclosures, analyst-maintained Valuatum model data, peer data and research register. Forecasts, division profit allocations, scenarios and valuation assumptions are estimates rather than company guidance unless expressly identified otherwise. The report is not personal investment advice and does not account for any investor's objectives, constraints or risk tolerance.",
+        "copyright": "© 2026 Valuatum equity research. For institutional use only."
+      },
+      "valuation": {
+        "multiples": {
+          "columns": [
+            "Metric",
+            "2019A",
+            "2020A",
+            "2021A",
+            "2022A",
+            "2023A",
+            "2024A",
+            "2025E",
+            "2026E",
+            "2027E",
+            "2028E",
+            "Norm. avg. 2019-2024 (outliers dropped)"
+          ],
+          "rows": [
+            [
+              "P/E",
+              "—",
+              "—",
+              "21.23x",
+              "15.23x",
+              "19.39x",
+              "17.99x",
+              "21.79x",
+              "19.18x",
+              "16.87x",
+              "21.21x",
+              "18.46x"
+            ],
+            [
+              "P/E adj.",
+              "—",
+              "—",
+              "21x",
+              "15x",
+              "19x",
+              "18x",
+              "22x",
+              "19.18x",
+              "16.87x",
+              "21.21x",
+              "18x"
+            ],
+            [
+              "EV/EBITDA",
+              "2.91x",
+              "2.38x",
+              "13.77x",
+              "12.19x",
+              "12.20x",
+              "12.52x",
+              "12.18x",
+              "11.69x",
+              "10.38x",
+              "12.73x",
+              "9.33x"
+            ],
+            [
+              "EV/EBIT",
+              "4.04x",
+              "2.93x",
+              "17.32x",
+              "14.39x",
+              "16.13x",
+              "15.00x",
+              "17.37x",
+              "15.09x",
+              "13.38x",
+              "16.23x",
+              "11.64x"
+            ],
+            [
+              "EV/Sales",
+              "0.54x",
+              "0.51x",
+              "2.85x",
+              "2.28x",
+              "2.52x",
+              "2.55x",
+              "2.95x",
+              "2.59x",
+              "2.31x",
+              "2.20x",
+              "1.88x"
+            ],
+            [
+              "P/FOCF",
+              "—",
+              "—",
+              "230.97x",
+              "-32.15x",
+              "10.75x",
+              "46.72x",
+              "34.93x",
+              "34.74x",
+              "28.12x",
+              "24.60x",
+              "28.73x"
+            ],
+            [
+              "P/BV",
+              "—",
+              "—",
+              "9.99x",
+              "7.02x",
+              "8.83x",
+              "8.46x",
+              "9.53x",
+              "7.98x",
+              "6.75x",
+              "6.49x",
+              "8.58x"
+            ],
+            [
+              "P/S",
+              "—",
+              "—",
+              "2.51x",
+              "1.80x",
+              "2.22x",
+              "2.25x",
+              "2.68x",
+              "2.36x",
+              "2.10x",
+              "2.01x",
+              "2.19x"
+            ],
+            [
+              "Dividend yield",
+              "—",
+              "—",
+              "—",
+              "4.7%",
+              "3.8%",
+              "3.7%",
+              "3.2%",
+              "3.6%",
+              "4.1%",
+              "3.3%",
+              "4.1%"
+            ]
+          ]
+        },
+        "peerComparison": {
+          "columns": [
+            "Company",
+            "2026E EV/EBITDA",
+            "2026E EV/EBIT",
+            "2026E EBIT margin",
+            "2026E ROE"
+          ],
+          "rows": [
+            [
+              "Puuilo",
+              "11.69x",
+              "15.09x",
+              "17.1%",
+              "45.2%"
+            ],
+            [
+              "Tokmanni",
+              "5.8x",
+              "13.4x",
+              "5.4%",
+              "19.2%"
+            ],
+            [
+              "Rusta",
+              "9.2x",
+              "18.5x",
+              "7.7%",
+              "24.0%"
+            ],
+            [
+              "Europris",
+              "7.7x",
+              "10.6x",
+              "12.1%",
+              "20.2%"
+            ],
+            [
+              "Clas Ohlson",
+              "12.1x",
+              "21.3x",
+              "9.3%",
+              "22.7%"
+            ],
+            [
+              "Byggmax",
+              "5.1x",
+              "12.7x",
+              "6.2%",
+              "9.7%"
+            ],
+            [
+              "Musti",
+              "11.1x",
+              "34.8x",
+              "3.8%",
+              "4.6%"
+            ],
+            [
+              "Peer median",
+              "8.4x",
+              "13.4x",
+              "6.2%",
+              "19.7%"
+            ]
+          ]
+        },
+        "targetBridge": {
+          "columns": [
+            "Method",
+            "Forecast metric",
+            "Metric value",
+            "Selected multiple",
+            "Implied price (12m disc.)",
+            "Weight"
+          ],
+          "rows": [
+            [
+              "· Physical stores",
+              "FY2026E Modelled EBITDA",
+              "108",
+              "10.3x",
+              "13.2 EUR",
+              ""
+            ],
+            [
+              "· Online store",
+              "FY2026E Modelled EBITDA",
+              "2.5",
+              "7.0x",
+              "0.2 EUR",
+              ""
+            ],
+            [
+              "Sum of the parts",
+              "FY2026E SOTP enterprise value",
+              "n/a",
+              "n/a",
+              "12.0 EUR",
+              "100%"
+            ],
+            [
+              "Weighted target price",
+              "",
+              "",
+              "",
+              "12.0 EUR",
+              "100%"
+            ]
+          ]
+        },
+        "sensitivity": {
+          "columns": [
+            "FY2026E EBITDA",
+            "8.0x",
+            "9.0x",
+            "10.18x",
+            "11.0x",
+            "12.0x"
+          ],
+          "rows": []
+        },
+        "methodRationale": "A SOTP is appropriate because physical stores generate almost all earnings while online has smaller scale and unverified fulfillment economics. Stores receive 10.3x modelled FY2026 EBITDA, above the 9.33x normalized historical average and 8.4x 2026 peer median because Puuilo has superior margins, returns and store payback. Online receives 7.0x. The parts carry zero bridge weight individually and the total carries 100%.\n\nSensitivity centers on EUR 111 million of FY2026 EBITDA and about 10.18x. It shows that the EUR 14 market price needs either approximately 12x EBITDA or materially higher earnings, whereas EUR 12 preserves a quality premium without adopting reverse-valuation margins above 21%.\n\nWhat the market is pricing.\n\nThe current EUR 1.3 billion EV exceeds the assessed EUR 1.1 billion EV by EUR 168.1m. With online worth EUR 17.5m in the base SOTP, the market attributes about EUR 1.3 billion to stores, equivalent to 11.86x the report's EUR 108m store EBITDA rather than 10.3x. Alternatively, the gap requires roughly EUR 16.3m more EBITDA at the base store multiple.\n\nThe market assumes Physical stores merit approximately 11.9x FY2026 modelled EBITDA. We assign a different reading: A 10.3x multiple already embeds superior margins and store returns; the lower multiple reduces assessed EV by about EUR 168m versus the market allocation. (Puuilo investor materials, 11 June 2026: about EUR 1.8m investment and 19-month new-store payback.)\n\nThe market assumes Near-term EBIT can reach EUR 109m in 2026 and EUR 123m in 2027. We assign a different reading: The authoritative model uses EUR 86m and EUR 97m; Q1 strength supports guidance but does not validate 21%–22% EBIT margins. (Puuilo Q1 FY2026 Business Review, 11 June 2026: EUR 16.3m adjusted EBITA and 15.7% margin.)",
+        "targetPrice": 12,
+        "selectedMultiple": "Blended 10.18x FY2026E EV/EBITDA",
+        "primaryValuationMethod": "SOTP",
+        "fallbackApplied": false
+      },
+      "multiplesExtended": {
+        "forecastYear": 2025,
+        "evSales": 2.94967694,
+        "pSales": 2.67918051,
+        "peAdj": 21.79182244
+      },
+      "segmentDataQuality": {
+        "status": "partial",
+        "revenueVerified": true,
+        "profitVerified": false,
+        "requiresReview": true,
+        "sourceDocument": "Puuilo Plc Financial Statements Release, February 2025 – January 2026 (Q4 2025)",
+        "sourceUrl": "https://ir-cdn.inderes.com/assets/puuilo/calendar-event-attachments/1ab5df64-1207-43c4-ae36-d1cfe9fa9eb0/puuilo-plc-2025-financial-statements-release.pdf",
+        "sourcePages": [
+          "20"
+        ],
+        "revenueBasis": "externalSales",
+        "profitBasis": "comparableEbit",
+        "revenueReconciliation": 0,
+        "profitReconciliation": 0,
+        "issues": [
+          "Profit metrics are not reported by segment as the company operates as a single reportable segment with centralized management; only revenue is broken down by distribution channel (Stores/Online).",
+          "Segment profit does not reconcile to the official group total",
+          "Retry: The group reports only one reportable segment as per Note 2.2. Adjusted EBITA (77.4 EURm) is the primary internal performance metric, but Adjusted EBIT is not explicitly reported. Comparable EBITDA (Adjusted EBITDA) of 97.8 EURm is sourced from the reconciliation table on page 16.",
+          "Retry: The quantitative data (Net sales 442.3, Operating profit 75.1, and Gross profit 169.0) is not contained in the cited 'Note 2.2 Segment information' on page 77. Note 2.2 consists of a qualitative description of the group's single reportable segment; the financial figures are instead found in the summary tables (page 14), the reconciliation table (page 16), or the primary financial statements (page 70).",
+          "Retry: The 'sourceRow' quote for the Puuilo Group incorrectly includes the figure '(77.4 EURm)' within the cited text from Note 2.2; while 77.4 is the correct Adjusted EBITA for the period (found on pages 14 and 16), it does not appear in the text of Note 2.2 on page 77.",
+          "Retry: Segment revenue does not reconcile to the official group total",
+          "Retry: Segment profit does not reconcile to the official group total"
+        ]
+      }
+    },
+    "synthesis": {
+      "reportDate": "20 August 2026",
+      "peerCandidates": [
+        {
+          "companyName": "Tokmanni Group Oyj",
+          "ticker": "TOKMAN",
+          "exchange": "Nasdaq Helsinki",
+          "country": "Finland",
+          "peerType": "direct",
+          "similarityScore": "high",
+          "whyComparable": "Tokmanni is a Finnish store-led discount general-merchandise retailer exposed to similar consumers, sourcing conditions and expansion economics.",
+          "mainLimitation": "Its assortment mix and broader Nordic operations differ from Puuilo's more hardware- and maintenance-oriented Finnish model."
+        },
+        {
+          "companyName": "Rusta AB",
+          "ticker": "RUSTA",
+          "exchange": "Nasdaq Stockholm",
+          "country": "Sweden",
+          "peerType": "direct",
+          "similarityScore": "high",
+          "whyComparable": "Rusta operates a Nordic value-retail format selling home, leisure, seasonal and do-it-yourself products through large stores.",
+          "mainLimitation": "Rusta has a different geographic mix and greater emphasis on home furnishings and seasonal merchandise."
+        },
+        {
+          "companyName": "Europris ASA",
+          "ticker": "EPR",
+          "exchange": "Oslo Bors",
+          "country": "Norway",
+          "peerType": "direct",
+          "similarityScore": "high",
+          "whyComparable": "Europris is a Nordic discount variety retailer with comparable store economics, imported merchandise exposure and private-label opportunities.",
+          "mainLimitation": "Norwegian pricing, wage levels, currency exposure and consumer geography reduce direct margin comparability."
+        },
+        {
+          "companyName": "Clas Ohlson AB",
+          "ticker": "CLAS B",
+          "exchange": "Nasdaq Stockholm",
+          "country": "Sweden",
+          "peerType": "adjacent",
+          "similarityScore": "medium",
+          "whyComparable": "Clas Ohlson sells tools, repair, electrical and household products through Nordic stores and online channels.",
+          "mainLimitation": "Its urban locations, brand positioning, store format and omnichannel mix differ from Puuilo's low-cost warehouse-style estate."
+        },
+        {
+          "companyName": "B&M European Value Retail S.A.",
+          "ticker": "BME",
+          "exchange": "London Stock Exchange",
+          "country": "United Kingdom",
+          "peerType": "adjacent",
+          "similarityScore": "medium",
+          "whyComparable": "B&M provides a listed benchmark for high-volume, low-price general merchandise, store rollout and direct-import economics.",
+          "mainLimitation": "Its much larger scale, UK-centered exposure and food mix make its growth and margin structure only partially comparable."
+        },
+        {
+          "companyName": "Byggmax Group AB",
+          "ticker": "BMAX",
+          "exchange": "Nasdaq Stockholm",
+          "country": "Sweden",
+          "peerType": "adjacent",
+          "similarityScore": "medium",
+          "whyComparable": "Byggmax offers a Nordic benchmark for value-focused do-it-yourself demand, large-format stores and property-related consumer spending.",
+          "mainLimitation": "It is substantially more exposed to building materials, renovation cycles and bulky-goods logistics."
+        },
+        {
+          "companyName": "Kesko Oyj",
+          "ticker": "KESKOB",
+          "exchange": "Nasdaq Helsinki",
+          "country": "Finland",
+          "peerType": "adjacent",
+          "similarityScore": "low",
+          "whyComparable": "Kesko supplies Finnish benchmarks for home-improvement demand, trade customers, store networks and domestic retail cost inflation.",
+          "mainLimitation": "Its grocery and automotive operations, merchant model and much larger scale obscure comparison with Puuilo."
+        },
+        {
+          "companyName": "Musti Group Oyj",
+          "ticker": "MUSTI",
+          "exchange": "Nasdaq Helsinki",
+          "country": "Finland",
+          "peerType": "adjacent",
+          "similarityScore": "low",
+          "whyComparable": "Musti provides a Finnish specialty-retail benchmark for one of Puuilo's recurring product categories and for Nordic store rollout.",
+          "mainLimitation": "It is a focused pet-care retailer with service, loyalty and margin characteristics unlike Puuilo's general-merchandise model."
+        }
+      ],
+      "peerValuationPack": "Peer multiples from Valuatum followed models (primary, highest-volume listing per company). Multiples shown as ratios (x), margins/yields/returns as percent, book value per share in local currency. Year columns suffixed \"e\" are forecasts. 8 of 8 suggested peers resolved.\n\n\n\n### Tokmanni (TOKMAN, Finland)\n- Peer type: direct; similarity: high\n- Why comparable: Tokmanni is a Finnish store-led discount general-merchandise retailer exposed to similar consumers, sourcing conditions and expansion economics.\n- Main limitation: Its assortment mix and broader Nordic operations differ from Puuilo's more hardware- and maintenance-oriented Finnish model.\n- Market cap: 419 EURm | Net debt: 1,015 EURm\n\nMetric | 2022 | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 11.3x | 15.9x | 14.7x | 10.3x | 8.2x | 6.5x | 5.4x\nP/E adj. | 11.3x | 15.9x | 14.7x | 10.3x | 8.2x | 6.5x | 5.4x\nEV/EBITDA | 10.2x | 6.8x | 7.4x | 6.0x | 5.8x | 5.5x | 4.8x\nEV/EBIT | 12.5x | 17.1x | 15.1x | 15.0x | 13.4x | 12.0x | 9.7x\nEV/Sales | 0.9x | 1.1x | 0.9x | 0.7x | 0.7x | 0.7x | 0.7x\nP / Valuatum FOCF | 101.6x | -2.9x | 32.3x | -7.6x | 9.9x | 8.4x | 7.1x\nP/BV | 2.7x | 3.2x | 2.7x | 1.6x | 1.5x | 1.4x | 1.3x\nP/S | 0.6x | 0.6x | 0.4x | 0.2x | 0.2x | 0.2x | 0.2x\nDividend yield | 8.5% | 5.2% | 6.3% | 8.6% | 10.8% | 13.7% | 16.3%\nEBIT margin | 7.2% | 6.7% | 5.9% | 4.9% | 5.4% | 5.9% | 7.1%\nROE | 23.9% | 21.1% | 18.3% | 15.5% | 19.2% | 22.8% | 25.5%\nROIC | 13.0% | 10.6% | 9.6% | 7.7% | 12.7% | 13.7% | 10.8%\nBook value / share | 4.20 | 4.51 | 4.47 | 4.40 | 4.66 | 4.99 | 5.32\n\n### Rusta AB (publ) (RUSTA, Sweden)\n- Peer type: direct; similarity: high\n- Why comparable: Rusta operates a Nordic value-retail format selling home, leisure, seasonal and do-it-yourself products through large stores.\n- Main limitation: Rusta has a different geographic mix and greater emphasis on home furnishings and seasonal merchandise.\n- Market cap: 13,345 SEKm | Net debt: 4,790 SEKm\n\nMetric | 2022 | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | n/a | 28.2x | 25.4x | 26.8x | 21.9x | 17.9x | 19.7x\nP/E adj. | n/a | 28.2x | 25.4x | 26.8x | 21.9x | 17.9x | 19.7x\nEV/EBITDA | 5.0x | 10.0x | 9.7x | 7.1x | 9.2x | 8.1x | 8.1x\nEV/EBIT | 11.1x | 22.6x | 20.7x | 21.3x | 18.5x | 16.2x | 17.2x\nEV/Sales | 0.6x | 1.5x | 1.5x | 1.5x | 1.4x | 1.3x | 1.2x\nP / Valuatum FOCF | n/a | 21.9x | 25.8x | 14.8x | 191.1x | 1096.0x | 26.0x\nP/BV | n/a | 7.2x | 7.0x | 6.0x | 4.7x | 3.7x | 3.1x\nP/S | n/a | 1.0x | 1.0x | 1.1x | 1.0x | 0.9x | 0.9x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 5.1% | 6.8% | 7.2% | 7.2% | 7.7% | 8.0% | 7.1%\nROE | 23.3% | 28.4% | 28.6% | 25.0% | 24.0% | 23.2% | 17.2%\nROIC | 7.6% | 10.6% | 11.9% | 11.7% | 15.8% | 16.4% | 11.8%\nBook value / share | 8.40 | 10.50 | 11.47 | 14.64 | 18.63 | 23.52 | 27.93\n\n### Europris ASA (EPR, Norway)\n- Peer type: direct; similarity: high\n- Why comparable: Europris is a Nordic discount variety retailer with comparable store economics, imported merchandise exposure and private-label opportunities.\n- Main limitation: Norwegian pricing, wage levels, currency exposure and consumer geography reduce direct margin comparability.\n- Current price: 57.36 NOK | Market cap: 15,170 NOKm | Net debt: 5,278 NOKm\n\nMetric | 2022 | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 10.6x | 13.6x | 14.1x | 16.2x | 14.8x | 13.3x | 10.9x\nP/E adj. | 10.6x | 13.6x | 14.1x | 16.2x | 14.8x | 13.3x | 10.9x\nEV/EBITDA | 9.7x | 7.9x | 7.5x | 8.2x | 7.7x | 7.0x | 6.6x\nEV/EBIT | 10.7x | 12.0x | 13.1x | 10.6x | 10.6x | 10.6x | 10.6x\nEV/Sales | 1.7x | 1.6x | 1.3x | 1.3x | 1.3x | 1.2x | 1.2x\nP / Valuatum FOCF | 16.2x | 15.2x | -17.7x | 33.8x | 12.7x | 15.2x | 15.1x\nP/BV | 3.7x | 3.5x | 2.9x | 3.0x | 3.0x | 2.9x | 2.8x\nP/S | 1.2x | 1.3x | 0.9x | 1.0x | 1.0x | 0.9x | 0.9x\nDividend yield | n/a | n/a | n/a | 6.1% | 6.7% | 7.5% | 9.1%\nEBIT margin | 16.1% | 13.7% | 9.7% | 12.5% | 12.1% | 11.7% | 11.2%\nROE | 37.5% | 27.9% | 22.0% | 20.5% | 20.2% | 22.1% | 26.1%\nROIC | 22.3% | 18.8% | 15.8% | 19.5% | 18.6% | 18.8% | 17.7%\nBook value / share | 18.39 | 22.10 | 24.96 | 30.46 | 31.01 | 31.71 | 33.26\n\n### Clas Ohlson AB (publ) (CLAS B, Sweden)\n- Peer type: adjacent; similarity: medium\n- Why comparable: Clas Ohlson sells tools, repair, electrical and household products through Nordic stores and online channels.\n- Main limitation: Its urban locations, brand positioning, store format and omnichannel mix differ from Puuilo's low-cost warehouse-style estate.\n- Market cap: 24,035 SEKm | Net debt: -1,839 SEKm\n\nMetric | 2022 | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 27.1x | 16.7x | 19.7x | 30.6x | 29.4x | 28.2x | 32.8x\nP/E adj. | 27.1x | 16.7x | 19.7x | 30.6x | 29.4x | 28.2x | 32.8x\nEV/EBITDA | 6.2x | 6.3x | 11.6x | 11.7x | 12.1x | 11.4x | 14.6x\nEV/EBIT | 21.9x | 14.2x | 15.4x | 22.6x | 21.3x | 19.9x | 24.4x\nEV/Sales | 0.7x | 1.0x | 1.6x | 2.1x | 2.0x | 1.9x | 1.7x\nP / Valuatum FOCF | 7.9x | 33.6x | 12.9x | 35.2x | 35.2x | 31.8x | 47.6x\nP/BV | 3.4x | 4.6x | 7.2x | 7.5x | 6.0x | 5.0x | 4.3x\nP/S | 0.5x | 0.8x | 1.5x | 2.1x | 2.0x | 2.0x | 1.9x\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 3.4% | 7.0% | 10.1% | 9.4% | 9.3% | 9.4% | 7.1%\nROE | 9.9% | 30.9% | 41.5% | 28.1% | 22.7% | 19.3% | 14.0%\nROIC | 8.3% | 20.5% | 30.5% | 26.6% | 27.5% | 26.2% | 18.0%\nBook value / share | 22.69 | 29.19 | 37.85 | 50.24 | 63.11 | 76.56 | 88.11\n\n### B&M European Value Retail S.A. (BME, United Kingdom)\n- Peer type: adjacent; similarity: medium\n- Why comparable: B&M provides a listed benchmark for high-volume, low-price general merchandise, store rollout and direct-import economics.\n- Main limitation: Its much larger scale, UK-centered exposure and food mix make its growth and margin structure only partially comparable.\n- DATA QUALITY FLAG: this peer's market cap and every multiple derived from it (Mkt cap, P/E, P/E adj., EV/EBITDA, EV/EBIT, EV/Sales, P/FCF, P/BV, P/S, Dividend yield) failed an internal consistency check and render as \"n/a\" below. Margin/return figures are unaffected and still real. This peer is eligible for the web-search exception in the prompt instructions — do not guess these values yourself.\n- Net debt: 2,775 GBPm\n\nMetric | 2022 | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP/E adj. | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEV/EBITDA | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEV/EBIT | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEV/Sales | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP / Valuatum FOCF | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP/BV | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nP/S | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nDividend yield | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nEBIT margin | 13.1% | 10.8% | 11.1% | n/a | n/a | n/a | n/a\nROE | 52.3% | n/a | n/a | n/a | n/a | n/a | n/a\nROIC | 21.2% | 23.7% | 26.0% | n/a | n/a | n/a | n/a\nBook value / share | 0.74 | -0.72 | 0.92 | -0.00 | n/a | n/a | n/a\n\n### Byggmax Group AB (publ) (BMAX, Sweden)\n- Peer type: adjacent; similarity: medium\n- Why comparable: Byggmax offers a Nordic benchmark for value-focused do-it-yourself demand, large-format stores and property-related consumer spending.\n- Main limitation: It is substantially more exposed to building materials, renovation cycles and bulky-goods logistics.\n- Market cap: 2,802 SEKm | Net debt: 2,373 SEKm\n\nMetric | 2022 | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 9.3x | 85.5x | 39.9x | 15.9x | 11.0x | 9.6x | 12.2x\nP/E adj. | 9.3x | 85.5x | 39.9x | 15.9x | 11.0x | 9.6x | 12.2x\nEV/EBITDA | 9.3x | 6.5x | 6.9x | 5.4x | 5.1x | 4.8x | 4.7x\nEV/EBIT | 12.6x | 46.8x | 28.8x | 17.0x | 12.7x | 11.4x | 12.1x\nEV/Sales | 0.8x | 0.8x | 0.9x | 0.8x | 0.8x | 0.8x | 0.7x\nP / Valuatum FOCF | -8.2x | 10.5x | 7.2x | 32.7x | 25.6x | 11.6x | 11.1x\nP/BV | 1.2x | 0.9x | 1.1x | 1.1x | 1.0x | 1.0x | 0.9x\nP/S | 0.4x | 0.4x | 0.4x | 0.4x | 0.4x | 0.4x | 0.4x\nDividend yield | 8.0% | n/a | 1.1% | 2.8% | 4.0% | 4.6% | 3.6%\nEBIT margin | 6.3% | 1.7% | 3.0% | 4.9% | 6.2% | 6.7% | 6.1%\nROE | 13.6% | 1.1% | 2.8% | 7.1% | 9.7% | 10.3% | 7.8%\nROIC | 9.6% | 2.3% | 3.7% | 7.3% | 9.3% | 9.9% | 8.1%\nBook value / share | 40.26 | 40.27 | 40.96 | 43.47 | 46.49 | 49.51 | 51.21\n\n### Kesko (KESKOB, Finland)\n- Peer type: adjacent; similarity: low\n- Why comparable: Kesko supplies Finnish benchmarks for home-improvement demand, trade customers, store networks and domestic retail cost inflation.\n- Main limitation: Its grocery and automotive operations, merchant model and much larger scale obscure comparison with Puuilo.\n- Market cap: 8,442 EURm\n\nMetric | 2022 | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 12.9x | n/a | n/a | -0.0x | 18.0x | 14.9x | 0.0x\nP/E adj. | 12.9x | n/a | n/a | -0.0x | 18.0x | 14.9x | 0.0x\nEV/EBITDA | 7.9x | 2.3x | 2.4x | n/a | n/a | n/a | n/a\nEV/EBIT | 12.7x | 3.7x | 5.0x | n/a | n/a | n/a | n/a\nEV/Sales | 0.9x | 0.2x | 0.2x | n/a | n/a | 9528900.5x | 8748069.8x\nP / Valuatum FOCF | 26.6x | n/a | n/a | 10.8x | 31.1x | 37.1x | 18.8x\nP/BV | 3.0x | n/a | n/a | -0.0x | -0.0x | -0.0x | -0.0x\nP/S | 0.7x | n/a | n/a | 0.7x | 0.6x | 0.6x | 0.5x\nDividend yield | 5.1% | n/a | n/a | n/a | 4.4% | 5.4% | n/a\nEBIT margin | 6.9% | 5.9% | 4.9% | 5.8% | 5.4% | 5.6% | 5.6%\nROE | 24.1% | 17.9% | 13.7% | n/a | n/a | n/a | n/a\nROIC | 16.6% | 13.3% | 10.2% | 57613136.1% | 284004260.4% | 256587580.8% | 289397403.1%\nBook value / share | 6.90 | 6.94 | 6.84 | n/a | n/a | n/a | n/a\n\n### Musti Group Oyj (MUSTI, Finland)\n- Peer type: adjacent; similarity: low\n- Why comparable: Musti provides a Finnish specialty-retail benchmark for one of Puuilo's recurring product categories and for Nordic store rollout.\n- Main limitation: It is a focused pet-care retailer with service, loyalty and margin characteristics unlike Puuilo's general-merchandise model.\n- Market cap: 507 EURm | Net debt: 257 EURm\n\nMetric | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e | 2029e\n--- | --- | --- | --- | --- | --- | --- | ---\nP/E | 22.8x | 233.9x | -160.1x | 63.5x | 41.6x | 31.3x | 25.3x\nP/E adj. | 22.8x | 233.9x | -160.1x | 63.5x | 41.6x | 31.3x | 25.3x\nEV/EBITDA | 11.3x | 22.6x | 14.5x | 11.1x | 10.1x | 9.1x | 8.3x\nEV/EBIT | 19.6x | 85.8x | 96.0x | 34.8x | 28.2x | 24.1x | 21.2x\nEV/Sales | 1.7x | 2.3x | 1.6x | 1.3x | 1.2x | 1.2x | 1.1x\nP / Valuatum FOCF | 16.7x | -140.4x | -11.9x | -37.5x | 106.5x | 35.2x | 22.5x\nP/BV | 3.7x | 5.2x | 3.5x | 2.9x | 2.8x | 2.7x | 2.6x\nP/S | 1.4x | 2.0x | 1.2x | 0.9x | 0.8x | 0.8x | 0.7x\nDividend yield | 2.8% | 2.3% | n/a | 1.3% | 1.9% | 2.6% | 3.2%\nEBIT margin | 8.9% | 2.7% | 1.6% | 3.8% | 4.4% | 4.9% | 5.3%\nROE | 16.3% | 2.2% | -2.2% | 4.6% | 6.8% | 8.7% | 10.4%\nROIC | 12.3% | 4.6% | 2.3% | 5.6% | 6.6% | 7.4% | 8.2%\nBook value / share | 4.91 | 4.95 | 5.06 | 5.30 | 5.48 | 5.67 | 5.88\n\n\n\n#### Peer median / average (across 8 resolved peers; cells need ≥2 peers)\nMetric | 2023 | 2024 | 2025e | 2026e | 2027e | 2028e\n--- | --- | --- | --- | --- | --- | ---\nP/E (median) | 16.7x | 19.7x | 16.2x | 16.4x | 14.1x | 10.9x\nP/E (mean) | 19.4x | 22.8x | 20.0x | 17.2x | 15.1x | 9.7x\nP/E adj. (median) | 16.7x | 19.7x | 16.2x | 16.4x | 14.1x | 10.9x\nP/E adj. (mean) | 19.4x | 22.8x | 20.0x | 17.2x | 15.1x | 9.7x\nEV/EBITDA (median) | 6.8x | 7.4x | 7.7x | 8.4x | 7.5x | 7.3x\nEV/EBITDA (mean) | 7.3x | 7.6x | 8.8x | 8.5x | 7.8x | 8.0x\nEV/EBIT (median) | 15.7x | 15.3x | 17.0x | 13.4x | 14.1x | 14.6x\nEV/EBIT (mean) | 14.9x | 16.4x | 17.3x | 15.3x | 16.4x | 16.3x\nEV/Sales (median) | 1.1x | 1.3x | 1.4x | 1.3x | 1.2x | 1.2x\nEV/Sales (mean) | 1.2x | 1.2x | 1.4x | 1.3x | 1.2x | 1.1x\nP / Valuatum FOCF (median) | 15.9x | 19.4x | 32.7x | 25.6x | 15.2x | 16.9x\nP / Valuatum FOCF (mean) | 16.1x | 19.5x | 25.5x | 22.9x | 20.8x | 18.9x\nP/BV (median) | 3.5x | 4.0x | 3.0x | 2.9x | 2.8x | 2.7x\nP/BV (mean) | 3.2x | 4.4x | 3.0x | 2.6x | 2.8x | 2.5x\nP/S (median) | 0.9x | 0.9x | 0.9x | 0.8x | 0.7x | 0.7x\nP/S (mean) | 0.9x | 0.9x | 0.8x | 0.7x | 0.6x | 0.6x\nDividend yield (median) | 4.0% | 1.7% | 6.1% | 4.2% | 5.0% | 3.6%\nDividend yield (mean) | 4.0% | 1.7% | 5.8% | 4.1% | 4.8% | 5.1%\nEBIT margin (median) | 6.9% | 6.6% | 5.4% | 6.2% | 6.7% | 7.1%\nEBIT margin (mean) | 7.7% | 6.8% | 5.6% | 7.1% | 7.4% | 7.0%\nROE (median) | 21.1% | 16.0% | 20.5% | 19.7% | 20.7% | 15.6%\nROE (mean) | 20.5% | 14.6% | 19.3% | 16.7% | 17.4% | 16.5%\nROIC (median) | 12.8% | 9.9% | 7.7% | 14.2% | 15.1% | 11.3%\nROIC (mean) | 14.0% | 9.3% | 9.7% | 14.9% | 15.3% | 12.3%\nBook value / share (median) | 5.92 | 4.95 | 14.64 | 18.63 | 23.52 | 27.93\nBook value / share (mean) | 6.71 | 5.73 | 19.61 | 21.22 | 23.04 | 24.68",
+      "reverseValuation": "Market-implied (reverse valuation) scenario — the figures that make the model's fair value equal its current market cap (what the market is pricing in).\nMarket cap: 1,181 EURm | Original fair value: 7.08 EURm | Implied fair value: 14.00 EURm\nColumns are full estimate years from 2025 plus a terminal (TRM) column. Values shown are the market-implied (post-solve) figures; monetary values in EUR millions, percentage variables as shown.\n\n#### base_figures_with_currency\nVariable | 2025e | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns | 440 | 501 | 563 | 589 | 609 | 628 | 647 | 666 | 686 | 707 | 728\nebitda | 117 | 135 | 152 | 130 | 129 | 127 | 125 | 122 | 119 | 123 | n/a\nebit | 84.98 | 109 | 123 | 108 | 106 | 103 | 100 | 96.66 | 93.01 | 95.80 | 98.67\ntangible_ass | 100 | 114 | 128 | 134 | 139 | 143 | 147 | 152 | 156 | 161 | n/a\nbv | 132 | 169 | 205 | 220 | 242 | 264 | 285 | 305 | 324 | 347 | n/a\nliab_ib_total | 133 | 130 | 130 | 130 | 119 | 108 | 97.57 | 88.47 | 80.64 | 68.92 | n/a\nbs_total_assets | 314 | 353 | 392 | 408 | 421 | 433 | 445 | 457 | 470 | 483 | n/a\ngross_cap_expenditure | 46.42 | 41.64 | 45.12 | 29.16 | 28.78 | 29.19 | 29.95 | 30.83 | 31.75 | 32.70 | 33.68\n\n#### key_ratios\nVariable | 2025e | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nns_growth | 14.8% | 13.9% | 12.4% | 4.5% | 3.5% | 3.1% | 3.0% | 3.0% | 3.0% | 3.0% | 3.0%\nebitda_percent | 26.6% | 26.9% | 27.0% | 22.1% | 21.2% | 20.2% | 19.3% | 18.3% | 17.4% | 17.4% | n/a\nebit_percent | 19.3% | 21.8% | 21.9% | 18.3% | 17.4% | 16.4% | 15.5% | 14.5% | 13.6% | 13.6% | 13.6%\nasset_turnover | 1.82 | 1.84 | 1.85 | 1.85 | 1.85 | 1.86 | 1.86 | 1.86 | 1.86 | 1.87 | n/a\nroi_before_tax_avg_cap | 34.8% | 41.9% | 41.8% | 32.0% | 30.3% | 28.7% | 27.1% | 25.5% | 23.9% | 23.9% | n/a\nroe_percent | 53.3% | 53.5% | 49.1% | 36.9% | 33.4% | 29.8% | 26.8% | 24.2% | 21.9% | 21.3% | n/a\nequity_ratio | 42.0% | 48.0% | 52.3% | 53.8% | 57.5% | 60.9% | 64.0% | 66.7% | 69.0% | 72.0% | n/a\n\n#### Estimate parameters\nVariable | 2025e | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\ninv_gross_per_ns | 0.10 | 0.08 | 0.08 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | 0.05 | n/a\ntangible_ass_per_ns | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | 0.23 | n/a\ninv_gross | 44.06 | 39.09 | 42.53 | 28.09 | 27.93 | 28.40 | 29.16 | 30.02 | 30.92 | 31.84 | n/a\ndep_without_gwa_percent | 36.2% | 25.1% | 24.9% | 17.4% | 17.4% | 17.4% | 17.4% | 17.4% | 17.4% | 17.4% | n/a\ninventories_per_ns | 0.29 | 0.29 | 0.29 | 0.29 | 0.29 | 0.29 | 0.29 | 0.29 | 0.29 | 0.29 | n/a\napum_fa_hall | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | n/a\ndefault_zero | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nbs_allocated_share_lt | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | 0.50 | n/a\n\n#### dcf_valuation_with_currency\nVariable | 2025e | 2026e | 2027e | 2028e | 2029e | 2030e | 2031e | 2032e | 2033e | 2034e | TRM\n--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---\nebit | 84.98 | 109 | 123 | 108 | 106 | 103 | 100 | 96.66 | 93.01 | 95.80 | 98.67\ndep_total_nega | 31.87 | 25.18 | 28.42 | 22.28 | 23.29 | 24.10 | 24.85 | 25.60 | 26.36 | 27.16 | n/a\ntaxes_paid | -17.09 | -24.51 | -27.95 | -23.84 | -23.44 | -22.95 | -22.36 | -21.69 | -20.93 | -21.70 | n/a\ntax_fin_expenses | -1.61 | -3.07 | -2.99 | -1.70 | -1.64 | -1.54 | -1.43 | -1.34 | -1.25 | -1.16 | n/a\ntax_fin_income | 0.41 | 2.06 | 2.19 | 0.43 | 0.45 | 0.46 | 0.48 | 0.49 | 0.51 | 0.52 | n/a\nchange_in_wc_nega | -10.35 | -14.96 | -15.18 | -6.25 | -4.99 | -4.63 | -4.64 | -4.75 | -4.89 | -5.04 | n/a\noperating_cash_flow | 88.21 | 94.16 | 108 | 98.64 | 99.36 | 98.49 | 96.90 | 94.97 | 92.80 | 95.58 | n/a\nchange_in_lt_liab_nib | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\ngross_cap_expenditure_nega | -46.42 | -41.64 | -45.12 | -29.16 | -28.78 | -29.19 | -29.95 | -30.83 | -31.75 | -32.70 | -33.68\nfree_operating_cash_flow | 41.79 | 52.52 | 62.73 | 69.48 | 70.58 | 69.30 | 66.95 | 64.14 | 61.05 | 62.88 | n/a\nother_items_fcf | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | n/a\nfree_cash_flow_to_firm | 41.79 | 52.52 | 62.73 | 69.48 | 70.58 | 69.30 | 66.95 | 64.14 | 61.05 | 62.88 | 1,607\ndisc_fcff | 41.67 | 48.93 | 54.60 | 56.50 | 53.62 | 49.19 | 44.41 | 39.75 | 35.34 | 34.01 | 869\ncum_disc_fcff | 1,327 | 1,286 | 1,237 | 1,182 | 1,126 | 1,072 | 1,023 | 978 | 939 | 903 | n/a\nib_debt_nega_prev_year | -133 | -133 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | -133\ncash_prev_year | 18.30 | 23.44 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 23.44\ndcf_dividends | -32.00 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a\nvalue_of_equity_fcff | 1,181 | 1,176 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 1,176\nno_of_shares_total | 84.33 | 84.33 | 84.33 | 84.33 | 84.33 | 84.33 | 84.33 | 84.33 | 84.33 | 84.33 | n/a\nfair_value_fcff | 14.00 | 13.95 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 13.95\nmarket_value_of_associated | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | 0.00\nmarket_value_of_minorities_nega | 0.00 | 0.00 | n/a | n/a | n/a | n/a | n/a | n/a | n/a | n/a | 0.00",
+      "frozenMarketData": {
+        "sharePrice": {
+          "points": [
+            {
+              "period": "2023-08-23",
+              "price": 6.92
+            },
+            {
+              "period": "2023-08-30",
+              "price": 7.27
+            },
+            {
+              "period": "2023-09-06",
+              "price": 7.42
+            },
+            {
+              "period": "2023-09-13",
+              "price": 7.63
+            },
+            {
+              "period": "2023-09-20",
+              "price": 7.93
+            },
+            {
+              "period": "2023-09-27",
+              "price": 7.92
+            },
+            {
+              "period": "2023-10-04",
+              "price": 7.83
+            },
+            {
+              "period": "2023-10-11",
+              "price": 8.12
+            },
+            {
+              "period": "2023-10-18",
+              "price": 7.8
+            },
+            {
+              "period": "2023-10-25",
+              "price": 7.78
+            },
+            {
+              "period": "2023-11-01",
+              "price": 7.8
+            },
+            {
+              "period": "2023-11-08",
+              "price": 8.07
+            },
+            {
+              "period": "2023-11-15",
+              "price": 8.5
+            },
+            {
+              "period": "2023-11-22",
+              "price": 8.3
+            },
+            {
+              "period": "2023-11-29",
+              "price": 8.54
+            },
+            {
+              "period": "2023-12-05",
+              "price": 8.73
+            },
+            {
+              "period": "2023-12-13",
+              "price": 8.41
+            },
+            {
+              "period": "2023-12-20",
+              "price": 8.7
+            },
+            {
+              "period": "2023-12-27",
+              "price": 8.99
+            },
+            {
+              "period": "2024-01-03",
+              "price": 8.76
+            },
+            {
+              "period": "2024-01-10",
+              "price": 8.95
+            },
+            {
+              "period": "2024-01-17",
+              "price": 8.29
+            },
+            {
+              "period": "2024-01-24",
+              "price": 8.7
+            },
+            {
+              "period": "2024-01-31",
+              "price": 8.92
+            },
+            {
+              "period": "2024-02-07",
+              "price": 8.78
+            },
+            {
+              "period": "2024-02-14",
+              "price": 9.29
+            },
+            {
+              "period": "2024-02-21",
+              "price": 9.37
+            },
+            {
+              "period": "2024-02-28",
+              "price": 9.43
+            },
+            {
+              "period": "2024-03-06",
+              "price": 8.81
+            },
+            {
+              "period": "2024-03-13",
+              "price": 9.2
+            },
+            {
+              "period": "2024-03-20",
+              "price": 9.26
+            },
+            {
+              "period": "2024-03-27",
+              "price": 9.18
+            },
+            {
+              "period": "2024-04-03",
+              "price": 9.46
+            },
+            {
+              "period": "2024-04-10",
+              "price": 9.36
+            },
+            {
+              "period": "2024-04-17",
+              "price": 9.48
+            },
+            {
+              "period": "2024-04-24",
+              "price": 10.07
+            },
+            {
+              "period": "2024-04-30",
+              "price": 10.22
+            },
+            {
+              "period": "2024-05-08",
+              "price": 10.48
+            },
+            {
+              "period": "2024-05-15",
+              "price": 10.8
+            },
+            {
+              "period": "2024-05-22",
+              "price": 10.34
+            },
+            {
+              "period": "2024-05-29",
+              "price": 10.27
+            },
+            {
+              "period": "2024-06-05",
+              "price": 10.41
+            },
+            {
+              "period": "2024-06-12",
+              "price": 10.31
+            },
+            {
+              "period": "2024-06-19",
+              "price": 10.28
+            },
+            {
+              "period": "2024-06-26",
+              "price": 10.18
+            },
+            {
+              "period": "2024-07-03",
+              "price": 9.83
+            },
+            {
+              "period": "2024-07-10",
+              "price": 10.04
+            },
+            {
+              "period": "2024-07-17",
+              "price": 10.28
+            },
+            {
+              "period": "2024-07-24",
+              "price": 9.86
+            },
+            {
+              "period": "2024-07-31",
+              "price": 10.15
+            },
+            {
+              "period": "2024-08-07",
+              "price": 9.82
+            },
+            {
+              "period": "2024-08-14",
+              "price": 9.86
+            },
+            {
+              "period": "2024-08-21",
+              "price": 10.26
+            },
+            {
+              "period": "2024-08-28",
+              "price": 10.25
+            },
+            {
+              "period": "2024-09-04",
+              "price": 9.69
+            },
+            {
+              "period": "2024-09-11",
+              "price": 9.78
+            },
+            {
+              "period": "2024-09-18",
+              "price": 9.66
+            },
+            {
+              "period": "2024-09-25",
+              "price": 9.54
+            },
+            {
+              "period": "2024-10-02",
+              "price": 9.48
+            },
+            {
+              "period": "2024-10-09",
+              "price": 9.58
+            },
+            {
+              "period": "2024-10-16",
+              "price": 9.55
+            },
+            {
+              "period": "2024-10-23",
+              "price": 9.34
+            },
+            {
+              "period": "2024-10-30",
+              "price": 9.3
+            },
+            {
+              "period": "2024-11-06",
+              "price": 9.01
+            },
+            {
+              "period": "2024-11-13",
+              "price": 8.95
+            },
+            {
+              "period": "2024-11-20",
+              "price": 8.98
+            },
+            {
+              "period": "2024-11-27",
+              "price": 9.07
+            },
+            {
+              "period": "2024-12-04",
+              "price": 9.16
+            },
+            {
+              "period": "2024-12-11",
+              "price": 10.07
+            },
+            {
+              "period": "2024-12-18",
+              "price": 10.26
+            },
+            {
+              "period": "2024-12-23",
+              "price": 10.02
+            },
+            {
+              "period": "2024-12-30",
+              "price": 10.22
+            },
+            {
+              "period": "2025-01-08",
+              "price": 9.82
+            },
+            {
+              "period": "2025-01-15",
+              "price": 9.75
+            },
+            {
+              "period": "2025-01-22",
+              "price": 10.28
+            },
+            {
+              "period": "2025-01-29",
+              "price": 10.37
+            },
+            {
+              "period": "2025-02-05",
+              "price": 10
+            },
+            {
+              "period": "2025-02-12",
+              "price": 9.88
+            },
+            {
+              "period": "2025-02-19",
+              "price": 10.02
+            },
+            {
+              "period": "2025-02-26",
+              "price": 10.08
+            },
+            {
+              "period": "2025-03-05",
+              "price": 10.22
+            },
+            {
+              "period": "2025-03-12",
+              "price": 11.08
+            },
+            {
+              "period": "2025-03-19",
+              "price": 11.52
+            },
+            {
+              "period": "2025-03-26",
+              "price": 11.72
+            },
+            {
+              "period": "2025-04-02",
+              "price": 11.22
+            },
+            {
+              "period": "2025-04-09",
+              "price": 10.73
+            },
+            {
+              "period": "2025-04-16",
+              "price": 11.99
+            },
+            {
+              "period": "2025-04-23",
+              "price": 12.22
+            },
+            {
+              "period": "2025-04-30",
+              "price": 12.54
+            },
+            {
+              "period": "2025-05-07",
+              "price": 12.85
+            },
+            {
+              "period": "2025-05-14",
+              "price": 13.26
+            },
+            {
+              "period": "2025-05-21",
+              "price": 13.26
+            },
+            {
+              "period": "2025-05-28",
+              "price": 12.76
+            },
+            {
+              "period": "2025-06-04",
+              "price": 13.1
+            },
+            {
+              "period": "2025-06-11",
+              "price": 13.16
+            },
+            {
+              "period": "2025-06-18",
+              "price": 12.93
+            },
+            {
+              "period": "2025-06-25",
+              "price": 12.76
+            },
+            {
+              "period": "2025-07-02",
+              "price": 12.91
+            },
+            {
+              "period": "2025-07-09",
+              "price": 13.39
+            },
+            {
+              "period": "2025-07-16",
+              "price": 13.36
+            },
+            {
+              "period": "2025-07-23",
+              "price": 13.44
+            },
+            {
+              "period": "2025-07-30",
+              "price": 13.72
+            },
+            {
+              "period": "2025-08-06",
+              "price": 13.49
+            },
+            {
+              "period": "2025-08-13",
+              "price": 13.44
+            },
+            {
+              "period": "2025-08-20",
+              "price": 13.52
+            },
+            {
+              "period": "2025-08-27",
+              "price": 13.32
+            },
+            {
+              "period": "2025-09-03",
+              "price": 13.12
+            },
+            {
+              "period": "2025-09-10",
+              "price": 13.45
+            },
+            {
+              "period": "2025-09-17",
+              "price": 15.1
+            },
+            {
+              "period": "2025-09-24",
+              "price": 14.86
+            },
+            {
+              "period": "2025-10-01",
+              "price": 14.59
+            },
+            {
+              "period": "2025-10-08",
+              "price": 14.17
+            },
+            {
+              "period": "2025-10-15",
+              "price": 14.01
+            },
+            {
+              "period": "2025-10-22",
+              "price": 14.48
+            },
+            {
+              "period": "2025-10-29",
+              "price": 14.4
+            },
+            {
+              "period": "2025-11-05",
+              "price": 13.99
+            },
+            {
+              "period": "2025-11-12",
+              "price": 14.53
+            },
+            {
+              "period": "2025-11-19",
+              "price": 14.41
+            },
+            {
+              "period": "2025-11-26",
+              "price": 14.65
+            },
+            {
+              "period": "2025-12-03",
+              "price": 14.74
+            },
+            {
+              "period": "2025-12-10",
+              "price": 13.15
+            },
+            {
+              "period": "2025-12-17",
+              "price": 12.4
+            },
+            {
+              "period": "2025-12-23",
+              "price": 12.52
+            },
+            {
+              "period": "2025-12-30",
+              "price": 12.68
+            },
+            {
+              "period": "2026-01-07",
+              "price": 12.58
+            },
+            {
+              "period": "2026-01-14",
+              "price": 12.34
+            },
+            {
+              "period": "2026-01-21",
+              "price": 12.13
+            },
+            {
+              "period": "2026-01-28",
+              "price": 12.41
+            },
+            {
+              "period": "2026-02-04",
+              "price": 12.42
+            },
+            {
+              "period": "2026-02-11",
+              "price": 12.17
+            },
+            {
+              "period": "2026-02-18",
+              "price": 12.09
+            },
+            {
+              "period": "2026-02-25",
+              "price": 12.08
+            },
+            {
+              "period": "2026-03-04",
+              "price": 11.92
+            },
+            {
+              "period": "2026-03-11",
+              "price": 11.88
+            },
+            {
+              "period": "2026-03-18",
+              "price": 12.01
+            },
+            {
+              "period": "2026-03-25",
+              "price": 12.65
+            },
+            {
+              "period": "2026-04-01",
+              "price": 12.87
+            },
+            {
+              "period": "2026-04-08",
+              "price": 13.16
+            },
+            {
+              "period": "2026-04-15",
+              "price": 13.14
+            },
+            {
+              "period": "2026-04-22",
+              "price": 13.48
+            },
+            {
+              "period": "2026-04-29",
+              "price": 12.94
+            },
+            {
+              "period": "2026-05-06",
+              "price": 13
+            },
+            {
+              "period": "2026-05-13",
+              "price": 12.8
+            },
+            {
+              "period": "2026-05-20",
+              "price": 12.94
+            },
+            {
+              "period": "2026-05-27",
+              "price": 13.18
+            },
+            {
+              "period": "2026-06-03",
+              "price": 13.1
+            },
+            {
+              "period": "2026-06-10",
+              "price": 13.96
+            },
+            {
+              "period": "2026-06-17",
+              "price": 17.04
+            },
+            {
+              "period": "2026-06-24",
+              "price": 17.28
+            },
+            {
+              "period": "2026-07-01",
+              "price": 17.78
+            },
+            {
+              "period": "2026-07-08",
+              "price": 17.04
+            },
+            {
+              "period": "2026-07-15",
+              "price": 17.1
+            },
+            {
+              "period": "2026-07-22",
+              "price": 17.22
+            },
+            {
+              "period": "2026-07-29",
+              "price": 17.08
+            },
+            {
+              "period": "2026-08-05",
+              "price": 17.08
+            },
+            {
+              "period": "2026-08-12",
+              "price": 17.06
+            },
+            {
+              "period": "2026-08-19",
+              "price": 16.7
+            },
+            {
+              "period": "2026-08-20",
+              "price": 14
+            }
+          ],
+          "targetLine": 12,
+          "quickFacts": {
+            "currentPrice": 14,
+            "currentPriceAsOf": "20 August 2026",
+            "targetPrice": 12,
+            "upsidePct": -14.3,
+            "fiftyTwoWeekHigh": 18.1,
+            "fiftyTwoWeekLow": 11.3,
+            "oneYearChangePct": 23.2,
+            "threeYearChangePct": 141.4,
+            "reportDate": "20 August 2026"
+          },
+          "context": "Puuilo's valuation reflects double-digit sales growth, resilient margins and confidence in rapid-payback store rollout. Q1 FY2026 reinforced this view: sales rose 16.3% and adjusted EBITA increased 50.2%. The Swedish launch adds a further growth option. The evidence does not explain every near-term share-price move. At EUR 14, however, the share price exceeds the EUR 12 target and already reflects strong execution."
+        },
+        "identityOverrides": {
+          "exchange": "NASDAQ Helsinki",
+          "sector": "Department Stores",
+          "country": "Finland",
+          "currency": "EUR"
+        }
+      }
+    }
+  }
+}

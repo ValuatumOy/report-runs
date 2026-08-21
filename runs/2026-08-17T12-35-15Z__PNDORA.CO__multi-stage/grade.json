@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T10:30:00Z",
+  "basis": "snapshot narrativeCache.data — compact read: recommendation, coreAnalysis, three pool deep dives, valuation bridge, scenarios, catalysts, risks, sources, segmentDataQuality.",
+  "scores": {
+    "depth": 3,
+    "coverage": 4,
+    "logic": 2,
+    "evidence": 4,
+    "valuation": 2,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "Real economics appear where the 4 August Pandora report had none — 82.8% vs 77.9% gross margin between Fuel and Core, ~2,800 concept stores, silver hedges expiring after 2027 — but the pool carrying 68.5% of EV gets 607 words, under half of what the strongest runs give their main engine.",
+    "coverage": "Three pools instead of the earlier two, with lab-grown diamonds pulled out of Fuel as a separate 2.6% option, and the report states plainly that EBIT is not disclosed by segment and that gross profit is the proxy it uses instead.",
+    "logic": "The SELL rests on a 2027 EBIT trough of DKK 5,337m that the report itself calls 'the weakest link and not fully explained by the available data', and the thesis leads on Core LFL of -1% while its own source set carries a guidance upgrade on +3% group organic growth in the same quarter.",
+    "evidence": "The segment split reconciles to Annual Report 2025 page 109 with a zero reconciliation gap on both revenue and profit, 16 sources are itemised with what each was used for, the EU Empowering Consumers enforcement date is given, and the lab-grown unit economics are labelled undisclosed rather than estimated.",
+    "valuation": "The base scenario prints DKK 828.21 against a spot of DKK 829.20 — solved to the market, not derived from it — and all three scenarios share one revenue (DKK 34,103m) and one 9.15x EV/EBITDA multiple while the target is built from 12.5x EV/EBIT and 14.0x P/E, so the document argues in three valuation grammars at once.",
+    "readability": "Tables render and the multiple history is complete, but a reader meets DKK 676.3, 700.7, 639.8, 828.2 and 665.2 as five different 'values' with no single place that ranks them, and coreAnalysis.groupedPools is empty."
+  },
+  "summary": "A clear step up from the 4 August Pandora run on structure and sourcing: the option segment is separated out, the segment table is reconciled to the annual report, and the gross-margin gap between the two platforms is quantified. It gives the points back on the same defect the Tesla series keeps showing — a base scenario that lands within one krone of spot, and a target built in a different multiple grammar than the scenarios it sits between.",
+  "issues": [
+    "Base scenario value per share DKK 828.21 vs current price DKK 829.20 — reverse-solved to market",
+    "Bear/Base/Bull share one revenue figure and one multiple, so the stated -2%/+2% LFL range never reaches the top line",
+    "Scenarios use EV/EBITDA while the target bridge uses EV/EBIT and P/E",
+    "The 2027 EBIT step-down driving the whole thesis is admitted to be unexplained",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

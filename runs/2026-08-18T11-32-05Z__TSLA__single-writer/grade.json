@@ -1,0 +1,30 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T11:00:00Z",
+  "basis": "snapshot narrativeCache.data — compact read plus full reads of the charging and energy deep dives: recommendation, coreAnalysis, six pools, SOTP bridge, scenarios, sensitivity, sources.",
+  "scores": {
+    "depth": 5,
+    "coverage": 5,
+    "logic": 3,
+    "evidence": 5,
+    "valuation": 4,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "The charging pool computes a payback: ten sessions per stall per day at 26.8 kWh reconciles to 268 kWh, USD 0.43/kWh gives about USD 42,100 of annual revenue per stall, against under USD 40,000 of internal V4 cost and USD 117,500 per stall on the third-party quote — under one year versus 2.8 years. Every pool clears 790 words and the thinnest is the software one at 792.",
+    "coverage": "Six pools with no filler: energy gets 1,553 words for 14% of EV and is placed in its actual competitive structure (BYD 13%, Tesla ~10%, Sungrow 9% of BESS integration), charging is separated from the residual services revenue it is buried in, and the two pre-revenue options are held apart from the software subscription revenue on purpose.",
+    "logic": "The framework is disciplined — free charging sessions stay in automotive cost, paid sessions in services, and gross profit is refused as a stand-in for EBIT — but the document contradicts itself three times on its own numbers: the closing text calls the target USD 161.7 when it is USD 135.0, the reverse case needs USD 55.5bn of 2027 EBIT in one paragraph and USD 61.4bn in another, and a 33.1% starting EBIT margin appears where the model's 2026 figure is 7.4%.",
+    "evidence": "Segment figures reconcile to the 2025 Form 10-K page 97 with a zero gap, the energy margin is derived in the open (USD 3.8bn on USD 12.8bn = 29.8% against a group 18.0%), and where two metrics are not comparable the report says so rather than combining them — CATL's 27.1% cell-shipment share is explicitly ruled out as a peer to integrator share.",
+    "valuation": "Better than any earlier bridge on transparency: each option leg carries its own probability (30% and 19% for the robotaxi legs, 25% and 14% for Optimus), each with its scale year and discount, and the peer set is matched per pool — Teradyne and Fanuc for robotics rather than automotive names. It loses a point on the scenario table, where the base case runs a 39.2% EBITDA margin against a bull case of 40.0%, so USD 120bn of extra revenue buys 0.8 percentage points and no path connects either to the model's 7.4% group EBIT margin.",
+    "readability": "The stale USD 161.7 target in the closing paragraph is the same defect as the previous day's run, and the scenario table's multiple column swings from 39.2x in Bear to 10.4x in Base because it is a back-solved implied figure — the footnote says so, but the column still reads as a chosen multiple."
+  },
+  "summary": "Depth and sourcing at the top of the registry, with the most transparent option pricing yet: every success leg shows its probability, scale year and discount, and the peers are chosen per division rather than for the group. It gives back what the previous day's run gained on internal consistency — three separate places where the document disagrees with its own numbers, including the same stale-target bug.",
+  "issues": [
+    "Closing text names USD 161.7 as the target; the target is USD 135.0",
+    "Reverse case 2027 EBIT given as USD 55.5bn in one section and USD 61.4bn in another",
+    "A 33.1% starting EBIT margin appears where the followed model shows 7.4% for 2026",
+    "Base scenario EBITDA margin 39.2% vs bull 40.0% — the scenarios barely differ on margin while revenue nearly doubles",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

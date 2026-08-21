@@ -1,0 +1,29 @@
+{
+  "rubricVersion": "v1",
+  "grader": "claude-opus-5 (chat session)",
+  "gradedAt": "2026-08-21T10:45:00Z",
+  "basis": "snapshot narrativeCache.data — compact read plus a full read of the autonomy deep dive: recommendation, coreAnalysis, six pools, SOTP target bridge, scenarios, sensitivity, catalysts, risks, sources.",
+  "scores": {
+    "depth": 5,
+    "coverage": 5,
+    "logic": 4,
+    "evidence": 5,
+    "valuation": 5,
+    "readability": 3
+  },
+  "justifications": {
+    "depth": "The autonomy pool prices an actual ride — USD 3 base plus USD 1.40 per mile against a twenty-cent-per-mile Cybercab cost target, so USD 17 of revenue against USD 2 of cost on a ten-mile trip — and then names what that excludes: cleaning, insurance, support, deadhead miles and depreciation. The permit section is jurisdiction by jurisdiction with dates and caps (Nevada AVNC Permit 002, ten vehicles, roads at or below 45mph, 13 August 2026).",
+    "coverage": "Six pools: four profit engines including the Supercharger network as separate infrastructure, plus autonomy and Optimus as pre-revenue options carrying 45% and 10% of EV, and the pools that produce no revenue today are stated as producing none rather than folded into automotive.",
+    "logic": "The argument is disciplined — supervised FSD subscriptions and driverless rides are kept apart explicitly to avoid double-counting, and the report corrects its own earlier mileage comparison as measuring a different thing — but the closing paragraph still calls the target 'USD 305.1' when the target is USD 161.1, and the vehicle-underutilization risk is filed under the software pool.",
+    "evidence": "Every autonomy claim carries a publisher and a date, the Austin crash-rate figures are given as a range across two methodologies rather than one false-precise number, and the conflicting intervention claims (one per 13 miles in a 2024 test, one per 10000 asserted, roughly 500 in owner reports) are set against each other and declared non-comparable instead of averaged.",
+    "valuation": "The strongest bridge in the registry: each profit engine carries its own 2029E EBITDA and multiple with the twelve-month discount shown (28,200 at 10.0x, 71.4 → 59.8 USD), the two options are built from 2035 success legs with failure at zero, the scenarios run the same SOTP framework rather than a group multiple, sensitivity is taken on autonomy success probability from 30% to 90%, and the gap to the market is quantified as roughly nine percentage points of extra success weighting on USD 787.2bn of implied option value.",
+    "readability": "Held back by the stale 'USD 305.1' target in the closing text and by a sources table of only seven entries, four of them opaque search-redirect links, while the prose itself names the publishers properly."
+  },
+  "summary": "The best run in the registry so far. It keeps the depth and sourcing of the 09:58 run the same day and adds the two things that were missing everywhere before: a target bridge that itemises every pool with its own multiple and discount, and an explicit account of what the market must believe to be right, expressed in the same probability grammar the target uses. What holds it back is not analysis but hygiene — one stale target figure left in the closing paragraph.",
+  "issues": [
+    "Closing text names USD 305.1 as the target; the target is USD 161.1",
+    "Vehicle-underutilization risk is assigned to the software pool instead of vehicle manufacturing",
+    "Sources table has seven rows and four are search-redirect URLs rather than the publisher named in the prose",
+    "coreAnalysis.groupedPools is empty"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "runId": "2026-08-20T08-05-09Z__PUUILO.HE__single-writer",
+  "createdAt": "2026-08-20T08:05:09.400Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "PUUILO.HE",
+  "lang": "fi",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol",
+    "openai/gpt-5.6-terra"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.humanize",
+      "version": "v10"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    }
+  ],
+  "langfuseTraceId": "23bba8a7-2f78-451d-a87c-1e69a47cf3dd",
+  "jobId": "01M0F37K2YB5X5FK4FN6MN9B9A",
+  "costUsd": 1.565946,
+  "llmCalls": 20,
+  "durationSec": 953,
+  "rating": "SELL",
+  "targetPrice": 12,
+  "currentPrice": 14,
+  "upsidePct": -14.3
+}

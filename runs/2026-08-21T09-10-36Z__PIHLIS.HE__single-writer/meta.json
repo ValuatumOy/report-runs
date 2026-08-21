@@ -1,0 +1,50 @@
+{
+  "runId": "2026-08-21T09-10-36Z__PIHLIS.HE__single-writer",
+  "createdAt": "2026-08-21T09:10:36.272Z",
+  "source": "test",
+  "reportId": "osakeanalyysi",
+  "company": "PIHLIS.HE",
+  "lang": "fi",
+  "pipeline": "single-writer",
+  "models": [
+    "anthropic/claude-sonnet-5",
+    "gemini-3-flash-preview",
+    "openai/gpt-5.6-sol"
+  ],
+  "promptStore": "langfuse:staging",
+  "prompts": [
+    {
+      "name": "osakeanalyysi-sw.agenda",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.search",
+      "version": "v1"
+    },
+    {
+      "name": "osakeanalyysi-sw.writer",
+      "version": "v2"
+    },
+    {
+      "name": "osakeanalyysi.segmentFacts",
+      "version": "v8"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsDocument",
+      "version": "v6"
+    },
+    {
+      "name": "osakeanalyysi.segmentFactsReview",
+      "version": "v6"
+    }
+  ],
+  "langfuseTraceId": "ccd5ead2-e0a5-4416-8cf2-14bce97ee65a",
+  "jobId": "01M0HSC5RSZVT0T4VZAW4F3FPA",
+  "costUsd": 1.671054,
+  "llmCalls": 20,
+  "durationSec": 882,
+  "rating": "HOLD",
+  "targetPrice": 10.5,
+  "currentPrice": 10.5,
+  "upsidePct": 0
+}
